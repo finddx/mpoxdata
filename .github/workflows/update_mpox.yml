@@ -1,0 +1,60 @@
+name: Update mpox data
+
+# Controls when the action will run.
+on:
+  workflow_dispatch:
+  schedule:
+    - cron:  '0 8 * * 1'
+    
+env:
+    GITHUB_PAT: ${{ secrets.GITHUB_TOKEN }}
+    
+# A workflow run is made up of one or more jobs that can run sequentially or in parallel
+jobs:
+  # This workflow contains a single job called "update-mpox"
+  update-mpox:
+    # The type of runner that the job will run on
+    runs-on: ubuntu-latest
+
+    env:
+      # use GITHUB_TOKEN from GitHub to workaround rate limits in {remotes}
+      GITHUB_PAT: ${{ secrets.GITHUB_TOKEN }}
+      
+    # Steps represent a sequence of tasks that will be executed as part of the job
+    steps:
+      # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
+      - uses: actions/checkout@v2
+
+      # Install R and pacakges
+      - name: Install-R
+        uses: r-lib/actions/setup-r@v2
+        with:
+          r-version: "release" # The R version to download (if necessary) and use.
+      - name: "[Custom block] [Linux] Install required libraries"
+        run: sudo apt install libcurl4-openssl-dev
+      - name: Installing packages
+        run: |
+          Rscript -e "install.packages(c('readr', 'dplyr' ,'tidyr'))"
+          
+      - name: Running update scripts
+        run: |
+         Rscript -e "source('data_wrangling.R')"
+      - name: Commit files
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git pull origin main
+          git add output/mpox_data.csv
+          git commit -m "update mpox data" || echo "Nothing to update"
+      - name: Reset preview branch
+        run: |
+          git checkout main
+          git checkout -b preview-data
+          git checkout main
+      - name: Create Pull Request
+        uses: peter-evans/create-pull-request@v4
+        with:
+          commit-message: "[GHA] update mpox"
+          assignees: JuanVallarta
+          delete-branch: true
+          branch: preview-data
