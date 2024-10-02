@@ -24,3 +24,5 @@ data <- data %>%
 data <- data %>% 
   full_join(owd_data, by=join_by(ISO.alpha3.Code == iso_code)) 
 
+
+write.csv(data, "output/mpox_data.csv")
