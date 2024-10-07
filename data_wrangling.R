@@ -11,22 +11,12 @@ gh_data <- gh_data %>%
   rename(new_cases = confirmed,
          location = Location_Admin0,
          date = Date_report_source_I)
-#Get the min date with data
-# gh_data_min_date <- gh_data %>% 
-#   group_by(location) %>%
-#   arrange(location, date) %>%  
-#   filter(date == min(date)) %>%
-#   mutate(date=as.Date(date)) %>% 
-#   select(location, date, total_cases) %>% 
-#   rename(total_cases_plhd = total_cases)
 
-gh_datax <- gh_data %>% 
+gh_datad <- gh_data %>% 
   mutate(date = as.Date(date)) %>% 
   group_by(location) %>%
   complete(date = seq.Date(as.Date("2022-05-01"), Sys.Date(), by = "day")) %>%
   fill(location) %>% 
-  # left_join(owd_data_min_date, by=join_by(location, date)) %>% 
-  # mutate(new_cases=ifelse(!is.na(total_cases_plhd), total_cases_plhd, new_cases)) %>% 
   group_by(location) %>%
   arrange(location, date) %>% 
   mutate(new_cases = replace_na(new_cases, 0),
@@ -35,9 +25,6 @@ gh_datax <- gh_data %>%
   mutate(smooth_new_cases = smooth_new_tests(new_cases, cum_cases),
          smooth_new_cases = ifelse(is.na(smooth_new_cases), 0, smooth_new_cases),
          smooth_cum_cases = cumsum(smooth_new_cases))
-
-gh_datax <- gh_datax %>% 
-  filter(location=="Burundi")
 # mutate(new_cases = total_cases - lag(total_cases)) 
 
 #Our world in data
