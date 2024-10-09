@@ -102,7 +102,7 @@ owd_datax <- owd_data %>%
 # Status of a case. Cases which are discarded were previously suspected but have now been confirmed negative, and should be excluded from case counts.
 
 
-data <- read.csv("raw/country_info.csv")
+data <- read.csv("data/raw/country_info.csv")
 
 data <- data %>% 
   full_join(gh_data, by=join_by(UN_country == Location_Admin0))
@@ -110,4 +110,4 @@ data <- data %>%
   full_join(owd_data, by=join_by(ISO.alpha3.Code == iso_code)) 
 
 
-write.csv(data, "output/mpox_data.csv")
+write.csv(data, "data/output/mpox_data.csv")
