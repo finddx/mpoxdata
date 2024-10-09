@@ -2,6 +2,10 @@ library(readr)
 library(dplyr)
 library(tidyr)
 
+
+
+#####SAVE RAW SOURCES####
+
 #Global health
 gh_data <- read.csv("https://mpox-2024.s3.eu-central-1.amazonaws.com/latest.csv")
 gh_data <- gh_data %>% 
@@ -45,12 +49,29 @@ gh_data <- gh_data %>%
 
 # mutate(new_cases = total_cases - lag(total_cases)) 
 
-
+calc_new_t <- function(cumulative_t, new_t) {
+  for (i in 2:length(cumulative_t)) {
+    if (is.na(new_t[i]) & !is.na(cumulative_t[i])) {
+      new_t[i] = cumulative_t[i] - cumulative_t[i-1]
+    }
+  }
+  new_t
+}
 #Our world in data
 owd_data <- read.csv("https://catalog.ourworldindata.org/explorers/who/latest/monkeypox/monkeypox.csv")
 owd_data <- owd_data %>% 
   select(location, date, iso_code, total_cases, new_cases, suspected_cases_cumulative) %>% 
   rename(total_suspected_cases = suspected_cases_cumulative)
+
+owd_datax <- owd_data %>% 
+  filter(!is.na(total_suspected_cases)) %>% 
+  mutate(suspected_cases = NA) %>% 
+  group_by(location) %>%
+  mutate(n_row=n()) %>% 
+  filter(n_row >1) %>% 
+  arrange(location, date) %>%  
+  
+  mutate(suspected_cases = calc_new_t(total_suspected_cases, suspected_cases))
 #new_cases_smoothed, new_cases_per_million, total_cases_per_million, new_cases_smoothed_per_million
 #Get the min date with data
 owd_data_min_date <- owd_data %>% 
