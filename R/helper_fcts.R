@@ -56,3 +56,12 @@ smooth_new_tests <- function(x, y) {
   return(dat_$new_tests_smooth)
   
 }
+
+calc_new_t <- function(cumulative_t, new_t) {
+  for (i in 2:length(cumulative_t)) {
+    if (is.na(new_t[i]) & !is.na(cumulative_t[i])) {
+      new_t[i] = cumulative_t[i] - cumulative_t[i-1]
+    }
+  }
+  new_t
+}

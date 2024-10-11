@@ -1,13 +1,14 @@
 library(readr)
 library(dplyr)
 library(tidyr)
+source("R/helper_fcts.R")
 
 
-
-#####SAVE RAW SOURCES####
-
+today <- gsub("-", "_", Sys.Date())
 #Global health
 gh_data <- read.csv("https://mpox-2024.s3.eu-central-1.amazonaws.com/latest.csv")
+write.csv(gh_data, paste("data/raw/gh_data_", today, ".csv"))
+
 gh_data <- gh_data %>% 
   count(Case_status, Location_Admin0, Date_report_source_I) %>% 
   filter(Case_status != "omit_error") %>%
@@ -47,32 +48,42 @@ gh_data <- gh_data %>%
     suspected_cases = replace_na(suspected_cases, 0)
   )
 
-# mutate(new_cases = total_cases - lag(total_cases)) 
 
-calc_new_t <- function(cumulative_t, new_t) {
-  for (i in 2:length(cumulative_t)) {
-    if (is.na(new_t[i]) & !is.na(cumulative_t[i])) {
-      new_t[i] = cumulative_t[i] - cumulative_t[i-1]
-    }
-  }
-  new_t
-}
 #Our world in data
 owd_data <- read.csv("https://catalog.ourworldindata.org/explorers/who/latest/monkeypox/monkeypox.csv")
+write.csv(owd_data, paste("data/raw/owd_data_", today, ".csv"))
+
 owd_data <- owd_data %>% 
   select(location, date, iso_code, total_cases, new_cases, suspected_cases_cumulative) %>% 
   rename(total_suspected_cases = suspected_cases_cumulative)
 
-owd_datax <- owd_data %>% 
+owd_data_min_date_suspected <- owd_data %>% 
+  filter(!is.na(total_suspected_cases)) %>% 
+  group_by(location) %>%
+  arrange(location, date) %>%  
+  filter(date == min(date)) %>%
+  # mutate(date=as.Date(date)) %>% 
+  select(location, date, total_suspected_cases) %>% 
+  rename(total_suspected_cases_plhd = total_suspected_cases)
+
+owd_data_new_suspected <- owd_data %>% 
   filter(!is.na(total_suspected_cases)) %>% 
   mutate(suspected_cases = NA) %>% 
+  left_join(owd_data_min_date_suspected, by=join_by(location, date)) %>% 
+  mutate(suspected_cases=ifelse(!is.na(total_suspected_cases_plhd), total_suspected_cases_plhd, suspected_cases)) %>%
   group_by(location) %>%
   mutate(n_row=n()) %>% 
   filter(n_row >1) %>% 
+  group_by(location) %>%
   arrange(location, date) %>%  
-  
-  mutate(suspected_cases = calc_new_t(total_suspected_cases, suspected_cases))
+  # mutate(suspected_cases2 = total_suspected_cases - lag(total_suspected_cases)) %>%  
+  mutate(suspected_cases = calc_new_t(total_suspected_cases, suspected_cases)) %>% 
+  mutate(date=as.Date(date)) %>% 
+  select(location, date, suspected_cases)
 #new_cases_smoothed, new_cases_per_million, total_cases_per_million, new_cases_smoothed_per_million
+
+
+
 #Get the min date with data
 owd_data_min_date <- owd_data %>% 
   group_by(location) %>%
@@ -82,16 +93,17 @@ owd_data_min_date <- owd_data %>%
   select(location, date, total_cases) %>% 
   rename(total_cases_plhd = total_cases)
 
-owd_datax <- owd_data %>% 
+owd_data <- owd_data %>% 
   mutate(date = as.Date(date)) %>% 
   group_by(location) %>%
   complete(date = seq.Date(as.Date("2022-05-01"), Sys.Date(), by = "day")) %>%
   fill(location) %>% 
   left_join(owd_data_min_date, by=join_by(location, date)) %>% 
   mutate(new_cases=ifelse(!is.na(total_cases_plhd), total_cases_plhd, new_cases)) %>% 
-  mutate(total_suspected_cases = replace_na(total_suspected_cases, 0),
-         suspected_cases = total_suspected_cases - lag(total_suspected_cases),
-         ) %>% 
+  left_join(owd_data_new_suspected, by=join_by(location, date)) %>% 
+  # mutate(total_suspected_cases = replace_na(total_suspected_cases, 0),
+  #        suspected_cases = total_suspected_cases - lag(total_suspected_cases),
+  #        ) %>% 
   group_by(location) %>%
   arrange(location, date) %>% 
   mutate(
@@ -115,7 +127,8 @@ owd_datax <- owd_data %>%
   mutate(
     new_cases = replace_na(new_cases, 0),
     suspected_cases = replace_na(suspected_cases, 0)
-  )
+  ) %>%
+  select(-c(total_cases_plhd, total_cases, total_suspected_cases))
 
 
 
@@ -126,7 +139,7 @@ owd_datax <- owd_data %>%
 data <- read.csv("data/raw/country_info.csv")
 
 data <- data %>% 
-  full_join(gh_data, by=join_by(UN_country == Location_Admin0))
+  full_join(gh_data, by=join_by(UN_country == location))
 data <- data %>% 
   full_join(owd_data, by=join_by(ISO.alpha3.Code == iso_code)) 
 
