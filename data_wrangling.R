@@ -1,6 +1,7 @@
 library(readr)
 library(dplyr)
 library(tidyr)
+library(purrr)
 source("R/helper_fcts.R")
 
 
@@ -82,8 +83,6 @@ owd_data_new_suspected <- owd_data %>%
   select(location, date, suspected_cases)
 #new_cases_smoothed, new_cases_per_million, total_cases_per_million, new_cases_smoothed_per_million
 
-
-
 #Get the min date with data
 owd_data_min_date <- owd_data %>% 
   group_by(location) %>%
@@ -128,20 +127,64 @@ owd_data <- owd_data %>%
     new_cases = replace_na(new_cases, 0),
     suspected_cases = replace_na(suspected_cases, 0)
   ) %>%
-  select(-c(total_cases_plhd, total_cases, total_suspected_cases))
-
-
+  select(-c(total_cases_plhd, total_cases, total_suspected_cases, iso_code))
 
 
 # Status of a case. Cases which are discarded were previously suspected but have now been confirmed negative, and should be excluded from case counts.
 
+gh_data <- gh_data %>% 
+  rename_with(~ paste0("gh_", .), -c(location, date))
+gh_data <- gh_data %>% 
+  mutate(location = gsub( "Cote d'Ivoire", "Côte d’Ivoire", location),
+         location = gsub("Republic of the Congo", "Congo", location),
+         location = gsub("Democratic Congo", "Democratic Republic of the Congo", location),)
 
+owd_data <- owd_data %>% 
+  rename_with(~ paste0("owd_", .), -c(location, date))
+owd_data <- owd_data %>% 
+  mutate(location = gsub( "Cote d'Ivoire", "Côte d’Ivoire", location),
+         location = gsub("Democratic Republic of Congo", "Democratic Republic of the Congo", location),
+         location = gsub( "Bolivia", "Bolivia (Plurinational State of)", location),
+         location = gsub( "Curacao", "Curaçao", location),
+         location = gsub( "Iran", "Iran (Islamic Republic of)", location),
+         location = gsub( "Laos", "Lao People's Democratic Republic", location),
+         location = gsub( "Moldova", "Republic of Moldova", location),
+         location = gsub( "Netherlands", "Netherlands (Kingdom of the)", location),
+         location = gsub( "Russia", "Russian Federation", location),
+         location = gsub( "Saint Martin (French part)", "Saint Martin (French Part)", location),
+         location = gsub( "South Korea", "Republic of Korea", location),
+         location = gsub( "Turkey", "Türkiye", location),
+         location = gsub( "United Kingdom", "United Kingdom of Great Britain and Northern Ireland", location),
+         location = gsub( "United States", "United States of America", location),
+         location = gsub( "Venezuela", "Venezuela (Bolivarian Republic of)", location),
+         location = gsub( "Vietnam", "Viet Nam", location))
+
+
+#Country data
 data <- read.csv("data/raw/country_info.csv")
+
+# data_dates <- data %>% 
+#   mutate(date = NA) %>% 
+#   group_by(UN_country) %>%
+#   complete(date = seq.Date(as.Date("2022-05-01"), Sys.Date(), by = "day")) %>% 
+#   select(UN_country, date)
+# data <- data %>% 
+#   full_join(data_dates, by=join_by(UN_country))
 
 data <- data %>% 
   full_join(gh_data, by=join_by(UN_country == location))
 data <- data %>% 
-  full_join(owd_data, by=join_by(ISO.alpha3.Code == iso_code)) 
+  full_join(owd_data, by=join_by(UN_country == location)) 
 
+# x <- data %>% 
+#   filter(is.na(ISO.alpha3.Code)) %>% 
+#   distinct(UN_country)
 
+# Africa
+# Asia
+# Europe
+# North America
+# Oceania
+# South America
+# World
 write.csv(data, "data/output/mpox_data.csv")
