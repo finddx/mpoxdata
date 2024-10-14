@@ -2,13 +2,15 @@ library(readr)
 library(dplyr)
 library(tidyr)
 library(purrr)
+library(data.table)
+library(lubridate)
 source("R/helper_fcts.R")
 
 
 today <- gsub("-", "_", Sys.Date())
 #Global health
 gh_data <- read.csv("https://mpox-2024.s3.eu-central-1.amazonaws.com/latest.csv")
-write.csv(gh_data, paste("data/raw/gh_data_", today, ".csv"))
+write.csv(gh_data, paste("data/raw/gh_data_", today, ".csv"), row.names=FALSE)
 
 gh_data <- gh_data %>% 
   count(Case_status, Location_Admin0, Date_report_source_I) %>% 
@@ -49,10 +51,16 @@ gh_data <- gh_data %>%
     suspected_cases = replace_na(suspected_cases, 0)
   )
 
+gh_data <- gh_data %>%
+  mutate(year = year(date)) %>%
+  group_by(location, date = if_else(year < 2024, as.character(year), as.character(date))) %>%
+  summarise(across(c(new_cases, smooth_new_cases, suspected_cases,  smooth_suspected_cases), ~ sum(.x, na.rm = TRUE)),
+            across(c(cum_new_cases, smooth_cum_new_cases, cum_suspected_cases, smooth_cum_suspected_cases), ~ last(.x))) %>% 
+  ungroup()
 
 #Our world in data
 owd_data <- read.csv("https://catalog.ourworldindata.org/explorers/who/latest/monkeypox/monkeypox.csv")
-write.csv(owd_data, paste("data/raw/owd_data_", today, ".csv"))
+write.csv(owd_data, paste("data/raw/owd_data_", today, ".csv"), row.names=FALSE)
 
 owd_data <- owd_data %>% 
   select(location, date, iso_code, total_cases, new_cases, suspected_cases_cumulative) %>% 
@@ -129,20 +137,26 @@ owd_data <- owd_data %>%
   ) %>%
   select(-c(total_cases_plhd, total_cases, total_suspected_cases, iso_code))
 
+owd_data <- owd_data %>%
+  mutate(year = year(date)) %>%
+  group_by(location, date = if_else(year < 2024, as.character(year), as.character(date))) %>%
+  summarise(across(c(new_cases, smooth_new_cases, suspected_cases,  smooth_suspected_cases), ~ sum(.x, na.rm = TRUE)),
+            across(c(cum_new_cases, smooth_cum_new_cases, cum_suspected_cases, smooth_cum_suspected_cases), ~ last(.x))) %>% 
+  ungroup()
 
 # Status of a case. Cases which are discarded were previously suspected but have now been confirmed negative, and should be excluded from case counts.
 
 gh_data <- gh_data %>% 
   rename_with(~ paste0("gh_", .), -c(location, date))
 gh_data <- gh_data %>% 
-  mutate(location = gsub( "Cote d'Ivoire", "Côte d’Ivoire", location),
+  mutate(location = gsub("Cote d'Ivoire", "Côte d’Ivoire", location),
          location = gsub("Republic of the Congo", "Congo", location),
          location = gsub("Democratic Congo", "Democratic Republic of the Congo", location),)
 
 owd_data <- owd_data %>% 
   rename_with(~ paste0("owd_", .), -c(location, date))
 owd_data <- owd_data %>% 
-  mutate(location = gsub( "Cote d'Ivoire", "Côte d’Ivoire", location),
+  mutate(location = gsub("Cote d'Ivoire", "Côte d’Ivoire", location),
          location = gsub("Democratic Republic of Congo", "Democratic Republic of the Congo", location),
          location = gsub( "Bolivia", "Bolivia (Plurinational State of)", location),
          location = gsub( "Curacao", "Curaçao", location),
@@ -151,7 +165,7 @@ owd_data <- owd_data %>%
          location = gsub( "Moldova", "Republic of Moldova", location),
          location = gsub( "Netherlands", "Netherlands (Kingdom of the)", location),
          location = gsub( "Russia", "Russian Federation", location),
-         location = gsub( "Saint Martin (French part)", "Saint Martin (French Part)", location),
+         location = gsub( "Saint Martin \\(French part\\)", "Saint Martin (French Part)", location),
          location = gsub( "South Korea", "Republic of Korea", location),
          location = gsub( "Turkey", "Türkiye", location),
          location = gsub( "United Kingdom", "United Kingdom of Great Britain and Northern Ireland", location),
@@ -163,28 +177,25 @@ owd_data <- owd_data %>%
 #Country data
 data <- read.csv("data/raw/country_info.csv")
 
-# data_dates <- data %>% 
-#   mutate(date = NA) %>% 
-#   group_by(UN_country) %>%
-#   complete(date = seq.Date(as.Date("2022-05-01"), Sys.Date(), by = "day")) %>% 
-#   select(UN_country, date)
-# data <- data %>% 
-#   full_join(data_dates, by=join_by(UN_country))
+data_dates <- data %>%
+  mutate(date = NA) %>%
+  group_by(UN_country) %>%
+  complete(date = seq.Date(as.Date("2024-01-01"), Sys.Date(), by = "day")) %>%
+  complete(date = seq.Date(as.Date("2022-01-01"), as.Date("2023-12-31"), by = "year")) %>%
+  mutate(date = if_else(year(date) < 2024, as.character(year(date)), as.character(date))) %>% 
+  select(UN_country, date)
+  
+data <- data %>%
+  full_join(data_dates, by=join_by(UN_country))
+data <- data %>% 
+  full_join(gh_data, by=join_by(UN_country == location, date==date))
+data <- data %>% 
+  full_join(owd_data, by=join_by(UN_country == location, date==date)) 
 
 data <- data %>% 
-  full_join(gh_data, by=join_by(UN_country == location))
-data <- data %>% 
-  full_join(owd_data, by=join_by(UN_country == location)) 
+  mutate(set=ifelse(!is.na(ISO.alpha3.Code), "Country", ifelse(UN_country=="World", "World", "Region"))) %>% 
+  rename(iso3 = ISO.alpha3.Code) %>% 
+  relocate(set, iso3, everything())
 
-# x <- data %>% 
-#   filter(is.na(ISO.alpha3.Code)) %>% 
-#   distinct(UN_country)
 
-# Africa
-# Asia
-# Europe
-# North America
-# Oceania
-# South America
-# World
-write.csv(data, "data/output/mpox_data.csv")
+write.csv(data, "data/output/mpox_data.csv", row.names=FALSE)
