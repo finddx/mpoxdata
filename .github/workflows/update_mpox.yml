@@ -34,7 +34,7 @@ jobs:
         run: sudo apt install libcurl4-openssl-dev
       - name: Installing packages
         run: |
-          Rscript -e "install.packages(c('readr', 'dplyr' ,'tidyr'))"
+          Rscript -e "install.packages(c('readr', 'dplyr' ,'tidyr', 'purrr' ,'data.table'))"
           
       - name: Running update scripts
         run: |
