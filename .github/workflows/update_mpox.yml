@@ -34,17 +34,17 @@ jobs:
         run: sudo apt install libcurl4-openssl-dev
       - name: Installing packages
         run: |
-          Rscript -e "install.packages(c('readr', 'dplyr' ,'tidyr'))"
+          Rscript -e "install.packages(c('readr', 'dplyr' ,'tidyr', 'purrr', 'data.table', 'lubridate'))"
           
       - name: Running update scripts
         run: |
-         Rscript -e "source('data_wrangling.R')"
+         Rscript -e "source('R/data_wrangling.R')"
       - name: Commit files
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
           git pull origin main
-          git add output/mpox_data.csv
+          git add data/output/mpox_data.csv
           git commit -m "update mpox data" || echo "Nothing to update"
       - name: Reset preview branch
         run: |
