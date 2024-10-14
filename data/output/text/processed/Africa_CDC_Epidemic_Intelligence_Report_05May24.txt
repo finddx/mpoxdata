@@ -1,0 +1,186 @@
+(%) AfricaCDC
+wid ” Centres for Disease Control
+xml, and Prevention
+Africa CDC Epidemic Intelligence Report
+Date of Issue: 5 May 2024
+’ New Events reported Events highlighted New events since
+Asia Evans in 2024 this week lastissue
+a enn
+( Joey
+A \ )
+= | >
+ae e so a |
+‘ f gy
+oe A _ A] y
+} - . 4
+howe
+Events this Week J y - \ ;
+@ BAcILLUS ANTHRACIS \ ; ae 4 \ ]
+A CORYNEBACTERIUM DIPHTHERIAE \ y /
+$M DENGUE viRUS ) y y ]
+@® FLoops \ Je We
+QB opepatitis virus \ CO
+$8 MEASLEs viRUS
+4 MENINGITIS (BACTERIAL) “a OC
+® pox virus 7
+© PoLio viRUS (VACCINE-DERIVED) aaa
+3{% VIBRIO CHOLERAE
+* (] represent AU Member States that are islands
+Note: The boundaries and names shown and the designations used on this map do not imply official endorsement or acceptance by the African Union.
+Risk Level
+Very High (New) High (New) Moderate (New)
+: ae 0 18 (1) 13 (1)
+a
+
+® AfricaCDC
+Event Summary id esl et ll
+New events since last issue
+Agent/Syndrome Country Risk:Human Risk:Animal Type Suspected Probable Confirmed Deaths
+4 Floods Kenya High N/A e 0 0 156,705 179
+| | Hepatitis E virus Chad Mode... N/A e 1,430 0 36 4
+oS Polio virus (vaccine-derived) Somalia High N/A e 0 0 2 0
+Events Highlighted this week
+Suspected Probable Confirmed Deaths
+Agent/Syndrome Country Risk:Human ——Risk:Animal — Type (New) (New) (New) (New)
+@ Bacillus anthracis Uganda Mode... Mode... eB 60 (45) 4 (0) 12 (3) 3 (0)
+A Corynebacterium diphtheriae Chad Mode... NIA eB 360 (138) 0 (0) 0 (0) 17 (16)
+Guinea High NIA eB 4,831 (691) 0 (0) 44 (0) 105 (3)
+Nigeria High NIA im) 2.606 (0) 0 (0) 3,676 (640) 76 (8)
+We Dengue virus Burkina Faso High NIA eB 17,098 (680) 5,097 (163) 0 (0) 39 (1)
+Mali Mode... NIA eB 2,744 (6) 0 (0) 595 (15) 4(0)
+Sudan High NIA aA 1,760 (180) 0 (0) 0 (0) 0 (0)
+# Measles virus Burkina Faso Mode... NIA eA 8,468 (515) 0 (0) 362 (0) 41 (3)
+Burundi Mode... NIA e 6,856 (857) 0 (0) 0 (0) 96 (2)
+Mali Mode... NIA ea 222 (0) 0 (0) 271 (19) 0 (0)
+Senegal Mode... NIA e 0 (0) 0(0) 224 (4) 0(0)
+Somalia Mode... NIA A 5,280 (304) 0 (0) 271 (21) 14 (1)
+® Meningitis (Bacterial) Mali Mode... NIA eB 191 (19) 0 (0) 51 (8) 0 (0)
+® Mpox virus Democratic Republic of the Congo High NIA e 5,445 (480) 0 (0) 319 (0) 333 (11)
+Liberia Mode... NIA eB 0 (0) 0 (0) 4 (2) 0 (0)
+© Polio virus (vaccine-derived) Nigeria Mode... NIA eA 0 (0) 0 (0) 10 (2) 0 (0)
+South Sudan Mode... N/A ea 0(0) 0(0) 4(3) 0(0)
+ae Vibrio cholerae Burundi High NIA A 163 (13) 0(0) 0 (0) 0(0)
+Comoros High NIA eB 0 (0) 0 (0) 3,950 (1,366) 82 (21)
+Democratic Republic of the Congo High NIA e 13,157 (731) 0 (0) 398 (0) 285 (52)
+Ethiopia High NIA eB 12,974 (769) 0 (0) 0 (0) 97 (20)
+Malawi High NIA a) 0 (0) 0 (0) 268 (2) 5 (0)
+Mozambique High N/A eB 00) 0(0) 15,682 (114) 114)
+Nigeria Mode... NIA A 559 (241) 0 (0) 0 (0) 7 (3)
+Somalia High NIA e 8,078 (683) 0 (0) 603 (23) 87 (6)
+South Africa High NIA eB 138 (138) 0 (0) 12 (10) 0 (0)
+Sudan High NIA e 2,408 (83) 0 (0) 0 (0) 0 (0)
+Tanzania High NIA A 2,503 (657) 0 (0) 0 (0) 32 (0)
+Zambia High NIA eB 22,215 (146) 0 (0) 906 (55) 738 (9)
+Zimbabwe High NIA eB 28,273 (1) 0 (0) 34,092 (9) 701 (126)
+
+| 2) AtricaCDC
+tH \ ¥ Centres for Disease Control
+Initial Reports coo, and Prevention "
+Moderate Risk Events
+Hepatitis E viral in Chad
+36 confirmed human case(s), 1,430 suspected human case(s)
+4 human deaths (CFR: 0.27%)
+Agent/Pathogen Hepatitis E virus First Reported © 3-May-2024 aed 3-May-2024 “First Occurred 28-Dec-2023
+Country Chad Location 2 health districts Source Ministry of Health GeoScope
+Human Risk Animal Risk
+Assessment Assessment N/A
+Description:
+On 28 February 2024, the Chad Ministry of Health (MoH) reported an outbreak of hepatitis E among refugee and host communities in two
+health districts in Quaddai province. Between 2 January to 15 February 2024, eight samples tested positive for hepatitis E by polymerase chain
+reaction, at the Institut Pasteur Dakar. As of 31 March 2024, a total of 1,466 cases (36 confirmed; 1,430 suspected) and four deaths [case
+fatality rate (CFR: 0.27%)] have been reported in five refugee camps and two refugee hosting sites, in Adré (1,331 cases; 4 deaths) and Hadjer-
+Hadid (115; 0) health districts. Twenty-five cases and two deaths were reported among pregnant women. In addition, 55% percent of the cases
+were males and children <4 years accounted for 31% of the total confirmed cases.
+Hepatitis E is a liver disease caused by the hepatitis E virus (HEV) and typically presents as acute jaundice. In most people, HEV infection
+results in a self-limited, acute illness. However, acute infection can become chronic in rare cases, primarily in people who have received solid-
+organ transplants. HEV is typically transmitted by the fecal-oral route. Prevention includes good sanitation and the availability of clean drinking
+water. People living in crowded camps or temporary housing, including refugees and internally displaced persons, are at particularly high risk.
+HEV is endemic in Chad, particularly in the Tangile region, which last experienced an outbreak in 2022.
+Response by MS/partner/Africa CDC:
+The MoH organized coordination meetings at the district level and activated the incident management system. In addition, water, sanitation and
+hygiene, active case finding, and risk communication and community engagement activities are ongoing in the affected health districts.
+
+(%) AfricaCDC
+\ ¥ Centres for Disease Control
+Human Event Upd ates ie ‘ and Prevention "
+High Risk Events
+Cholera in Africa
+15,819 confirmed human case(s), 75,140 suspected human case(s)
+1,617 human deaths (CFR: 1.78% )
+Agent/Pathogen _ Vibrio cholerae First Reported 1-Jan-2024 ae iodate Port 26-Apr-2024 First Occurred 1-Jan-2024
+Country Multiple Countries Location 16 MS Source Ministry of Health GeoScope
+Human Risk Animal Risk
+Assessment Assessment N/A
+Update to Event:
+Since the beginning of this year, a total of 90,959 cases (15,819 confirmed; 75,140 suspected) and 1,617 deaths (CFR: 1.78%) of cholera have
+been reported from 16 African Union (AU) Member states (MS): Burundi (163 cases; 0 deaths), Cameroon (138; 27), Comoros (3,950; 82),
+Democratic Republic of Congo [DRC (13,555; 285)], Ethiopia (12,974; 97), Kenya (186; 1), Malawi (243; 3), Mozambique (7,371; 12), Nigeria
+(559; 7), Somalia (8,681; 87), South Africa (150; 1), Sudan (2,408; 0), Tanzania (2,503; 32), Uganda (33; 1), Zambia (19,848; 611) and
+Zimbabwe (18,197; 371). This week, 5,287 new cases and 105 new deaths of cholera were reported from 12 AU MS: Burundi, Comoros, DRC,
+Malawi, Mozambique, Nigeria, Somalia, South Africa, Sudan, Tanzania, Zambia and Zimbabwe.
+Burundi: Since the last update (26 April 2024), the MoH reported 13 new suspected cases and no new deaths of cholera from Bujumbura Nord
+district. This is a 44% increase in the number of new cases compared to the last update. Cumulatively, 163 suspected cases and no deaths of
+cholera have been reported from 13 of 45 health districts in Burundi this year. This is a protracted outbreak that started in January 2023.
+Comoros: Since the last update (26 April 2024), the Ministry of Health, Solidarity, Social Protection, and Gender Promotion reported 1,366 new
+confirmed cases and 21 new deaths (CFR: 1.5%) of cholera from three regions in Comoros. This is an 87% increase in the number of new
+cases reported compared to the last update. Cumulatively, 3,950 confirmed cases and 82 deaths (CFR: 2.1%) of cholera have been reported
+from Mwali, Ndzuwani and Ngazidja regions. Of the total deaths, 62% occurred in the community.
+DRC*: Since the last update (19 April 2024), the MoH reported 731 suspected cases and 52 new deaths (CFR: 7.1%) of cholera from eight
+provinces: Equateur (8 cases; 0 deaths), Haut-Lomami (39; 0), Haut-Katanga (117; 3), Kasai (67; 45), Maindombe (8; 0), Nord-Kivu (417; 2),
+Sud-Kivu (59; 2) and Tanganyika (16; 0). Cumulatively, 13,555 cases (398 confirmed; 13,157 suspected) and 285 deaths (CFR: 2.1%) of
+cholera were reported from 12 of 26 provinces in DRC this year. This is a protracted outbreak that started in March 2022.
+Ethiopia: Since the last update (26 April 2024), the Ethiopian Public Health Institute (EPHI) reported 769 new suspected cases and 20 new
+deaths (CFR: 2.6%) of cholera from eight regions. Cumulatively, 12,974 suspected cases and 97 deaths (CFR: 0.7%) of cholera have been
+reported from eight of twelve regions in Ethiopia this year. This is a protracted outbreak that started in August 2022.
+Malawi: Since the last update (26 April 2024), the MoH reported two new confirmed cases and no new deaths of cholera from six districts. This
+is an 80% decrease in the number of new cases reported compared to the last update. Cumulatively, 243 confirmed cases and three deaths
+(CFR: 1.2%) of cholera have been reported from 14 of 29 districts in Malawi this year. This is a protracted outbreak that started in November
+2023.
+Mozambique: Since the last update (26 April 2024), the MoH reported 114 new confirmed cases and one new death (CFR: 0.9%) of cholera
+from eight provinces. This is a 43% decrease in the number of new cases compared to the last update. Cumulatively, 7,371 confirmed cases
+and 12 deaths (CFR: 0.16.%) of cholera have been reported from eight of ten provinces in Mozambique this year. This is a protracted outbreak
+that started in October 2023.
+Nigeria: Since the last update (29 March 2024), the Nigeria Center for Disease Control (NCDC) reported 241 new suspected cases and three
+new deaths (CFR: 1.2%) of cholera from three states. This is a 71% and an 87% decrease in the number of suspected cases and deaths
+respectively compared to the same period last year. Cumulatively, 559 suspected cases and seven deaths (CFR: 1.3%) of cholera have been
+reported from 18 of 36 states and the federal capital territory. Bayelsa state accounted for 64% of all the cases reported and 51% of the total
+cases were females. This is a protracted outbreak that started in April 2021.
+
+Somalia: Since the last update (26 April 2024), the MoH reported 711 new cases (23 confirmed; 688 suspected) and six new deaths (CFR:
+0.8%) of cholera from six states. This is a 3% decrease in the number of new cases compared to the last update. Cumulatively, 8,681 cases
+(603 confirmed; 8,078 suspected) and 87 deaths (CFR: 1.0%) of cholera have been reported from six of seven states in Somalia this year. Of
+the total cases, 58% were children <5 years. This is a protracted outbreak that started in 2022 and 2017 in the Banadir region.
+
+South Africa*: Since the last update (19 January 2024), the National Department of Health reported 148 new cases (10 confirmed; 138
+suspected) and no new deaths of cholera from Gauteng and Limpopo provinces. Cumulatively, 150 cases (12 confirmed; 138 suspected) and
+one death (CFR: 0.7%) of cholera have been reported from two of nine provinces of South Africa this year.
+
+Sudan: Since the last update (26 April 2024), the MoH reported 83 new suspected cases and no new deaths of cholera from 12 states.
+Cumulatively, 2,408 suspected cases and no deaths of cholera have been reported from 12 states this year. This is a protracted outbreak that
+started in July 2023. The outbreak is occurring amid a sustained complex humanitarian crisis.
+
+Tanzania*: Since the last update (22 March 2024), the MoH reported 657 new suspected cases and no new deaths of cholera from eight
+regions. Cumulatively, 2,503 suspected cases and 32 deaths (CFR: 1.3%) of cholera have been reported from 18 of 31 regions in Tanzania this
+year. This is a protracted outbreak that started in September 2023.
+
+Zambia: Since the last update (26 April 2024), the Zambia National Public Health Institute reported 55 new suspected cases and no new
+deaths of cholera from four provinces. This is a 5% decrease in the number of new cases compared to the last update. Cumulatively, 19,848
+cases (1,432 confirmed; 18,416 suspected) and 611 deaths (CFR: 3.1%) of cholera have been reported from all the 10 provinces in Zambia this
+year. Of the total cases reported, 33% were children <15 years. This is a protracted outbreak that started in October 2023.
+
+Zimbabwe: Since the last update (26 April 2024), the MoH reported 393 new cases (4 confirmed; 331 suspected) and two new deaths (CFR:
+0.5%) of cholera from 13 districts. This is a 55% decrease in the number of new cases compared to the last update. Cumulatively, 18,197 cases
+(2,189 confirmed; 16,008 suspected) and 371 deaths (CFR: 2.0%) of cholera have been reported from 61 of 64 districts in Zimbabwe this year.
+This is a protracted outbreak that started in February 2023.
+
+Note: In 2023, a total of 241,317 cases (93,475 confirmed; 147,842 suspected) and 3,827 deaths (CFR: 1.6%) of cholera were reported from
+19 AU MS: Burundi (1,396 cases; 9 deaths), Cameroon (21,269; 508), Congo (724; 14), DRC (41,351; 352), Eswatini (2; 0), Ethiopia (29,869;
+426), Kenya (8,937; 148), Malawi (43,015; 1,262), Mozambique (41,248; 164), Nigeria (3,863; 128), Somalia (18,304; 46), South Africa (1,074;
+47), Sudan (9,000; 245), South Sudan (1471; 2), Tanzania (821; 18), Togo (1; 0), Uganda (78; 10), Zambia (3,757; 88) and Zimbabwe (15,137;
+333).
+
+Response by MS/partner/Africa CDC:
+
+The ministries of health in the affected MS continue to strengthen surveillance, case management and to implement water, hygiene and sanitation interventions in the
+affected areas.
+
