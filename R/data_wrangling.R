@@ -133,8 +133,7 @@ owd_data <- owd_data %>%
   ) %>% 
   mutate(
     new_cases = replace_na(new_cases, 0),
-    suspected_cases = replace_na(suspected_cases, 0)
-  ) %>%
+    suspected_cases = replace_na(suspected_cases, 0)) %>%
   select(-c(total_cases_plhd, total_cases, total_suspected_cases, iso_code))
 
 owd_data <- owd_data %>%

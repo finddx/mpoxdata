@@ -1,0 +1,163 @@
+Ten) smcrcodl
+Africa CDC Weekly Event Based
+Surveillance Report
+05-May-2023
+@
+@
+@®
+@
+@
+®
+@
+Event Distribution
+Map and Highlights ® @
+All Events
+@ AVIAN INFLUENZA
+@ CCHF VIRUS
+@ CORYNEBACTERIUM DIPHTHERI...
+@ Lasca vRUs e
+@ MEASLES VIRUS
+@ MPOx viRUS @
+@ POLIO VIRUS (VACCINE-DERIVED)
+@ VIBRIO CHOLERAE @
+
++7 African (@
+Initial Reports Neen) amcacodl
+High Risk Events
+
+CCHF in Senegal
+
+1 confirmed case(s)
+
+1 death(s) (CFR: 100.0%)
+
+CCHF virus Agent/Pathogen 03-May-2023 First Reported Initial Report Previous Africa
+
+by Africa CDC CDC Report:
+20-Apr-2023 First Occurred Senegal Country Dakar region Location
+Local SitRep Source LOW GeoScope Risk
+Assessment
+
+Description:
+On 21 April 2023, the Senegal MoH reported an outbreak of Crimean-Congo hemorrhagic fever (CCHF) in Fadia city, Guediawaye
+district, Dakar region. The index case was a 35-year-old-male butcher from Fadia city. On 10 April 2023, he presented at Dalal Jamm
+hospital with flu-like symptoms. On 21 April 2023, blood samples were collected and CCHF was confirmed at Institut Pasteur, Dakar
+by enzyme-linked immunosorbent assay (ELISA) and polymerase chain reaction (PCR). He died on 22 April 2023 after developing
+hemorrhagic symptoms and was given a safe and dignified burial on 24 April 2023. So far, no other confirmed case has been
+reported, however, 19 suspected cases have been identified from the contact list and are being investigated.
+CCHF is a zoonotic viral hemorrhagic fever that can spread through bites of infected ticks. It can also be transmitted from animals to
+humans through contact with blood, body fluids, or tissues of infected animals, mainly livestock such as cattle, sheep, goats,
+buffalo and camels. Although livestock can be infected with the virus, most do not manifest clinical symptoms. There is currently no
+approved safe and effective vaccine for human use, and treatment for CCHF is primarily supportive. The last outbreak of CCHF in
+Senegal was in November 2022 with a single case and no death reported from Dakar.
+
+Response:
+The MoH has activated the emergency operation centre and has also deployed a multi-sectoral, multi-disciplinary team to Dakar to
+support with response activities. A total of 87 contacts were identified from two districts namely Guediawaye (83 contacts) and Dakar
+ciity centre (4). All contacts are being monitored and three of the 87 contacts have completed their monitoring cycle. Additionally, the
+veterinary services are monitoring livestock in the affected area.
+
+Moderate Risk Events
+
+Diphtheria in South Africa
+2 confirmed case(s)
+O death(s) (CFR: 0.0%)
+
+Corynebacterium Agent/Pathogen 04-May-2023 First Reported nitial Report Previous Africa
+
+diphtheriae by Africa CDC CDC Report:
+
+30-Apr-2023 First Occurred South Africa Country 2 Provinces _—_ Location
+
+National PHI Source LOW GeoScope MODERATE Risk
+
+Assessment
+
+Description:
+On 2 May 2023, the National Institute for Communicable Diseases (NICD) of South Africa reported two confirmed cases and no
+deaths of of diphtheria from KwaZulu Natal (1 confirmed case) and Western Cape provinces (1).
+Diphtheria is a bacterial infection caused by Corynebacterium diphtheriae, a toxin-producing bacteria. Diphtheria manifests in two
+forms: respiratory (most commonly seen) and cutaneous. Person-to-person transmission is usually through respiratory droplets
+(respiratory form) and contact with infected sores and ulcers on the skin (cutaneous form). Symptoms for the respiratory form include
+weakness, sore throat, fever, swollen lymph nodes, difficulty breathing, and death in more severe cases. The toxin produced by the
+bacteria destroys healthy respiratory tissues forming a thick gray coating on the throat, tonsils and nose making it difficult to breathe
+and swallow. The toxin can also affect the heart, nervous system, and kidneys if the infection is systemic. The overall case fatality rate
+for the respiratory form of diphtheria is between 5 to 10%, with higher death rates (up to 20%) among persons less than five or older
+than 40 years old. Laboratory diagnosis is made via bacterial culture, Elek test or PCR. Treatment includes anti-toxins and antibiotic
+therapy. Vaccines are available to protect against infection and typically given in four doses as part of routine immunization programs.
+In South Africa, the last outbreak of diphtheria occurred in 2022, in which three confirmed cases with no deaths were reported from
+Eastern Cape and Western Cape provinces.
+
+Response:
+Samples collected from all contacts tested negative for diphtheria. Currently there is no diphtheria anti-toxin available in the
+country. The Western Cape provincial department of health is working with the South African Health Products Regulatory Authority to
+get more stock into the country.
+
+African (@\
+Human Event Updates Neh) ancacod
+High Risk Events
+COVID-19 in Africa
+12,294,922 confirmed case(s)
+257,040 death(s) (CFR: 2.1%)
+SARS-CoV-2 Agent/Pathogen 21-Feb-2020 First Reported 28-Apr-2023 Previous Africa
+by Africa CDC CDC Report:
+14-Feb-2020 First Occurred Africa Combo Country All 55 MS Location
+Ministry of Source VERY HIGH GeoScope Risk
+Health Assessment
+Update to event:
+As of 6 p.m. East African Time (EAT) 3 May 2023, a total of 12,294,922 COVID-19 cases and 257,040 deaths (case fatality ratio
+[CFR]: 2.1%) were reported by the 55 African Union (AU) Member States (MS). This represents 2% of all cases and 4% of all deaths
+reported globally. Forty-four (80%) AU MS are reporting case fatality rates (CFR) higher than the global CFR. Fifty three MS have
+reported COVID-19 cases infected with the Alpha (50 MS), Beta (45), Delta (53), Gamma (5) and Omicron (51) variants of concern
+(VOC). Additionally, 32 MS have reported the presence of the Omicron BA.2 sub-variant, 12 Member States reported the Omicron
+sublineage (BF.7 or BA.5.2.1.7), ten MS reported the Omicron sublineage (XBB.1.5), and 2 Member States are now reporting the
+Omicron sublineage (XBB.1.16).
+Fifty-four (98%) MS are currently providing COVID-19 vaccination to the general population. Cumulatively, 1.1 billion doses have
+been administered on the continent. Of these doses administered, 546.5 million people have been partially vaccinated, and 431.7
+million have been fully vaccinated. Eritrea is the only AU MS yet to start COVID-19 vaccination roll out.
+For Epi week 17 (24 April - 3 May 2023), 1,040 new COVID-19 cases were reported, which is a 66% decrease in the number of new
+cases reported compared to the previous week (16). The Northern region accounted for 45% of the new COVID-19 cases reported
+this week, followed by the Central (18%), Eastern (18%), Western (16%) and Southern (3%) regions. Two AU Member States, Cabo
+Verde (29) and Comoros (9) had the highest number of new daily COVID-19 cases per million population among all MS.
+Last week, 11 new COVID-19 deaths were reported in Africa, which is 54% decrease in new deaths reported compared to the
+previous week. The Northern region accounted for 80% of the new COVID-19 deaths reported this week, followed by the Western
+(20%). No deaths were reported in the Central, Eastern, Southern regions this week.
+More than 27 thousand tests were conducted during the past week, reflecting a 7% increase in the number of tests compared to the
+previous week. The weekly % test positivity decreased from 13% to 4% compared to the previous week. Since February 2020, over
+126.4 million COVID-19 tests have been conducted in Africa.
+Response:
+The emergency operations center (EOC) of the Africa Centres for Disease Control and Prevention (Africa CDC) has been activated
+for COVID-19 since 27 January 2020. For more information on Africa CDC’s response efforts please refer to Africa CDC’s website,
+Hotspot dashboard, PGI Dashboard, and Vaccination Dashboard.
+
+Mpox in Africa
+196 confirmed case(s)
+26 death(s) (CFR: 13.3%)
+
+Mpox virus Agent/Pathogen 17-Jan-2023 First Reported 21-Apr-2023 Previous Africa
+
+by Africa CDC CDC Report:
+
+01-Jan-2023 =‘First Occurred Africa Combo Country 5 MS Location
+
+Ministry of Source GeoScope Risk
+
+Health Assessment
+
+Update to event:
+Since the beginning of this year, 196 confirmed cases and 26 deaths (CFR: 13.3%) of mpox have been reported from five endemic
+AU MS: Central African Republic (CAR) (12 confirmed cases; 1 death), Democratic Republic of Congo (DRC) (98; 23), Ghana (8; 0),
+Liberia (6; 0) and Nigeria (72; 2). This week, two new confirmed cases and no new deaths of mpox were reported from Nigeria.
+Nigeria: Since the last update (21 April 2023), the Nigeria Centre for Disease Control (NCDC) reported two new confirmed cases
+and no new death of mpox. There is a 50% decrease in the number of new confirmed cases reported compared to the last report.
+Cumulatively, 72 confirmed cases and two deaths (CFR: 2.8%) of mpox have been reported from seven of the 36 states and federal
+capital territory (FCT) this year.
+Note: In 2022, the continent reported 1,230 confirmed cases and 220 deaths (CFR: 18%) of mpox from eight endemic AU MS: Benin
+(3 cases; 0 deaths), Cameroon (18; 3), CAR (13; 3), Congo (5; 3), Democratic Republic of Congo (DRC) (319; 198), Ghana (116; 4),
+Liberia (4; 0), Nigeria (763; 7) and five non-endemic MS: Egypt (4; 0), Morocco (3; 0), Mozambique (1; 1), South Africa (5; 0) and
+Sudan (18; 1).
+
+Response:
+Nigeria: The NCDC through the multi-sectoral technical working group continues to coordinate the following response activities:
+surveillance, case management, risk communication and laboratory diagnosis in all the affected states.
+
