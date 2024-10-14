@@ -12491,5 +12491,132 @@ Response by MS/partner/Africa CDC:
 The Public Health Emergency Operation Center (PHEOC) of the Africa CDC was activated for COVID-19 since 27 January
 2020. For more information on Africa CDC’s response efforts please refer to Africa CDC’s website.
 
+‘@ \ AfricaCDC
+ge afetidioae Gin
+Africa CDC Epidemic Intelligence Report
+Date of Issue: 12 Oct 2024
+: New Events reported Events highlighted New events since
+Asia Evans in 2024 this week lastissue
+| Co
+\ \ — -
+{ + can \ ——_ 5 i oe
+al \ 7
+~ .
+| rR )
+, A
+| yy
+ws y + i J « y / Wve,
+eee eee PO liye
+Sa, Ce y Va Y oo
+One yp >. #
+‘Se = - ‘a , v woke \ &
+eR ON
+: - +4 |
+Alp 7 mie ae
+‘ 7 f a d
+es \ .
+j + ee
+“yu f ie RR 4
+o + a4) ; d
+ee 4 Ps > x F iy y
+Sa | ;
+Nl |
+Ie \ ’ {
+: nT ty
+=a CY
+, =
+ea
+* (] represent AU Member States that are islands
+Note: The boundaries and names shown and the designations used on this map do not imply official endorsement or acceptance by the African Union.
+
+_ #5 see = Risk Level
+Very High (New) High (New) Moderate (New)
+g Human 0 9 21 (1)
+w
+
+(%) AtricaCDC
+y At for Di C |
+Event Summary oF shen
+
+New events since last issue
+
+Agent/Syndrome Country Risk:Human Risk:Animal Type Suspected Probable Confirmed Deaths
+
++ Mpox virus Zambia Moderate N/A eB 0) 0 1 0)
+
+Events Highlighted this week
+Suspected Probable Confirmed Deaths
+Agent/Syndrome Country Risk:Human Risk:Animal Type (New) (New) (New) (New)
+Oo Corynebacterium diphtheriae Gabon High N/A ( 11 (4) 0 (0) 2 (0) 0 (0)
+Nigeria High N/A eB 4,534 (754) 0 (0) 7,840 (496) 315 (55)
+* Dengue virus Burkina Faso Moderate N/A e 47,752 (6,125) 14,207 (2,078) 0 (0) 68 (4)
+Mali Moderate N/A ( m) 5,369 (110) 0 (0) 736 (20) 7 (0)
+a Floods Nigeria Moderate N/A ( 673,333 (18,322) 303 (6)
+A Hepatitis E virus Burkina Faso Moderate N/A ( 305 (42) 0 (0) 8 (0) 3 (1)
+Chad Moderate N/A e 3,289 (7) 0 (0) 0 (0) 22 (0)
+@ Lassa virus Liberia High N/A e 161 (130) 0 (0) 37 (7) 10 (2)
+Nigeria Moderate Moderate e 8,411 (160) 0 (0) 1,018 (13) 172 (2)
+. Marburg virus Rwanda High N/A ( 0 (0) 0 (0) 58 (22) 13 (2)
+$e Measles virus Cameroon High N/A eB 1,581 (13) 0 (0) 734 (14) 60 (0)
+Chad Moderate N/A eB 7,477 (29) 0 (0) 978 (0) 27 (0)
+Ethiopia Moderate N/A eB 27,718 (73) 0 (0) 0 (0) 216 (5)
+Gabon Moderate N/A eB 305 (16) 0 (0) 0 (0) 1 (0)
+Liberia Moderate N/A ( %) 1,433 (0) 0 (0) 1,071 (39) 0 (0)
+Mozambique Moderate N/A ( 636 (96) 23 (5)
++ Mpox virus Burundi Moderate N/A ( 2,508 (320) 0 (0) 987 (134) 0 (0)
+Cameroon Moderate N/A  e) 98 (9) 0 (0) 6 (0) 2 (0)
+Céte d'Ivoire Moderate N/A eB 343 (39) 0 (0) 74 (7) 1 (0)
+Ghana High N/A eB 230 (0) 0 (0) 2 (1) 0 (0)
+Kenya Moderate N/A e 235 (27) 0 (0) 12 (4) 0 (0)
+Morocco High N/A e 3 (0) 0 (0) 2 (1) 0 (0)
+Nigeria Moderate N/A eB 1,237 (57) 0 (0) 84 (6) 0 (0)
+Uganda Moderate N/A eB 747 (150) 0 (0) 69 (45) 0 (0)
+o Polio virus (vaccine-derived) Angola Moderate N/A e 0 (0) 0 (0) 7 (1) 0 (0)
+South Sudan Moderate N/A e 0 (0) 0 (0) 9 (1) 0 (0)
+ae Vibrio cholerae Comoros High N/A eB 0 (0) 0 (0) 10,506 (77) 152 (1)
+Ethiopia Moderate N/A eB 25,240 (337) 0 (0) 0 (0) 240 (6)
+Somalia Moderate N/A eB 18,736 (213) 0 (0) 690 (5) 138 (0)
+Sudan High N/A e 23,278 (3,499) 0 (0) 0 (0) 569 (67)
+
+(%) AfricaCDC
+Human Event Updates SA oie
+Very High Risk Events
+Mpox in Africa
+7,532 confirmed human case(s), 38,845 suspected human case(s)
+979 human deaths (CFR: 2.11%)
+Agent/Pathogen Mpox virus First Reported 12-Jan-2024 PiEMOUSREPORt 4-Oct-2024
+Update
+First Occurred 1-Jan-2024 Country Multiple Countries Location 17 MS
+Source Ministry of Health GeoScope pon Hlth
+Animal Risk
+Assessment Ma
+Update to Event:
+Between epidemiological weeks 1 and 40, a total of 38,845 cases of mpox*, of which 7,532 have been confirmed, and 979
+deaths [case fatality rate (CFR): 2.11%] have been reported from 17 African Union (AU) Member States (MS): Burundi (987
+lab-confirmed cases; 0 death), Cameroon (6; 2), Central Africa Republic (CAR) (57; 1 ), Congo (22; 0), Cote divoire (74; 1),
+Democratic Republic of Congo (DRC) (6,169; 972), Gabon (2; 0), Ghana (2; 0), Guinea (1; 0), Liberia (13; 0), Kenya (12; 0),
+Morocco (2; 0), Nigeria (84; 0) Rwanda (6; 0), South Africa (25; 3), Uganda (69; 0) and Zambia (1; 0). Of the 34,772 cases
+detected, 16,124 were tested resulting in a 46.3% testing rate.
+In epidemiological week 40, 545 new cases, of which 192 have been confirmed, and no new deaths of mpox have been
+reported from eight AU MS: Burundi, Cameroon, Cote divoire, Ghana, Kenya, Morocco, and Uganda.
+Burundi: Since the last update (4 October 2024), the Ministry of Health (MoH) reported 320 new cases, of which 134 were
+laboratory-confirmed, with no new deaths of mpox from 32 health districts in Burundi. Cumulatively, 2,508 suspected cases, of
+which 987 were laboratory-confirmed, and no deaths of mpox have been reported from 40 of 49 health districts in Burundi.
+Children <15 years accounted for 51.4% of the cases and 54.3% of the confirmed cases were males. A total of 2,425 cases
+were tested resulting in a 97% testing rate and a 40.7% positivity rate. The clade Ib mpox strain was isolated from confirmed
+cases.
+Cameroon: Since the last update (4 October 2024), the MoH reported nine new cases, of which none were laboratory-
+confirmed, and no new deaths of mpox from two regions. This is an 13% increase in the number of new cases compared to the
+last update. Cumulatively, 98 cases, of which six were laboratory-confirmed, and two deaths (CFR: 2.0%) of mpox have been
+reported from six of 10 regions in Cameroon. Children <15 years accounted for 60% and males accounted for 80% of
+confirmed cases. A total of 78 cases were tested resulting in an 80% testing rate and a 7.7% positivity rate. The clade I] mpox
+strain was isolated from confirmed cases.
+Cote d'Ivoire: Since the last update (4 October 2024), the MoH reported 39 new cases, of which seven were laboratory-
+confirmed, and no new deaths of mpox. This is a 40% increase in the number of new confirmed cases compared to the last
+update. Cumulatively, 343 cases, of which 74 were laboratory confirmed, and one death (CFR: 1.3%) of mpox have been
+reported from 29 of 48 health districts in Cote dlvoire. Of the confirmed cases, children <15 years accounted for 40% and
+males accounted for 69%. The clade Ila mpox strain was isolated from confirmed cases.
+
+
 
 
