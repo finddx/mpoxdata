@@ -33,11 +33,11 @@ gh_data <- gh_data %>%
     cum_new_cases = cumsum(new_cases),
     suspected_cases = replace_na(suspected_cases, 0),
     cum_suspected_cases = cumsum(suspected_cases)
-         ) %>% 
+  ) %>% 
   mutate(
     new_cases = ifelse(new_cases==0, NA, new_cases),
     suspected_cases = ifelse(suspected_cases==0, NA, suspected_cases)
-    ) %>% 
+  ) %>% 
   mutate(
     smooth_new_cases = smooth_new_tests(new_cases, cum_new_cases),
     smooth_new_cases = ifelse(is.na(smooth_new_cases), 0, smooth_new_cases),
@@ -45,7 +45,7 @@ gh_data <- gh_data %>%
     smooth_suspected_cases = smooth_new_tests(suspected_cases, cum_suspected_cases),
     smooth_suspected_cases = ifelse(is.na(smooth_suspected_cases), 0, smooth_suspected_cases),
     smooth_cum_suspected_cases = cumsum(smooth_suspected_cases)
-         ) %>% 
+  ) %>% 
   mutate(
     new_cases = replace_na(new_cases, 0),
     suspected_cases = replace_na(suspected_cases, 0)
@@ -133,7 +133,8 @@ owd_data <- owd_data %>%
   ) %>% 
   mutate(
     new_cases = replace_na(new_cases, 0),
-    suspected_cases = replace_na(suspected_cases, 0)) %>%
+    suspected_cases = replace_na(suspected_cases, 0)
+  ) %>%
   select(-c(total_cases_plhd, total_cases, total_suspected_cases, iso_code))
 
 owd_data <- owd_data %>%
@@ -183,7 +184,7 @@ data_dates <- data %>%
   complete(date = seq.Date(as.Date("2022-01-01"), as.Date("2023-12-31"), by = "year")) %>%
   mutate(date = if_else(year(date) < 2024, as.character(year(date)), as.character(date))) %>% 
   select(UN_country, date)
-  
+
 data <- data %>%
   full_join(data_dates, by=join_by(UN_country))
 data <- data %>% 
@@ -195,6 +196,5 @@ data <- data %>%
   mutate(set=ifelse(!is.na(ISO.alpha3.Code), "Country", ifelse(UN_country=="World", "World", "Region"))) %>% 
   rename(iso3 = ISO.alpha3.Code) %>% 
   relocate(set, iso3, everything())
-
 
 write.csv(data, "data/output/mpox_data.csv", row.names=FALSE)
