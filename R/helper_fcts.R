@@ -65,3 +65,15 @@ calc_new_t <- function(cumulative_t, new_t) {
   }
   new_t
 }
+
+dxGap <- function(suspected_cases, confirmed_cases){
+  round(((suspected_cases - confirmed_cases) / suspected_cases) * 100,2)
+}
+
+summariseSet <- function(dataset, group_var, remove_vars=NULL, operation){
+  remove_vars <- setdiff(remove_vars, group_var)
+  
+  dataset <- dataset %>% 
+    group_by_at(vars({{group_var}}, date)) %>% 
+    summarise(across(-all_of(remove_vars), ~ operation(.x, na.rm = TRUE)))
+}
