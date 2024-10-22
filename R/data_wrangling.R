@@ -606,23 +606,26 @@ data <- data %>%
     dxgap_owd_orig = dxGap(owd_cum_suspected_cases_orig, owd_cum_confirmed_cases_orig),
     dxgap_owd_calc = dxGap(owd_cum_suspected_cases_calc, owd_cum_confirmed_cases_calc)
     ) %>% 
-  mutate(across(where(is.numeric), ~ ifelse(. %in% c(-Inf, Inf, NaN), NA, .)))
+  mutate(across(where(is.numeric), ~ ifelse(. %in% c(-Inf, Inf, NaN), NA, .))) %>% 
+  relocate(set, everything())
 
 
-suspected <- 89 #cum
-confirm <- 6 #cum
-pos_rate_orig <- 8.2
-test_rate_orig <- 82
-  
-test <- pos_rate_orig / confirm   #Number of people tested = positivity rate / or * ? Number of confirmed cases
-pos_rate <- confirm * test #positivity rate = Number of confirmed cases/Number of people tested
+# suspected <- 89 #cum
+# confirm <- 6 #cum
+# pos_rate_orig <- 8.2
+# test_rate_orig <- 82
+#   
+# test <-  confirm / pos_rate_orig * 100
+# pos_rate <- confirm / test * 100 
+# 
+# test2 <-  test_rate_orig * suspected / 100
+# test_rate <- test2 / suspected * 100
 
-test2 <-  test_rate_orig * suspected 
-test_rate <- test2 /suspected
-pos_rate <- confirm / test2 * 10000
+# Moroco ACDC 3 (2022) 2 (2024), #ASK Jamie to only keep numbers
+# pos_rate <- confirm / test2 *1000
 
 
-
+#IF date=="2024/01/01" cum = cum - lag()
 
 
 write.csv(data, "data/output/mpox_data.csv", row.names=FALSE, fileEncoding="UTF-8")
