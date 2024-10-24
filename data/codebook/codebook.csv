@@ -1,0 +1,17 @@
+col_type,variable,description,description_short
+other,unit,Unit,Unit
+other,name,Name,Name
+other,group,Group,Group
+default,sum_all_new_confirmed_cases,Daily number of confirmed cases reported from source,Daily confirmed cases
+default,sum_all_new_suspected_cases,Daily number of suspected cases reported from source,Daily suspected cases
+other,all_cum_confirmed_cases,Cumulative number of confirmed cases reported from source,Cumulative confirmed cases
+other,all_cum_suspected_cases,Cumulative number of suspected cases reported from source,Cumulative suspected cases
+other,gh_smooth_new_confirmed_cases_calc,Smooth daily number of confirmed cases reported from source,Smooth daily confirmed cases
+other,gh_smooth_new_suspected_cases_calc,Smooth daily number of suspected cases reported from source,Smooth daily suspected cases
+other,gh_smooth_cum_confirmed_cases_calc,Smooth cumulative number of confirmed cases reported from source,Smooth cumulative confirmed cases
+other,gh_smooth_cum_suspected_cases_calc,Smooth cumulative number of suspected cases reported from source,Smooth cumulative suspected cases
+other,dxgap_gh_calc,DX gap,DX gap
+other,country,UN country,UN country
+other,continent,UN region,UN region
+other,who_region,WHO Region,WHO Region
+other,income,Income Group,Income Group

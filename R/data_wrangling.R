@@ -12,7 +12,7 @@ today <- gsub("-", "_", Sys.Date())
 
 ###Global health###
 gh_data <- read.csv("https://mpox-2024.s3.eu-central-1.amazonaws.com/latest.csv")
-# write.csv(gh_data, paste("data/raw/gh_data_", today, ".csv"), row.names=FALSE)
+write.csv(gh_data, paste("data/raw/gh_data_", today, ".csv"), row.names=FALSE)
 
 gh_data <- gh_data %>% 
   count(Case_status, Location_Admin0, Date_report_source_I) %>% 
@@ -62,7 +62,7 @@ gh_data <- gh_data %>%
 
 ###Our world in data###
 owd_data <- read.csv("https://catalog.ourworldindata.org/explorers/who/latest/monkeypox/monkeypox.csv")
-# write.csv(owd_data, paste("data/raw/owd_data_", today, ".csv"), row.names=FALSE)
+write.csv(owd_data, paste("data/raw/owd_data_", today, ".csv"), row.names=FALSE)
 
 owd_data <- owd_data %>% 
   select(location, date, iso_code, total_cases, new_cases, suspected_cases_cumulative) %>% 
@@ -151,7 +151,7 @@ owd_data <- owd_data %>%
 
 ###Africa CDC PDFs###
 acdc_pdf_data <- read.csv("data/Output/mpox_data_ACDC_reports.csv")
-# write.csv(gh_data, paste("data/raw/acdc_pdf_data_", today, ".csv"), row.names=FALSE)
+write.csv(gh_data, paste("data/raw/acdc_pdf_data_", today, ".csv"), row.names=FALSE)
 
 acdc_pdf_data  <- acdc_pdf_data  %>% 
   select(Country, Date.of.Issue, Confirmed, Confirmed_New, Suspected, Suspected_New) %>% 
