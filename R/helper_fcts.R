@@ -71,9 +71,17 @@ dxGap <- function(suspected_cases, confirmed_cases){
 }
 
 summariseSet <- function(dataset, group_var, remove_vars=NULL, operation){
+  
   remove_vars <- setdiff(remove_vars, group_var)
   
-  dataset <- dataset %>% 
+  dataset_summary <- dataset %>% 
     group_by_at(vars({{group_var}}, date)) %>% 
-    summarise(across(-all_of(remove_vars), ~ operation(.x, na.rm = TRUE)))
+    summarise(across(-all_of(remove_vars), ~ operation(.x, na.rm = TRUE))) %>% 
+    filter(!is.na({{group_var}}))
+
+
 }
+
+
+
+

@@ -523,6 +523,15 @@ who_data <- who_data %>%
 # weekly _africacdc_06_10_2024
 
 data <- read.csv("data/raw/country_info.csv")
+pop_data <- read.csv("data/raw/un_pop_2024.csv")
+pop_data <- pop_data %>% 
+  rename(
+  country = Region..subregion..country.or.area..,
+  unit = ISO3.Alpha.code,
+  pop = Population) %>%
+  select(unit, pop) %>% 
+  filter(unit!="") %>% 
+  mutate(pop = as.numeric(gsub(" ", "", pop)))
 
 data_dates <- data %>%
   mutate(date = NA) %>%
@@ -536,28 +545,35 @@ data <- data %>%
   filter(!is.na(ISO.alpha3.Code)) %>% 
   filter(UN_country != "Antarctica") %>% 
   filter(nchar(trimws(WHO_region)) > 0) %>% 
-  filter(nchar(trimws(Income.group)) > 0)
+  filter(nchar(trimws(Income.group)) > 0) %>% 
+  rename(unit = ISO.alpha3.Code,
+         income=Income.group,
+         who_region=WHO_region,
+         continent=UN_region,
+         country=UN_country) %>% 
+  mutate(income = case_when(
+    income=="High income" ~ "High",
+    income=="Upper middle income" ~ "Upper middle",
+    income=="Lower middle income" ~ "Lower middle",
+    income=="Low income" ~ "Low"))
 
 data <- data %>% 
-  full_join(who_data, by=join_by(UN_country == location, date==date)) 
+  left_join(pop_data, by="unit")
 data <- data %>% 
-  full_join(acdc_data, by=join_by(UN_country == location, date==date)) 
+  full_join(who_data, by=join_by(country == location, date==date)) 
 data <- data %>% 
-  full_join(acdc_pdf_data, by=join_by(UN_country == location, date==date)) 
+  full_join(acdc_data, by=join_by(country == location, date==date)) 
 data <- data %>% 
-  full_join(gh_data, by=join_by(UN_country == location, date==date))
+  full_join(acdc_pdf_data, by=join_by(country == location, date==date)) 
 data <- data %>% 
-  full_join(owd_data, by=join_by(UN_country == location, date==date)) 
+  full_join(gh_data, by=join_by(country == location, date==date))
+data <- data %>% 
+  full_join(owd_data, by=join_by(country == location, date==date)) 
 
-data <- data %>%
-  filter(date >= "2024-01-01") 
-  
 
 data <- data %>% 
-  mutate(set="Country") %>% 
-  rename(iso3 = ISO.alpha3.Code) %>% 
-  filter(!is.na(iso3)) %>% 
-  # relocate(set, iso3, everything()) %>% 
+  filter(!is.na(unit)) %>% 
+  mutate(set="country") %>% 
   select(-c(owd_iso_code, ends_with("_plhd"))) 
 
 data <- data %>% 
@@ -580,18 +596,19 @@ data <- data %>%
 # gh_smooth_new_confirmed_cases_calc, gh_smooth_cum_suspected_cases_calc, gh_smooth_new_suspected_cases_calc      
 # owd_cum_confirmed_cases_calc, owd_new_confirmed_cases_calc, owd_cum_suspected_cases_calc
 # owd_smooth_new_confirmed_cases_calc, owd_smooth_cum_confirmed_cases_calc, owd_smooth_new_suspected_cases_calc, owd_smooth_cum_suspected_cases_calc                          
-           
-remove_vars <- c("set","iso3", "UN_country", "UN_region", "UN_subregion", "WHO_country", "WHO_region", "Income.group", "latitude", "longitude", "acdc_testing_rate_orig", "acdc_positivity_rate_orig", "acdc_new_confirmed_cases_orig", "acdc_new_suspected_cases_orig", "acdc_cum_confirmed_cases_orig", "acdc_cum_suspected_cases_orig")
+
+
+remove_vars <- c("set","unit", "country", "continent", "UN_subregion", "WHO_country", "who_region", "income", "latitude", "longitude", "acdc_testing_rate_orig", "acdc_positivity_rate_orig", "acdc_new_confirmed_cases_orig", "acdc_new_suspected_cases_orig", "acdc_cum_confirmed_cases_orig", "acdc_cum_suspected_cases_orig")
  
-data_un_region <- summariseSet(dataset=data, group_var="UN_region", remove_vars=remove_vars, operation=sum)
+data_un_region <- summariseSet(dataset=data, group_var="continent", remove_vars=remove_vars, operation=sum)
 data_un_region <- data_un_region %>% 
-  mutate(set="UN_region")
-data_who_region <- summariseSet(dataset=data, group_var="WHO_region", remove_vars=remove_vars, operation=sum)
+  mutate(set="continent")
+data_who_region <- summariseSet(dataset=data, group_var="who_region", remove_vars=remove_vars, operation=sum)
 data_who_region <- data_who_region %>% 
-  mutate(set="WHO_region")
-data_income_region <- summariseSet(dataset=data, group_var="Income.group", remove_vars=remove_vars, operation=sum)
+  mutate(set="who_region")
+data_income_region <- summariseSet(dataset=data, group_var="income", remove_vars=remove_vars, operation=sum)
 data_income_region <- data_income_region %>% 
-  mutate(set="Income.group")
+  mutate(set="income")
 
 data <- bind_rows(data, data_un_region, data_who_region, data_income_region)
 
@@ -608,6 +625,37 @@ data <- data %>%
     ) %>% 
   mutate(across(where(is.numeric), ~ ifelse(. %in% c(-Inf, Inf, NaN), NA, .))) %>% 
   relocate(set, everything())
+
+
+data <- data %>%
+  rename(time=date) %>%
+  mutate(name = case_when(
+    set=="country" ~ country,
+    set=="income" ~ income,
+    set=="continent" ~ continent,
+    set=="who_region" ~ who_region
+  )) %>% 
+  mutate(pop_100k = pop / 100000) %>% 
+  mutate(pop = pop / 1000) %>% 
+  mutate(
+    across(
+      c(who_new_confirmed_cases_orig,  acdc_pdf_new_confirmed_cases_orig, gh_new_confirmed_cases_orig, owd_new_confirmed_cases_orig, who_cum_confirmed_cases_orig,  acdc_pdf_cum_confirmed_cases_orig, gh_cum_confirmed_cases_calc, owd_cum_confirmed_cases_orig, who_new_suspected_cases_orig,  acdc_pdf_new_suspected_cases_orig, gh_new_suspected_cases_orig, owd_new_suspected_cases_calc,
+who_cum_suspected_cases_orig, acdc_pdf_cum_suspected_cases_orig, gh_cum_suspected_cases_calc, owd_cum_suspected_cases_orig),
+      ~ .x / pop,
+      .names = "cap_{col}"
+    ))
+#NEED TO REMOVE STRINGS
+# acdc_new_confirmed_cases_orig,acdc_new_suspected_cases_orig,acdc_cum_confirmed_cases_orig,acdc_cum_suspected_cases_orig, 
+    
+data <- data %>%
+  filter(time >= "2024-01-01") 
+
+  # select(set, unit, time, name, country, continent, who_region, income, gh_new_confirmed_cases_orig, gh_new_suspected_cases_orig, gh_cum_confirmed_cases_calc, gh_cum_suspected_cases_calc, gh_smooth_new_confirmed_cases_calc, gh_smooth_cum_confirmed_cases_calc, gh_smooth_new_suspected_cases_calc, gh_smooth_cum_suspected_cases_calc, dxgap_gh_calc)
+
+
+# relocate(set, unit, everything()) %>% 
+
+
 
 
 # suspected <- 89 #cum

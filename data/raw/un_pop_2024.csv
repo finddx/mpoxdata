@@ -1,0 +1,298 @@
+﻿"Region, subregion, country or area *",Location code,ISO3 Alpha-code,ISO2 Alpha-code,Type,Year,Population
+World,900,,,World,2024, 8 126 964
+Sub-Saharan Africa,1834,,,SDG region,2024, 1 227 721
+Northern Africa and Western Asia,1833,,,SDG region,2024,  576 973
+Central and Southern Asia,1831,,,SDG region,2024, 2 134 995
+Eastern and South-Eastern Asia,1832,,,SDG region,2024, 2 350 719
+Latin America and the Caribbean,1830,,,SDG region,2024,  661 207
+Oceania (excluding Australia and New Zealand),1835,,,SDG region,2024,  14 050
+Australia/New Zealand,1836,,,SDG region,2024,  31 776
+Europe and Northern America,1829,,,SDG region,2024, 1 129 525
+"Europe, Northern America, Australia, and New Zealand",5502,,,SDG region,2024, 1 161 300
+More developed regions,901,,,Development Group,2024, 1 285 371
+Less developed regions,902,,,Development Group,2024, 6 841 593
+Least developed countries,941,,,Development Group,2024, 1 174 435
+"Less developed regions, excluding least developed countries",934,,,Development Group,2024, 5 667 158
+"Less developed regions, excluding China",948,,,Development Group,2024, 5 389 268
+Land-locked Developing Countries (LLDC),1636,,,Special other,2024,  586 126
+LLDC: Africa,2087,,,Special other,2024,  383 533
+LLDC: Asia,2088,,,Special other,2024,  178 497
+LLDC: Europe,2089,,,Special other,2024,  4 881
+LLDC: Latin America,2090,,,Special other,2024,  19 216
+Small Island Developing States (SIDS),1637,,,Special other,2024,  73 184
+SIDS Caribbean,2091,,,Special other,2024,  46 222
+SIDS Pacific,2092,,,Special other,2024,  15 428
+"SIDS Atlantic, Indian Ocean and South China Sea (AIS)",2093,,,Special other,2024,  11 534
+High-and-upper-middle-income countries,5503,,,Income Group,2024, 4 077 555
+Low-and-Lower-middle-income countries,5504,,,Income Group,2024, 4 020 010
+High-income countries,1503,,,Income Group,2024, 1 263 596
+Low-and-middle-income countries,1859,,,Income Group,2024, 6 833 969
+Middle-income countries,1517,,,Income Group,2024, 6 087 441
+Upper-middle-income countries,1502,,,Income Group,2024, 2 813 959
+Lower-middle-income countries,1501,,,Income Group,2024, 3 273 482
+Low-income countries,1500,,,Income Group,2024,  746 528
+No income group available,1518,,,Income Group,2024,  29 024
+Africa,903,,,Region,2024, 1 497 914
+Eastern Africa,910,,,Subregion,2024,  494 338
+Burundi,108,BDI,BI,Country/Area,2024,  13 875
+Comoros,174,COM,KM,Country/Area,2024,   859
+Djibouti,262,DJI,DJ,Country/Area,2024,  1 161
+Eritrea,232,ERI,ER,Country/Area,2024,  3 502
+Ethiopia,231,ETH,ET,Country/Area,2024,  130 355
+Kenya,404,KEN,KE,Country/Area,2024,  55 884
+Madagascar,450,MDG,MG,Country/Area,2024,  31 578
+Malawi,454,MWI,MW,Country/Area,2024,  21 376
+Mauritius,480,MUS,MU,Country/Area,2024,  1 273
+Mayotte,175,MYT,YT,Country/Area,2024,   321
+Mozambique,508,MOZ,MZ,Country/Area,2024,  34 130
+Réunion,638,REU,RE,Country/Area,2024,   877
+Rwanda,646,RWA,RW,Country/Area,2024,  14 106
+Seychelles,690,SYC,SC,Country/Area,2024,   129
+Somalia,706,SOM,SO,Country/Area,2024,  18 686
+South Sudan,728,SSD,SS,Country/Area,2024,  11 820
+Uganda,800,UGA,UG,Country/Area,2024,  49 332
+United Republic of Tanzania,834,TZA,TZ,Country/Area,2024,  67 578
+Zambia,894,ZMB,ZM,Country/Area,2024,  21 018
+Zimbabwe,716,ZWE,ZW,Country/Area,2024,  16 478
+Middle Africa,911,,,Subregion,2024,  209 560
+Angola,24,AGO,AO,Country/Area,2024,  37 313
+Cameroon,120,CMR,CM,Country/Area,2024,  28 748
+Central African Republic,140,CAF,CF,Country/Area,2024,  5 240
+Chad,148,TCD,TD,Country/Area,2024,  19 870
+Congo,178,COG,CG,Country/Area,2024,  6 258
+Democratic Republic of the Congo,180,COD,CD,Country/Area,2024,  107 516
+Equatorial Guinea,226,GNQ,GQ,Country/Area,2024,  1 870
+Gabon,266,GAB,GA,Country/Area,2024,  2 512
+Sao Tome and Principe,678,STP,ST,Country/Area,2024,   233
+Northern Africa,912,,,Subregion,2024,  270 193
+Algeria,12,DZA,DZ,Country/Area,2024,  46 497
+Egypt,818,EGY,EG,Country/Area,2024,  115 578
+Libya,434,LBY,LY,Country/Area,2024,  7 343
+Morocco,504,MAR,MA,Country/Area,2024,  37 901
+Sudan,729,SDN,SD,Country/Area,2024,  50 049
+Tunisia,788,TUN,TN,Country/Area,2024,  12 240
+Western Sahara,732,ESH,EH,Country/Area,2024,   585
+Southern Africa,913,,,Subregion,2024,  72 687
+Botswana,72,BWA,BW,Country/Area,2024,  2 501
+Eswatini,748,SWZ,SZ,Country/Area,2024,  1 236
+Lesotho,426,LSO,LS,Country/Area,2024,  2 324
+Namibia,516,NAM,NA,Country/Area,2024,  2 998
+South Africa,710,ZAF,ZA,Country/Area,2024,  63 628
+Western Africa,914,,,Subregion,2024,  451 136
+Benin,204,BEN,BJ,Country/Area,2024,  14 288
+Burkina Faso,854,BFA,BF,Country/Area,2024,  23 286
+Cabo Verde,132,CPV,CV,Country/Area,2024,   524
+Côte d'Ivoire,384,CIV,CI,Country/Area,2024,  31 548
+Gambia,270,GMB,GM,Country/Area,2024,  2 729
+Ghana,288,GHA,GH,Country/Area,2024,  34 108
+Guinea,324,GIN,GN,Country/Area,2024,  14 582
+Guinea-Bissau,624,GNB,GW,Country/Area,2024,  2 177
+Liberia,430,LBR,LR,Country/Area,2024,  5 553
+Mali,466,MLI,ML,Country/Area,2024,  24 122
+Mauritania,478,MRT,MR,Country/Area,2024,  5 097
+Niger,562,NER,NE,Country/Area,2024,  26 592
+Nigeria,566,NGA,NG,Country/Area,2024,  230 271
+Saint Helena,654,SHN,SH,Country/Area,2024,   5
+Senegal,686,SEN,SN,Country/Area,2024,  18 288
+Sierra Leone,694,SLE,SL,Country/Area,2024,  8 553
+Togo,768,TGO,TG,Country/Area,2024,  9 412
+Asia,935,,,Region,2024, 4 792 493
+Central Asia,5500,,,Subregion,2024,  81 528
+Kazakhstan,398,KAZ,KZ,Country/Area,2024,  20 464
+Kyrgyzstan,417,KGZ,KG,Country/Area,2024,  7 131
+Tajikistan,762,TJK,TJ,Country/Area,2024,  10 492
+Turkmenistan,795,TKM,TM,Country/Area,2024,  7 431
+Uzbekistan,860,UZB,UZ,Country/Area,2024,  36 010
+Eastern Asia,906,,,Subregion,2024, 1 658 049
+China,156,CHN,CN,Country/Area,2024, 1 420 909
+"China, Hong Kong SAR",344,HKG,HK,Country/Area,2024,  7 433
+"China, Macao SAR",446,MAC,MO,Country/Area,2024,   719
+"China, Taiwan Province of China",158,TWN,TW,Country/Area,2024,  23 264
+Dem. People's Republic of Korea,408,PRK,KP,Country/Area,2024,  26 460
+Japan,392,JPN,JP,Country/Area,2024,  124 071
+Mongolia,496,MNG,MN,Country/Area,2024,  3 454
+Republic of Korea,410,KOR,KR,Country/Area,2024,  51 738
+Southern Asia,5501,,,Subregion,2024, 2 053 467
+Afghanistan,4,AFG,AF,Country/Area,2024,  42 045
+Bangladesh,50,BGD,BD,Country/Area,2024,  172 507
+Bhutan,64,BTN,BT,Country/Area,2024,   789
+India,356,IND,IN,Country/Area,2024, 1 444 436
+Iran (Islamic Republic of),364,IRN,IR,Country/Area,2024,  91 115
+Maldives,462,MDV,MV,Country/Area,2024,   527
+Nepal,524,NPL,NP,Country/Area,2024,  29 674
+Pakistan,586,PAK,PK,Country/Area,2024,  249 336
+Sri Lanka,144,LKA,LK,Country/Area,2024,  23 038
+South-Eastern Asia,920,,,Subregion,2024,  692 670
+Brunei Darussalam,96,BRN,BN,Country/Area,2024,   461
+Cambodia,116,KHM,KH,Country/Area,2024,  17 533
+Indonesia,360,IDN,ID,Country/Area,2024,  282 354
+Lao People's Democratic Republic,418,LAO,LA,Country/Area,2024,  7 718
+Malaysia,458,MYS,MY,Country/Area,2024,  35 344
+Myanmar,104,MMR,MM,Country/Area,2024,  54 320
+Philippines,608,PHL,PH,Country/Area,2024,  115 371
+Singapore,702,SGP,SG,Country/Area,2024,  5 812
+Thailand,764,THA,TH,Country/Area,2024,  71 689
+Timor-Leste,626,TLS,TL,Country/Area,2024,  1 392
+Viet Nam,704,VNM,VN,Country/Area,2024,  100 675
+Western Asia,922,,,Subregion,2024,  306 779
+Armenia,51,ARM,AM,Country/Area,2024,  2 984
+Azerbaijan,31,AZE,AZ,Country/Area,2024,  10 305
+Bahrain,48,BHR,BH,Country/Area,2024,  1 588
+Cyprus,196,CYP,CY,Country/Area,2024,  1 352
+Georgia,268,GEO,GE,Country/Area,2024,  3 808
+Iraq,368,IRQ,IQ,Country/Area,2024,  45 558
+Israel,376,ISR,IL,Country/Area,2024,  9 322
+Jordan,400,JOR,JO,Country/Area,2024,  11 531
+Kuwait,414,KWT,KW,Country/Area,2024,  4 884
+Lebanon,422,LBN,LB,Country/Area,2024,  5 786
+Oman,512,OMN,OM,Country/Area,2024,  5 165
+Qatar,634,QAT,QA,Country/Area,2024,  3 012
+Saudi Arabia,682,SAU,SA,Country/Area,2024,  33 661
+State of Palestine,275,PSE,PS,Country/Area,2024,  5 450
+Syrian Arab Republic,760,SYR,SY,Country/Area,2024,  24 175
+Türkiye,792,TUR,TR,Country/Area,2024,  87 372
+United Arab Emirates,784,ARE,AE,Country/Area,2024,  10 839
+Yemen,887,YEM,YE,Country/Area,2024,  39 987
+Europe,908,,,Region,2024,  745 380
+Eastern Europe,923,,,Subregion,2024,  285 345
+Belarus,112,BLR,BY,Country/Area,2024,  9 086
+Bulgaria,100,BGR,BG,Country/Area,2024,  6 778
+Czechia,203,CZE,CZ,Country/Area,2024,  10 792
+Hungary,348,HUN,HU,Country/Area,2024,  9 690
+Poland,616,POL,PL,Country/Area,2024,  38 712
+Republic of Moldova,498,MDA,MD,Country/Area,2024,  3 053
+Romania,642,ROU,RO,Country/Area,2024,  19 068
+Russian Federation,643,RUS,RU,Country/Area,2024,  145 206
+Slovakia,703,SVK,SK,Country/Area,2024,  5 520
+Ukraine,804,UKR,UA,Country/Area,2024,  37 441
+Northern Europe,924,,,Subregion,2024,  108 669
+Denmark,208,DNK,DK,Country/Area,2024,  5 964
+Estonia,233,EST,EE,Country/Area,2024,  1 367
+Faroe Islands,234,FRO,FO,Country/Area,2024,   55
+Finland,246,FIN,FI,Country/Area,2024,  5 612
+Guernsey,831,GGY,GG,Country/Area,2024,   64
+Iceland,352,ISL,IS,Country/Area,2024,   391
+Ireland,372,IRL,IE,Country/Area,2024,  5 227
+Isle of Man,833,IMN,IM,Country/Area,2024,   84
+Jersey,832,JEY,JE,Country/Area,2024,   104
+Latvia,428,LVA,LV,Country/Area,2024,  1 880
+Lithuania,440,LTU,LT,Country/Area,2024,  2 867
+Norway,578,NOR,NO,Country/Area,2024,  5 550
+Sweden,752,SWE,SE,Country/Area,2024,  10 581
+United Kingdom,826,GBR,GB,Country/Area,2024,  68 923
+Southern Europe,925,,,Subregion,2024,  151 511
+Albania,8,ALB,AL,Country/Area,2024,  2 802
+Andorra,20,AND,AD,Country/Area,2024,   81
+Bosnia and Herzegovina,70,BIH,BA,Country/Area,2024,  3 176
+Croatia,191,HRV,HR,Country/Area,2024,  3 889
+Gibraltar,292,GIB,GI,Country/Area,2024,   39
+Greece,300,GRC,GR,Country/Area,2024,  10 137
+Holy See,336,VAT,VA,Country/Area,2024,   0
+Italy,380,ITA,IT,Country/Area,2024,  59 435
+Kosovo (under UNSC res. 1244),412,XKX,XK,Country/Area,2024,  1 691
+Malta,470,MLT,MT,Country/Area,2024,   536
+Montenegro,499,MNE,ME,Country/Area,2024,   639
+North Macedonia,807,MKD,MK,Country/Area,2024,  1 828
+Portugal,620,PRT,PT,Country/Area,2024,  10 431
+San Marino,674,SMR,SM,Country/Area,2024,   34
+Serbia,688,SRB,RS,Country/Area,2024,  6 758
+Slovenia,705,SVN,SI,Country/Area,2024,  2 119
+Spain,724,ESP,ES,Country/Area,2024,  47 916
+Western Europe,926,,,Subregion,2024,  199 855
+Austria,40,AUT,AT,Country/Area,2024,  9 125
+Belgium,56,BEL,BE,Country/Area,2024,  11 728
+France,250,FRA,FR,Country/Area,2024,  66 496
+Germany,276,DEU,DE,Country/Area,2024,  84 696
+Liechtenstein,438,LIE,LI,Country/Area,2024,   40
+Luxembourg,442,LUX,LU,Country/Area,2024,   669
+Monaco,492,MCO,MC,Country/Area,2024,   39
+Netherlands,528,NLD,NL,Country/Area,2024,  18 166
+Switzerland,756,CHE,CH,Country/Area,2024,  8 898
+Latin America and the Caribbean,904,,,Region,2024,  661 207
+Caribbean,915,,,Subregion,2024,  44 351
+Anguilla,660,AIA,AI,Country/Area,2024,   15
+Antigua and Barbuda,28,ATG,AG,Country/Area,2024,   94
+Aruba,533,ABW,AW,Country/Area,2024,   108
+Bahamas,44,BHS,BS,Country/Area,2024,   400
+Barbados,52,BRB,BB,Country/Area,2024,   282
+"Bonaire, Sint Eustatius and Saba",535,BES,BQ,Country/Area,2024,   30
+British Virgin Islands,92,VGB,VG,Country/Area,2024,   39
+Cayman Islands,136,CYM,KY,Country/Area,2024,   74
+Cuba,192,CUB,CU,Country/Area,2024,  11 001
+Curaçao,531,CUW,CW,Country/Area,2024,   185
+Dominica,212,DMA,DM,Country/Area,2024,   66
+Dominican Republic,214,DOM,DO,Country/Area,2024,  11 380
+Grenada,308,GRD,GD,Country/Area,2024,   117
+Guadeloupe,312,GLP,GP,Country/Area,2024,   376
+Haiti,332,HTI,HT,Country/Area,2024,  11 705
+Jamaica,388,JAM,JM,Country/Area,2024,  2 840
+Martinique,474,MTQ,MQ,Country/Area,2024,   345
+Montserrat,500,MSR,MS,Country/Area,2024,   4
+Puerto Rico,630,PRI,PR,Country/Area,2024,  3 244
+Saint Barthélemy,652,BLM,BL,Country/Area,2024,   11
+Saint Kitts and Nevis,659,KNA,KN,Country/Area,2024,   47
+Saint Lucia,662,LCA,LC,Country/Area,2024,   180
+Saint Martin (French part),663,MAF,MF,Country/Area,2024,   27
+Saint Vincent and the Grenadines,670,VCT,VC,Country/Area,2024,   101
+Sint Maarten (Dutch part),534,SXM,SX,Country/Area,2024,   43
+Trinidad and Tobago,780,TTO,TT,Country/Area,2024,  1 506
+Turks and Caicos Islands,796,TCA,TC,Country/Area,2024,   46
+United States Virgin Islands,850,VIR,VI,Country/Area,2024,   85
+Central America,916,,,Subregion,2024,  182 523
+Belize,84,BLZ,BZ,Country/Area,2024,   414
+Costa Rica,188,CRI,CR,Country/Area,2024,  5 118
+El Salvador,222,SLV,SV,Country/Area,2024,  6 324
+Guatemala,320,GTM,GT,Country/Area,2024,  18 265
+Honduras,340,HND,HN,Country/Area,2024,  10 735
+Mexico,484,MEX,MX,Country/Area,2024,  130 308
+Nicaragua,558,NIC,NI,Country/Area,2024,  6 870
+Panama,591,PAN,PA,Country/Area,2024,  4 487
+South America,931,,,Subregion,2024,  434 333
+Argentina,32,ARG,AR,Country/Area,2024,  45 618
+Bolivia (Plurinational State of),68,BOL,BO,Country/Area,2024,  12 329
+Brazil,76,BRA,BR,Country/Area,2024,  211 574
+Chile,152,CHL,CL,Country/Area,2024,  19 714
+Colombia,170,COL,CO,Country/Area,2024,  52 610
+Ecuador,218,ECU,EC,Country/Area,2024,  18 058
+Falkland Islands (Malvinas),238,FLK,FK,Country/Area,2024,   3
+French Guiana,254,GUF,GF,Country/Area,2024,   306
+Guyana,328,GUY,GY,Country/Area,2024,   829
+Paraguay,600,PRY,PY,Country/Area,2024,  6 887
+Peru,604,PER,PE,Country/Area,2024,  34 035
+Suriname,740,SUR,SR,Country/Area,2024,   632
+Uruguay,858,URY,UY,Country/Area,2024,  3 387
+Venezuela (Bolivarian Republic of),862,VEN,VE,Country/Area,2024,  28 351
+Northern America,905,,,Region,2024,  384 144
+Bermuda,60,BMU,BM,Country/Area,2024,   65
+Canada,124,CAN,CA,Country/Area,2024,  39 538
+Greenland,304,GRL,GL,Country/Area,2024,   56
+Saint Pierre and Miquelon,666,SPM,PM,Country/Area,2024,   6
+United States of America,840,USA,US,Country/Area,2024,  344 480
+Oceania,909,,,Region,2024,  45 826
+Australia/New Zealand,927,,,Subregion,2024,  31 776
+Australia,36,AUS,AU,Country/Area,2024,  26 581
+New Zealand,554,NZL,NZ,Country/Area,2024,  5 194
+Melanesia,928,,,Subregion,2024,  12 834
+Fiji,242,FJI,FJ,Country/Area,2024,   927
+New Caledonia,540,NCL,NC,Country/Area,2024,   291
+Papua New Guinea,598,PNG,PG,Country/Area,2024,  10 483
+Solomon Islands,90,SLB,SB,Country/Area,2024,   810
+Vanuatu,548,VUT,VU,Country/Area,2024,   324
+Micronesia,954,,,Subregion,2024,   526
+Guam,316,GUM,GU,Country/Area,2024,   167
+Kiribati,296,KIR,KI,Country/Area,2024,   134
+Marshall Islands,584,MHL,MH,Country/Area,2024,   38
+Micronesia (Fed. States of),583,FSM,FM,Country/Area,2024,   113
+Nauru,520,NRU,NR,Country/Area,2024,   12
+Northern Mariana Islands,580,MNP,MP,Country/Area,2024,   45
+Palau,585,PLW,PW,Country/Area,2024,   18
+Polynesia,957,,,Subregion,2024,   690
+American Samoa,16,ASM,AS,Country/Area,2024,   47
+Cook Islands,184,COK,CK,Country/Area,2024,   14
+French Polynesia,258,PYF,PF,Country/Area,2024,   281
+Niue,570,NIU,NU,Country/Area,2024,   2
+Samoa,882,WSM,WS,Country/Area,2024,   217
+Tokelau,772,TKL,TK,Country/Area,2024,   2
+Tonga,776,TON,TO,Country/Area,2024,   104
+Tuvalu,798,TUV,TV,Country/Area,2024,   10
+Wallis and Futuna Islands,876,WLF,WF,Country/Area,2024,   11
