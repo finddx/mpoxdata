@@ -1,17 +1,36 @@
-col_type,variable,description,description_short
-other,unit,Unit,Unit
-other,name,Name,Name
-other,group,Group,Group
-default,sum_all_new_confirmed_cases,Daily number of confirmed cases reported from source,Daily confirmed cases
-default,sum_all_new_suspected_cases,Daily number of suspected cases reported from source,Daily suspected cases
-other,all_cum_confirmed_cases,Cumulative number of confirmed cases reported from source,Cumulative confirmed cases
-other,all_cum_suspected_cases,Cumulative number of suspected cases reported from source,Cumulative suspected cases
-other,gh_smooth_new_confirmed_cases_calc,Smooth daily number of confirmed cases reported from source,Smooth daily confirmed cases
-other,gh_smooth_new_suspected_cases_calc,Smooth daily number of suspected cases reported from source,Smooth daily suspected cases
-other,gh_smooth_cum_confirmed_cases_calc,Smooth cumulative number of confirmed cases reported from source,Smooth cumulative confirmed cases
-other,gh_smooth_cum_suspected_cases_calc,Smooth cumulative number of suspected cases reported from source,Smooth cumulative suspected cases
-other,dxgap_gh_calc,DX gap,DX gap
-other,country,UN country,UN country
-other,continent,UN region,UN region
-other,who_region,WHO Region,WHO Region
-other,income,Income Group,Income Group
+col_type,variable,description,description_short,single_day,summarize_over_time,summarize_over_group,
+other,unit,Unit,Unit,,,,
+other,name,Name,Name,,,,
+other,group,Group,Group,,,,
+other,continent,Continent,Continent,,,,
+other,who_region,WHO Region,WHO Region,,,,
+other,income,Income Group,Income Group,,,,
+other,pop,Population in 1000,Population in 1000 people,as it is,"mean(pop), discarding incomplete periods",sum(pop),
+other,pop_100k,Population in 100'000,Population in 100k people,as it is,"mean(pop100k), discarding incomplete periods",sum(pop100k),
+other,new_confirmed_cases,Daily number of confirmed cases reported from source,Daily reported confirmed cases,as it is,,,
+other,new_suspected_cases,Daily number of suspected cases reported from source,Daily reported suspected cases,as it is,,,
+other,all_new_confirmed_cases,Daily number of suspected cases (7 day rolling average),Daily confirmed cases,smoothed (7 day rolling average,"mean(all_new_confirmed_cases), discarding incomplete periods",mean(all_new_confirmed_cases),
+other,all_new_suspected_cases,Daily number of confirmed cases (7 day rolling average),Daily suspected cases,smoothed (7 day rolling average,"mean(all_new_suspected_cases), discarding incomplete periods",mean(all_new_suspected_cases),
+other,sum_all_new_confirmed_cases,Sum of daily number of confirmed cases,Sum daily confirmed cases,,"sum(all_new_confirmed_cases), discarding incomplete periods",sum(sum_all_new_confirmed_cases),
+other,sum_all_new_suspected_cases,Sum of daily number of suspected cases,Sum daily suspected cases,,"sum(all_new_suspected_cases), discarding incomplete periods",sum(sum_all_new_suspected_cases),
+default,cap_new_confirmed_cases,Daily number of confirmed cases per 1000 people (7 day rolling average),Confirmed cases/1000 people,all_new_confirmed_cases/pop,"mean(all_new_confirmed_cases/pop), discarding incomplete periods","sum(all_new_confirmed_cases)/sum(pop), both values only",
+other,sum_cap_new_confirmed_cases,Sum of daily number of confirmed cases per 1000 people,Sum confirmed cases/1000 people,,"sum(all_new_confirmed_cases/pop), discarding incomplete periods","sum(sum_all_new_confirmed_cases)/sum(pop), both values only",
+default,cap_new_suspected_cases,Daily number of suspected cases per 1000 people (7 day rolling average),Suspected cases/1000 people,all_new_suspected_cases/pop,"mean(all_new_suspected_cases/pop), discarding incomplete periods","sum(all_new_suspected_cases)/sum(pop), both values only",
+other,sum_cap_new_suspected_cases,Sum of daily number of suspected cases per 1000 people,Sum suspected cases/1000 people,,"sum(all_new_suspected_cases/pop), discarding incomplete periods","sum(sum_all_new_suspected_cases)/sum(pop), both values only",
+other,cap100k_new_confirmed_cases,Daily number of confirmed cases per 100K people (7 day rolling average),Confirmed cases/100K people,all_new_confirmed_cases/pop_100k,"mean(all_new_confirmed_cases/pop_100k), discarding incomplete periods","sum(all_new_confirmed_cases)/sum(pop_100k), both values only",
+other,sum_cap100k_new_confirmed_case,Sum of daily number of confirmed cases per 1000K people,Sum confirmed cases/1000K people,,"sum(all_new_confirmed_cases/pop_100K), discarding incomplete periods","sum(sum_all_new_confirmed_cases)/sum(pop_100K), both values only",
+other,cap100k_new_suspected_cases,Daily number of suspected cases per 100K people (7 day rolling average),Suspected cases/100K people,all_new_suspected_cases/pop_100k,"mean(all_new_suspected_cases/pop_100k), discarding incomplete periods","sum(all_new_suspected_cases)/sum(pop_100k), both values only",
+other,sum_cap100k_new_suspected_cases,Sum of daily number of suspected cases per 1000K people,Sum suspected cases/1000K people,,"sum(all_new_suspected_cases/pop_100K), discarding incomplete periods","sum(sum_all_new_suspected_cases)/sum(pop_100K), both values only",
+other,cum_confirmed_cases,Cumulative number of confirmed cases reported from source,Cumulative confirmed cases,as it is,,,
+other,cum_suspected_cases,Cumulative number of suspected cases reported from source,Cumulative suspected cases,as it is,,,
+other,all_cum_confirmed_cases,Cumulative number of confirmed cases,Cumulative confirmed cases,smoothed (7 day rolling average),last observation(all_cum_confirmed_cases),sum(all_cum_confirmed_cases),
+other,all_cum_suspected_cases,Cumulative number of suspected cases,Cumulative suspected cases,smoothed (7 day rolling average),last observation(all_cum_suspected_cases),sum(all_cum_suspected_cases),
+other,cap_cum_confirmed_cases,Cumulative number of confirmed cases per 1000 people,Cumulative confirmed cases/1000 people,all_cum_confirmed_cases/pop,last observation(all_cum_confirmed_cases/pop,"sum(all_cum_confirmed_cases)/sum(pop), both values only",
+other,cap_cum_suspected_cases,Cumulative number of suspected cases per 1000 people,Cumulative suspected cases/1000 people,all_cum_suspected_cases/pop,last observation(all_cum_suspected_cases/pop,"sum(all_cum_suspected_cases)/sum(pop), both values only",
+other,cap100k_cum_confirmed_cases,Cumulative number of confirmed cases per 100K people,Cumulative confirmed cases/100K people,all_cum_confirmed_cases/pop_100k,last observation(all_cum_confirmed_cases/pop_100k),"sum(all_cum_confirmed_cases)/sum(pop100k), both values only",
+other,cap100k_cum_suspected_cases,Cumulative number of suspected cases per 100K people,Cumulativesuspected cases/100K people,all_cum_suspected_cases/pop_100k,last observation(all_cum_suspected_cases/pop_100k),"sum(all_cum_suspected_cases)/sum(pop100k), both values only",
+other,gh_smooth_new_confirmed_cases_calc,,,,,,
+other,gh_smooth_new_suspected_cases_calc,,,,,,
+other,gh_smooth_cum_confirmed_cases_calc,,,,,,
+other,gh_smooth_cum_suspected_cases_calc,,,,,,
+other,dxgap,DX gap,DX gap,,,,
