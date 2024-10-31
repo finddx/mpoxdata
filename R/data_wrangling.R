@@ -41,12 +41,12 @@ gh_data <- gh_data %>%
     new_suspected_cases_calc = ifelse(new_suspected_cases_calc==0, NA, new_suspected_cases_calc)
   ) %>% 
   mutate(
-    smooth_new_confirmed_cases_calc = smooth_new_tests(new_confirmed_cases_calc, cum_confirmed_cases_calc),
-    smooth_new_confirmed_cases_calc = ifelse(is.na(smooth_new_confirmed_cases_calc), 0, smooth_new_confirmed_cases_calc),
-    smooth_cum_confirmed_cases_calc = cumsum(smooth_new_confirmed_cases_calc),
-    smooth_new_suspected_cases_calc = smooth_new_tests(new_suspected_cases_calc, cum_suspected_cases_calc),
-    smooth_new_suspected_cases_calc = ifelse(is.na(smooth_new_suspected_cases_calc), 0, smooth_new_suspected_cases_calc),
-    smooth_cum_suspected_cases_calc = cumsum(smooth_new_suspected_cases_calc)
+    all_new_confirmed_cases = smooth_new_tests(new_confirmed_cases_calc, cum_confirmed_cases_calc),
+    all_new_confirmed_cases = ifelse(is.na(all_new_confirmed_cases), 0, all_new_confirmed_cases),
+    all_cum_confirmed_cases = cumsum(all_new_confirmed_cases),
+    all_new_suspected_cases = smooth_new_tests(new_suspected_cases_calc, cum_suspected_cases_calc),
+    all_new_suspected_cases = ifelse(is.na(all_new_suspected_cases ), 0, all_new_suspected_cases ),
+    all_cum_suspected_cases = cumsum(all_new_suspected_cases )
   ) %>% 
   mutate(
     new_confirmed_cases_calc = replace_na(new_confirmed_cases_calc, 0),
@@ -129,19 +129,18 @@ owd_data <- owd_data %>%
     new_suspected_cases_calc = ifelse(new_suspected_cases_calc==0, NA, new_suspected_cases_calc)
   ) %>% 
   mutate(
-    smooth_new_confirmed_cases_calc = smooth_new_tests(new_confirmed_cases_calc, cum_confirmed_cases_calc),
-    smooth_new_confirmed_cases_calc = ifelse(is.na(smooth_new_confirmed_cases_calc), 0, smooth_new_confirmed_cases_calc),
-    smooth_cum_confirmed_cases_calc = cumsum(smooth_new_confirmed_cases_calc),
-    smooth_new_suspected_cases_calc = smooth_new_tests(new_suspected_cases_calc, cum_suspected_cases_calc),
-    smooth_new_suspected_cases_calc = ifelse(is.na(smooth_new_suspected_cases_calc), 0, smooth_new_suspected_cases_calc),
-    smooth_cum_suspected_cases_calc = cumsum(smooth_new_suspected_cases_calc)
+    all_new_confirmed_cases = smooth_new_tests(new_confirmed_cases_calc, cum_confirmed_cases_calc),
+    all_new_confirmed_cases = ifelse(is.na(all_new_confirmed_cases), 0, all_new_confirmed_cases),
+    all_cum_confirmed_cases = cumsum(all_new_confirmed_cases),
+    all_new_suspected_cases = smooth_new_tests(new_suspected_cases_calc, cum_suspected_cases_calc),
+    all_new_suspected_cases = ifelse(is.na(all_new_suspected_cases), 0, all_new_suspected_cases),
+    all_cum_suspected_cases = cumsum(all_new_suspected_cases)
   ) %>% 
   mutate(
     new_confirmed_cases_calc = replace_na(new_confirmed_cases_calc, 0),
     new_suspected_cases_calc = replace_na(new_suspected_cases_calc, 0)
   ) 
-# %>%
-#   select(-c(total_cases_plhd, total_cases, total_suspected_cases, iso_code))
+
 
 # owd_data <- owd_data %>%
 #   mutate(year = year(date)) %>%
@@ -154,8 +153,8 @@ owd_data <- owd_data %>%
 
 
 ###Africa CDC PDFs###
-acdc_pdf_data <- read.csv("data/Output/mpox_data_ACDC_reports.csv")
-write.csv(gh_data, paste("data/raw/acdc_pdf_data_", today, ".csv"), row.names=FALSE)
+acdc_pdf_data <- read.csv("data/output/mpox_data_ACDC_reports.csv")
+write.csv(gh_data, paste("data/raw/acdcpdf_data_", today, ".csv"), row.names=FALSE)
 
 acdc_pdf_data  <- acdc_pdf_data  %>% 
   select(Country, Date.of.Issue, Confirmed, Confirmed_New, Suspected, Suspected_New) %>% 
@@ -242,45 +241,52 @@ acdc_pdf_data <- acdc_pdf_data %>%
     new_suspected_cases_calc = ifelse(new_suspected_cases_calc==0, NA, new_suspected_cases_calc)
   ) %>% 
   mutate(
-    smooth_new_confirmed_cases_calc = smooth_new_tests(new_confirmed_cases_calc, cum_confirmed_cases_calc),
-    smooth_new_confirmed_cases_calc = ifelse(is.na(smooth_new_confirmed_cases_calc), 0, smooth_new_confirmed_cases_calc),
-    smooth_cum_confirmed_cases_calc = cumsum(smooth_new_confirmed_cases_calc),
-    smooth_new_suspected_cases_calc = smooth_new_tests(new_suspected_cases_calc, cum_suspected_cases_calc),
-    smooth_new_suspected_cases_calc = ifelse(is.na(smooth_new_suspected_cases_calc), 0, smooth_new_suspected_cases_calc),
-    smooth_cum_suspected_cases_calc = cumsum(smooth_new_suspected_cases_calc)
+    all_new_confirmed_cases = smooth_new_tests(new_confirmed_cases_calc, cum_confirmed_cases_calc),
+    all_new_confirmed_cases = ifelse(is.na(all_new_confirmed_cases), 0, all_new_confirmed_cases),
+    all_cum_confirmed_cases = cumsum(all_new_confirmed_cases),
+    all_new_suspected_cases = smooth_new_tests(new_suspected_cases_calc, cum_suspected_cases_calc),
+    all_new_suspected_cases = ifelse(is.na(all_new_suspected_cases), 0, all_new_suspected_cases),
+    all_cum_suspected_cases = cumsum(all_new_suspected_cases)
   ) %>% 
   mutate(
     new_confirmed_cases_calc = replace_na(new_confirmed_cases_calc, 0),
     new_suspected_cases_calc = replace_na(new_suspected_cases_calc, 0)
   )
 
-
-
 ###Africa CDC data###
-acdc_data <- read.csv("data/raw/OPDRI_data_16_10_2024.csv")
+acdc_data <- read.csv("data/output/acdc_data.csv")
 # write.csv(gh_data, paste("data/raw/acdc_data_", today, ".csv"), row.names=FALSE)
 
 acdc_data <- acdc_data %>% 
+  mutate(Issue.Date = ifelse(Issue.Date=="", NA, Issue.Date)) %>%
+  fill(Issue.Date, .direction = "down") %>% 
   pivot_longer(cols = -c(Issue.Date, X),
                names_to = "date",
                values_to = "value") %>% 
-  filter(X=="Cumulative Cases" | X=="Cumulative Confirmed Cases" | X== "Cumulative Suspected Cases" | X=="New Cases" | X=="New Confirmed Cases" | X=="Testing Rate (%)" | X=="Positivity Rate (%)") %>% 
+  filter(X=="Cumulative Cases" | X=="Cumulative Confirmed Cases" | X== "Cumulative Suspected Cases" | X=="New Cases" | X=="New Confirmed Cases" | X=="Calculated Testing Rate" | X=="Calculated Positivity Rate (%)") %>% 
+  mutate(date = gsub("X", "", date),
+         date = gsub("(\\.23\\.|\\.24\\.).*$", "\\1", date),
+         date = sub("\\.$", "", date)) %>% 
+  mutate(value = trimws(gsub("\\(.*?\\)", "", value))) %>%
+  mutate(value = ifelse(value=="N/A", NA, value)) %>% 
+  mutate(across(everything(), ~ na_if(., "")),
+         across(everything(), ~ if_else(str_detect(., "No info"), NA, .))) %>% 
+  #THERE ARE STILL SOME DISTINCT VALUEs, BUT DUPLICATES IN OTHER COLS, TO CLARIFY WITH CONSULTANT
+  distinct(Issue.Date, date, X, .keep_all = TRUE) %>%   
   pivot_wider(names_from = X,
               values_from = value) 
 
 acdc_data <- acdc_data %>% 
-  mutate(`Cumulative Cases` = ifelse(is.na(`Cumulative Cases`), `Cumulative Suspected Cases`, `Cumulative Cases`)) %>% 
+  # mutate(`Cumulative Cases` = ifelse(is.na(`Cumulative Cases`), `Cumulative Suspected Cases`, `Cumulative Cases`)) %>% 
   rename(location = Issue.Date,
          cum_confirmed_cases_orig = "Cumulative Confirmed Cases",
          cum_suspected_cases_orig = "Cumulative Cases",
          new_suspected_cases_orig = "New Cases",
          new_confirmed_cases_orig = "New Confirmed Cases",
-         testing_rate_orig = "Testing Rate (%)",
-         positivity_rate_orig = "Positivity Rate (%)"
+         testing_rate_orig = "Calculated Testing Rate",#Not sure if need to use calculated or reported
+         positivity_rate_orig = "Calculated Positivity Rate (%)"#Not sure if need to use calculated or reported
   ) %>% 
-  mutate(across(everything(), ~ na_if(., "")),
-         across(everything(), ~ if_else(str_detect(., "No info"), NA, .))) %>% 
-  mutate(date = gsub("X", "", date),
+  mutate(
          date = gsub("\\.", "-", date),
          date = format(as.Date(date, format = "%d-%b-%y"), "%Y-%m-%d")) %>% 
   select(location, date, new_confirmed_cases_orig, new_suspected_cases_orig, cum_confirmed_cases_orig, cum_suspected_cases_orig, testing_rate_orig, positivity_rate_orig) %>% 
@@ -311,7 +317,6 @@ acdc_data_new_suspected <- acdc_data %>%
   mutate(date = as.Date(date)) %>% 
   select(location, date, new_suspected_cases_calc) %>% 
   filter(date >= as.Date("2024-01-01"))
-
 
 acdc_data_min_date <- acdc_data %>% 
   filter(!is.na(cum_confirmed_cases_orig)) %>% 
@@ -363,74 +368,17 @@ acdc_data <- acdc_data %>%
     new_suspected_cases_calc = ifelse(new_suspected_cases_calc==0, NA, new_suspected_cases_calc)
   ) %>% 
   mutate(
-    smooth_new_confirmed_cases_calc = smooth_new_tests(new_confirmed_cases_calc, cum_confirmed_cases_calc),
-    smooth_new_confirmed_cases_calc = ifelse(is.na(smooth_new_confirmed_cases_calc), 0, smooth_new_confirmed_cases_calc),
-    smooth_cum_confirmed_cases_calc = cumsum(smooth_new_confirmed_cases_calc),
-    smooth_new_suspected_cases_calc = smooth_new_tests(new_suspected_cases_calc, cum_suspected_cases_calc),
-    smooth_new_suspected_cases_calc = ifelse(is.na(smooth_new_suspected_cases_calc), 0, smooth_new_suspected_cases_calc),
-    smooth_cum_suspected_cases_calc = cumsum(smooth_new_suspected_cases_calc)
+    all_new_confirmed_cases = smooth_new_tests(new_confirmed_cases_calc, cum_confirmed_cases_calc),
+    all_new_confirmed_cases = ifelse(is.na(all_new_confirmed_cases), 0, all_new_confirmed_cases),
+    all_cum_confirmed_cases = cumsum(all_new_confirmed_cases),
+    all_new_suspected_cases = smooth_new_tests(new_suspected_cases_calc, cum_suspected_cases_calc),
+    all_new_suspected_cases = ifelse(is.na(all_new_suspected_cases), 0, all_new_suspected_cases),
+    all_cum_suspected_cases = cumsum(all_new_suspected_cases)
   ) %>% 
   mutate(
     new_confirmed_cases_calc = replace_na(new_confirmed_cases_calc, 0),
     new_suspected_cases_calc = replace_na(new_suspected_cases_calc, 0)
   )
-  
-  # #Get the min date with data
-  # acdc_data_min_date <- acdc_data %>% 
-  #   group_by(location) %>%
-  #   arrange(location, date) %>%  
-  #   filter(date == min(date)) %>%
-  #   mutate(date = as.Date(date)) %>% 
-  #   select(location, date, cum_confirmed_cases_orig) %>% 
-#   rename(cum_confirmed_cases_orig_plhd = cum_confirmed_cases_orig)
-# 
-# acdc_data_min_date_suspected <- acdc_data %>% 
-#   filter(!is.na(cum_suspected_cases_orig)) %>% 
-#   group_by(location) %>%
-#   arrange(location, date) %>%  
-#   filter(date == min(date)) %>%
-#   select(location, date, cum_suspected_cases_orig) %>% 
-#   rename(cum_suspected_cases_orig_plhd = cum_suspected_cases_orig)
-
-# acdc_data <- acdc_data %>% 
-#   mutate(date = as.Date(date)) %>% 
-#   group_by(location) %>%
-#   complete(date = seq.Date(as.Date("2024-01-01"), Sys.Date(), by = "day")) %>%
-#   fill(location) %>% 
-#   left_join(acdc_data_min_date, by=join_by(location, date)) %>% 
-#   mutate(new_confirmed_cases_calc = ifelse(!is.na(cum_confirmed_cases_orig_plhd), cum_confirmed_cases_orig_plhd, new_confirmed_cases_orig)) %>% 
-#   left_join(acdc_data_min_date_suspected, by=join_by(location, date)) %>% 
-#   mutate(new_suspected_cases_calc = ifelse(!is.na(cum_suspected_cases_orig_plhd), cum_suspected_cases_orig_plhd, new_suspected_cases_orig)) %>% 
-#   group_by(location) %>%
-#   arrange(location, date) %>% 
-#   fill(cum_confirmed_cases_orig, .direction = "down") %>% 
-#   fill(cum_suspected_cases_orig, .direction = "down") %>% 
-  # mutate(
-  #   new_confirmed_cases_calc = as.numeric(new_confirmed_cases_calc),
-  #   new_suspected_cases_calc = as.numeric(new_suspected_cases_calc)
-  # ) %>%
-  # mutate(
-  #   new_confirmed_cases_calc = replace_na(new_confirmed_cases_calc, 0),
-  #   cum_confirmed_cases_calc = cumsum(new_confirmed_cases_calc),
-  #   new_suspected_cases_calc = replace_na(new_suspected_cases_calc, 0),
-  #   cum_suspected_cases_calc = cumsum(new_suspected_cases_calc)
-  # ) %>% 
-  # mutate(
-  #   new_confirmed_cases_calc = ifelse(new_confirmed_cases_calc==0, NA, new_confirmed_cases_calc),
-  #   new_suspected_cases_calc = ifelse(new_suspected_cases_calc==0, NA, new_suspected_cases_calc)
-  # ) %>% 
-  # mutate(
-  #   smooth_new_confirmed_cases_calc = smooth_new_tests(new_confirmed_cases_calc, cum_confirmed_cases_calc),
-  #   smooth_new_confirmed_cases_calc = ifelse(is.na(smooth_new_confirmed_cases_calc), 0, smooth_new_confirmed_cases_calc),
-  #   smooth_cum_confirmed_cases_calc = cumsum(smooth_new_confirmed_cases_calc),
-  #   smooth_new_suspected_cases_calc = smooth_new_tests(new_suspected_cases_calc, cum_suspected_cases_calc),
-  #   smooth_new_suspected_cases_calc = ifelse(is.na(smooth_new_suspected_cases_calc), 0, smooth_new_suspected_cases_calc),
-  #   smooth_cum_suspected_cases_calc = cumsum(smooth_new_suspected_cases_calc)
-  # ) %>% 
-  # mutate(
-  #   new_confirmed_cases_calc = replace_na(new_confirmed_cases_calc, 0),
-  #   new_suspected_cases_calc = replace_na(new_suspected_cases_calc, 0)
-  #   )
 
 ###WHO World data###
 who_data <- read.csv("data/raw/world_data_08_2024.csv")
@@ -469,12 +417,12 @@ who_data <- who_data %>%
     new_suspected_cases_calc = ifelse(new_suspected_cases_calc==0, NA, new_suspected_cases_calc)
   ) %>%
   mutate(
-    smooth_new_confirmed_cases_calc = smooth_new_tests(new_confirmed_cases_calc, cum_confirmed_cases_calc),
-    smooth_new_confirmed_cases_calc = ifelse(is.na(smooth_new_confirmed_cases_calc), 0, smooth_new_confirmed_cases_calc),
-    smooth_cum_confirmed_cases_calc = cumsum(smooth_new_confirmed_cases_calc),
-    smooth_new_suspected_cases_calc = smooth_new_tests(new_suspected_cases_calc, cum_suspected_cases_calc),
-    smooth_new_suspected_cases_calc = ifelse(is.na(smooth_new_suspected_cases_calc), 0, smooth_new_suspected_cases_calc),
-    smooth_cum_suspected_cases_calc = cumsum(smooth_new_suspected_cases_calc)
+    all_new_confirmed_cases = smooth_new_tests(new_confirmed_cases_calc, cum_confirmed_cases_calc),
+    all_new_confirmed_cases = ifelse(is.na(all_new_confirmed_cases), 0, all_new_confirmed_cases),
+    all_cum_confirmed_cases = cumsum(all_new_confirmed_cases),
+    all_new_suspected_cases = smooth_new_tests(new_suspected_cases_calc, cum_suspected_cases_calc),
+    all_new_suspected_cases = ifelse(is.na(all_new_suspected_cases), 0, all_new_suspected_cases),
+    all_cum_suspected_cases = cumsum(all_new_suspected_cases)
   ) %>%
   mutate(
     new_confirmed_cases_calc = replace_na(new_confirmed_cases_calc, 0),
@@ -587,70 +535,13 @@ data <- data %>%
 data <- data %>% 
   filter(!is.na(unit)) %>% 
   mutate(set="country") %>% 
-  select(-c(iso_code_owd, contains("_plhd"))) 
-
-# load("C:/Users/juan.vallarta/OneDrive - Foundation for Innovative New Diagnostics FIND/Documents/Repositories/mpoxtracker/map/data/geojson.rda")
-# 
-# properties_vector <- sapply(geojson$features, function(feature) feature$properties)
-# properties_vector<- data.frame(unlist(properties_vector))
-# colnames(properties_vector) <- "country"
-# x <- properties_vector %>% 
-#   left_join(data %>% select(country,unit,continent), by="country") %>% 
-#   distinct()
-# x <-x %>% 
-#   filter(is.na(unit))
-# x$country
-# data <- data %>% 
-#   mutate(across(where(is.numeric), ~ replace_na(., 0)))
-# %>% 
-#   relocate(iso3, UN_country, UN_region, UN_subregion, WHO_region, Income.group, latitude, longitude, date,
-#            who_new_confirmed_cases_orig, acdc_new_confirmed_cases_orig, acdc_pdf_new_confirmed_cases_orig,
-#            gh_new_confirmed_cases_orig, owd_new_confirmed_cases_orig,
-#            who_cum_confirmed_cases_orig, acdc_cum_confirmed_cases_orig, acdc_pdf_cum_confirmed_cases_orig,
-#            gh_cum_confirmed_cases_calc, owd_cum_confirmed_cases_orig,
-#            who_new_suspected_cases_orig, acdc_new_suspected_cases_orig, acdc_pdf_new_suspected_cases_orig,
-#            gh_new_suspected_cases_orig, owd_new_suspected_cases_calc,
-#            who_cum_suspected_cases_orig, acdc_cum_suspected_cases_orig, acdc_pdf_cum_suspected_cases_orig,
-#            gh_cum_suspected_cases_calc, owd_cum_suspected_cases_orig,
-#            acdc_testing_rate_orig, acdc_positivity_rate_orig)
-
-  
-# "cum_confirmed_cases_orig_who","cum_suspected_cases_orig_who", "new_confirmed_cases_orig_who", "new_suspected_cases_orig_who"
-# 
-# "new_confirmed_cases_calc_who", "cum_confirmed_cases_calc_who", "new_suspected_cases_calc_who","cum_suspected_cases_calc_who"
-# 
-# "smooth_new_confirmed_cases_calc_who", "smooth_cum_confirmed_cases_calc_who", "smooth_new_suspected_cases_calc_who", "smooth_cum_suspected_cases_calc_who"
-# 
-# 
-# "new_confirmed_cases_orig_acdc", "new_suspected_cases_orig_acdc", "cum_confirmed_cases_orig_acdc", "cum_suspected_cases_orig_acdc" 
-# 
-# "new_confirmed_cases_calc_acdc", "new_suspected_cases_calc_acdc", "cum_confirmed_cases_calc_acdc", "cum_suspected_cases_calc_acdc"
-# 
-# "smooth_new_confirmed_cases_calc_acdc", "smooth_cum_confirmed_cases_calc_acdc", "smooth_new_suspected_cases_calc_acdc" , "smooth_cum_suspected_cases_calc_acdc" 
-# 
-# "cum_confirmed_cases_orig_acdc_pdf" , "new_confirmed_cases_orig_acdc_pdf", "cum_suspected_cases_orig_acdc_pdf","new_suspected_cases_orig_acdc_pdf"  
-# 
-# "new_confirmed_cases_calc_acdc_pdf",  "new_suspected_cases_calc_acdc_pdf", "cum_confirmed_cases_calc_acdc_pdf" , "cum_suspected_cases_calc_acdc_pdf"
-# 
-# "smooth_new_confirmed_cases_calc_acdc_pdf", "smooth_cum_confirmed_cases_calc_acdc_pdf", "smooth_new_suspected_cases_calc_acdc_pdf", "smooth_cum_suspected_cases_calc_acdc_pdf"             
-# 
-# "discarded_gh"
-# "new_confirmed_cases_orig_gh" ,"new_suspected_cases_orig_gh" ,
-# 
-# "new_confirmed_cases_calc_gh" , "cum_confirmed_cases_calc_gh", "new_suspected_cases_calc_gh", "cum_suspected_cases_calc_gh"     
-# 
-# "smooth_new_confirmed_cases_calc_gh",  "smooth_cum_confirmed_cases_calc_gh", "smooth_new_suspected_cases_calc_gh",      "smooth_cum_suspected_cases_calc_gh"
-# 
-# "cum_confirmed_cases_orig_owd","new_confirmed_cases_orig_owd","cum_suspected_cases_orig_owd" 
-# 
-# "new_confirmed_cases_calc_owd", "new_suspected_cases_calc_owd", "cum_confirmed_cases_calc_owd","cum_suspected_cases_calc_owd"
-# 
-# "smooth_new_confirmed_cases_calc_owd", "smooth_cum_confirmed_cases_calc_owd","smooth_new_suspected_cases_calc_owd","smooth_cum_suspected_cases_calc_owd"                            
+  select(-c(iso_code_owd, WHO_country, UN_subregion, latitude, longitude, contains("_plhd"), contains("_calc_"))) 
 
 
-remove_vars <- c("set","unit", "country", "continent", "UN_subregion", "WHO_country", "who_region", "income", "latitude", "longitude", "testing_rate_orig_acdc", "positivity_rate_orig_acdc", "new_confirmed_cases_orig_acdc", "new_suspected_cases_orig_acdc", "cum_confirmed_cases_orig_acdc", "cum_suspected_cases_orig_acdc")
+remove_vars <- c("set","unit", "country", "continent", "who_region", "income", "testing_rate_orig_acdc", "positivity_rate_orig_acdc",
+                 "new_confirmed_cases_orig_acdc", "new_suspected_cases_orig_acdc", "cum_confirmed_cases_orig_acdc", "cum_suspected_cases_orig_acdc")
 
-
+    
 data_un_region <- summariseSet(dataset=data, group_var="continent", remove_vars=remove_vars, operation=sum)
 data_un_region <- data_un_region %>% 
   mutate(set="continent")
@@ -705,12 +596,13 @@ data <- data %>%
 
   # select(set, unit, time, name, country, continent, who_region, income, gh_new_confirmed_cases_orig, gh_new_suspected_cases_orig, gh_cum_confirmed_cases_calc, gh_cum_suspected_cases_calc, gh_smooth_new_confirmed_cases_calc, gh_smooth_cum_confirmed_cases_calc, gh_smooth_new_suspected_cases_calc, gh_smooth_cum_suspected_cases_calc, dxgap_gh_calc)
 
-data <- data %>% 
-  relocate(set, unit, name, country, continent, who_region, income, pop, pop_100k, time, everything()) %>% 
-  select(-c(WHO_country, UN_subregion, latitude, longitude))
 
 
 
+all_new_confirmed_cases
+all_cum_confirmed_cases
+all_new_suspected_cases 
+all_cum_suspected_cases
 
 # suspected <- 89 #cum
 # confirm <- 6 #cum
@@ -729,5 +621,8 @@ data <- data %>%
 
 #IF date=="2024/01/01" cum = cum - lag()
 
-write_excel_csv(data, "data/output/mpox_data.csv")
+data <- data %>% 
+  relocate(set, name, country, continent, who_region, income, pop, pop_100k, time, everything())
+
+write_excel_csv(data, "data/reported/mpox_data.csv")
 # write.csv(data, "data/output/mpox_data.csv", row.names=FALSE, fileEncoding="UTF-8")
