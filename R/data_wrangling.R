@@ -272,7 +272,7 @@ acdc_data <- acdc_data %>%
   mutate(across(everything(), ~ na_if(., "")),
          across(everything(), ~ if_else(str_detect(., "No info"), NA, .))) %>% 
   #THERE ARE STILL SOME DISTINCT VALUEs, BUT DUPLICATES IN OTHER COLS, TO CLARIFY WITH CONSULTANT
-  distinct(Issue.Date, date, X, .keep_all = TRUE) %>%   
+  distinct(Issue.Date, date, X, .keep_all = TRUE) %>% #value,
   pivot_wider(names_from = X,
               values_from = value) 
 
@@ -537,7 +537,7 @@ data <- data %>%
 data <- data %>% 
   filter(!is.na(unit)) %>% 
   mutate(set="country") %>% 
-  select(-c(iso_code_owd, WHO_country, UN_subregion, latitude, longitude, contains("_plhd"), contains("_calc_"))) 
+  select(-c(iso_code_owd, WHO_country, UN_subregion, latitude, longitude, contains("_plhd"), contains("_calc_"))) #
 
 
 remove_vars <- c("set","unit", "country", "continent", "who_region", "income", "testing_rate_orig_acdc", "positivity_rate_orig_acdc")
@@ -588,8 +588,6 @@ data <- data %>%
 #       .names = "cap_{col}"
 #     ))
 
-# data <- data %>%
-#   mutate(across(c(new_confirmed_cases_calc_who, cum_confirmed_cases_calc_who, new_suspected_cases_calc_who,cum_suspected_cases_calc_who, smooth_new_confirmed_cases_calc_who, smooth_cum_confirmed_cases_calc_who, smooth_new_suspected_cases_calc_who, smooth_cum_suspected_cases_calc_who, new_confirmed_cases_calc_acdc, new_suspected_cases_calc_acdc, cum_confirmed_cases_calc_acdc, cum_suspected_cases_calc_acdc, smooth_new_confirmed_cases_calc_acdc, smooth_cum_confirmed_cases_calc_acdc, smooth_new_suspected_cases_calc_acdc, smooth_cum_suspected_cases_calc_acdc, new_confirmed_cases_calc_acdc_pdf,  new_suspected_cases_calc_acdc_pdf, cum_confirmed_cases_calc_acdc_pdf , cum_suspected_cases_calc_acdc_pdf, smooth_new_confirmed_cases_calc_acdc_pdf, smooth_cum_confirmed_cases_calc_acdc_pdf, smooth_new_suspected_cases_calc_acdc_pdf, smooth_cum_suspected_cases_calc_acdc_pd, new_confirmed_cases_calc_gh , cum_confirmed_cases_calc_gh, new_suspected_cases_calc_gh, cum_suspected_cases_calc_gh, smooth_new_confirmed_cases_calc_gh,  smooth_cum_confirmed_cases_calc_gh, smooth_new_suspected_cases_calc_gh,      smooth_cum_suspected_cases_calc_gh, new_confirmed_cases_calc_owd, new_suspected_cases_calc_owd, cum_confirmed_cases_calc_owd, cum_suspected_cases_calc_owd, smooth_new_confirmed_cases_calc_owd, smooth_cum_confirmed_cases_calc_owd, smooth_new_suspected_cases_calc_owd, smooth_cum_suspected_cases_calc_owd), ~ replace_na(.x, 0)))
 
 #NEED TO REMOVE STRINGS
 # acdc_new_confirmed_cases_orig,acdc_new_suspected_cases_orig,acdc_cum_confirmed_cases_orig,acdc_cum_suspected_cases_orig, 
@@ -612,8 +610,57 @@ data <- data %>%
 
 #IF date=="2024/01/01" cum = cum - lag()
 
+
+# data <- data %>% 
+#   select(-starts_with("all")) %>% 
+#   rename_with(
+#     ~ gsub("^", "all_", gsub("_calc", "", .)),
+#     .cols = contains("_calc")
+#   )
+
 data <- data %>% 
+  mutate(
+         country = ifelse(country=="Congo", "Republic of the Congo", country),
+         # country = gsub("", "French Southern and Antarctic Lands", country),
+         country = ifelse(country=="Bahamas", "The Bahamas", country),
+         country = ifelse(country=="Bolivia (Plurinational State of)", "Bolivia", country),
+         country = ifelse(country=="Brunei Darussalam", "Brunei", country),
+         country = ifelse(country=="Côte d’Ivoire", "Ivory Coast", country),
+         # country = gsub("", "Northern Cyprus", country),
+         country = ifelse(country=="Czechia", "Czech Republic", country),
+         # country = gsub("", "Falkland Islands", country),
+         country = ifelse(country=="United Kingdom of Great Britain and Northern Ireland", "United Kingdom", country),
+         country = ifelse(country=="Guinea-Bissau", "Guinea Bissau", country),
+         # country = gsub("", "French Guiana", country),
+         country = ifelse(country=="Iran (Islamic Republic of)", "Iran", country),
+         country = ifelse(country=="Republic of Korea", "South Korea", country),
+         # country = gsub("", "Kosovo", country),
+         country = ifelse(country=="Lao People's Democratic Republic", "Laos", country),
+         country = ifelse(country=="Republic of Moldova", "Moldova", country),
+         country = ifelse(country=="North Macedonia", "Macedonia", country),
+         country = ifelse(country=="Netherlands (Kingdom of the)", "Netherlands", country),
+         country = ifelse(country=="Democratic People's Republic of Korea", "North Korea", country),
+         country = ifelse(country=="Russian Federation", "Russia", country),
+         # country = gsub("", "Western Sahara", country),
+         # country = gsub("", "Somaliland", country),
+         country = ifelse(country=="Serbia", "Republic of Serbia", country),
+         country = ifelse(country=="Eswatini", "Swaziland", country),
+         country = ifelse(country=="Syrian Arab Republic", "Syria", country),
+         country = ifelse(country=="Timor-Leste", "East Timor", country),
+         country = ifelse(country=="Türkiye", "Turkey", country),
+         # country = gsub("", "Taiwan", country),
+         # country = gsub("", "Venezuela", country),
+         country = ifelse(country=="Viet Nam", "Vietnam", country),
+         country = ifelse(country=="State of Palestine", "West Bank", country)
+  )
+
+         
+data <- data %>% 
+  mutate(across(starts_with("all_"), ~ replace_na(.x, 0))) %>% 
   relocate(set, name, country, continent, who_region, income, pop, pop_100k, time, everything())
 
 write_excel_csv(data, "data/reported/mpox_data.csv")
 # write.csv(data, "data/output/mpox_data.csv", row.names=FALSE, fileEncoding="UTF-8")
+
+
+
