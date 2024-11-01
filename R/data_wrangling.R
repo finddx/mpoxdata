@@ -567,20 +567,6 @@ data <- bind_rows(data, data_un_region, data_who_region, data_income_region)
 #     dxgap_calc_owd = dxGap(cum_suspected_cases_calc_owd, cum_confirmed_cases_calc_owd)
 #     ) %>% 
 #   mutate(across(where(is.numeric), ~ ifelse(. %in% c(-Inf, Inf, NaN), NA, .))) %>% 
-#   relocate(set, everything())
-
-
-data <- data %>%
-  rename(time=date) %>%
-  mutate(name = case_when(
-    set=="country" ~ country,
-    set=="income" ~ income,
-    set=="continent" ~ continent,
-    set=="who_region" ~ who_region
-  )) %>% 
-  mutate(pop_100k = pop / 100000) %>% 
-  mutate(pop = pop / 1000) 
-# %>% 
 #   mutate(
 #     across(
 #       c(new_confirmed_cases_calc_who,  new_confirmed_cases_calc_acdc_pdf, new_confirmed_cases_calc_gh, new_confirmed_cases_calc_owd, cum_confirmed_cases_calc_who, cum_confirmed_cases_calc_acdc_pdf, cum_confirmed_cases_calc_gh, cum_confirmed_cases_calc_owd, new_suspected_cases_calc_who, new_suspected_cases_calc_acdc_pdf, new_suspected_cases_calc_gh, new_suspected_cases_calc_owd,cum_suspected_cases_calc_who, cum_suspected_cases_calc_acdc_pdf, cum_suspected_cases_calc_gh, cum_suspected_cases_calc_owd),
@@ -653,6 +639,17 @@ data <- data %>%
          country = ifelse(country=="Viet Nam", "Vietnam", country),
          country = ifelse(country=="State of Palestine", "West Bank", country)
   )
+
+data <- data %>%
+  rename(time=date) %>%
+  mutate(name = case_when(
+    set=="country" ~ country,
+    set=="income" ~ income,
+    set=="continent" ~ continent,
+    set=="who_region" ~ who_region
+  )) %>% 
+  mutate(pop_100k = pop / 100000) %>% 
+  mutate(pop = pop / 1000) 
 
          
 data <- data %>% 
