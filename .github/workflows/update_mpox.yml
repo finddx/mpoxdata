@@ -44,7 +44,7 @@ jobs:
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
           git pull origin main
-          git add data/output/mpox_data.csv
+          git add data/reported/mpox_data.csv
           git commit -m "update mpox data" || echo "Nothing to update"
       - name: Reset preview branch
         run: |
