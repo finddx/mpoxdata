@@ -402,8 +402,6 @@ who_data <- who_data %>%
   group_by(location) %>%
   complete(date = seq.Date(as.Date("2024-01-01"), Sys.Date(), by = "day")) %>%
   fill(location) %>% 
-  fill(cum_confirmed_cases_orig, .direction = "down") %>% 
-  fill(cum_suspected_cases_orig, .direction = "down") %>% 
   group_by(location) %>%
   arrange(location, date) %>%
   fill(cum_confirmed_cases_orig, .direction = "down") %>%
