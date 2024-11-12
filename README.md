@@ -37,6 +37,13 @@
 
 **all_cum_suspected_cases:** cumulative cases calculated from all_new_suspected_cases
 
+**num_tests_pos_orig:** (Cum confirmed cases / positivity_rate_orig) * 100
+
+**num_tests_pos_calc:** (Cum confirmed cases / positivity_rate_calc) * 100
+
+**num_tests_test_orig:** (testing_rate_orig * Cum suspected cases) / 100
+
+**num_tests_test_calc:** (testing_rate_calc * Cum suspected cases) / 100
 
 ## Global Health CDC
 
