@@ -64,6 +64,7 @@ who_data <- who_data %>%
   complete(date = seq.Date(as.Date("2024-01-01"), Sys.Date(), by = "day")) %>%
   fill(location) %>% 
   left_join(who_data_confirmed, by=join_by(location, date)) %>% 
+  mutate(cum_confirmed_cases_cum = ifelse((is.na(cum_confirmed_cases_cum) & !is.na(cum_confirmed_cases_orig)), cum_confirmed_cases_orig, cum_confirmed_cases_cum)) %>% 
   group_by(location) %>%
   arrange(location, date) %>%
   fill(cum_confirmed_cases_cum, .direction = "down") %>%

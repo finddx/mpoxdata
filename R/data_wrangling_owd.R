@@ -105,6 +105,7 @@ owd_data <- owd_data %>%
   # mutate(new_confirmed_cases_calc = ifelse(!is.na(cum_confirmed_cases_orig_plhd), cum_confirmed_cases_orig_plhd, new_confirmed_cases_orig)) %>% 
   left_join(owd_data_new_suspected, by=join_by(location, date)) %>% 
   left_join(owd_data_confirmed, by=join_by(location, date)) %>% 
+  mutate(cum_confirmed_cases_cum = ifelse((is.na(cum_confirmed_cases_cum) & !is.na(cum_confirmed_cases_orig)), cum_confirmed_cases_orig, cum_confirmed_cases_cum)) %>% 
   group_by(location) %>%
   arrange(location, date) %>% 
   fill(cum_confirmed_cases_cum, .direction = "down") %>%
