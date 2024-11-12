@@ -83,8 +83,8 @@ data <- data %>%
   select(-c(iso_code_owd, WHO_country, UN_subregion, latitude, longitude, contains("_plhd"))) #, contains("_calc_")
 
 #Calculate values by groups
-remove_vars <- c("set","unit", "country", "continent", "who_region", "income", "testing_rate_orig_acdc", "positivity_rate_orig_acdc")
-# "new_confirmed_cases_orig_acdc", "new_suspected_cases_orig_acdc", "cum_confirmed_cases_orig_acdc", "cum_suspected_cases_orig_acdc"
+remove_vars <- c("set","unit", "country", "continent", "who_region", "income", "cum_comparison_who", "cum_comparison_acdc", "cum_comparison_owd")
+# "new_confirmed_cases_orig_acdc", "new_suspected_cases_orig_acdc", "cum_confirmed_cases_orig_acdc", "cum_suspected_cases_orig_acdc" "testing_rate_orig_acdc", "positivity_rate_orig_acdc"
 
 data_un_region <- summariseSet(dataset=data, group_var="continent", remove_vars=remove_vars, operation=sum)
 data_un_region <- data_un_region %>% 
@@ -98,46 +98,43 @@ data_income_region <- data_income_region %>%
 
 data <- bind_rows(data, data_un_region, data_who_region, data_income_region)
 
-# data <- data %>% 
-#   mutate(
-#     dxgap_orig_who = dxGap(cum_suspected_cases_orig_who, cum_confirmed_cases_orig_who),
-#     # dxgap_acdc_orig = dxGap(acdc_cum_suspected_cases_orig, acdc_cum_confirmed_cases_orig),
-#     dxgap_calc_acdc = dxGap(cum_suspected_cases_calc_acdc, cum_confirmed_cases_calc_acdc),
-#     dxgap_orig_acdc_pdf = dxGap(cum_suspected_cases_orig_acdc_pdf, cum_confirmed_cases_orig_acdc_pdf),
-#     dxgap_calc_acdc_pdf = dxGap(cum_suspected_cases_calc_acdc_pdf, cum_confirmed_cases_calc_acdc_pdf),
-#     dxgap_calc_gh = dxGap(cum_suspected_cases_calc_gh, cum_confirmed_cases_calc_gh),
-#     dxgap_orig_owd = dxGap(cum_suspected_cases_orig_owd, cum_confirmed_cases_orig_owd),
-#     dxgap_calc_owd = dxGap(cum_suspected_cases_calc_owd, cum_confirmed_cases_calc_owd)
-#     ) %>% 
-#   mutate(across(where(is.numeric), ~ ifelse(. %in% c(-Inf, Inf, NaN), NA, .))) %>% 
-#   mutate(
-#     across(
-#       c(new_confirmed_cases_calc_who,  new_confirmed_cases_calc_acdc_pdf, new_confirmed_cases_calc_gh, new_confirmed_cases_calc_owd, cum_confirmed_cases_calc_who, cum_confirmed_cases_calc_acdc_pdf, cum_confirmed_cases_calc_gh, cum_confirmed_cases_calc_owd, new_suspected_cases_calc_who, new_suspected_cases_calc_acdc_pdf, new_suspected_cases_calc_gh, new_suspected_cases_calc_owd,cum_suspected_cases_calc_who, cum_suspected_cases_calc_acdc_pdf, cum_suspected_cases_calc_gh, cum_suspected_cases_calc_owd),
-#       ~ .x / pop,
-#       .names = "cap_{col}"
-#     ))
+data <- data %>%
+  mutate(pop_100k = pop / 100000) %>% 
+  mutate(pop = pop / 1000) %>% 
+  mutate(
+    dxgap_who = dxGap(cum_suspected_cases_calc_who, cum_confirmed_cases_calc_who),
+    dxgap_acdc = dxGap(cum_suspected_cases_calc_acdc, cum_confirmed_cases_calc_acdc),
+    dxgap_gh = dxGap(cum_suspected_cases_calc_gh, cum_confirmed_cases_calc_gh),
+    dxgap_owd = dxGap(cum_suspected_cases_calc_owd, cum_confirmed_cases_calc_owd)
+    ) %>%
+  mutate(across(where(is.numeric), ~ ifelse(. %in% c(-Inf, Inf, NaN), NA, .))) %>%
+  mutate(
+    across(
+      c(new_confirmed_cases_calc_who, new_confirmed_cases_calc_acdc, new_confirmed_cases_calc_gh, new_confirmed_cases_calc_owd, 
+        cum_confirmed_cases_calc_who, cum_confirmed_cases_calc_acdc, cum_confirmed_cases_calc_gh, cum_confirmed_cases_calc_owd, 
+        new_suspected_cases_calc_who, new_suspected_cases_calc_acdc, new_suspected_cases_calc_gh, new_suspected_cases_calc_owd,
+        cum_suspected_cases_calc_who, cum_suspected_cases_calc_acdc, cum_suspected_cases_calc_gh, cum_suspected_cases_calc_owd),
+      ~ .x / pop,
+      .names = "cap_{col}"
+    )) %>%
+  mutate(
+    across(
+      c(new_confirmed_cases_calc_who, new_confirmed_cases_calc_acdc, new_confirmed_cases_calc_gh, new_confirmed_cases_calc_owd, 
+        cum_confirmed_cases_calc_who, cum_confirmed_cases_calc_acdc, cum_confirmed_cases_calc_gh, cum_confirmed_cases_calc_owd, 
+        new_suspected_cases_calc_who, new_suspected_cases_calc_acdc, new_suspected_cases_calc_gh, new_suspected_cases_calc_owd,
+        cum_suspected_cases_calc_who, cum_suspected_cases_calc_acdc, cum_suspected_cases_calc_gh, cum_suspected_cases_calc_owd),
+      ~ .x / pop_100k,
+      .names = "cap100k_{col}"
+    ))
 
 
 #NEED TO REMOVE STRINGS
-# acdc_new_confirmed_cases_orig,acdc_new_suspected_cases_orig,acdc_cum_confirmed_cases_orig,acdc_cum_suspected_cases_orig, 
+# Moroco ACDC 3 (2022) 2 (2024), 
 
-
-# suspected <- 89 #cum
-# confirm <- 6 #cum
-# pos_rate_orig <- 8.2
-# test_rate_orig <- 82
-#   
-# test <-  confirm / pos_rate_orig * 100
-# pos_rate <- confirm / test * 100 
-# 
-# test2 <-  test_rate_orig * suspected / 100
-# test_rate <- test2 / suspected * 100
-
-# Moroco ACDC 3 (2022) 2 (2024), #ASK Jamie to only keep numbers
-# pos_rate <- confirm / test2 *1000
 
 
 #IF date=="2024/01/01" cum = cum - lag()
+
 
 
 # data <- data %>% 
@@ -182,18 +179,14 @@ data <- data %>%
     country =ifelse(country=="Venezuela (Bolivarian Republic of)", "Venezuela", country),
     country = ifelse(country=="Viet Nam", "Vietnam", country),
     country = ifelse(country=="State of Palestine", "West Bank", country)
-  )
-
-data <- data %>%
+  ) %>%
   rename(time=date) %>%
   mutate(name = case_when(
     set=="country" ~ country,
     set=="income" ~ income,
     set=="continent" ~ continent,
     set=="who_region" ~ who_region
-  )) %>% 
-  mutate(pop_100k = pop / 100000) %>% 
-  mutate(pop = pop / 1000) 
+  )) 
 
 
 data <- data %>% 

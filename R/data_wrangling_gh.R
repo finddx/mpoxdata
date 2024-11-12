@@ -38,7 +38,7 @@ gh_data <- gh_data %>%
     cum_suspected_cases_calc = cumsum(new_suspected_cases_calc)
   ) %>% 
   mutate(
-    cum_confirmed_cases_barplot = cumsum(new_confirmed_cases_calc),
+    cum_confirmed_cases_new = cumsum(new_confirmed_cases_calc),
   ) %>% 
   mutate(
     new_confirmed_cases_calc = ifelse(new_confirmed_cases_calc==0, NA, new_confirmed_cases_calc),

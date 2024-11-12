@@ -72,6 +72,28 @@ owd_data_new_suspected <- owd_data %>%
 #   select(location, date, cum_confirmed_cases_orig) %>%
 #   rename(cum_confirmed_cases_orig_plhd = cum_confirmed_cases_orig)
 
+
+#CONFIRMED CASES
+#Get the max date cases (up to end 2023)
+owd_data_max_date_confirmed <- owd_data %>%
+  filter(!is.na(cum_confirmed_cases_orig)) %>%
+  filter(date < as.Date("2024-01-01")) %>%
+  group_by(location) %>%
+  arrange(location, date) %>%
+  filter(date == max(date)) %>%
+  select(location, date, cum_confirmed_cases_orig) %>%
+  rename(cum_confirmed_cases_orig_max_plhd = cum_confirmed_cases_orig) %>%
+  select(-c(date))
+#Calculate new cases based on cumulative data
+owd_data_confirmed <- owd_data %>%
+  mutate(date = as.Date(date)) %>% 
+  filter(date >= as.Date("2024-01-01")) %>% 
+  left_join(owd_data_max_date_confirmed, by=join_by(location)) %>%
+  # mutate(cum_confirmed_cases_cum = ifelse(cum_confirmed_cases_orig_max_plhd>0, cum_confirmed_cases_orig - cum_confirmed_cases_orig_max_plhd, cum_confirmed_cases_orig))  %>%
+  mutate(cum_confirmed_cases_cum = cum_confirmed_cases_orig - cum_confirmed_cases_orig_max_plhd)  %>%
+  select(location, date, cum_confirmed_cases_cum) %>% 
+  filter(!is.na(cum_confirmed_cases_cum))
+
 owd_data <- owd_data %>% 
   mutate(date = as.Date(date)) %>% 
   filter(date >= as.Date("2024-01-01")) %>% 
@@ -82,8 +104,10 @@ owd_data <- owd_data %>%
   # left_join(owd_data_min_date, by=join_by(location, date)) %>% 
   # mutate(new_confirmed_cases_calc = ifelse(!is.na(cum_confirmed_cases_orig_plhd), cum_confirmed_cases_orig_plhd, new_confirmed_cases_orig)) %>% 
   left_join(owd_data_new_suspected, by=join_by(location, date)) %>% 
+  left_join(owd_data_confirmed, by=join_by(location, date)) %>% 
   group_by(location) %>%
   arrange(location, date) %>% 
+  fill(cum_confirmed_cases_cum, .direction = "down") %>%
   #Calculate smooth variables
   mutate(
     new_confirmed_cases_calc = replace_na(new_confirmed_cases_orig, 0),
@@ -92,7 +116,7 @@ owd_data <- owd_data %>%
     cum_suspected_cases_calc = cumsum(new_suspected_cases_calc)
   ) %>% 
   mutate(
-    cum_confirmed_cases_barplot = cumsum(new_confirmed_cases_calc),
+    cum_confirmed_cases_new = cumsum(new_confirmed_cases_calc),
   ) %>% 
   mutate(
     new_confirmed_cases_calc = ifelse(new_confirmed_cases_calc==0, NA, new_confirmed_cases_calc),
@@ -109,8 +133,11 @@ owd_data <- owd_data %>%
   ) %>% 
   mutate(
     new_confirmed_cases_calc = replace_na(new_confirmed_cases_calc, 0),
-    new_suspected_cases_calc = replace_na(new_suspected_cases_calc, 0)
-  ) 
+    new_suspected_cases_calc = replace_na(new_suspected_cases_calc, 0),
+    cum_confirmed_cases_new = replace_na(cum_confirmed_cases_new, 0),
+    cum_confirmed_cases_cum = replace_na(cum_confirmed_cases_cum, 0)
+  ) %>% 
+  mutate(cum_comparison = ifelse(cum_confirmed_cases_new==cum_confirmed_cases_cum, "OK", "Not equal"))
 
 #Add datasource  suffix
 owd_data <- owd_data %>% 

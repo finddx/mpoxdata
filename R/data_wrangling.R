@@ -581,7 +581,7 @@ data <- bind_rows(data, data_un_region, data_who_region, data_income_region)
 # confirm <- 6 #cum
 # pos_rate_orig <- 8.2
 # test_rate_orig <- 82
-#   
+
 # test <-  confirm / pos_rate_orig * 100
 # pos_rate <- confirm / test * 100 
 # 
