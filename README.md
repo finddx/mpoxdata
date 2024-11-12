@@ -2,6 +2,7 @@
 
 ## WHO
 New confirmed cases: new cases from original data source, NA values are transformed to 0
+
 Cum confirmed cases: cumulative cases calculated from new confirmed cases
 New suspected cases: suspected (probable) cases from original data source, NA values are transformed to 0
 Cum csuspected cases: cumulative cases calculated from new suspected cases
