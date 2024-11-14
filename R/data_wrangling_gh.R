@@ -11,6 +11,7 @@ today <- gsub("-", "_", Sys.Date())
 
 ###Global health###
 gh_data <- read.csv("https://mpox-2024.s3.eu-central-1.amazonaws.com/latest.csv")
+#Save original data
 write.csv(gh_data, paste("data/raw/gh_data_", today, ".csv"), row.names=FALSE)
 
 #Rename variables and pivot data
@@ -31,15 +32,17 @@ gh_data <- gh_data %>%
   fill(location) %>% 
   group_by(location) %>%
   arrange(location, date) %>% 
+  #Calculate CUM from NEW cases
   mutate(
     new_confirmed_cases_calc = replace_na(new_confirmed_cases_orig, 0),
     cum_confirmed_cases_calc = cumsum(new_confirmed_cases_calc),
     new_suspected_cases_calc = replace_na(new_suspected_cases_orig, 0),
     cum_suspected_cases_calc = cumsum(new_suspected_cases_calc)
   ) %>% 
-  mutate(
-    cum_confirmed_cases_new = cumsum(new_confirmed_cases_calc),
-  ) %>% 
+  # mutate(
+  #   cum_confirmed_cases_new = cumsum(new_confirmed_cases_calc),
+  # ) %>% 
+  #Convert 0 back to NA for smooth calculations
   mutate(
     new_confirmed_cases_calc = ifelse(new_confirmed_cases_calc==0, NA, new_confirmed_cases_calc),
     new_suspected_cases_calc = ifelse(new_suspected_cases_calc==0, NA, new_suspected_cases_calc)
@@ -53,10 +56,13 @@ gh_data <- gh_data %>%
     all_new_suspected_cases = ifelse(is.na(all_new_suspected_cases ), 0, all_new_suspected_cases ),
     all_cum_suspected_cases = cumsum(all_new_suspected_cases)
   ) %>% 
+  #Convert NA back to 0 for reporting
   mutate(
     new_confirmed_cases_calc = replace_na(new_confirmed_cases_calc, 0),
     new_suspected_cases_calc = replace_na(new_suspected_cases_calc, 0)
-  )
+  ) %>% 
+  #Remove original columns
+  select(-ends_with("_orig"))
 
 #Add datasource  suffix
 gh_data <- gh_data %>% 
@@ -67,5 +73,5 @@ gh_data <- gh_data %>%
          location = gsub("Republic of the Congo", "Congo", location),
          location = gsub("Democratic Congo", "Democratic Republic of the Congo", location),
          location = gsub( "United Kingdom", "United Kingdom of Great Britain and Northern Ireland", location))
-
+#Save data
 write_excel_csv(gh_data, "data/reported/mpox_data_gh.csv")

@@ -11,16 +11,18 @@ today <- gsub("-", "_", Sys.Date())
 
 ###Our world in data###
 owd_data <- read.csv("https://catalog.ourworldindata.org/explorers/who/latest/monkeypox/monkeypox.csv")
+#Save original data
 write.csv(owd_data, paste("data/raw/owd_data_", today, ".csv"), row.names=FALSE)
 
 #Rename variables
 owd_data <- owd_data %>% 
-  select(location, date, iso_code, total_cases, new_cases, suspected_cases_cumulative) %>% 
+  select(location, date, total_cases, new_cases, suspected_cases_cumulative) %>% 
   rename(cum_confirmed_cases_orig = total_cases,
          new_confirmed_cases_orig = new_cases,
          cum_suspected_cases_orig = suspected_cases_cumulative
   )
 
+#CALCULATE NEW SUSPECTED CASES FROM CUM (AS NEW DOES NOT EXIST IN THE DATA)
 #Get the min date with suspected cases (2024)
 owd_data_min_date_suspected <- owd_data %>% 
   filter(!is.na(cum_suspected_cases_orig)) %>% 
@@ -40,19 +42,17 @@ owd_data_max_date_suspected <- owd_data %>%
   select(location, date, cum_suspected_cases_orig) %>% 
   rename(cum_suspected_cases_orig_max_plhd = cum_suspected_cases_orig) %>% 
   select(-c(date))
-#Sustract max cum up to end 2023 from min cum 2024  
+#Subtract max cum up to end 2023 from min cum 2024  
 owd_data_date_suspected <- owd_data_min_date_suspected %>% 
   left_join(owd_data_max_date_suspected, by=c("location")) %>% 
   mutate(cum_suspected_cases_orig_max_plhd = replace_na(cum_suspected_cases_orig_max_plhd, 0)) %>% 
   mutate(cum_suspected_cases_orig_plhd = cum_suspected_cases_orig_min_plhd - cum_suspected_cases_orig_max_plhd) %>% 
   select(-c(cum_suspected_cases_orig_min_plhd, cum_suspected_cases_orig_max_plhd))
-
-#Calculate new suspected cases based on cumulative data
+#Calculate NEW suspected cases based on CUM data
 owd_data_new_suspected <- owd_data %>% 
   filter(!is.na(cum_suspected_cases_orig)) %>% 
   mutate(new_suspected_cases_calc = NA) %>% 
   left_join(owd_data_date_suspected, by=join_by(location, date)) %>% 
-  # filter(date >= as.Date("2024-01-01")) %>% 
   mutate(new_suspected_cases_calc = ifelse(!is.na(cum_suspected_cases_orig_plhd), cum_suspected_cases_orig_plhd, new_suspected_cases_calc)) %>%
   group_by(location) %>%
   mutate(n_row=n()) %>% 
@@ -63,62 +63,52 @@ owd_data_new_suspected <- owd_data %>%
   mutate(date=as.Date(date)) %>% 
   select(location, date, new_suspected_cases_calc)
 
-#Get the min date with confirmed cases
-# owd_data_min_date <- owd_data %>%
+#SUBTRACT <2024 CONFIRMED CASES FOR CUM-NEW COMPARISONS
+#Get the max date with CUM confirmed cases (up to end 2023)
+# owd_data_max_date_confirmed <- owd_data %>%
+#   filter(!is.na(cum_confirmed_cases_orig)) %>%
+#   filter(date < as.Date("2024-01-01")) %>%
 #   group_by(location) %>%
 #   arrange(location, date) %>%
-#   filter(date == min(date)) %>%
-#   mutate(date=as.Date(date)) %>%
+#   filter(date == max(date)) %>%
 #   select(location, date, cum_confirmed_cases_orig) %>%
-#   rename(cum_confirmed_cases_orig_plhd = cum_confirmed_cases_orig)
-
-
-#CONFIRMED CASES
-#Get the max date cases (up to end 2023)
-owd_data_max_date_confirmed <- owd_data %>%
-  filter(!is.na(cum_confirmed_cases_orig)) %>%
-  filter(date < as.Date("2024-01-01")) %>%
-  group_by(location) %>%
-  arrange(location, date) %>%
-  filter(date == max(date)) %>%
-  select(location, date, cum_confirmed_cases_orig) %>%
-  rename(cum_confirmed_cases_orig_max_plhd = cum_confirmed_cases_orig) %>%
-  select(-c(date))
-#Calculate new cases based on cumulative data
-owd_data_confirmed <- owd_data %>%
-  mutate(date = as.Date(date)) %>% 
-  filter(date >= as.Date("2024-01-01")) %>% 
-  left_join(owd_data_max_date_confirmed, by=join_by(location)) %>%
-  # mutate(cum_confirmed_cases_cum = ifelse(cum_confirmed_cases_orig_max_plhd>0, cum_confirmed_cases_orig - cum_confirmed_cases_orig_max_plhd, cum_confirmed_cases_orig))  %>%
-  mutate(cum_confirmed_cases_cum = cum_confirmed_cases_orig - cum_confirmed_cases_orig_max_plhd)  %>%
-  select(location, date, cum_confirmed_cases_cum) %>% 
-  filter(!is.na(cum_confirmed_cases_cum))
+#   rename(cum_confirmed_cases_orig_max_plhd = cum_confirmed_cases_orig) %>%
+#   select(-c(date))
+#Subtract CUM <2024 confirmed cases
+# owd_data_confirmed <- owd_data %>%
+#   mutate(date = as.Date(date)) %>% 
+#   filter(date >= as.Date("2024-01-01")) %>% 
+#   left_join(owd_data_max_date_confirmed, by=join_by(location)) %>%
+#   mutate(cum_confirmed_cases_cum = cum_confirmed_cases_orig - cum_confirmed_cases_orig_max_plhd)  %>%
+#   select(location, date, cum_confirmed_cases_cum) %>% 
+#   filter(!is.na(cum_confirmed_cases_cum))
 
 owd_data <- owd_data %>% 
   mutate(date = as.Date(date)) %>% 
   filter(date >= as.Date("2024-01-01")) %>% 
   group_by(location) %>%
+  #Fill out missing days
   complete(date = seq.Date(as.Date("2024-01-01"), Sys.Date(), by = "day")) %>%
   fill(location) %>% 
-  #Get min date data
-  # left_join(owd_data_min_date, by=join_by(location, date)) %>% 
-  # mutate(new_confirmed_cases_calc = ifelse(!is.na(cum_confirmed_cases_orig_plhd), cum_confirmed_cases_orig_plhd, new_confirmed_cases_orig)) %>% 
-  left_join(owd_data_new_suspected, by=join_by(location, date)) %>% 
-  left_join(owd_data_confirmed, by=join_by(location, date)) %>% 
-  mutate(cum_confirmed_cases_cum = ifelse((is.na(cum_confirmed_cases_cum) & !is.na(cum_confirmed_cases_orig)), cum_confirmed_cases_orig, cum_confirmed_cases_cum)) %>% 
+  #Get NEW suspected cases
+  left_join(owd_data_new_suspected, by=join_by(location, date)) %>%
+  #Get subtracted CUM confirmed 
+  # left_join(owd_data_confirmed, by=join_by(location, date)) %>% 
+  # mutate(cum_confirmed_cases_cum = ifelse((is.na(cum_confirmed_cases_cum) & !is.na(cum_confirmed_cases_orig)), cum_confirmed_cases_orig, cum_confirmed_cases_cum)) %>% 
   group_by(location) %>%
   arrange(location, date) %>% 
-  fill(cum_confirmed_cases_cum, .direction = "down") %>%
-  #Calculate smooth variables
+  # fill(cum_confirmed_cases_cum, .direction = "down") %>%
+  #Calculate CUM from NEW cases
   mutate(
     new_confirmed_cases_calc = replace_na(new_confirmed_cases_orig, 0),
     cum_confirmed_cases_calc = cumsum(new_confirmed_cases_calc),
     new_suspected_cases_calc = replace_na(new_suspected_cases_calc, 0),
     cum_suspected_cases_calc = cumsum(new_suspected_cases_calc)
   ) %>% 
-  mutate(
-    cum_confirmed_cases_new = cumsum(new_confirmed_cases_calc),
-  ) %>% 
+  # mutate(
+  #   cum_confirmed_cases_new = cumsum(new_confirmed_cases_calc),
+  # ) %>% 
+  #Convert 0 back to NA for smooth calculations
   mutate(
     new_confirmed_cases_calc = ifelse(new_confirmed_cases_calc==0, NA, new_confirmed_cases_calc),
     new_suspected_cases_calc = ifelse(new_suspected_cases_calc==0, NA, new_suspected_cases_calc)
@@ -132,13 +122,20 @@ owd_data <- owd_data %>%
     all_new_suspected_cases = ifelse(is.na(all_new_suspected_cases), 0, all_new_suspected_cases),
     all_cum_suspected_cases = cumsum(all_new_suspected_cases)
   ) %>% 
+  #Convert NA back to 0 for reporting
   mutate(
     new_confirmed_cases_calc = replace_na(new_confirmed_cases_calc, 0),
-    new_suspected_cases_calc = replace_na(new_suspected_cases_calc, 0),
-    cum_confirmed_cases_new = replace_na(cum_confirmed_cases_new, 0),
-    cum_confirmed_cases_cum = replace_na(cum_confirmed_cases_cum, 0)
+    new_suspected_cases_calc = replace_na(new_suspected_cases_calc, 0)
   ) %>% 
-  mutate(cum_comparison = ifelse(cum_confirmed_cases_new==cum_confirmed_cases_cum, "OK", "Not equal"))
+  #Remove original columns
+  select(-ends_with("_orig"))
+# %>% 
+#   mutate(
+#     cum_confirmed_cases_new = replace_na(cum_confirmed_cases_new, 0),
+#     cum_confirmed_cases_cum = replace_na(cum_confirmed_cases_cum, 0)
+#Compare CUM from NEW vs CUM from CUM subtracted
+#     cum_comparison = ifelse(cum_confirmed_cases_new==cum_confirmed_cases_cum, "OK", "Not equal")
+#     )
 
 #Add datasource  suffix
 owd_data <- owd_data %>% 
@@ -161,5 +158,5 @@ owd_data <- owd_data %>%
          location = gsub( "United States", "United States of America", location),
          location = gsub( "Venezuela", "Venezuela (Bolivarian Republic of)", location),
          location = gsub( "Vietnam", "Viet Nam", location))
-
+#Save data
 write_excel_csv(owd_data, "data/reported/mpox_data_owd.csv")

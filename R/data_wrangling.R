@@ -293,6 +293,87 @@ acdc_data <- acdc_data %>%
   filter(rowSums(!is.na(select(., -location, -date))) > 0) %>% 
   mutate_at(c("cum_confirmed_cases_orig", "cum_suspected_cases_orig", "new_suspected_cases_orig", "new_confirmed_cases_orig"), as.numeric)
   
+#SUSPECTED CASES
+#Get the min date with suspected cases (2024)
+# acdc_data_min_date_suspected <- acdc_data %>% 
+#   filter(!is.na(cum_suspected_cases_orig)) %>% 
+#   filter(date >= as.Date("2024-01-01")) %>%
+#   group_by(location) %>%
+#   arrange(location, date) %>%  
+#   filter(date == min(date)) %>%
+#   select(location, date, cum_suspected_cases_orig) %>% 
+#   rename(cum_suspected_cases_orig_min_plhd = cum_suspected_cases_orig)
+#Get the max date with suspected cases (up to end 2023)
+# acdc_data_max_date_suspected <- acdc_data %>% 
+#   filter(!is.na(cum_suspected_cases_orig)) %>% 
+#   filter(date < as.Date("2024-01-01")) %>% 
+#   group_by(location) %>%
+#   arrange(location, date) %>%  
+#   filter(date == max(date)) %>%
+#   select(location, date, cum_suspected_cases_orig) %>% 
+#   rename(cum_suspected_cases_orig_max_plhd = cum_suspected_cases_orig) %>% 
+#   select(-c(date))
+#Sustract max cum up to end 2023 from min cum 2024  
+# acdc_data_date_suspected <- acdc_data_min_date_suspected %>% 
+#   left_join(acdc_data_max_date_suspected, by=c("location")) %>% 
+#   mutate(cum_suspected_cases_orig_max_plhd = replace_na(cum_suspected_cases_orig_max_plhd, 0)) %>% 
+#   mutate(cum_suspected_cases_orig_plhd = cum_suspected_cases_orig_min_plhd - cum_suspected_cases_orig_max_plhd) %>% 
+#   select(-c(cum_suspected_cases_orig_min_plhd, cum_suspected_cases_orig_max_plhd))
+#Calculate new suspected cases based on cumulative data
+# acdc_data_new_suspected <- acdc_data %>% 
+#   filter(!is.na(cum_suspected_cases_orig)) %>% 
+#   mutate(new_suspected_cases_calc = NA) %>% 
+#   left_join(acdc_data_date_suspected, by=join_by(location, date)) %>% 
+#   mutate(new_suspected_cases_calc = ifelse(!is.na(cum_suspected_cases_orig_plhd), cum_suspected_cases_orig_plhd, new_suspected_cases_calc)) %>%
+# group_by(location) %>%
+# mutate(n_row=n()) %>% 
+# filter(n_row >1) %>% 
+# group_by(location) %>%
+# arrange(location, date) %>%  
+# mutate(new_suspected_cases_calc = calc_new_t(cum_suspected_cases_orig, new_suspected_cases_calc)) %>% 
+# mutate(date=as.Date(date)) %>% 
+# select(location, date, new_suspected_cases_calc)
+
+#CONFIRMED CASES
+#Get the min date with suspected cases (2024)
+# acdc_data_min_date_confirmed <- acdc_data %>% 
+#   filter(!is.na(cum_confirmed_cases_orig)) %>% 
+#   filter(date >= as.Date("2024-01-01")) %>%
+#   group_by(location) %>%
+#   arrange(location, date) %>%  
+#   filter(date == min(date)) %>%
+#   select(location, date, cum_confirmed_cases_orig) %>% 
+#   rename(cum_confirmed_cases_orig_min_plhd = cum_confirmed_cases_orig)
+#Get the max date with suspected cases (up to end 2023)
+# acdc_data_max_date_confirmed <- acdc_data %>% 
+#   filter(!is.na(cum_confirmed_cases_orig)) %>% 
+#   filter(date < as.Date("2024-01-01")) %>% 
+#   group_by(location) %>%
+#   arrange(location, date) %>%  
+#   filter(date == max(date)) %>%
+#   select(location, date, cum_confirmed_cases_orig) %>% 
+#   rename(cum_confirmed_cases_orig_max_plhd = cum_confirmed_cases_orig) %>% 
+#   select(-c(date))
+#Sustract max cum up to end 2023 from min cum 2024  
+# acdc_data_date_confirmed <- acdc_data_min_date_confirmed %>% 
+#   left_join(acdc_data_max_date_confirmed, by=c("location")) %>% 
+#   mutate(cum_confirmed_cases_orig_max_plhd = replace_na(cum_confirmed_cases_orig_max_plhd, 0)) %>% 
+#   mutate(cum_confirmed_cases_orig_plhd = cum_confirmed_cases_orig_min_plhd - cum_confirmed_cases_orig_max_plhd) %>% 
+#   select(-c(cum_confirmed_cases_orig_min_plhd, cum_confirmed_cases_orig_max_plhd))
+#Calculate new suspected cases based on cumulative data
+# acdc_data_new_confirmed <- acdc_data %>% 
+#   filter(!is.na(cum_confirmed_cases_orig)) %>% 
+#   mutate(new_confirmed_cases_calc = NA) %>% 
+#   left_join(acdc_data_date_confirmed, by=join_by(location, date)) %>% 
+#   mutate(new_confirmed_cases_calc = ifelse(!is.na(cum_confirmed_cases_orig_plhd), cum_confirmed_cases_orig_plhd, new_confirmed_cases_calc)) %>%
+#   group_by(location) %>%
+#   mutate(n_row=n()) %>% 
+#   filter(n_row >1) %>% 
+#   group_by(location) %>%
+#   arrange(location, date) %>%  
+#   mutate(new_confirmed_cases_calc = calc_new_t(cum_confirmed_cases_orig, new_confirmed_cases_calc)) %>% 
+#   mutate(date=as.Date(date)) %>% 
+#   select(location, date, new_confirmed_cases_calc)
 
 #Get min cum values
 acdc_data_min_date_suspected <- acdc_data %>% 
