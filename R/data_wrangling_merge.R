@@ -76,26 +76,10 @@ data <- data %>%
 data <- data %>% 
   left_join(owd_data, by=join_by(country == location, date==date)) 
 
-#Relocate columns
 data <- data %>% 
   filter(!is.na(unit)) %>% 
   mutate(set="country") %>% 
   select(-c(WHO_country, UN_subregion, latitude, longitude)) #, contains("_calc_")
-
-#Calculate values by groups
-remove_vars <- c("set","unit", "country", "continent", "who_region", "income")
-
-data_un_region <- summariseSet(dataset=data, group_var="continent", remove_vars=remove_vars, operation=sum)
-data_un_region <- data_un_region %>% 
-  mutate(set="continent")
-data_who_region <- summariseSet(dataset=data, group_var="who_region", remove_vars=remove_vars, operation=sum)
-data_who_region <- data_who_region %>% 
-  mutate(set="who_region")
-data_income_region <- summariseSet(dataset=data, group_var="income", remove_vars=remove_vars, operation=sum)
-data_income_region <- data_income_region %>% 
-  mutate(set="income")
-
-data <- bind_rows(data, data_un_region, data_who_region, data_income_region)
 
 data <- data %>%
   mutate(pop_100k = pop / 100000) %>% 
@@ -128,6 +112,19 @@ data <- data %>%
       .names = "cap100k_{col}"
     ))
 
+#Calculate values by groups
+remove_vars <- c("set","unit", "country", "continent", "who_region", "income")
+data_un_region <- summariseSet(dataset=data, group_var="continent", remove_vars=remove_vars, operation=sum)
+data_un_region <- data_un_region %>% 
+  mutate(set="continent")
+data_who_region <- summariseSet(dataset=data, group_var="who_region", remove_vars=remove_vars, operation=sum)
+data_who_region <- data_who_region %>% 
+  mutate(set="who_region")
+data_income_region <- summariseSet(dataset=data, group_var="income", remove_vars=remove_vars, operation=sum)
+data_income_region <- data_income_region %>% 
+  mutate(set="income")
+
+data <- bind_rows(data, data_un_region, data_who_region, data_income_region)
 
 #NEED TO REMOVE STRINGS
 # Moroco ACDC 3 (2022) 2 (2024), 
