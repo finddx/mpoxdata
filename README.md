@@ -97,11 +97,11 @@ To calculate Cumulative (CUM) cases we decided to use the Cumulative from New ca
    
 For example there are sometimes a reduction in Cumulative confirmed cases in progressive dates:
 
-* Congo 07/01/2024: 21 CUM confimred cases - Congo 17/03/2024: 19 CUM confirmed cases
+* Congo 07/01/2024: 21 CUM confirmed cases - Congo 17/03/2024: 19 CUM confirmed cases
 
-* Ghana 16/06/2024: 131 CUM confimred cases - Ghana 06/10/2024: 1 CUM confimred cases
+* Ghana 16/06/2024: 131 CUM confirmed - Ghana 06/10/2024: 1 CUM confirmed cases
   
-* Democratic Republic of the Congo 03/08/2024: 2715 CUM confimred cases - Democratic Republic of the Congo 09/08/2024: 2638 CUM confimred cases
+* Democratic Republic of the Congo 03/08/2024: 2715 CUM confimred cases - Democratic Republic of the Congo 09/08/2024: 2638 CUM confirmed cases
   
 
 We also compared numbers of CUM confirmed cases and CUM calculated from NEW confirmed cases between Africa CDC and other data sources to check if any of those measurements from Africa CDC have consistent numbers with the reported by others, however numbers were not concise. We list some examples below :
