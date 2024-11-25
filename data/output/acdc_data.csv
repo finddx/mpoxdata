@@ -1,4 +1,4 @@
-﻿,Issue Date,,06-Nov-23,"11-Nov-23
+﻿Issue Date,,06-Nov-23,"11-Nov-23
 (no mpox reports)",18-Nov-23,"26-Nov-23
 (no mpox reports)","3-Dec-23
 (no mpox reports)","9-Dec-23
@@ -12,420 +12,439 @@
 (no mpox reports)","4-Mar-24
 (no mpox reports)",17-Mar-24,24-Mar-24,29-Mar-24,06-Apr-24,14-Apr-24,20-Apr-24,28-Apr-24,05-May-24,12-May-24,18-May-24,25-May-24,01-Jun-24,09-Jun-24,16-Jun-24,22-Jun-24,30-Jun-24,06-Jul-24,12-Jul-24,"19-Jul-24
 (No mpox reports)",28-Jul-24,03-Aug-24,09-Aug-24,16-Aug-24,25-Aug-24,31-Aug-24,10-Sep-24,16-Sep-24,23-Sep-24,30-Sep-24,06-Oct-24,12-Oct-24,"21-Oct-24
-(data appears to be the same as 22-Oct bulletin)",26-Oct-24,03-Nov-24,10-Nov-24,,,,,,,,
-,Africa (All Countries),Cumulative Confirmed Cases,807,,811,,,,,1431,,1431,,,,,251,,,268,340,342,342,362,362,362,364,364,366,931,932,1186,1195,1196,1229,1233,2145,,2740,2855,2822,3101,3331,5265,5549,6210,6439,6806,6975,7532,8548,9298,10672,11147,,,,,,,,
-,,Cumulative Cases,10188,,10209,,,,,10632,,13178,,,,,1357,,,3023,3658,4252,4323,4730,4897,5091,5571,5725,6217,6566,6588,6920,7284,7905,8376,8900,9352,,11505,12221,14719,15636,17389,18737,24873,27975,32010,34297,34825,38845,42442,45674,49310,51444,,,,,,,,
-,,Cumulative Deaths,556,,557,,,,,9,,9,,,,,115,,,250,264,280,297,312,319,323,334,336,350,375,375,384,401,419,425,433,449,,456,461,517,541,582,617,643,738,840,866,866,979,989,1014,1059,1083,,,,,,,,
-,,Case Fatality Rate (%),5.1,,5.1,,,,,0.6,,0.6,,,,,"45.8
-(should be 115/1357 = 8.5)",,,7.63,6.6,6.09,6.37,6.13,6.07,5.92,5.63,5.52,5.32,5,4.99,4.74,4.73,4.6,4.42,4.27,3.91,,3.2,3.06,2.95,2.89,2.81,2.57,2.11,2.13,2.18,2.52,2.07,2.11,2.33,2.22,2.15,2.11,,,,,,,,
-,,Cumulative Testing Rate,No info,,No info,,,,,No info,,No info,,,,,No info,,,No info,No info,No info,No info,No info,No info,No info,No info,No info,No info,No info,No info,No info,No info,No info,No info,No info,No info,,No info,No info,No info,No info,No info,No info,56,53,48.9,47.0,46,46.3,52.8,52.8,No info,No info,,,,,,,,
-,,Calculated Dx Gap,92.1,,92.1,,,,,86.5,,89.1,,,,,81.5,,,91.1,90.7,92.0,92.1,92.3,92.6,92.9,93.5,93.6,94.1,85.8,85.9,82.9,83.6,84.9,85.3,86.1,77.1,,76.2,76.6,80.8,80.2,80.8,71.9,77.7,77.8,79.9,80.2,80.0,80.6,79.9,79.6,78.4,No info,,,,,,,,
-,Burundi,New Cases,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,3,124,99,173,303,327,40,353,493,105,101,320,280,238,335,171,,,,,,,,
-,,New Confirmed Cases,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,3,19,39,39,90,91,15,52,179,132,157,134,183,117,222,102,,,,,,,,
-,,New Deaths,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,,,,,,,
-,,Cumulative Cases,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,3,127,226,399,702,1029,1139,1497,1982,2087,2188,2508,2788,3026,3361,3532,,,,,,,,
-,,Cumulative Confirmed Cases,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,3,22,61,100,190,281,328,365,564,696,853,987,1170,1287,1509,1611,,,,,,,,
-,,Cumulative Deaths,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,,,,,,,
-,,Case Fatality Rate (%),,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,,,,,,,
-,,% Children < 15 Years,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,No info,No info,"30
+(data appears to be the same as 22-Oct bulletin)",26-Oct-24,03-Nov-24,10-Nov-24,17-Nov-24
+Africa (All Countries),Cumulative Confirmed Cases,807,,811,,,,,1431,,1431,,,,,251,,,268,340,342,342,362,362,362,364,364,366,931,932,1186,1195,1196,1229,1233,2145,,2740,2855,2822,3101,3331,5265,5549,6210,6439,6806,6975,7532,8548,9298,10672,11147,12162
+,Cumulative Cases,10188,,10209,,,,,10632,,13178,,,,,1357,,,3023,3658,4252,4323,4730,4897,5091,5571,5725,6217,6566,6588,6920,7284,7905,8376,8900,9352,,11505,12221,14719,15636,17389,18737,24873,27975,32010,34297,34825,38845,42442,45674,49310,51444,55413
+,Cumulative Deaths,556,,557,,,,,9,,9,,,,,115,,,250,264,280,297,312,319,323,334,336,350,375,375,384,401,419,425,433,449,,456,461,517,541,582,617,643,738,840,866,866,979,989,1014,1059,1083,1142
+,Case Fatality Rate (%),5.1,,5.1,,,,,0.6,,0.6,,,,,"45.8
+(should be 115/1357 = 8.5)",,,7.63,6.6,6.09,6.37,6.13,6.07,5.92,5.63,5.52,5.32,5,4.99,4.74,4.73,4.6,4.42,4.27,3.91,,3.2,3.06,2.95,2.89,2.81,2.57,2.11,2.13,2.18,2.52,2.07,2.11,2.33,2.22,2.15,2.11,2.06
+,Cumulative Testing Rate,No info,,No info,,,,,No info,,No info,,,,,No info,,,No info,No info,No info,No info,No info,No info,No info,No info,No info,No info,No info,No info,No info,No info,No info,No info,No info,No info,,No info,No info,No info,No info,No info,No info,56,53,48.9,47,46,46.3,52.8,52.8,No info,No info,No info
+,Calculated Dx Gap,92.1,,92.1,,,,,86.5,,89.1,,,,,81.5,,,91.1,90.7,92,92.1,92.3,92.6,92.9,93.5,93.6,94.1,85.8,85.9,82.9,83.6,84.9,85.3,86.1,77.1,,76.2,76.6,80.8,80.2,80.8,71.9,77.7,77.8,79.9,80.2,80,80.6,79.9,79.6,78.4,No info,No info
+Angola,New Cases,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1
+,New Confirmed Cases,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1
+,New Deaths,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0
+,Cumulative Cases,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1
+,Cumulative Confirmed Cases,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1
+,Cumulative Deaths,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0
+,Case Fatality Rate (%),,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0
+,% Children < 15 Years,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0
+,% Male,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0
+,Cumulative Cases Tested,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,No info
+,Cumulative Cases,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1
+,Calculated Testing Rate,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,No info
+,Reported Testing Rate (%),,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,No info
+,Cumulative Confirmed Cases,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1
+,Cumulative Cases Tested,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,No info
+,Calculated Positivity Rate (%),,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,No info
+,Reported Positivity Rate (%),,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,No info
+,Calculated Dx Gap,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,Clade(s) Isolated from Confirmed Cases,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,No info
+Burundi,New Cases,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,3,124,99,173,303,327,40,353,493,105,101,320,280,238,335,171,238
+,New Confirmed Cases,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,3,19,39,39,90,91,15,52,179,132,157,134,183,117,222,102,116
+,New Deaths,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+,Cumulative Cases,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,3,127,226,399,702,1029,1139,1497,1982,2087,2188,2508,2788,3026,3361,3532,3864
+,Cumulative Confirmed Cases,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,3,22,61,100,190,281,328,365,564,696,853,987,1170,1287,1509,1611,1834
+,Cumulative Deaths,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+,Case Fatality Rate (%),,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+,% Children < 15 Years,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,No info,No info,"30
 (<5 years)","38
 (<5 years)","38.9
-(<10 years)",53.7,54,52.1,53.9,51.7,51.9,51.4,50.6,48.4,48.2,46.7,,,,,,,,
-,,% Male,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,No info,No info,51.7,55,56.3,53,53,54,54.8,53.9,53.8,54.3,53.2,52.3,51.4,51.5,,,,,,,,
-,,Cumulative Cases Tested,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,3,No info,No info,259,513,732,859,991,1468,1743,No info,2425,2811,3018,No info,No info,,,,,,,,
-,,Cumulative Cases,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,3,127,226,399,702,1029,1139,1497,1982,2087,2188,2508,2788,3026,3361,3532,,,,,,,,
-,,Calculated Testing Rate,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,100,N/A,N/A,64.9,73.1,71.1,75.4,66.2,74.1,83.5,N/A,96.6,100.8,99.7,N/A,N/A,,,,,,,,
-,,Reported Testing Rate (%),,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,No info,No info,No info,"No info 
+(<10 years)",53.7,54,52.1,53.9,51.7,51.9,51.4,50.6,48.4,48.2,46.7,44.8
+,% Male,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,No info,No info,51.7,55,56.3,53,53,54,54.8,53.9,53.8,54.3,53.2,52.3,51.4,51.5,52.1
+,Cumulative Cases Tested,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,3,No info,No info,259,513,732,859,991,1468,1743,No info,2425,2811,3018,No info,No info,No info
+,Cumulative Cases,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,3,127,226,399,702,1029,1139,1497,1982,2087,2188,2508,2788,3026,3361,3532,3864
+,Calculated Testing Rate,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,100,N/A,N/A,64.9,73.1,71.1,75.4,66.2,74.1,83.5,N/A,96.6,100.8,99.7,N/A,N/A,N/A
+,Reported Testing Rate (%),,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,No info,No info,No info,"No info 
 (total # of tests given only)","No info 
 (total # of tests given only)","No info 
 (total # of tests given only)",75,"No info 
 (total # of tests given only)","No info 
-(total # of tests given only)",84,96,97,100.8,99.7,No info,No info,,,,,,,,
-,,Cumulative Confirmed Cases,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,3,22,61,100,190,281,328,365,564,696,853,987,1170,1287,1509,1611,,,,,,,,
-,,Cumulative Cases Tested,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,3,No info,No info,259,513,732,859,991,1468,1743,No info,2425,2811,3018,No info,No info,,,,,,,,
-,,Calculated Positivity Rate (%),,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,100,N/A,N/A,38.6,37,38.4,38.2,36.8,38.4,39.9,N/A,40.7,41.6,42.6,N/A,N/A,,,,,,,,
-,,Reported Positivity Rate (%),,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,No info,No info,No info,38.6,37,38.3,38.2,36.8,38.4,39.9,41,40.7,41.6,42.6,No info,No info,,,,,,,,
-,,Calculated Dx Gap,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.0,82.7,73.0,74.9,72.9,72.7,71.2,75.6,71.5,66.7,61.0,60.6,58.0,57.5,55.1,54.4,,,,,,,,
-,,Clade(s) Isolated from Confirmed Cases,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,No info,No info,No info,Ib,Ib,Ib,Ib,Ib,Ib,Ib,Ib,Ib,Ib,Ib,Ib,Ib,,,,,,,,
-,Cameroon,New Cases,12,,2,,,,,3,,,,,,,8,,,5,,3,,,,,,,,,,,17,,,,,,4,,,,,,8,,,21,8,9,5,6,3,2,,,,,,,,
-,,New Confirmed Cases,4,,0,,,,,0,,,,,,,2,,,0,,0,,,,,,,,,,,3,,,,,,0,,,,,,0,,,0,0,0,0,0,0,0,,,,,,,,
-,,New Deaths,0,,0,,,,,0,,,,,,,1,,,0,,0,,,,,,,,,,,1,,,,,,0,,,,,,1,,,0,0,0,0,0,0,0,,,,,,,,
-,,Cumulative Cases,135,,137,,,,,140,,,,,,,8,,,13,,14,,,,,,,,,,,31,,,,,,35,,,,,,42,,,81,89,98,103,109,111,113,,,,,,,,
-,,Cumulative Confirmed Cases,27,,27,,,,,27,,,,,,,2,,,2,,2,,,,,,,,,,,5,,,,,,5,,,,,,5,,,6,6,6,6,6,6,6,,,,,,,,
-,,Cumulative Deaths,0,,1,,,,,0,,,,,,,1,,,1,,1,,,,,,,,,,,2,,,,,,2,,,,,,3,,,2,2,2,2,2,2,2,,,,,,,,
-,,Case Fatality Rate (%),0,,"0.7
+(total # of tests given only)",84,96,97,100.8,99.7,No info,No info,No info
+,Cumulative Confirmed Cases,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,3,22,61,100,190,281,328,365,564,696,853,987,1170,1287,1509,1611,1834
+,Cumulative Cases Tested,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,3,No info,No info,259,513,732,859,991,1468,1743,No info,2425,2811,3018,No info,No info,No info
+,Calculated Positivity Rate (%),,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,100,N/A,N/A,38.6,37,38.4,38.2,36.8,38.4,39.9,N/A,40.7,41.6,42.6,N/A,N/A,N/A
+,Reported Positivity Rate (%),,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,No info,No info,No info,38.6,37,38.3,38.2,36.8,38.4,39.9,41,40.7,41.6,42.6,No info,No info,No info
+,Calculated Dx Gap,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,82.7,73,74.9,72.9,72.7,71.2,75.6,71.5,66.7,61,60.6,58,57.5,55.1,54.4,
+,Clade(s) Isolated from Confirmed Cases,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,No info,No info,No info,Ib,Ib,Ib,Ib,Ib,Ib,Ib,Ib,Ib,Ib,Ib,Ib,Ib,lb
+Cameroon,New Cases,12,,2,,,,,3,,,,,,,8,,,5,,3,,,,,,,,,,,17,,,,,,4,,,,,,8,,,21,8,9,5,6,3,2,
+,New Confirmed Cases,4,,0,,,,,0,,,,,,,2,,,0,,0,,,,,,,,,,,3,,,,,,0,,,,,,0,,,0,0,0,0,0,0,0,
+,New Deaths,0,,0,,,,,0,,,,,,,1,,,0,,0,,,,,,,,,,,1,,,,,,0,,,,,,1,,,0,0,0,0,0,0,0,
+,Cumulative Cases,135,,137,,,,,140,,,,,,,8,,,13,,14,,,,,,,,,,,31,,,,,,35,,,,,,42,,,81,89,98,103,109,111,113,
+,Cumulative Confirmed Cases,27,,27,,,,,27,,,,,,,2,,,2,,2,,,,,,,,,,,5,,,,,,5,,,,,,5,,,6,6,6,6,6,6,6,
+,Cumulative Deaths,0,,1,,,,,0,,,,,,,1,,,1,,1,,,,,,,,,,,2,,,,,,2,,,,,,3,,,2,2,2,2,2,2,2,
+,Case Fatality Rate (%),0,,"0.7
 (calculated)",,,,,0,,,,,,,"12.5
-(calculated)",,,7.7,,7.1,,,,,,,,,,,6.6,,,,,,5.7,,,,,,6.4,,,2.5,2.2,2,2,2,1.8,1.8,,,,,,,,
-,,% Children < 15 Years,No info,,No info,,,,,No info,,,,,,,No info,,,No info,,No info,,,,,,,,,,,No info,,,,,,No info,,,,,,60,,,60,60,60,60,60,60,60,,,,,,,,
-,,% Male,No info,,No info,,,,,No info,,,,,,,No info,,,No info,,No info,,,,,,,,,,,80,,,,,,80,,,,,,80,,,80,80,80,80,80,80,80,,,,,,,,
-,,Cumulative Cases Tested,No info,,No info,,,,,No info,,,,,,,No info,,,No info,,No info,,,,,,,,,,,No info,,,,,,No info,,,,,,29,,,63,No info,78,82,82,89,94,,,,,,,,
-,,Cumulative Cases,135,,137,,,,,140,,,,,,,8,,,13,,14,,,,,,,,,,,31,,,,,,35,,,,,,42,,,81,89,98,103,109,111,113,,,,,,,,
-,,Calculated Testing Rate,N/A,,N/A,,,,,N/A,,,,,,,N/A,,,N/A,,N/A,,,,,,,,,,,N/A,,,,,,N/A,,,,,,69,,,77.8,N/A,79.6,79.6,75.2,80,83.2,,,,,,,,
-,,Reported Testing Rate (%),No info,,No info,,,,,No info,,,,,,,No info,,,No info,,No info,,,,,,,,,,,No info,,,,,,No info,,,,,,69,,,78,82,80,80,75.2,80,83.2,,,,,,,,
-,,Cumulative Confirmed Cases,27,,27,,,,,27,,,,,,,2,,,2,,2,,,,,,,,,,,5,,,,,,5,,,,,,5,,,5,6,6,6,6,6,6,,,,,,,,
-,,Cumulative Cases Tested,No info,,No info,,,,,No info,,,,,,,No info,,,No info,,No info,,,,,,,,,,,No info,,,,,,No info,,,,,,29,,,63,No info,78,82,82,89,94,,,,,,,,
-,,Calculated Positivity Rate (%),N/A,,N/A,,,,,N/A,,,,,,,N/A,,,N/A,,N/A,,,,,,,,,,,N/A,,,,,,N/A,,,,,,17.2,,,7.9,N/A,7.7,7.3,7.3,6.7,6.4,,,,,,,,
-,,Reported Positivity Rate (%),No info,,No info,,,,,No info,,,,,,,No info,,,No info,,No info,,,,,,,,,,,No info,,,,,,No info,,,,,,17.2,,,"25.9*
-(this number is wrong - should be 5/63 or 7.9)",8.2,7.7,7.3,7.3,6.7,6.4,,,,,,,,
-,,Calculated Dx Gap,80.0,,80.3,,,,,80.7,,,,,,,75.0,,,84.6,,85.7,,,,,,,,,,,83.9,,,,,,85.7,,,,,,88.1,,,92.6,93.3,93.9,94.2,94.5,94.6,94.7,,,,,,,,
-,,Clade(s) Isolated from Confirmed Cases,No info,,No info,,,,,No info,,,,,,,No info,,,No info,,No info,,,,,,,,,,,I/II,,,,,,II,,,,,,II,,,II,II,II,II,II,II,II,,,,,,,,
-,Central African Republic,New Cases,,,,,,,,,,,,,,,,,,13,1,,,46,,,,,16,1,,,,,,,,,26,14,31,5,,3,20,,22,17,12,,,,,14,,,,,,,,
-,,New Confirmed Cases,,,,,,,,,,,,,,,,,,0,0,,,20,,,,,1,0,,,,,,,,,7,4,3,5,,3,0,,5,3,2,,,,,4,,,,,,,,
-,,New Deaths,,,,,,,,,,,,,,,,,,0,0,,,0,,,,,0,0,,,,,,,,,0,0,0,0,,0,0,,0,0,0,,,,,0,,,,,,,,
-,,Cumulative Cases,,,,,,,,,,,,,,,,,,45,47,,,93,,,,,109,110,,,,,,,,,213,227,258,263,,48,278,,307,324,336,,,,,394,,,,,,,,
-,,Cumulative Confirmed Cases,,,,,,,,,,,,,,,,,,0,0,,,20,,,,,21,21,,,,,,,,,28,32,35,40,,48,48,,52,55,57,,,,,66,,,,,,,,
-,,Cumulative Deaths,,,,,,,,,,,,,,,,,,0,0,,,0,,,,,0,0,,,,,,,,,0,0,0,0,,1,1,,1,1,1,,,,,1,,,,,,,,
-,,Case Fatality Rate (%),,,,,,,,,,,,,,,,,,0,No info,,,0,,,,,0,0,,,,,,,,,0,0,0,0,,2.3,0.3,,0.3,1.8,0.3,,,,,0.3,,,,,,,,
-,,% Children < 15 Years,,,,,,,,,,,,,,,,,,No info,No info,,,"35
-(<5 years)",,,,,No info,43,,,,,,,,,43,43,43,43,,42,42,,42.3,49.1,49.1,,,,,51.5,,,,,,,,
-,,% Male,,,,,,,,,,,,,,,,,,No info,No info,,,No info,,,,,No info,62,,,,,,,,,62,62,62,62,,58,58,,58,62,62,,,,,62,,,,,,,,
-,,Cumulative Cases Tested,,,,,,,,,,,,,,,,,,No info,No info,,,No info,,,,,No info,No info,,,,,,,,,No info,No info,No info,No info,,No info,247,,307,324,No info,,,,,394,,,,,,,,
-,,Cumulative Cases,,,,,,,,,,,,,,,,,,45,47,,,93,,,,,109,110,,,,,,,,,213,227,258,263,,No info,278,,307,324,336,,,,,394,,,,,,,,
-,,Calculated Testing Rate,,,,,,,,,,,,,,,,,,N/A,N/A,,,N/A,,,,,N/A,N/A,,,,,,,,,N/A,N/A,N/A,N/A,,N/A,88.8,,100,100,N/A,,,,,100,,,,,,,,
-,,Reported Testing Rate (%),,,,,,,,,,,,,,,,,,No info,No info,,,No info,,,,,No info,No info,,,,,,,,,No info,No info,No info,No info,,No info,89,,100,100,100,,,,,100,,,,,,,,
-,,Cumulative Confirmed Cases,,,,,,,,,,,,,,,,,,0,0,,,20,,,,,21,21,,,,,,,,,28,32,35,40,,48,48 (5 also listed),,52,55,57,,,,,66,,,,,,,,
-,,Cumulative Cases Tested,,,,,,,,,,,,,,,,,,No info,No info,,,No info,,,,,No info,No info,,,,,,,,,No info,No info,No info,No info,,No info,247,,307,324,No info,,,,,394,,,,,,,,
-,,Calculated Positivity Rate (%),,,,,,,,,,,,,,,,,,N/A,N/A,,,N/A,,,,,N/A,N/A,,,,,,,,,N/A,N/A,N/A,N/A,,N/A,19.4 (48/247),,16.9,17,N/A,,,,,16.8,,,,,,,,
-,,Reported Positivity Rate (%),,,,,,,,,,,,,,,,,,No info,No info,,,No info,,,,,No info,No info,,,,,,,,,No info,No info,No info,No info,,No info,19,,16.93,16.97,17,,,,,16.75,,,,,,,,
-,,Calculated Dx Gap,,,,,,,,,,,,,,,,,,100.0,100.0,,,78.5,,,,,80.7,80.9,,,,,,,,,86.9,85.9,86.4,84.8,,0.0,82.7,,83.1,83.0,83.0,,,,,83.2,,,,,,,,
-,,Clade(s) Isolated from Confirmed Cases,,,,,,,,,,,,,,,,,,No info,No info,,,No info,,,,,No info,No info,,,,,,,,,I,I,I,I,,Ia,Ia,,Ia,Ia,Ia,,,,,Ia,,,,,,,,
-,Congo Republic,New Cases,,,1,,,,,4,,5,,,,,2,,,29,2,,21,,,1,,18,9,,22,,,24,13,,,,,,23,,2,,,5,,14,,,,5,10,5,,,,,,,,
-,,New Confirmed Cases,,,0,,,,,0,,0,,,,,2,,,17,0,,0,,,0,,0,0,,0,,,0,0,,,,,,0,,2,,,0,,0,,,,0,0,0,,,,,,,,
-,,New Deaths,,,0,,,,,0,,0,,,,,0,,,0,0,,0,,,0,,0,0,,0,,,1,0,,,,,,0,,0,,,0,,0,,,,0,0,0,,,,,,,,
-,,Cumulative Cases,,,90,,,,,95,,100,,,,,No info,,,43,49,,64,,,60,,78,87,,109,,,133,146,,,,,,169,,162,,,184,,204,,,,239,249,254,,,,,,,,
-,,Cumulative Confirmed Cases,,,20,,,,,21,,21,,,,,No info,,,19,19,,19,,,19,,19,19,,19,,,19,19,,,,,,19,,21,,,21,,21,,,,22,22,22,,,,,,,,
-,,Cumulative Deaths,,,2,,,,,5,,5,,,,,No info,,,0,0,,0,,,0,,0,0,,0,,,1,1,,,,,,1,,0,,,0,,0,,,,0,0,0,,,,,,,,
-,,Case Fatality Rate (%),,,"10
+(calculated)",,,7.7,,7.1,,,,,,,,,,,6.6,,,,,,5.7,,,,,,6.4,,,2.5,2.2,2,2,2,1.8,1.8,
+,% Children < 15 Years,No info,,No info,,,,,No info,,,,,,,No info,,,No info,,No info,,,,,,,,,,,No info,,,,,,No info,,,,,,60,,,60,60,60,60,60,60,60,
+,% Male,No info,,No info,,,,,No info,,,,,,,No info,,,No info,,No info,,,,,,,,,,,80,,,,,,80,,,,,,80,,,80,80,80,80,80,80,80,
+,Cumulative Cases Tested,No info,,No info,,,,,No info,,,,,,,No info,,,No info,,No info,,,,,,,,,,,No info,,,,,,No info,,,,,,29,,,63,No info,78,82,82,89,94,
+,Cumulative Cases,135,,137,,,,,140,,,,,,,8,,,13,,14,,,,,,,,,,,31,,,,,,35,,,,,,42,,,81,89,98,103,109,111,113,
+,Calculated Testing Rate,N/A,,N/A,,,,,N/A,,,,,,,N/A,,,N/A,,N/A,,,,,,,,,,,N/A,,,,,,N/A,,,,,,69,,,77.8,N/A,79.6,79.6,75.2,80,83.2,
+,Reported Testing Rate (%),No info,,No info,,,,,No info,,,,,,,No info,,,No info,,No info,,,,,,,,,,,No info,,,,,,No info,,,,,,69,,,78,82,80,80,75.2,80,83.2,
+,Cumulative Confirmed Cases,27,,27,,,,,27,,,,,,,2,,,2,,2,,,,,,,,,,,5,,,,,,5,,,,,,5,,,5,6,6,6,6,6,6,
+,Cumulative Cases Tested,No info,,No info,,,,,No info,,,,,,,No info,,,No info,,No info,,,,,,,,,,,No info,,,,,,No info,,,,,,29,,,63,No info,78,82,82,89,94,
+,Calculated Positivity Rate (%),N/A,,N/A,,,,,N/A,,,,,,,N/A,,,N/A,,N/A,,,,,,,,,,,N/A,,,,,,N/A,,,,,,17.2,,,7.9,N/A,7.7,7.3,7.3,6.7,6.4,
+,Reported Positivity Rate (%),No info,,No info,,,,,No info,,,,,,,No info,,,No info,,No info,,,,,,,,,,,No info,,,,,,No info,,,,,,17.2,,,"25.9*
+(this number is wrong - should be 5/63 or 7.9)",8.2,7.7,7.3,7.3,6.7,6.4,
+,Calculated Dx Gap,80,,80.3,,,,,80.7,,,,,,,75,,,84.6,,85.7,,,,,,,,,,,83.9,,,,,,85.7,,,,,,88.1,,,92.6,93.3,93.9,94.2,94.5,94.6,94.7,
+,Clade(s) Isolated from Confirmed Cases,No info,,No info,,,,,No info,,,,,,,No info,,,No info,,No info,,,,,,,,,,,I/II,,,,,,II,,,,,,II,,,II,II,II,II,II,II,II,
+Central African Republic,New Cases,,,,,,,,,,,,,,,,,,13,1,,,46,,,,,16,1,,,,,,,,,26,14,31,5,,3,20,,22,17,12,,,,,14,9
+,New Confirmed Cases,,,,,,,,,,,,,,,,,,0,0,,,20,,,,,1,0,,,,,,,,,7,4,3,5,,3,0,,5,3,2,,,,,4,5
+,New Deaths,,,,,,,,,,,,,,,,,,0,0,,,0,,,,,0,0,,,,,,,,,0,0,0,0,,0,0,,0,0,0,,,,,0,0
+,Cumulative Cases,,,,,,,,,,,,,,,,,,45,47,,,93,,,,,109,110,,,,,,,,,213,227,258,263,,48,278,,307,324,336,,,,,394,403
+,Cumulative Confirmed Cases,,,,,,,,,,,,,,,,,,0,0,,,20,,,,,21,21,,,,,,,,,28,32,35,40,,48,48,,52,55,57,,,,,66,71
+,Cumulative Deaths,,,,,,,,,,,,,,,,,,0,0,,,0,,,,,0,0,,,,,,,,,0,0,0,0,,1,1,,1,1,1,,,,,1,2
+,Case Fatality Rate (%),,,,,,,,,,,,,,,,,,0,No info,,,0,,,,,0,0,,,,,,,,,0,0,0,0,,2.3,0.3,,0.3,1.8,0.3,,,,,0.3,0.5
+,% Children < 15 Years,,,,,,,,,,,,,,,,,,No info,No info,,,"35
+(<5 years)",,,,,No info,43,,,,,,,,,43,43,43,43,,42,42,,42.3,49.1,49.1,,,,,51.5,53.5
+,% Male,,,,,,,,,,,,,,,,,,No info,No info,,,No info,,,,,No info,62,,,,,,,,,62,62,62,62,,58,58,,58,62,62,,,,,62,63.4
+,Cumulative Cases Tested,,,,,,,,,,,,,,,,,,No info,No info,,,No info,,,,,No info,No info,,,,,,,,,No info,No info,No info,No info,,No info,247,,307,324,No info,,,,,394,403
+,Cumulative Cases,,,,,,,,,,,,,,,,,,45,47,,,93,,,,,109,110,,,,,,,,,213,227,258,263,,No info,278,,307,324,336,,,,,394,403
+,Calculated Testing Rate,,,,,,,,,,,,,,,,,,N/A,N/A,,,N/A,,,,,N/A,N/A,,,,,,,,,N/A,N/A,N/A,N/A,,N/A,88.8,,100,100,N/A,,,,,100,
+,Reported Testing Rate (%),,,,,,,,,,,,,,,,,,No info,No info,,,No info,,,,,No info,No info,,,,,,,,,No info,No info,No info,No info,,No info,89,,100,100,100,,,,,100,100
+,Cumulative Confirmed Cases,,,,,,,,,,,,,,,,,,0,0,,,20,,,,,21,21,,,,,,,,,28,32,35,40,,48,48 (5 also listed),,52,55,57,,,,,66,71
+,Cumulative Cases Tested,,,,,,,,,,,,,,,,,,No info,No info,,,No info,,,,,No info,No info,,,,,,,,,No info,No info,No info,No info,,No info,247,,307,324,No info,,,,,394,403
+,Calculated Positivity Rate (%),,,,,,,,,,,,,,,,,,N/A,N/A,,,N/A,,,,,N/A,N/A,,,,,,,,,N/A,N/A,N/A,N/A,,N/A,19.4 (48/247),,16.9,17,N/A,,,,,16.8,
+,Reported Positivity Rate (%),,,,,,,,,,,,,,,,,,No info,No info,,,No info,,,,,No info,No info,,,,,,,,,No info,No info,No info,No info,,No info,19,,16.93,16.97,17,,,,,16.75,17.6
+,Calculated Dx Gap,,,,,,,,,,,,,,,,,,100,100,,,78.5,,,,,80.7,80.9,,,,,,,,,86.9,85.9,86.4,84.8,,0,82.7,,83.1,83,83,,,,,83.2,
+,Clade(s) Isolated from Confirmed Cases,,,,,,,,,,,,,,,,,,No info,No info,,,No info,,,,,No info,No info,,,,,,,,,I,I,I,I,,Ia,Ia,,Ia,Ia,Ia,,,,,Ia,la
+Congo Republic,New Cases,,,1,,,,,4,,5,,,,,2,,,29,2,,21,,,1,,18,9,,22,,,24,13,,,,,,23,,2,,,5,,14,,,,5,10,5,
+,New Confirmed Cases,,,0,,,,,0,,0,,,,,2,,,17,0,,0,,,0,,0,0,,0,,,0,0,,,,,,0,,2,,,0,,0,,,,0,0,0,
+,New Deaths,,,0,,,,,0,,0,,,,,0,,,0,0,,0,,,0,,0,0,,0,,,1,0,,,,,,0,,0,,,0,,0,,,,0,0,0,
+,Cumulative Cases,,,90,,,,,95,,100,,,,,No info,,,43,49,,64,,,60,,78,87,,109,,,133,146,,,,,,169,,162,,,184,,204,,,,239,249,254,
+,Cumulative Confirmed Cases,,,20,,,,,21,,21,,,,,No info,,,19,19,,19,,,19,,19,19,,19,,,19,19,,,,,,19,,21,,,21,,21,,,,22,22,22,
+,Cumulative Deaths,,,2,,,,,5,,5,,,,,No info,,,0,0,,0,,,0,,0,0,,0,,,1,1,,,,,,1,,0,,,0,,0,,,,0,0,0,
+,Case Fatality Rate (%),,,"10
 (should be 2/90 = 2.2%)",,,,,"23.8
 (should be 5/95 = 5.3%)",,"23.8
-(should be 5/100 = 5%)",,,,,No info,,,0,0,,0,,,0,,0,0,,0,,,0.8,0.7,,,,,,0.6,,0,,,0,,0,,,,0,0,0,,,,,,,,
-,,% Children < 15 Years,,,No info,,,,,No info,,No info,,,,,No info,,,"44.2
+(should be 5/100 = 5%)",,,,,No info,,,0,0,,0,,,0,,0,0,,0,,,0.8,0.7,,,,,,0.6,,0,,,0,,0,,,,0,0,0,
+,% Children < 15 Years,,,No info,,,,,No info,,No info,,,,,No info,,,"44.2
 (5-14 years)",No info,,No info,,,"42 
 (>15 years listed)",,44,56,,56,,,"44
 (>15 reported)","44
 (>15 reported)",,,,,,"44
 (only >15 given)",,"38.1
-(only >15 given)",,,38.09,,38.09,,,,38.09,38.09,40.9,,,,,,,,
-,,% Male,,,No info,,,,,No info,,No info,,,,,No info,,,57.9,No info,,No info,,,58,,58,58,,58,,,58,58,,,,,,58,,57.14,,,57.14,,57.14,,,,57.14,57.14,59,,,,,,,,
-,,Cumulative Cases Tested,,,No info,,,,,No info,,No info,,,,,No info,,,No info,No info,,No info,,,No info,,No info,No info,,No info,,,No info,No info,,,,,,No info,,No info,,,No info,,No info,,,,147,147,147,,,,,,,,
-,,Cumulative Cases,,,90,,,,,95,,100,,,,,No info,,,43,49,,64,,,60,,78,87,,109,,,133,146,,,,,,169,,162,,,184,,204,,,,239,249,254,,,,,,,,
-,,Calculated Testing Rate,,,N/A,,,,,N/A,,N/A,,,,,N/A,,,N/A,N/A,,N/A,,,N/A,,N/A,N/A,,N/A,,,N/A,N/A,,,,,,N/A,,N/A,,,N/A,,N/A,,,,61.5,59,57.9,,,,,,,,
-,,Reported Testing Rate (%),,,No info,,,,,No info,,No info,,,,,No info,,,No info,No info,,No info,,,No info,,No info,No info,,No info,,,No info,No info,,,,,,No info,,No info,,,No info,,No info,,,,61.5,59,58,,,,,,,,
-,,Cumulative Confirmed Cases,,,20,,,,,21,,21,,,,,No info,,,19,19,,19,,,19,,19,19,,19,,,19,19,,,,,,19,,21,,,21,,21,,,,22,22,22,,,,,,,,
-,,Cumulative Cases Tested,,,No info,,,,,No info,,No info,,,,,No info,,,No info,No info,,No info,,,No info,,No info,No info,,No info,,,No info,No info,,,,,,No info,,No info,,,No info,,No info,,,,147,147,147,,,,,,,,
-,,Calculated Positivity Rate (%),,,N/A,,,,,N/A,,N/A,,,,,N/A,,,N/A,N/A,,N/A,,,N/A,,N/A,N/A,,N/A,,,N/A,N/A,,,,,,N/A,,N/A,,,N/A,,N/A,,,,15,15,15,,,,,,,,
-,,Reported Positivity Rate (%),,,No info,,,,,No info,,No info,,,,,No info,,,No info,No info,,No info,,,No info,,No info,No info,,No info,,,No info,No info,,,,,,No info,,No info,,,No info,,No info,,,,15,15,15,,,,,,,,
-,,Calculated Dx Gap,,,77.8,,,,,77.9,,79.0,,,,,N/A,,,55.8,61.2,,70.3,,,68.3,,75.6,78.2,,82.6,,,85.7,87.0,,,,,,88.8,,87.0,,,88.6,,89.7,,,,90.8,91.2,91.3,,,,,,,,
-,,Clade(s) Isolated from Confirmed Cases,,,No info,,,,,No info,,No info,,,,,No info,,,No info,No info,,No info,,,No info,,No info,No info,,No info,,,No info,No info,,,,,,No info,,No info,,,No info,,No info,,,,No info,No info,No info,,,,,,,,
-,Cote d'Ivoire,New Cases,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2,,,26,,153,94,,28,53,39,,,26,2,,,,,,,,
-,,New Confirmed Cases,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2,,,26,,15,9,,10,5,7,,,9,2,,,,,,,,
-,,New Deaths,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,1,,0,0,,0,0,0,,,0,0,,,,,,,,
-,,Cumulative Cases,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2,,,28,,181,275,,251,304,343,,,400,402,,,,,,,,
-,,Cumulative Confirmed Cases,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2,,,28,,43,52,,62,67,74,,,89,91,,,,,,,,
-,,Cumulative Deaths,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,1,,1,1,,1,1,1,,,1,1,,,,,,,,
-,,Case Fatality Rate (%),,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,3.6,,3.6,1.9,,1.6,0.3,1.3,,,1.1,1.1,,,,,,,,
-,,% Children < 15 Years,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,25,,35,40,,45.1,41.8,40,,,43,42,,,,,,,,
-,,% Male,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"No info
-(""student"", no gender listed)",,,71,,70,69,,69.4,67.2,69,,,65,63,,,,,,,,
-,,Cumulative Cases Tested,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,No info,,,No info,,No info,No info,,No info,No info,No info,,,No info,No info,,,,,,,,
-,,Cumulative Cases,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,No info,,,No info,,181,275,,251,304,343,,,400,402,,,,,,,,
-,,Calculated Testing Rate,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,N/A,,,N/A,,N/A,N/A,,N/A,N/A,N/A,,,N/A,N/A,,,,,,,,
-,,Reported Testing Rate (%),,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,No info,,,No info,,No info,No info,,No info,No info,No Info,,,No info,No info,,,,,,,,
-,,Cumulative Confirmed Cases,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2,,,28,,43,52,,62,67,74,,,89,91,,,,,,,,
-,,Cumulative Cases Tested,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,No info,,,No info,,No info,No info,,No info,No info,No info,,,No info,No info,,,,,,,,
-,,Calculated Positivity Rate (%),,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,N/A,,,N/A,,N/A,N/A,,N/A,N/A,N/A,,,N/A,N/A,,,,,,,,
-,,Reported Positivity Rate (%),,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,No info,,,No info,,No info,No info,,No info,No info,No info,,,No info,No info,,,,,,,,
-,,Calculated Dx Gap,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.0,,,0.0,,76.2,81.1,,75.3,78.0,78.4,,,77.8,77.4,,,,,,,,
-,,Clade(s) Isolated from Confirmed Cases,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,No info,,,II,,II,II,,IIa,IIa,IIa,,,IIa,IIa,,,,,,,,
-,Democratic Republic of the Congo,New Cases,,,,,,,,917,,,,,,,1167,,,1592,437,593,273,381,167,159,480,136,468,458,,922,273,597,458,524,1362,,2713,688,2387,1005,672,2933,2865,1484,1775,1828,,,724,,603,,,,,,,,,
-,,New Confirmed Cases,,,,,,,,501,,,,,,,224,,,0,72,0,0,0,0,0,0,0,0,49,,276,0,0,0,0,910,,583,87,0,222,90,1838,203,307,232,213,,,233,,22,,,,,,,,,
-,,New Deaths,,,,,,,,120,,,,,,,96,,,135,14,15,12,15,7,2,11,2,14,11,,16,12,11,11,8,16,,7,5,56,24,22,35,22,14,103,26,,,0,,7,,,,,,,,,
-,,Cumulative Cases,,,,,,,,14200,,,,,,,1598,,,3190,3895,4488,4538,4919,5086,5284,5764,5900,6386,7281,,7864,8137,8734,9192,9716,11078,,13791,14479,16789,16794,19667,22600,25465,23319 (first mention),26267,27487,,,34030,,38185,,,,,,,,,
-,,Cumulative Confirmed Cases,,,,,,,,1215,,,,,,,247,,,247,319,319,319,319,319,319,319,319,319,884,,1135,1135,1135,1135,1135,2045,,2628,2715,2638,2860,2961,4799,5002,5467 (first mention),5599,5812,,,6962,,8607,,,,,,,,,
-,,Cumulative Deaths,,,,,,,,715,,,,,,,114,,,249,264,279,296,311,318,322,333,335,349,374,,383,397,408,419,427,443,,450,455,511,535,575,610,635,730,833,859,,,981,,1049,,,,,,,,,
-,,Case Fatality Rate (%),,,,,,,,"5.0
+(only >15 given)",,,38.09,,38.09,,,,38.09,38.09,40.9,
+,% Male,,,No info,,,,,No info,,No info,,,,,No info,,,57.9,No info,,No info,,,58,,58,58,,58,,,58,58,,,,,,58,,57.14,,,57.14,,57.14,,,,57.14,57.14,59,
+,Cumulative Cases Tested,,,No info,,,,,No info,,No info,,,,,No info,,,No info,No info,,No info,,,No info,,No info,No info,,No info,,,No info,No info,,,,,,No info,,No info,,,No info,,No info,,,,147,147,147,
+,Cumulative Cases,,,90,,,,,95,,100,,,,,No info,,,43,49,,64,,,60,,78,87,,109,,,133,146,,,,,,169,,162,,,184,,204,,,,239,249,254,
+,Calculated Testing Rate,,,N/A,,,,,N/A,,N/A,,,,,N/A,,,N/A,N/A,,N/A,,,N/A,,N/A,N/A,,N/A,,,N/A,N/A,,,,,,N/A,,N/A,,,N/A,,N/A,,,,61.5,59,57.9,
+,Reported Testing Rate (%),,,No info,,,,,No info,,No info,,,,,No info,,,No info,No info,,No info,,,No info,,No info,No info,,No info,,,No info,No info,,,,,,No info,,No info,,,No info,,No info,,,,61.5,59,58,
+,Cumulative Confirmed Cases,,,20,,,,,21,,21,,,,,No info,,,19,19,,19,,,19,,19,19,,19,,,19,19,,,,,,19,,21,,,21,,21,,,,22,22,22,
+,Cumulative Cases Tested,,,No info,,,,,No info,,No info,,,,,No info,,,No info,No info,,No info,,,No info,,No info,No info,,No info,,,No info,No info,,,,,,No info,,No info,,,No info,,No info,,,,147,147,147,
+,Calculated Positivity Rate (%),,,N/A,,,,,N/A,,N/A,,,,,N/A,,,N/A,N/A,,N/A,,,N/A,,N/A,N/A,,N/A,,,N/A,N/A,,,,,,N/A,,N/A,,,N/A,,N/A,,,,15,15,15,
+,Reported Positivity Rate (%),,,No info,,,,,No info,,No info,,,,,No info,,,No info,No info,,No info,,,No info,,No info,No info,,No info,,,No info,No info,,,,,,No info,,No info,,,No info,,No info,,,,15,15,15,
+,Calculated Dx Gap,,,77.8,,,,,77.9,,79,,,,,N/A,,,55.8,61.2,,70.3,,,68.3,,75.6,78.2,,82.6,,,85.7,87,,,,,,88.8,,87,,,88.6,,89.7,,,,90.8,91.2,91.3,
+,Clade(s) Isolated from Confirmed Cases,,,No info,,,,,No info,,No info,,,,,No info,,,No info,No info,,No info,,,No info,,No info,No info,,No info,,,No info,No info,,,,,,No info,,No info,,,No info,,No info,,,,No info,No info,No info,
+Cote d'Ivoire,New Cases,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2,,,26,,153,94,,28,53,39,,,26,2,10
+,New Confirmed Cases,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2,,,26,,15,9,,10,5,7,,,9,2,
+,New Deaths,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,1,,0,0,,0,0,0,,,0,0,0
+,Cumulative Cases,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2,,,28,,181,275,,251,304,343,,,400,402,412
+,Cumulative Confirmed Cases,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2,,,28,,43,52,,62,67,74,,,89,91,91
+,Cumulative Deaths,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,1,,1,1,,1,1,1,,,1,1,1
+,Case Fatality Rate (%),,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,3.6,,3.6,1.9,,1.6,0.3,1.3,,,1.1,1.1,1.1
+,% Children < 15 Years,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,25,,35,40,,45.1,41.8,40,,,43,42,42
+,% Male,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"No info
+(""student"", no gender listed)",,,71,,70,69,,69.4,67.2,69,,,65,63,66
+,Cumulative Cases Tested,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,No info,,,No info,,No info,No info,,No info,No info,No info,,,No info,No info,No info
+,Cumulative Cases,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,No info,,,No info,,181,275,,251,304,343,,,400,402,412
+,Calculated Testing Rate,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,N/A,,,N/A,,N/A,N/A,,N/A,N/A,N/A,,,N/A,N/A,N/A
+,Reported Testing Rate (%),,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,No info,,,No info,,No info,No info,,No info,No info,No Info,,,No info,No info,No info
+,Cumulative Confirmed Cases,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2,,,28,,43,52,,62,67,74,,,89,91,91
+,Cumulative Cases Tested,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,No info,,,No info,,No info,No info,,No info,No info,No info,,,No info,No info,No info
+,Calculated Positivity Rate (%),,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,N/A,,,N/A,,N/A,N/A,,N/A,N/A,N/A,,,N/A,N/A,N/A
+,Reported Positivity Rate (%),,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,No info,,,No info,,No info,No info,,No info,No info,No info,,,No info,No info,No info
+,Calculated Dx Gap,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,0,,76.2,81.1,,75.3,78,78.4,,,77.8,77.4,
+,Clade(s) Isolated from Confirmed Cases,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,No info,,,II,,II,II,,IIa,IIa,IIa,,,IIa,IIa,IIa
+Democratic Republic of the Congo,New Cases,,,,,,,,917,,,,,,,1167,,,1592,437,593,273,381,167,159,480,136,468,458,,922,273,597,458,524,1362,,2713,688,2387,1005,672,2933,2865,1484,1775,1828,,,724,,603,,1146
+,New Confirmed Cases,,,,,,,,501,,,,,,,224,,,0,72,0,0,0,0,0,0,0,0,49,,276,0,0,0,0,910,,583,87,0,222,90,1838,203,307,232,213,,,233,,22,,81
+,New Deaths,,,,,,,,120,,,,,,,96,,,135,14,15,12,15,7,2,11,2,14,11,,16,12,11,11,8,16,,7,5,56,24,22,35,22,14,103,26,,,0,,7,,33
+,Cumulative Cases,,,,,,,,14200,,,,,,,1598,,,3190,3895,4488,4538,4919,5086,5284,5764,5900,6386,7281,,7864,8137,8734,9192,9716,11078,,13791,14479,16789,16794,19667,22600,25465,23319 (first mention),26267,27487,,,34030,,38185,,42912
+,Cumulative Confirmed Cases,,,,,,,,1215,,,,,,,247,,,247,319,319,319,319,319,319,319,319,319,884,,1135,1135,1135,1135,1135,2045,,2628,2715,2638,2860,2961,4799,5002,5467 (first mention),5599,5812,,,6962,,8607,,9456
+,Cumulative Deaths,,,,,,,,715,,,,,,,114,,,249,264,279,296,311,318,322,333,335,349,374,,383,397,408,419,427,443,,450,455,511,535,575,610,635,730,833,859,,,981,,1049,,1132
+,Case Fatality Rate (%),,,,,,,,"5.0
 (calculated)",,,,,,,"46.1 
-(should be 114/1598 = 7.1)",,,7.8,7.8,6.7,6.5,6.3,6.3,6.1,5.8,5.7,5.5,5.1,,4.9,4.9,4.7,4.6,4.4,4,,3.3,3.1,3.04,3.2,2.9,3.4,2.5,3.1,3.2,3.1,,,2.9,,2.75,,,,,,,,,
-,,% Children < 15 Years,,,,,,,,No info,,,,,,,No info,,,66.8,71,70,"70 
+(should be 114/1598 = 7.1)",,,7.8,7.8,6.7,6.5,6.3,6.3,6.1,5.8,5.7,5.5,5.1,,4.9,4.9,4.7,4.6,4.4,4,,3.3,3.1,3.04,3.2,2.9,3.4,2.5,3.1,3.2,3.1,,,2.9,,2.75,,2.6
+,% Children < 15 Years,,,,,,,,No info,,,,,,,No info,,,66.8,71,70,"70 
 (5-15 years)","70 
 (5-15 years)","70 
 (5-15 years)","70 
-(5-15 years)",68,68,68,68,,68,68,68,66,66,66,,66,66,66,66,66,66,66,No info,No info,No info,,,36.9,,No info,,,,,,,,,
-,,% Male,,,,,,,,No info,,,,,,,No info,,,No info,No info,No info,No info,No info,60,60,73,73,73,73,,73,73,73,73,73,73,,73,73,73,73,73,73,73,53,53,53,,,53,,No info,,,,,,,,,
-,,Cumulative Cases Tested,,,,,,,,No info,,,,,,,No info,,,No info,No info,No info,No info,No info,No info,No info,No info,No info,No info,No info,,No info,No info,No info,No info,No info,No info,,No info,No info,No info,No info,No info,No info,9421,10320,10151,10151 (not updated?),,,12701,,14472,,,,,,,,,
-,,Cumulative Cases,,,,,,,,14200,,,,,,,1598,,,3190,3895,4488,4538,4919,5086,5284,5764,5900,6386,7281,,7864,8137,8734,9192,9716,11078,,13791,14479,16789,16794,19667,17801,25465,23012 (second mention),26267,27487,,,34030,,38185,,,,,,,,,
-,,Calculated Testing Rate,,,,,,,,N/A,,,,,,,N/A,,,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,,N/A,N/A,N/A,N/A,N/A,N/A,,N/A,N/A,N/A,N/A,N/A,N/A,37,44.8,38.6,36.9,,,37.3,,37.9,,,,,,,,,
-,,Reported Testing Rate (%),,,,,,,,No info,,,,,,,No info,,,No info,No info,No info,No info,No info,No info,No info,No info,No info,No info,No info,,No info,No info,No info,No info,No info,No info,,No info,No info,No info,No info,No info,No info,46,44.2,38.6,38.6,,,45.5,,37.9,,,,,,,,,
-,,Cumulative Confirmed Cases,,,,,,,,1215,,,,,,,247,,,247,319,319,319,319,319,319,319,319,319,884,,1135,1135,1135,1135,1135,2045,,2628,2715,2638,2860,2961,4799,5002,5454 (second mention),5599,5812,,,6962,,8607,,,,,,,,,
-,,Cumulative Cases Tested,,,,,,,,No info,,,,,,,No info,,,No info,No info,No info,No info,No info,No info,No info,No info,No info,No info,No info,,No info,No info,No info,No info,No info,No info,,No info,No info,No info,No info,No info,No info,9421,10320,10151,10151 (not updated?),,,12701,,14472,,,,,,,,,
-,,Calculated Positivity Rate (%),,,,,,,,N/A,,,,,,,N/A,,,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,,N/A,N/A,N/A,N/A,N/A,N/A,,N/A,N/A,N/A,N/A,N/A,N/A,53.1,52.8,55.2,57.3,,,54.8,,59.5,,,,,,,,,
-,,Reported Positivity Rate (%),,,,,,,,No info,,,,,,,No info,,,No info,No info,No info,No info,No info,No info,No info,No info,No info,No info,No info,,No info,No info,No info,No info,No info,No info,,No info,No info,No info,No info,No info,No info,53,53,55.2,54.9,,,54.8,,59.5,,,,,,,,,
-,,Calculated Dx Gap,,,,,,,,91.4,,,,,,,84.5,,,92.3,91.8,92.9,93.0,93.5,93.7,94.0,94.5,94.6,95.0,87.9,,85.6,86.1,87.0,87.7,88.3,81.5,,80.9,81.2,84.3,83.0,84.9,78.8,80.4,76.5,78.7,78.9,,,79.5,,77.5,,,,,,,,,
-,,Clade(s) Isolated from Confirmed Cases,,,,,,,,No info,,,,,,,No info,,,No info,No info,No info,No info,No info,I,I,I,I,I,I,,I,I,I,I,I,I,,I,I,I,I,I,Ia/Ib,Ia/Ib,Ia/Ib,Ia/Ib,Ia/Ib,,,Ia/Ib,,Ia/Ib,,,,,,,,,
-,Gabon,New Cases,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,,15,,,2,2,,1,1,,,,,,,,,,
-,,New Confirmed Cases,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,No info,,1,,,0,0,,0,1,,,,,,,,,,
-,,New Deaths,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,No info,,0,,,0,0,,0,1,,,,,,,,,,
-,,Cumulative Cases,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,No info,,15,,,18,20,,23,24,,,,,,,,,,
-,,Cumulative Confirmed Cases,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,No info,,2,,,2,2,,2,2,,,,,,,,,,
-,,Cumulative Deaths,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,No info,,0,,,0,0,,0,0,,,,,,,,,,
-,,Case Fatality Rate (%),,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,No info,,0,,,0,0,,0,0,,,,,,,,,,
-,,% Children < 15 Years,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,No info,,0,,,No info,No info,,No info,No info,,,,,,,,,,
-,,% Male,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,No info,,50,,,No info,No info,,No info,No info,,,,,,,,,,
-,,Cumulative Cases Tested,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,No info,,15,,,18,No info,,23,24,,,,,,,,,,
-,,Cumulative Cases,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,No info,,15,,,18,20,,23,24,,,,,,,,,,
-,,Calculated Testing Rate,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,N/A,,100,,,100,N/A,,100,100,,,,,,,,,,
-,,Reported Testing Rate (%),,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,No info,,100,,,100,100,,100,100,,,,,,,,,,
-,,Cumulative Confirmed Cases,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,No info,,2,,,2,2,,2,2,,,,,,,,,,
-,,Cumulative Cases Tested,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,No info,,15,,,18,No info,,23,24,,,,,,,,,,
-,,Calculated Positivity Rate (%),,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,N/A,,13.3,,,11.11,N/A,,8.7,8.3,,,,,,,,,,
-,,Reported Positivity Rate (%),,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,No info,,15,,,11.11,11,,11,8,,,,,,,,,,
-,,Calculated Dx Gap,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,No info,,86.7,,,88.9,90.0,,91.3,91.7,,,,,,,,,,
-,,Clade(s) Isolated from Confirmed Cases,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,No info,,No info,,,No info,Ia,,No info,No info,,,,,,,,,,
-,Ghana,New Cases,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,4 (2024),,,,,,,,,,,,,,,,1,1,,,,,,,,,,,,
-,,New Confirmed Cases,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,4,,,,,,,,,,,,,,,,1,1,,,,,,,,,,,,
-,,New Deaths,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,,,,,,,,,0,0,,,,,,,,,,,,
-,,Cumulative Cases,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,131 (2022-2024),,,,,,,,,,,,,,,,230,230,,,,,,,,,,,,
-,,Cumulative Confirmed Cases,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,131,,,,,,,,,,,,,,,,1,2,,,,,,,,,,,,
-,,Cumulative Deaths,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,,,,,,,,,0,0,,,,,,,,,,,,
-,,Case Fatality Rate (%),,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,,,,,,,,,0,0,,,,,,,,,,,,
-,,% Children < 15 Years,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,No info,,,,,,,,,,,,,,,,No info,No info,,,,,,,,,,,,
-,,% Male,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,No info,,,,,,,,,,,,,,,,No info,No info,,,,,,,,,,,,
-,,Cumulative Cases Tested,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,No info,,,,,,,,,,,,,,,,No info,No info,,,,,,,,,,,,
-,,Cumulative Cases,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,131,,,,,,,,,,,,,,,,230,230,,,,,,,,,,,,
-,,Calculated Testing Rate,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,N/A,,,,,,,,,,,,,,,,N/A,N/A,,,,,,,,,,,,
-,,Reported Testing Rate (%),,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,No info,,,,,,,,,,,,,,,,No info,No info,,,,,,,,,,,,
-,,Cumulative Confirmed Cases,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,131,,,,,,,,,,,,,,,,1,2,,,,,,,,,,,,
-,,Cumulative Cases Tested,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,No info,,,,,,,,,,,,,,,,No info,No info,,,,,,,,,,,,
-,,Calculated Positivity Rate (%),,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,N/A,,,,,,,,,,,,,,,,N/A,N/A,,,,,,,,,,,,
-,,Reported Positivity Rate (%),,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,No info,,,,,,,,,,,,,,,,No info,No info,,,,,,,,,,,,
-,,Calculated Dx Gap,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,No info,,,,,,,,,,,,,,,,99.6,99.1,,,,,,,,,,,,
-,,Clade(s) Isolated from Confirmed Cases,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,No info,,,,,,,,,,,,,,,,No info,IIb,,,,,,,,,,,,
-,Guinea,New Cases,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,24,,,18,,,,,,,,,,,,,,
-,,New Confirmed Cases,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,,,0,,,,,,,,,,,,,,
-,,New Deaths,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,0,,,,,,,,,,,,,,
-,,Cumulative Cases,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,24,,,41,,,,,,,,,,,,,,
-,,Cumulative Confirmed Cases,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,,,1,,,,,,,,,,,,,,
-,,Cumulative Deaths,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,No info,,,,,,,,,,,,,,
-,,Case Fatality Rate (%),,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,No info,,,,,,,,,,,,,,
-,,% Children < 15 Years,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,No info,,,No info,,,,,,,,,,,,,,
-,,% Male,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,No info,,,No info,,,,,,,,,,,,,,
-,,Cumulative Cases Tested,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,21,,,18 (new),,,,,,,,,,,,,,
-,,Cumulative Cases,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,24,,,18 (new),,,,,,,,,,,,,,
-,,Calculated Testing Rate,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,87.5,,,100 (new),,,,,,,,,,,,,,
-,,Reported Testing Rate (%),,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,88,,,100,,,,,,,,,,,,,,
-,,Cumulative Confirmed Cases,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,,,1,,,,,,,,,,,,,,
-,,Cumulative Cases Tested,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,21,,,No info (total),,,,,,,,,,,,,,
-,,Calculated Positivity Rate (%),,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,4.8,,,N/A,,,,,,,,,,,,,,
-,,Reported Positivity Rate (%),,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,4.8,,,No info,,,,,,,,,,,,,,
-,,Calculated Dx Gap,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,95.8,,,97.6,,,,,,,,,,,,,,
-,,Clade(s) Isolated from Confirmed Cases,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,No info,,,No info,,,,,,,,,,,,,,
-,Kenya,New Cases,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,,,1,,1,,,,3,4,3,1,,,,,,,,,,
-,,New Confirmed Cases,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,,,1,,1,,,,3,4,1,1,,,,,,,,,,
-,,New Deaths,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,0,,No info,,,,0,0,1,0,,,,,,,,,,
-,,Cumulative Cases,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,,,2,,115,,,,8,235 (given 100% tested),238 (given 100% tested),249 (given 100% tested),,,,,,,,,,
-,,Cumulative Confirmed Cases,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,,,2,,5,,,,8,12,13,14,,,,,,,,,,
-,,Cumulative Deaths,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,0,,No info,,,,0,0,1,1,,,,,,,,,,
-,,Case Fatality Rate (%),,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,0,,No info,,,,0,0,7.7,7.1 (should be 1/249 = 0.4),,,,,,,,,,
-,,% Children < 15 Years,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,0,,0,,,,0,0,0,0,,,,,,,,,,
-,,% Male,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,100,,,No info,,60,,,,63,58,54,57,,,,,,,,,,
-,,Cumulative Cases Tested,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,,,No info,,99,,,,No info,235,238,249,,,,,,,,,,
-,,Cumulative Cases,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,,,No info,,115,,,,No info,No info,238 (given 100% tested),249,,,,,,,,,,
-,,Calculated Testing Rate,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,100,,,N/A,,86.1,,,,N/A,N/A,100,100,,,,,,,,,,
-,,Reported Testing Rate (%),,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,No info,,,No info,,86,,,,100,100,100,100,,,,,,,,,,
-,,Cumulative Confirmed Cases,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,,,2,,5,,,,8,12,13,14,,,,,,,,,,
-,,Cumulative Cases Tested,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,,,No info,,99,,,,No info,235,238 (given 100% tested),249,,,,,,,,,,
-,,Calculated Positivity Rate (%),,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,100,,,N/A,,5.1,,,,N/A,5.1,5.5,5.6,,,,,,,,,,
-,,Reported Positivity Rate (%),,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,No info,,,No info,,5,,,,4,5.1,5.4,5.6,,,,,,,,,,
-,,Calculated Dx Gap,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.0,,,0.0,,95.7,,,,0.0,0.0,0.0,0.0,,,,,,,,,,
-,,Clade(s) Isolated from Confirmed Cases,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,No info,,,No info,,Ib,,,,Ib,Ib,Ib,Ib,,,,,,,,,,
-,Liberia,New Cases,,,,,,,,,,,,,,,,,,,,2,,,,,2,,,,,1,,,,,,,,,,,1,,87,33,30,,,,15,25,,30,,,,,,,,
-,,New Confirmed Cases,,,,,,,,,,,,,,,,,,,,2,,,,,2,,,,,1,,,,,,,,,,,1,,2,3,1,,,,4,1,,7,,,,,,,,
-,,New Deaths,,,,,,,,,,,,,,,,,,,,0,,,,,0,,,,,0,,,,,,,,,,,0,,0,0,0,,,,0,0,,0,,,,,,,,
-,,Cumulative Cases,,,,,,,,,,,,,,,,,,,,"21 (2023)
-2 (2024)",,,,,4,,,,,5,,,,,,,,,,,6,,93,96,145,,,,229,254,,303,,,,,,,,
-,,Cumulative Confirmed Cases,,,,,,,,,,,,,,,,,,,,"21 (2023)
-2 (2024)",,,,,4,,,,,5,,,,,,,,,,,6,,8,11,12,,,,18,19,,29,,,,,,,,
-,,Cumulative Deaths,,,,,,,,,,,,,,,,,,,,0,,,,,0,,,,,0,,,,,,,,,,,0,,0,0,0,,,,0,0,,0,,,,,,,,
-,,Case Fatality Rate (%),,,,,,,,,,,,,,,,,,,,0,,,,,0,,,,,0,,,,,,,,,,,0,,0,0,0,,,,0,0,,0,,,,,,,,
-,,% Children < 15 Years,,,,,,,,,,,,,,,,,,,,No info,,,,,No info,,,,,No info,,,,,,,,,,,"33
+(5-15 years)",68,68,68,68,,68,68,68,66,66,66,,66,66,66,66,66,66,66,No info,No info,No info,,,36.9,,No info,,36.9
+,% Male,,,,,,,,No info,,,,,,,No info,,,No info,No info,No info,No info,No info,60,60,73,73,73,73,,73,73,73,73,73,73,,73,73,73,73,73,73,73,53,53,53,,,53,,No info,,53
+,Cumulative Cases Tested,,,,,,,,No info,,,,,,,No info,,,No info,No info,No info,No info,No info,No info,No info,No info,No info,No info,No info,,No info,No info,No info,No info,No info,No info,,No info,No info,No info,No info,No info,No info,9421,10320,10151,10151 (not updated?),,,12701,,14472,,15425
+,Cumulative Cases,,,,,,,,14200,,,,,,,1598,,,3190,3895,4488,4538,4919,5086,5284,5764,5900,6386,7281,,7864,8137,8734,9192,9716,11078,,13791,14479,16789,16794,19667,17801,25465,23012 (second mention),26267,27487,,,34030,,38185,,42912
+,Calculated Testing Rate,,,,,,,,N/A,,,,,,,N/A,,,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,,N/A,N/A,N/A,N/A,N/A,N/A,,N/A,N/A,N/A,N/A,N/A,N/A,37,44.8,38.6,36.9,,,37.3,,37.9,,
+,Reported Testing Rate (%),,,,,,,,No info,,,,,,,No info,,,No info,No info,No info,No info,No info,No info,No info,No info,No info,No info,No info,,No info,No info,No info,No info,No info,No info,,No info,No info,No info,No info,No info,No info,46,44.2,38.6,38.6,,,45.5,,37.9,,35.9
+,Cumulative Confirmed Cases,,,,,,,,1215,,,,,,,247,,,247,319,319,319,319,319,319,319,319,319,884,,1135,1135,1135,1135,1135,2045,,2628,2715,2638,2860,2961,4799,5002,5454 (second mention),5599,5812,,,6962,,8607,,9456
+,Cumulative Cases Tested,,,,,,,,No info,,,,,,,No info,,,No info,No info,No info,No info,No info,No info,No info,No info,No info,No info,No info,,No info,No info,No info,No info,No info,No info,,No info,No info,No info,No info,No info,No info,9421,10320,10151,10151 (not updated?),,,12701,,14472,,15425
+,Calculated Positivity Rate (%),,,,,,,,N/A,,,,,,,N/A,,,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,,N/A,N/A,N/A,N/A,N/A,N/A,,N/A,N/A,N/A,N/A,N/A,N/A,53.1,52.8,55.2,57.3,,,54.8,,59.5,,
+,Reported Positivity Rate (%),,,,,,,,No info,,,,,,,No info,,,No info,No info,No info,No info,No info,No info,No info,No info,No info,No info,No info,,No info,No info,No info,No info,No info,No info,,No info,No info,No info,No info,No info,No info,53,53,55.2,54.9,,,54.8,,59.5,,61.3
+,Calculated Dx Gap,,,,,,,,91.4,,,,,,,84.5,,,92.3,91.8,92.9,93,93.5,93.7,94,94.5,94.6,95,87.9,,85.6,86.1,87,87.7,88.3,81.5,,80.9,81.2,84.3,83,84.9,78.8,80.4,76.5,78.7,78.9,,,79.5,,77.5,,
+,Clade(s) Isolated from Confirmed Cases,,,,,,,,No info,,,,,,,No info,,,No info,No info,No info,No info,No info,I,I,I,I,I,I,,I,I,I,I,I,I,,I,I,I,I,I,Ia/Ib,Ia/Ib,Ia/Ib,Ia/Ib,Ia/Ib,,,Ia/Ib,,Ia/Ib,,Ia/Ib
+Gabon,New Cases,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,,15,,,2,2,,1,1,,,
+,New Confirmed Cases,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,No info,,1,,,0,0,,0,1,,,
+,New Deaths,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,No info,,0,,,0,0,,0,1,,,
+,Cumulative Cases,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,No info,,15,,,18,20,,23,24,,,
+,Cumulative Confirmed Cases,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,No info,,2,,,2,2,,2,2,,,
+,Cumulative Deaths,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,No info,,0,,,0,0,,0,0,,,
+,Case Fatality Rate (%),,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,No info,,0,,,0,0,,0,0,,,
+,% Children < 15 Years,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,No info,,0,,,No info,No info,,No info,No info,,,
+,% Male,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,No info,,50,,,No info,No info,,No info,No info,,,
+,Cumulative Cases Tested,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,No info,,15,,,18,No info,,23,24,,,
+,Cumulative Cases,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,No info,,15,,,18,20,,23,24,,,
+,Calculated Testing Rate,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,N/A,,100,,,100,N/A,,100,100,,,
+,Reported Testing Rate (%),,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,No info,,100,,,100,100,,100,100,,,
+,Cumulative Confirmed Cases,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,No info,,2,,,2,2,,2,2,,,
+,Cumulative Cases Tested,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,No info,,15,,,18,No info,,23,24,,,
+,Calculated Positivity Rate (%),,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,N/A,,13.3,,,11.11,N/A,,8.7,8.3,,,
+,Reported Positivity Rate (%),,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,No info,,15,,,11.11,11,,11,8,,,
+,Calculated Dx Gap,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,No info,,86.7,,,88.9,90,,91.3,91.7,,,
+,Clade(s) Isolated from Confirmed Cases,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,No info,,No info,,,No info,Ia,,No info,No info,,,
+Ghana,New Cases,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,4 (2024),,,,,,,,,,,,,,,,1,1,,,,,
+,New Confirmed Cases,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,4,,,,,,,,,,,,,,,,1,1,,,,,
+,New Deaths,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,,,,,,,,,0,0,,,,,
+,Cumulative Cases,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,131 (2022-2024),,,,,,,,,,,,,,,,230,230,,,,,
+,Cumulative Confirmed Cases,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,131,,,,,,,,,,,,,,,,1,2,,,,,
+,Cumulative Deaths,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,,,,,,,,,0,0,,,,,
+,Case Fatality Rate (%),,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,,,,,,,,,0,0,,,,,
+,% Children < 15 Years,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,No info,,,,,,,,,,,,,,,,No info,No info,,,,,
+,% Male,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,No info,,,,,,,,,,,,,,,,No info,No info,,,,,
+,Cumulative Cases Tested,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,No info,,,,,,,,,,,,,,,,No info,No info,,,,,
+,Cumulative Cases,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,131,,,,,,,,,,,,,,,,230,230,,,,,
+,Calculated Testing Rate,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,N/A,,,,,,,,,,,,,,,,N/A,N/A,,,,,
+,Reported Testing Rate (%),,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,No info,,,,,,,,,,,,,,,,No info,No info,,,,,
+,Cumulative Confirmed Cases,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,131,,,,,,,,,,,,,,,,1,2,,,,,
+,Cumulative Cases Tested,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,No info,,,,,,,,,,,,,,,,No info,No info,,,,,
+,Calculated Positivity Rate (%),,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,N/A,,,,,,,,,,,,,,,,N/A,N/A,,,,,
+,Reported Positivity Rate (%),,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,No info,,,,,,,,,,,,,,,,No info,No info,,,,,
+,Calculated Dx Gap,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,No info,,,,,,,,,,,,,,,,99.6,99.1,,,,,
+,Clade(s) Isolated from Confirmed Cases,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,No info,,,,,,,,,,,,,,,,No info,IIb,,,,,
+Guinea,New Cases,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,24,,,18,,,,,,,
+,New Confirmed Cases,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,,,0,,,,,,,
+,New Deaths,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,0,,,,,,,
+,Cumulative Cases,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,24,,,41,,,,,,,
+,Cumulative Confirmed Cases,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,,,1,,,,,,,
+,Cumulative Deaths,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,No info,,,,,,,
+,Case Fatality Rate (%),,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,No info,,,,,,,
+,% Children < 15 Years,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,No info,,,No info,,,,,,,
+,% Male,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,No info,,,No info,,,,,,,
+,Cumulative Cases Tested,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,21,,,18 (new),,,,,,,
+,Cumulative Cases,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,24,,,18 (new),,,,,,,
+,Calculated Testing Rate,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,87.5,,,100 (new),,,,,,,
+,Reported Testing Rate (%),,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,88,,,100,,,,,,,
+,Cumulative Confirmed Cases,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,,,1,,,,,,,
+,Cumulative Cases Tested,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,21,,,No info (total),,,,,,,
+,Calculated Positivity Rate (%),,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,4.8,,,N/A,,,,,,,
+,Reported Positivity Rate (%),,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,4.8,,,No info,,,,,,,
+,Calculated Dx Gap,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,95.8,,,97.6,,,,,,,
+,Clade(s) Isolated from Confirmed Cases,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,No info,,,No info,,,,,,,
+Kenya,New Cases,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,,,1,,1,,,,3,4,3,1,,,11
+,New Confirmed Cases,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,,,1,,1,,,,3,4,1,1,,,3
+,New Deaths,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,0,,No info,,,,0,0,1,0,,,0
+,Cumulative Cases,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,,,2,,115,,,,8,235 (given 100% tested),238 (given 100% tested),249 (given 100% tested),,,270
+,Cumulative Confirmed Cases,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,,,2,,5,,,,8,12,13,14,,,17
+,Cumulative Deaths,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,0,,No info,,,,0,0,1,1,,,1
+,Case Fatality Rate (%),,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,0,,No info,,,,0,0,7.7,7.1 (should be 1/249 = 0.4),,,No info
+,% Children < 15 Years,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,0,,0,,,,0,0,0,0,,,No info
+,% Male,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,100,,,No info,,60,,,,63,58,54,57,,,57
+,Cumulative Cases Tested,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,,,No info,,99,,,,No info,235,238,249,,,270
+,Cumulative Cases,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,,,No info,,115,,,,No info,No info,238 (given 100% tested),249,,,270
+,Calculated Testing Rate,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,100,,,N/A,,86.1,,,,N/A,N/A,100,100,,,
+,Reported Testing Rate (%),,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,No info,,,No info,,86,,,,100,100,100,100,,,100
+,Cumulative Confirmed Cases,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,,,2,,5,,,,8,12,13,14,,,
+,Cumulative Cases Tested,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,,,No info,,99,,,,No info,235,238 (given 100% tested),249,,,270
+,Calculated Positivity Rate (%),,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,100,,,N/A,,5.1,,,,N/A,5.1,5.5,5.6,,,
+,Reported Positivity Rate (%),,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,No info,,,No info,,5,,,,4,5.1,5.4,5.6,,,6.3
+,Calculated Dx Gap,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,0,,95.7,,,,0,0,0,0,,,
+,Clade(s) Isolated from Confirmed Cases,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,No info,,,No info,,Ib,,,,Ib,Ib,Ib,Ib,,,Ib
+Liberia,New Cases,,,,,,,,,,,,,,,,,,,,2,,,,,2,,,,,1,,,,,,,,,,,1,,87,33,30,,,,15,25,,30,12
+,New Confirmed Cases,,,,,,,,,,,,,,,,,,,,2,,,,,2,,,,,1,,,,,,,,,,,1,,2,3,1,,,,4,1,,7,12
+,New Deaths,,,,,,,,,,,,,,,,,,,,0,,,,,0,,,,,0,,,,,,,,,,,0,,0,0,0,,,,0,0,,0,0
+,Cumulative Cases,,,,,,,,,,,,,,,,,,,,"21 (2023)
+2 (2024)",,,,,4,,,,,5,,,,,,,,,,,6,,93,96,145,,,,229,254,,303,315
+,Cumulative Confirmed Cases,,,,,,,,,,,,,,,,,,,,"21 (2023)
+2 (2024)",,,,,4,,,,,5,,,,,,,,,,,6,,8,11,12,,,,18,19,,29,41
+,Cumulative Deaths,,,,,,,,,,,,,,,,,,,,0,,,,,0,,,,,0,,,,,,,,,,,0,,0,0,0,,,,0,0,,0,0
+,Case Fatality Rate (%),,,,,,,,,,,,,,,,,,,,0,,,,,0,,,,,0,,,,,,,,,,,0,,0,0,0,,,,0,0,,0,0
+,% Children < 15 Years,,,,,,,,,,,,,,,,,,,,No info,,,,,No info,,,,,No info,,,,,,,,,,,"33
 (>15 only)",,50,45,"No info
-(20-40 only)",,,,39,39,,40,,,,,,,,
-,,% Male,,,,,,,,,,,,,,,,,,,,No info,,,,,No info,,,,,No info,,,,,,,,,,,50,,50,"45
+(20-40 only)",,,,39,39,,40,41
+,% Male,,,,,,,,,,,,,,,,,,,,No info,,,,,No info,,,,,No info,,,,,,,,,,,50,,50,"45
 (female % given)","50
-(female % given)",,,,No info,No info,,No info,,,,,,,,
-,,Cumulative Cases Tested,,,,,,,,,,,,,,,,,,,,No info,,,,,No info,,,,,No info,,,,,,,,,,,No info,,52,100,119,,,,196,204,,252,,,,,,,,
-,,Cumulative Cases,,,,,,,,,,,,,,,,,,,,2 (2024),,,,,4,,,,,5,,,,,,,,,,,No info,,93,126,145,,,,229,254,,303,,,,,,,,
-,,Calculated Testing Rate,,,,,,,,,,,,,,,,,,,,N/A,,,,,N/A,,,,,N/A,,,,,,,,,,,N/A,,55.9,79.3,82.1,,,,85.6,80.3,,83.1,,,,,,,,
-,,Reported Testing Rate (%),,,,,,,,,,,,,,,,,,,,No info,,,,,No info,,,,,No info,,,,,,,,,,,No info,,56,79,82,,,,85.5,80,,83,,,,,,,,
-,,Cumulative Confirmed Cases,,,,,,,,,,,,,,,,,,,,2 (2024),,,,,4,,,,,5,,,,,,,,,,,6,,8,11,12,,,,18,19,,29,,,,,,,,
-,,Cumulative Cases Tested,,,,,,,,,,,,,,,,,,,,No info,,,,,No info,,,,,No info,,,,,,,,,,,No info,,52,100,119,,,,196,204,,252,,,,,,,,
-,,Calculated Positivity Rate (%),,,,,,,,,,,,,,,,,,,,N/A,,,,,N/A,,,,,N/A,,,,,,,,,,,N/A,,15.3,11,10.1,,,,9.2,9.3,,11.5,,,,,,,,
-,,Reported Positivity Rate (%),,,,,,,,,,,,,,,,,,,,No info,,,,,No info,,,,,No info,,,,,,,,,,,No info,,12,11,10.1,,,,9.1,9.3,,11.5,,,,,,,,
-,,Calculated Dx Gap,,,,,,,,,,,,,,,,,,,,0.0,,,,,0.0,,,,,0.0,,,,,,,,,,,0.0,,91.4,88.5,91.7,,,,92.1,92.5,,90.4,,,,,,,,
-,,Clade(s) Isolated from Confirmed Cases,,,,,,,,,,,,,,,,,,,,No info,,,,,No info,,,,,No info,,,,,,,,,,,No info,,No info,No info,No info,,,,No info,No info,,No info,,,,,,,,
-,Mauritius,New Cases,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,,,,,,,,,
-,,New Confirmed Cases,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,,,,,,,,,
-,,New Deaths,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,,
-,,Cumulative Cases,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,,,,,,,,,
-,,Cumulative Confirmed Cases,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,,,,,,,,,
-,,Cumulative Deaths,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,,
-,,Case Fatality Rate (%),,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,,
-,,% Children < 15 Years,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,,
-,,% Male,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,100,,,,,,,,,
-,,Cumulative Cases Tested,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,,,,,,,,,
-,,Cumulative Cases,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,,,,,,,,,
-,,Calculated Testing Rate,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,100,,,,,,,,,
-,,Reported Testing Rate (%),,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,No info,,,,,,,,,
-,,Cumulative Confirmed Cases,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,,,,,,,,,
-,,Cumulative Cases Tested,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,,,,,,,,,
-,,Calculated Positivity Rate (%),,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,100,,,,,,,,,
-,,Reported Positivity Rate (%),,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,No info,,,,,,,,,
-,,Calculated Dx Gap,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,,
-,,Clade(s) Isolated from Confirmed Cases,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,No info,,,,,,,,,
-,Morocco,New Cases,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,,,,1,,,,,,,,,,,,
-,,New Confirmed Cases,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,,,,1,,,,,,,,,,,,
-,,New Deaths,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,0,,,,,,,,,,,,
-,,Cumulative Cases,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"3 (2022)
-2 (2024)",,,,2,,,,,,,,,,,,
-,,Cumulative Confirmed Cases,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"3 (2022)
-2 (2024)",,,,2,,,,,,,,,,,,
-,,Cumulative Deaths,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,0,,,,,,,,,,,,
-,,Case Fatality Rate (%),,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,0,,,,,,,,,,,,
-,,% Children < 15 Years,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,0,,,,,,,,,,,,
-,,% Male,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,100 (2024),,,,100 (2024),,,,,,,,,,,,
-,,Cumulative Cases Tested,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"3 (2022)
-2 (2024)",,,,2,,,,,,,,,,,,
-,,Cumulative Cases,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,No info,,,,No info,,,,,,,,,,,,
-,,Calculated Testing Rate,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,N/A,,,,N/A,,,,,,,,,,,,
-,,Reported Testing Rate (%),,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,No info,,,,No info,,,,,,,,,,,,
-,,Cumulative Confirmed Cases,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"3 (2022)
-2 (2024)",,,,2,,,,,,,,,,,,
-,,Cumulative Cases Tested,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,No info,,,,2,,,,,,,,,,,,
-,,Calculated Positivity Rate (%),,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,N/A,,,,100,,,,,,,,,,,,
-,,Reported Positivity Rate (%),,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,No info,,,,No info,,,,,,,,,,,,
-,,Calculated Dx Gap,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,0,,,,,,,,,,,,
-,,Clade(s) Isolated from Confirmed Cases,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,IIb (2022) / II (2024),,,,IIb,,,,,,,,,,,,
-,Nigeria,New Cases,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,24,,,,,,,15,,1,868,74,63,72,,,60,,,,,,,,,,,
-,,New Confirmed Cases,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,24,,,,,,,15,,1,8,7,6,5,,,10,,,,,,,,,,,
-,,New Deaths,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,0,,0,0,0,0,0,,,0,,,,,,,,,,,
-,,Cumulative Cases,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,24,,,,,,,39,,40,916,990,1100,1180,,,1297,,,,,,,,,,,
-,,Cumulative Confirmed Cases,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,24,,,,,,,39,,40,48,55,73,78,,,94,,,,,,,,,,,
-,,Cumulative Deaths,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,0,,0,0,0,0,0,,,0,,,,,,,,,,,
-,,Case Fatality Rate (%),,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,0,,0,0,0,0,0,,,0,,,,,,,,,,,
-,,% Children < 15 Years,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"50
+(female % given)",,,,No info,No info,,No info,
+,Cumulative Cases Tested,,,,,,,,,,,,,,,,,,,,No info,,,,,No info,,,,,No info,,,,,,,,,,,No info,,52,100,119,,,,196,204,,252,271
+,Cumulative Cases,,,,,,,,,,,,,,,,,,,,2 (2024),,,,,4,,,,,5,,,,,,,,,,,No info,,93,126,145,,,,229,254,,303,315
+,Calculated Testing Rate,,,,,,,,,,,,,,,,,,,,N/A,,,,,N/A,,,,,N/A,,,,,,,,,,,N/A,,55.9,79.3,82.1,,,,85.6,80.3,,83.1,
+,Reported Testing Rate (%),,,,,,,,,,,,,,,,,,,,No info,,,,,No info,,,,,No info,,,,,,,,,,,No info,,56,79,82,,,,85.5,80,,83,86
+,Cumulative Confirmed Cases,,,,,,,,,,,,,,,,,,,,2 (2024),,,,,4,,,,,5,,,,,,,,,,,6,,8,11,12,,,,18,19,,29,41
+,Cumulative Cases Tested,,,,,,,,,,,,,,,,,,,,No info,,,,,No info,,,,,No info,,,,,,,,,,,No info,,52,100,119,,,,196,204,,252,271
+,Calculated Positivity Rate (%),,,,,,,,,,,,,,,,,,,,N/A,,,,,N/A,,,,,N/A,,,,,,,,,,,N/A,,15.3,11,10.1,,,,9.2,9.3,,11.5,
+,Reported Positivity Rate (%),,,,,,,,,,,,,,,,,,,,No info,,,,,No info,,,,,No info,,,,,,,,,,,No info,,12,11,10.1,,,,9.1,9.3,,11.5,15.1
+,Calculated Dx Gap,,,,,,,,,,,,,,,,,,,,0,,,,,0,,,,,0,,,,,,,,,,,0,,91.4,88.5,91.7,,,,92.1,92.5,,90.4,
+,Clade(s) Isolated from Confirmed Cases,,,,,,,,,,,,,,,,,,,,No info,,,,,No info,,,,,No info,,,,,,,,,,,No info,,No info,No info,No info,,,,No info,No info,,No info,No info
+Mauritius,New Cases,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,,
+,New Confirmed Cases,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,,
+,New Deaths,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,
+,Cumulative Cases,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,,
+,Cumulative Confirmed Cases,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,,
+,Cumulative Deaths,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,
+,Case Fatality Rate (%),,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,
+,% Children < 15 Years,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,
+,% Male,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,100,,
+,Cumulative Cases Tested,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,,
+,Cumulative Cases,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,,
+,Calculated Testing Rate,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,100,,
+,Reported Testing Rate (%),,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,No info,,
+,Cumulative Confirmed Cases,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,,
+,Cumulative Cases Tested,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,,
+,Calculated Positivity Rate (%),,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,100,,
+,Reported Positivity Rate (%),,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,No info,,
+,Calculated Dx Gap,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,
+,Clade(s) Isolated from Confirmed Cases,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,No info,,
+Morocco,New Cases,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,,,,1,,,,,
+,New Confirmed Cases,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,,,,1,,,,,
+,New Deaths,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,0,,,,,
+,Cumulative Cases,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"3 (2022)
+2 (2024)",,,,2,,,,,
+,Cumulative Confirmed Cases,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"3 (2022)
+2 (2024)",,,,2,,,,,
+,Cumulative Deaths,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,0,,,,,
+,Case Fatality Rate (%),,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,0,,,,,
+,% Children < 15 Years,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,0,,,,,
+,% Male,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,100 (2024),,,,100 (2024),,,,,
+,Cumulative Cases Tested,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"3 (2022)
+2 (2024)",,,,2,,,,,
+,Cumulative Cases,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,No info,,,,No info,,,,,
+,Calculated Testing Rate,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,N/A,,,,N/A,,,,,
+,Reported Testing Rate (%),,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,No info,,,,No info,,,,,
+,Cumulative Confirmed Cases,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"3 (2022)
+2 (2024)",,,,2,,,,,
+,Cumulative Cases Tested,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,No info,,,,2,,,,,
+,Calculated Positivity Rate (%),,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,N/A,,,,100,,,,,
+,Reported Positivity Rate (%),,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,No info,,,,No info,,,,,
+,Calculated Dx Gap,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,0,,,,,
+,Clade(s) Isolated from Confirmed Cases,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,IIb (2022) / II (2024),,,,IIb,,,,,
+Nigeria,New Cases,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,24,,,,,,,15,,1,868,74,63,72,,,60,,,,
+,New Confirmed Cases,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,24,,,,,,,15,,1,8,7,6,5,,,10,,,,
+,New Deaths,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,0,,0,0,0,0,0,,,0,,,,
+,Cumulative Cases,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,24,,,,,,,39,,40,916,990,1100,1180,,,1297,,,,
+,Cumulative Confirmed Cases,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,24,,,,,,,39,,40,48,55,73,78,,,94,,,,
+,Cumulative Deaths,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,0,,0,0,0,0,0,,,0,,,,
+,Case Fatality Rate (%),,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,0,,0,0,0,0,0,,,0,,,,
+,% Children < 15 Years,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"50
 (<11 years)",,,,,,,"38
 (ages <1-10 years)",,"35
 (ages <1-10 years)",35,35,"37.3
 (ages <1-10 years)","29.4
 (ages <1-10 years)",,,"26
-(ages <1-10 years)",,,,,,,,,,,
-,,% Male,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,67,,,,,,,70,,70,71,71,67,68,,,69,,,,,,,,,,,
-,,Cumulative Cases Tested,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,No info,,,,,,,No info,,No info,868,990 (100% claim),1100 (100% claim),1180 (100% claim),,,1297 (given 100% testing),,,,,,,,,,,
-,,Cumulative Cases,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,No info,,,,,,,No info,,No info,916,990 (100% claim),1100 (100% claim),1180 (100% claim),,,1297,,,,,,,,,,,
-,,Calculated Testing Rate,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,N/A,,,,,,,N/A,,N/A,94.8,100,100,100,,,100,,,,,,,,,,,
-,,Reported Testing Rate (%),,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,No info,,,,,,,No info,,No info,100,100,100,100,,,100,,,,,,,,,,,
-,,Cumulative Confirmed Cases,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,24,,,,,,,39,,40,48,55,73,78,,,94,,,,,,,,,,,
-,,Cumulative Cases Tested,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,No info,,,,,,,No info,,No info,868,990 (100% claim),1100 (100% claim),1180 (100% claim),,,1297,,,,,,,,,,,
-,,Calculated Positivity Rate (%),,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,N/A,,,,,,,N/A,,N/A,5.5,5.6,6.6,6.6,,,7.2,,,,,,,,,,,
-,,Reported Positivity Rate (%),,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,No info,,,,,,,No info,,No info,5.5,5.9,6.4,6.6,,,7.2,,,,,,,,,,,
-,,Calculated Dx Gap,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.0,,,,,,,0.0,,0.0,94.8,94.4,93.4,93.4,,,92.8,,,,,,,,,,,
-,,Clade(s) Isolated from Confirmed Cases,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,No info,,,,,,,II,,No info,No info,No info,II,No info,,,No info,,,,,,,,,,,
-,Rwanda,New Cases,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2,,,2,,,,,263,,,,,,,,,,,,,,,
-,,New Confirmed Cases,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2,,,2,,,,,0,,,,,,,,,,,,,,,
-,,New Deaths,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,0,,,,,0,,,,,,,,,,,,,,,
-,,Cumulative Cases,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2,,,4,,,,,1379,,,,,,,,,,,,,,,
-,,Cumulative Confirmed Cases,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2,,,4,,,,,4,,,,,,,,,,,,,,,
-,,Cumulative Deaths,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,0,,,,,0,,,,,,,,,,,,,,,
-,,Case Fatality Rate (%),,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,0,,,,,0,,,,,,,,,,,,,,,
-,,% Children < 15 Years,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,No info,,,,,0,,,,,,,,,,,,,,,
-,,% Male,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,50,,,No info,,,,,67,,,,,,,,,,,,,,,
-,,Cumulative Cases Tested,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2,,,No info,,,,,1379 (100% claim),,,,,,,,,,,,,,,
-,,Cumulative Cases,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2,,,No info,,,,,1379 (100% claim),,,,,,,,,,,,,,,
-,,Calculated Testing Rate,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,100,,,N/A,,,,,100,,,,,,,,,,,,,,,
-,,Reported Testing Rate (%),,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,No info,,,No info,,,,,100,,,,,,,,,,,,,,,
-,,Cumulative Confirmed Cases,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2,,,4,,,,,4,,,,,,,,,,,,,,,
-,,Cumulative Cases Tested,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2,,,No info,,,,,1379,,,,,,,,,,,,,,,
-,,Calculated Positivity Rate (%),,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,100,,,N/A,,,,,0.3,,,,,,,,,,,,,,,
-,,Reported Positivity Rate (%),,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,No info,,,No info,,,,,"No info
-(missing)",,,,,,,,,,,,,,,
-,,Calculated Dx Gap,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.0,,,0.0,,,,,99.7,,,,,,,,,,,,,,,
-,,Clade(s) Isolated from Confirmed Cases,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,No info,,,Ib,,,,,Ib,,,,,,,,,,,,,,,
-,South Africa,New Cases,,,,,,,,,,,,,,,,,,,,,,,,,,,1,,1,2,2,7,3,4,2,,,,2,,,,,1,,,,,,,,,,,,,,,,
-,,New Confirmed Cases,,,,,,,,,,,,,,,,,,,,,,,,,,,1,,1,2,2,7,3,4,2,,,,2,,,,,1,,,,,,,,,,,,,,,,
-,,New Deaths,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,0,0,2,0,1,0,0,,,,0,,,,,0,,,,,,,,,,,,,,,,
-,,Cumulative Cases,,,,,,,,,,,,,,,,,,,,,,,,,,,"5 (2022)
-1 (2024)",,2,4,6,13,16,20,22,,,,24,,,,,No info,,,,,,,,,,,,,,,,
-,,Cumulative Confirmed Cases,,,,,,,,,,,,,,,,,,,,,,,,,,,"5 (2022)
-1 (2024)",,2,4,6,13,16,20,22,,,,24,,,,,25,,,,,,,,,,,,,,,,
-,,Cumulative Deaths,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,0,0,2,2,3,3,3,,,,3,,,,,3,,,,,,,,,,,,,,,,
-,,Case Fatality Rate (%),,,,,,,,,,,,,,,,,,,,,,,,,,,0,,0,0,33,15.3,18.7,15,15,,,,12.5,,,,,12,,,,,,,,,,,,,,,,
-,,% Children < 15 Years,,,,,,,,,,,,,,,,,,,,,,,,,,,0 (2024),,0 (new case),0,0,0,0,0,0,,,,0,,,,,0,,,,,,,,,,,,,,,,
-,,% Male,,,,,,,,,,,,,,,,,,,,,,,,,,,100 (2024),,100 (new case),No info,100,100,100,100,100,,,,100,,,,,100,,,,,,,,,,,,,,,,
-,,Cumulative Cases Tested,,,,,,,,,,,,,,,,,,,,,,,,,,,No info,,No info,No info,No info,No info,No info,No info,No info,,,,No info,,,,,692,,,,,,,,,,,,,,,,
-,,Cumulative Cases,,,,,,,,,,,,,,,,,,,,,,,,,,,1 (2024),,2,4,6,No info,No info,No info,No info,,,,No info,,,,,No info,,,,,,,,,,,,,,,,
-,,Calculated Testing Rate,,,,,,,,,,,,,,,,,,,,,,,,,,,N/A,,N/A,N/A,N/A,N/A,N/A,N/A,N/A,,,,N/A,,,,,N/A,,,,,,,,,,,,,,,,
-,,Reported Testing Rate (%),,,,,,,,,,,,,,,,,,,,,,,,,,,No info,,No info,No info,No info,No info,No info,No info,No info,,,,No info,,,,,"No info 
-(total # of tests given only)",,,,,,,,,,,,,,,,
-,,Cumulative Confirmed Cases,,,,,,,,,,,,,,,,,,,,,,,,,,,1 (2024),,2,4,6,13,16,20,22,,,,24,,,,,25,,,,,,,,,,,,,,,,
-,,Cumulative Cases Tested,,,,,,,,,,,,,,,,,,,,,,,,,,,No info,,No info,No info,No info,No info,No info,No info,No info,,,,No info,,,,,692,,,,,,,,,,,,,,,,
-,,Calculated Positivity Rate (%),,,,,,,,,,,,,,,,,,,,,,,,,,,N/A,,N/A,N/A,N/A,N/A,N/A,N/A,N/A,,,,N/A,,,,,3.6,,,,,,,,,,,,,,,,
-,,Reported Positivity Rate (%),,,,,,,,,,,,,,,,,,,,,,,,,,,No info,,No info,No info,No info,No info,No info,No info,No info,,,,No info,,,,,3.6,,,,,,,,,,,,,,,,
-,,Calculated Dx Gap,,,,,,,,,,,,,,,,,,,,,,,,,,,0.0,,0.0,0.0,0.0,0.0,0.0,0.0,0.0,,,,0.0,,,,,No info,,,,,,,,,,,,,,,,
-,,Clade(s) Isolated from Confirmed Cases,,,,,,,,,,,,,,,,,,,,,,,,,,,II (2022),,No info,No info,IIb,IIb,IIb,IIb,IIb,,,,IIb,,,,,IIb,,,,,,,,,,,,,,,,
-,Uganda,New Cases,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2,,,1,1,6,1,11,2,,45,No info,61,23,184,,,,,,,,
-,,New Confirmed Cases,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2,,,1,1,6,1,11,2,,45,22,61,23,184,,,,,,,,
-,,New Deaths,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,0,0,0,0,0,0,,0,0,0,1,0,,,,,,,,
-,,Cumulative Cases,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2,,,3,4,200,201,212,597,,69,769 (given 100% tested),830 (given 100% tested),853 (given 100% tested),1037 (given 100% tested),,,,,,,,
-,,Cumulative Confirmed Cases,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2,,,3,4,10,11,22,24,,69,91,152,175,359,,,,,,,,
-,,Cumulative Deaths,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,0,0,0,0,0,0,,0,0,0,1,1,,,,,,,,
-,,Case Fatality Rate (%),,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,0,0,0,0,0,0,,0,0,0,0.6,0.6,,,,,,,,
-,,% Children < 15 Years,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,0,0,0,No info,No info,No info,,No info,No info,No info,No info,No info,,,,,,,,
-,,% Male,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,No info,50,60,No info,No info,No info,,No info,No info,No info,No info,No info,,,,,,,,
-,,Cumulative Cases Tested,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2,,,No info,No info,200,201,212,597,,747,769,830,853,1037,,,,,,,,
-,,Cumulative Cases,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2,,,No info,No info,200,201,212,597,,No info,769 (given 100% tested),830 (given 100% tested),853 (given 100% tested),1037 (given 100% tested),,,,,,,,
-,,Calculated Testing Rate,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,100,,,N/A,N/A,100,100,100,100,,N/A,100,100,100,100,,,,,,,,
-,,Reported Testing Rate (%),,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,No info,,,No info,No info,100,100,100,100,,100,100,100,100,100,,,,,,,,
-,,Cumulative Confirmed Cases,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2,,,3,4,10,11,22,24,,69,91,152,175,359,,,,,,,,
-,,Cumulative Cases Tested,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2,,,No info,No info,200,201,212,597,,747,769,830,853,1037,,,,,,,,
-,,Calculated Positivity Rate (%),,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,100,,,N/A,N/A,5,5.5,10.4,4,,9.2,11.8,18.3,20.5,34.6,,,,,,,,
-,,Reported Positivity Rate (%),,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,No info,,,No info,No info,5,5.5,10.3,4,,9.2,11.8,18.3,20.5,34.6,,,,,,,,
-,,Calculated Dx Gap,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.0,,,0.0,0.0,95.0,94.5,89.6,96.0,,0.0,0.0,0.0,0.0,65.4,,,,,,,,
-,,Clade(s) Isolated from Confirmed Cases,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,No info,,,No info,No info,Ib,Ib,Ib,Ib,,Ib,Ib,Ib,Ib,Ib,,,,,,,,
-,Zambia,New Cases,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,,,,102,,,,,,,,
-,,New Confirmed Cases,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,,,,0,,,,,,,,
-,,New Deaths,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,0,,,,,,,,
-,,Cumulative Cases,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,,,,103,,,,,,,,
-,,Cumulative Confirmed Cases,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,,,,1,,,,,,,,
-,,Cumulative Deaths,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,0,,,,,,,,
-,,Case Fatality Rate (%),,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,0,,,,,,,,
-,,% Children < 15 Years,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,No info,,,,,,,,
-,,% Male,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,100,,,,No info,,,,,,,,
-,,Cumulative Cases Tested,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,,,,103,,,,,,,,
-,,Cumulative Cases,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,,,,103,,,,,,,,
-,,Calculated Testing Rate,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,100,,,,100,,,,,,,,
-,,Reported Testing Rate (%),,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,No info,,,,100,,,,,,,,
-,,Cumulative Confirmed Cases,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,,,,1,,,,,,,,
-,,Cumulative Cases Tested,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,,,,103,,,,,,,,
-,,Calculated Positivity Rate (%),,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,100,,,,1,,,,,,,,
-,,Reported Positivity Rate (%),,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,No info,,,,1,,,,,,,,
-,,Calculated Dx Gap,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,99,,,,,,,,
-,,Clade(s) Isolated from Confirmed Cases,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,No info,,,,Ib,,,,,,,,
-,Zimbabwe,New Cases,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2,,,,,,,,,,,
-,,New Confirmed Cases,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2,,,,,,,,,,,
-,,New Deaths,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,,,,
-,,Cumulative Cases,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2,,,,,,,,,,,
-,,Cumulative Confirmed Cases,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2,,,,,,,,,,,
-,,Cumulative Deaths,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,,,,
-,,Case Fatality Rate (%),,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,,,,
-,,% Children < 15 Years,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,50,,,,,,,,,,,
-,,% Male,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,100,,,,,,,,,,,
-,,Cumulative Cases Tested,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2,,,,,,,,,,,
-,,Cumulative Cases,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2,,,,,,,,,,,
-,,Calculated Testing Rate,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,100,,,,,,,,,,,
-,,Reported Testing Rate (%),,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,No info,,,,,,,,,,,
-,,Cumulative Confirmed Cases,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2,,,,,,,,,,,
-,,Cumulative Cases Tested,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2,,,,,,,,,,,
-,,Calculated Positivity Rate (%),,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,100,,,,,,,,,,,
-,,Reported Positivity Rate (%),,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,No info,,,,,,,,,,,
-,,Calculated Dx Gap,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,,,,
-,,Clade(s) Isolated from Confirmed Cases,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,No info,,,,,,,,,,,
+(ages <1-10 years)",,,,
+,% Male,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,67,,,,,,,70,,70,71,71,67,68,,,69,,,,
+,Cumulative Cases Tested,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,No info,,,,,,,No info,,No info,868,990 (100% claim),1100 (100% claim),1180 (100% claim),,,1297 (given 100% testing),,,,
+,Cumulative Cases,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,No info,,,,,,,No info,,No info,916,990 (100% claim),1100 (100% claim),1180 (100% claim),,,1297,,,,
+,Calculated Testing Rate,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,N/A,,,,,,,N/A,,N/A,94.8,100,100,100,,,100,,,,
+,Reported Testing Rate (%),,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,No info,,,,,,,No info,,No info,100,100,100,100,,,100,,,,
+,Cumulative Confirmed Cases,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,24,,,,,,,39,,40,48,55,73,78,,,94,,,,
+,Cumulative Cases Tested,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,No info,,,,,,,No info,,No info,868,990 (100% claim),1100 (100% claim),1180 (100% claim),,,1297,,,,
+,Calculated Positivity Rate (%),,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,N/A,,,,,,,N/A,,N/A,5.5,5.6,6.6,6.6,,,7.2,,,,
+,Reported Positivity Rate (%),,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,No info,,,,,,,No info,,No info,5.5,5.9,6.4,6.6,,,7.2,,,,
+,Calculated Dx Gap,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,0,,0,94.8,94.4,93.4,93.4,,,92.8,,,,
+,Clade(s) Isolated from Confirmed Cases,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,No info,,,,,,,II,,No info,No info,No info,II,No info,,,No info,,,,
+Rwanda,New Cases,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2,,,2,,,,,263,,,,,,,,
+,New Confirmed Cases,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2,,,2,,,,,0,,,,,,,,
+,New Deaths,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,0,,,,,0,,,,,,,,
+,Cumulative Cases,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2,,,4,,,,,1379,,,,,,,,
+,Cumulative Confirmed Cases,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2,,,4,,,,,4,,,,,,,,
+,Cumulative Deaths,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,0,,,,,0,,,,,,,,
+,Case Fatality Rate (%),,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,0,,,,,0,,,,,,,,
+,% Children < 15 Years,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,No info,,,,,0,,,,,,,,
+,% Male,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,50,,,No info,,,,,67,,,,,,,,
+,Cumulative Cases Tested,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2,,,No info,,,,,1379 (100% claim),,,,,,,,
+,Cumulative Cases,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2,,,No info,,,,,1379 (100% claim),,,,,,,,
+,Calculated Testing Rate,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,100,,,N/A,,,,,100,,,,,,,,
+,Reported Testing Rate (%),,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,No info,,,No info,,,,,100,,,,,,,,
+,Cumulative Confirmed Cases,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2,,,4,,,,,4,,,,,,,,
+,Cumulative Cases Tested,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2,,,No info,,,,,1379,,,,,,,,
+,Calculated Positivity Rate (%),,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,100,,,N/A,,,,,0.3,,,,,,,,
+,Reported Positivity Rate (%),,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,No info,,,No info,,,,,"No info
+(missing)",,,,,,,,
+,Calculated Dx Gap,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,0,,,,,99.7,,,,,,,,
+,Clade(s) Isolated from Confirmed Cases,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,No info,,,Ib,,,,,Ib,,,,,,,,
+South Africa,New Cases,,,,,,,,,,,,,,,,,,,,,,,,,,,1,,1,2,2,7,3,4,2,,,,2,,,,,1,,,,,,,,,
+,New Confirmed Cases,,,,,,,,,,,,,,,,,,,,,,,,,,,1,,1,2,2,7,3,4,2,,,,2,,,,,1,,,,,,,,,
+,New Deaths,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,0,0,2,0,1,0,0,,,,0,,,,,0,,,,,,,,,
+,Cumulative Cases,,,,,,,,,,,,,,,,,,,,,,,,,,,"5 (2022)
+1 (2024)",,2,4,6,13,16,20,22,,,,24,,,,,No info,,,,,,,,,
+,Cumulative Confirmed Cases,,,,,,,,,,,,,,,,,,,,,,,,,,,"5 (2022)
+1 (2024)",,2,4,6,13,16,20,22,,,,24,,,,,25,,,,,,,,,
+,Cumulative Deaths,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,0,0,2,2,3,3,3,,,,3,,,,,3,,,,,,,,,
+,Case Fatality Rate (%),,,,,,,,,,,,,,,,,,,,,,,,,,,0,,0,0,33,15.3,18.7,15,15,,,,12.5,,,,,12,,,,,,,,,
+,% Children < 15 Years,,,,,,,,,,,,,,,,,,,,,,,,,,,0 (2024),,0 (new case),0,0,0,0,0,0,,,,0,,,,,0,,,,,,,,,
+,% Male,,,,,,,,,,,,,,,,,,,,,,,,,,,100 (2024),,100 (new case),No info,100,100,100,100,100,,,,100,,,,,100,,,,,,,,,
+,Cumulative Cases Tested,,,,,,,,,,,,,,,,,,,,,,,,,,,No info,,No info,No info,No info,No info,No info,No info,No info,,,,No info,,,,,692,,,,,,,,,
+,Cumulative Cases,,,,,,,,,,,,,,,,,,,,,,,,,,,1 (2024),,2,4,6,No info,No info,No info,No info,,,,No info,,,,,No info,,,,,,,,,
+,Calculated Testing Rate,,,,,,,,,,,,,,,,,,,,,,,,,,,N/A,,N/A,N/A,N/A,N/A,N/A,N/A,N/A,,,,N/A,,,,,N/A,,,,,,,,,
+,Reported Testing Rate (%),,,,,,,,,,,,,,,,,,,,,,,,,,,No info,,No info,No info,No info,No info,No info,No info,No info,,,,No info,,,,,"No info 
+(total # of tests given only)",,,,,,,,,
+,Cumulative Confirmed Cases,,,,,,,,,,,,,,,,,,,,,,,,,,,1 (2024),,2,4,6,13,16,20,22,,,,24,,,,,25,,,,,,,,,
+,Cumulative Cases Tested,,,,,,,,,,,,,,,,,,,,,,,,,,,No info,,No info,No info,No info,No info,No info,No info,No info,,,,No info,,,,,692,,,,,,,,,
+,Calculated Positivity Rate (%),,,,,,,,,,,,,,,,,,,,,,,,,,,N/A,,N/A,N/A,N/A,N/A,N/A,N/A,N/A,,,,N/A,,,,,3.6,,,,,,,,,
+,Reported Positivity Rate (%),,,,,,,,,,,,,,,,,,,,,,,,,,,No info,,No info,No info,No info,No info,No info,No info,No info,,,,No info,,,,,3.6,,,,,,,,,
+,Calculated Dx Gap,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,0,0,0,0,0,0,0,,,,0,,,,,No info,,,,,,,,,
+,Clade(s) Isolated from Confirmed Cases,,,,,,,,,,,,,,,,,,,,,,,,,,,II (2022),,No info,No info,IIb,IIb,IIb,IIb,IIb,,,,IIb,,,,,IIb,,,,,,,,,
+Uganda,New Cases,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2,,,1,1,6,1,11,2,,45,No info,61,23,184,84
+,New Confirmed Cases,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2,,,1,1,6,1,11,2,,45,22,61,23,184,84
+,New Deaths,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,0,0,0,0,0,0,,0,0,0,1,0,0
+,Cumulative Cases,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2,,,3,4,200,201,212,597,,69,769 (given 100% tested),830 (given 100% tested),853 (given 100% tested),1037 (given 100% tested),1121
+,Cumulative Confirmed Cases,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2,,,3,4,10,11,22,24,,69,91,152,175,359,443
+,Cumulative Deaths,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,0,0,0,0,0,0,,0,0,0,1,1,1
+,Case Fatality Rate (%),,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,0,0,0,0,0,0,,0,0,0,0.6,0.6,0.2
+,% Children < 15 Years,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,0,0,0,No info,No info,No info,,No info,No info,No info,No info,No info,No info
+,% Male,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,No info,50,60,No info,No info,No info,,No info,No info,No info,No info,No info,No info
+,Cumulative Cases Tested,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2,,,No info,No info,200,201,212,597,,747,769,830,853,1037,1121
+,Cumulative Cases,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2,,,No info,No info,200,201,212,597,,No info,769 (given 100% tested),830 (given 100% tested),853 (given 100% tested),1037 (given 100% tested),1121
+,Calculated Testing Rate,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,100,,,N/A,N/A,100,100,100,100,,N/A,100,100,100,100,
+,Reported Testing Rate (%),,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,No info,,,No info,No info,100,100,100,100,,100,100,100,100,100,100
+,Cumulative Confirmed Cases,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2,,,3,4,10,11,22,24,,69,91,152,175,359,443
+,Cumulative Cases Tested,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2,,,No info,No info,200,201,212,597,,747,769,830,853,1037,1121
+,Calculated Positivity Rate (%),,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,100,,,N/A,N/A,5,5.5,10.4,4,,9.2,11.8,18.3,20.5,34.6,
+,Reported Positivity Rate (%),,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,No info,,,No info,No info,5,5.5,10.3,4,,9.2,11.8,18.3,20.5,34.6,39.5
+,Calculated Dx Gap,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,0,0,95,94.5,89.6,96,,0,0,0,0,65.4,
+,Clade(s) Isolated from Confirmed Cases,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,No info,,,No info,No info,Ib,Ib,Ib,Ib,,Ib,Ib,Ib,Ib,Ib,Ib
+Zambia,New Cases,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,,,,102,
+,New Confirmed Cases,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,,,,0,
+,New Deaths,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,0,
+,Cumulative Cases,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,,,,103,
+,Cumulative Confirmed Cases,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,,,,1,
+,Cumulative Deaths,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,0,
+,Case Fatality Rate (%),,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,0,
+,% Children < 15 Years,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,No info,
+,% Male,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,100,,,,No info,
+,Cumulative Cases Tested,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,,,,103,
+,Cumulative Cases,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,,,,103,
+,Calculated Testing Rate,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,100,,,,100,
+,Reported Testing Rate (%),,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,No info,,,,100,
+,Cumulative Confirmed Cases,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,,,,1,
+,Cumulative Cases Tested,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,,,,103,
+,Calculated Positivity Rate (%),,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,100,,,,1,
+,Reported Positivity Rate (%),,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,No info,,,,1,
+,Calculated Dx Gap,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,99,
+,Clade(s) Isolated from Confirmed Cases,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,No info,,,,Ib,
+Zimbabwe,New Cases,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2,,,,
+,New Confirmed Cases,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2,,,,
+,New Deaths,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,
+,Cumulative Cases,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2,,,,
+,Cumulative Confirmed Cases,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2,,,,
+,Cumulative Deaths,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,
+,Case Fatality Rate (%),,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,
+,% Children < 15 Years,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,50,,,,
+,% Male,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,100,,,,
+,Cumulative Cases Tested,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2,,,,
+,Cumulative Cases,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2,,,,
+,Calculated Testing Rate,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,100,,,,
+,Reported Testing Rate (%),,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,No info,,,,
+,Cumulative Confirmed Cases,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2,,,,
+,Cumulative Cases Tested,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2,,,,
+,Calculated Positivity Rate (%),,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,100,,,,
+,Reported Positivity Rate (%),,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,No info,,,,
+,Calculated Dx Gap,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,
+,Clade(s) Isolated from Confirmed Cases,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,No info,,,,
