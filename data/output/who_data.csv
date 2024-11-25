@@ -142,6 +142,10 @@ Benin,BEN,African Region,08/09/2024,3,0,0,0,0,0
 Benin,BEN,African Region,15/09/2024,3,0,0,0,0,0
 Benin,BEN,African Region,22/09/2024,3,0,0,0,0,0
 Benin,BEN,African Region,29/09/2024,3,0,0,0,0,0
+Benin,BEN,African Region,06/10/2024,3,0,0,0,0,0
+Benin,BEN,African Region,13/10/2024,3,0,0,0,0,0
+Benin,BEN,African Region,20/10/2024,3,0,0,0,0,0
+Benin,BEN,African Region,27/10/2024,3,0,0,0,0,0
 Burundi,BDI,African Region,21/07/2024,0,0,0,0,0,0
 Burundi,BDI,African Region,28/07/2024,9,0,9,0,0,0
 Burundi,BDI,African Region,04/08/2024,40,0,31,0,0,0
@@ -153,6 +157,10 @@ Burundi,BDI,African Region,08/09/2024,385,0,57,0,0,0
 Burundi,BDI,African Region,15/09/2024,564,0,179,0,0,0
 Burundi,BDI,African Region,22/09/2024,696,0,132,0,0,0
 Burundi,BDI,African Region,29/09/2024,853,0,157,0,0,0
+Burundi,BDI,African Region,06/10/2024,987,0,134,0,0,0
+Burundi,BDI,African Region,13/10/2024,1170,0,183,0,0,0
+Burundi,BDI,African Region,20/10/2024,1287,0,117,0,0,0
+Burundi,BDI,African Region,27/10/2024,1509,0,222,0,0,0
 Cameroon,CMR,African Region,09/01/2022,0,0,0,0,0,0
 Cameroon,CMR,African Region,16/01/2022,0,0,0,0,0,0
 Cameroon,CMR,African Region,23/01/2022,0,0,0,0,0,0
@@ -296,6 +304,10 @@ Cameroon,CMR,African Region,08/09/2024,51,0,0,0,5,0
 Cameroon,CMR,African Region,15/09/2024,51,0,0,0,5,0
 Cameroon,CMR,African Region,22/09/2024,51,0,0,0,5,0
 Cameroon,CMR,African Region,29/09/2024,51,0,0,0,5,0
+Cameroon,CMR,African Region,06/10/2024,51,0,0,0,5,0
+Cameroon,CMR,African Region,13/10/2024,51,0,0,0,5,0
+Cameroon,CMR,African Region,20/10/2024,51,0,0,0,5,0
+Cameroon,CMR,African Region,27/10/2024,51,0,0,0,5,0
 Central African Republic,CAF,African Region,09/01/2022,1,0,1,0,0,0
 Central African Republic,CAF,African Region,16/01/2022,4,0,3,0,0,0
 Central African Republic,CAF,African Region,23/01/2022,4,0,0,0,0,0
@@ -439,6 +451,10 @@ Central African Republic,CAF,African Region,08/09/2024,94,0,0,0,2,0
 Central African Republic,CAF,African Region,15/09/2024,99,0,5,0,2,0
 Central African Republic,CAF,African Region,22/09/2024,102,0,3,0,2,0
 Central African Republic,CAF,African Region,29/09/2024,104,0,2,0,2,0
+Central African Republic,CAF,African Region,06/10/2024,104,0,0,0,2,0
+Central African Republic,CAF,African Region,13/10/2024,105,0,1,0,3,1
+Central African Republic,CAF,African Region,20/10/2024,109,0,4,0,3,0
+Central African Republic,CAF,African Region,26/10/2024,111,0,2,0,3,0
 Congo,COG,African Region,09/01/2022,0,0,0,0,0,0
 Congo,COG,African Region,16/01/2022,0,0,0,0,0,0
 Congo,COG,African Region,23/01/2022,0,0,0,0,0,0
@@ -582,20 +598,29 @@ Congo,COG,African Region,08/09/2024,47,0,0,0,2,0
 Congo,COG,African Region,15/09/2024,47,0,0,0,2,0
 Congo,COG,African Region,22/09/2024,47,0,0,0,2,0
 Congo,COG,African Region,29/09/2024,48,0,1,0,2,0
+Congo,COG,African Region,06/10/2024,48,0,0,0,2,0
+Congo,COG,African Region,13/10/2024,48,0,0,0,2,0
+Congo,COG,African Region,20/10/2024,48,0,0,0,2,0
+Congo,COG,African Region,27/10/2024,48,0,0,0,2,0
 Côte d’Ivoire,CIV,African Region,30/06/2024,0,0,0,0,0,0
 Côte d’Ivoire,CIV,African Region,07/07/2024,1,0,1,0,0,0
 Côte d’Ivoire,CIV,African Region,14/07/2024,2,0,1,0,0,0
 Côte d’Ivoire,CIV,African Region,21/07/2024,5,0,3,0,0,0
 Côte d’Ivoire,CIV,African Region,28/07/2024,9,0,4,0,0,0
 Côte d’Ivoire,CIV,African Region,04/08/2024,13,0,4,0,0,0
-Côte d’Ivoire,CIV,African Region,11/08/2024,21,0,8,0,0,0
-Côte d’Ivoire,CIV,African Region,18/08/2024,34,0,13,0,1,1
-Côte d’Ivoire,CIV,African Region,25/08/2024,42,0,8,0,1,0
-Côte d’Ivoire,CIV,African Region,01/09/2024,46,0,4,0,1,0
-Côte d’Ivoire,CIV,African Region,08/09/2024,48,0,2,0,1,0
-Côte d’Ivoire,CIV,African Region,15/09/2024,52,0,4,0,1,0
-Côte d’Ivoire,CIV,African Region,22/09/2024,62,0,10,0,1,0
-Côte d’Ivoire,CIV,African Region,29/09/2024,67,0,5,0,1,0
+Côte d’Ivoire,CIV,African Region,11/08/2024,20,0,7,0,0,0
+Côte d’Ivoire,CIV,African Region,18/08/2024,33,0,13,0,1,1
+Côte d’Ivoire,CIV,African Region,25/08/2024,43,0,10,0,1,0
+Côte d’Ivoire,CIV,African Region,01/09/2024,49,0,6,0,1,0
+Côte d’Ivoire,CIV,African Region,08/09/2024,52,0,3,0,1,0
+Côte d’Ivoire,CIV,African Region,15/09/2024,62,0,10,0,1,0
+Côte d’Ivoire,CIV,African Region,22/09/2024,70,0,8,0,1,0
+Côte d’Ivoire,CIV,African Region,29/09/2024,72,0,2,0,1,0
+Côte d’Ivoire,CIV,African Region,06/10/2024,79,0,7,0,1,0
+Côte d’Ivoire,CIV,African Region,13/10/2024,79,0,0,0,1,0
+Côte d’Ivoire,CIV,African Region,20/10/2024,80,0,1,0,1,0
+Côte d’Ivoire,CIV,African Region,27/10/2024,89,0,9,0,1,0
+Côte d’Ivoire,CIV,African Region,30/10/2024,91,0,2,0,1,0
 Democratic Republic of the Congo,COD,African Region,09/01/2022,0,0,0,0,0,0
 Democratic Republic of the Congo,COD,African Region,16/01/2022,0,0,0,0,0,0
 Democratic Republic of the Congo,COD,African Region,23/01/2022,0,0,0,0,0,0
@@ -700,45 +725,49 @@ Democratic Republic of the Congo,COD,African Region,10/12/2023,1192,0,14,0,2,0
 Democratic Republic of the Congo,COD,African Region,17/12/2023,1200,0,8,0,2,0
 Democratic Republic of the Congo,COD,African Region,24/12/2023,1230,0,30,0,2,0
 Democratic Republic of the Congo,COD,African Region,31/12/2023,1245,0,15,0,2,0
-Democratic Republic of the Congo,COD,African Region,07/01/2024,1268,0,23,0,2,0
-Democratic Republic of the Congo,COD,African Region,14/01/2024,1308,0,40,0,3,1
-Democratic Republic of the Congo,COD,African Region,21/01/2024,1358,0,50,0,3,0
-Democratic Republic of the Congo,COD,African Region,28/01/2024,1449,0,91,0,3,0
-Democratic Republic of the Congo,COD,African Region,04/02/2024,1492,0,43,0,3,0
-Democratic Republic of the Congo,COD,African Region,11/02/2024,1563,0,71,0,3,0
-Democratic Republic of the Congo,COD,African Region,18/02/2024,1622,0,59,0,3,0
-Democratic Republic of the Congo,COD,African Region,25/02/2024,1673,0,51,0,3,0
-Democratic Republic of the Congo,COD,African Region,03/03/2024,1742,0,69,0,4,1
-Democratic Republic of the Congo,COD,African Region,10/03/2024,1790,0,48,0,4,0
-Democratic Republic of the Congo,COD,African Region,17/03/2024,1835,0,45,0,4,0
-Democratic Republic of the Congo,COD,African Region,24/03/2024,1899,0,64,0,4,0
-Democratic Republic of the Congo,COD,African Region,31/03/2024,1949,0,50,0,4,0
-Democratic Republic of the Congo,COD,African Region,07/04/2024,2021,0,72,0,5,1
-Democratic Republic of the Congo,COD,African Region,14/04/2024,2097,0,76,0,5,0
-Democratic Republic of the Congo,COD,African Region,21/04/2024,2164,0,67,0,6,1
-Democratic Republic of the Congo,COD,African Region,28/04/2024,2241,0,77,0,8,2
-Democratic Republic of the Congo,COD,African Region,05/05/2024,2426,0,185,0,9,1
-Democratic Republic of the Congo,COD,African Region,12/05/2024,2587,0,161,0,10,1
-Democratic Republic of the Congo,COD,African Region,19/05/2024,2740,0,153,0,12,2
-Democratic Republic of the Congo,COD,African Region,26/05/2024,2953,0,213,0,13,1
-Democratic Republic of the Congo,COD,African Region,02/06/2024,3181,0,228,0,15,2
-Democratic Republic of the Congo,COD,African Region,09/06/2024,3430,0,249,0,16,1
-Democratic Republic of the Congo,COD,African Region,16/06/2024,3631,0,201,0,18,2
-Democratic Republic of the Congo,COD,African Region,23/06/2024,3867,0,236,0,18,0
-Democratic Republic of the Congo,COD,African Region,30/06/2024,4113,0,246,0,22,4
-Democratic Republic of the Congo,COD,African Region,07/07/2024,4368,0,255,0,22,0
-Democratic Republic of the Congo,COD,African Region,14/07/2024,4643,0,275,0,22,0
-Democratic Republic of the Congo,COD,African Region,21/07/2024,4865,0,222,0,24,2
-Democratic Republic of the Congo,COD,African Region,28/07/2024,5079,0,214,0,27,3
-Democratic Republic of the Congo,COD,African Region,04/08/2024,5342,0,263,0,27,0
-Democratic Republic of the Congo,COD,African Region,11/08/2024,5598,0,256,0,27,0
-Democratic Republic of the Congo,COD,African Region,18/08/2024,5850,0,252,0,27,0
-Democratic Republic of the Congo,COD,African Region,25/08/2024,6092,0,242,0,27,0
-Democratic Republic of the Congo,COD,African Region,01/09/2024,6293,0,201,0,27,0
-Democratic Republic of the Congo,COD,African Region,08/09/2024,6477,0,184,0,27,0
-Democratic Republic of the Congo,COD,African Region,15/09/2024,6674,0,197,0,27,0
-Democratic Republic of the Congo,COD,African Region,22/09/2024,6883,0,209,0,27,0
-Democratic Republic of the Congo,COD,African Region,29/09/2024,7095,0,212,0,27,0
+Democratic Republic of the Congo,COD,African Region,07/01/2024,1303,0,58,0,2,0
+Democratic Republic of the Congo,COD,African Region,14/01/2024,1375,0,72,0,3,1
+Democratic Republic of the Congo,COD,African Region,21/01/2024,1461,0,86,0,3,0
+Democratic Republic of the Congo,COD,African Region,28/01/2024,1567,0,106,0,3,0
+Democratic Republic of the Congo,COD,African Region,04/02/2024,1635,0,68,0,3,0
+Democratic Republic of the Congo,COD,African Region,11/02/2024,1727,0,92,0,3,0
+Democratic Republic of the Congo,COD,African Region,18/02/2024,1791,0,64,0,3,0
+Democratic Republic of the Congo,COD,African Region,25/02/2024,1856,0,65,0,3,0
+Democratic Republic of the Congo,COD,African Region,03/03/2024,1938,0,82,0,4,1
+Democratic Republic of the Congo,COD,African Region,10/03/2024,2003,0,65,0,4,0
+Democratic Republic of the Congo,COD,African Region,17/03/2024,2075,0,72,0,4,0
+Democratic Republic of the Congo,COD,African Region,24/03/2024,2157,0,82,0,4,0
+Democratic Republic of the Congo,COD,African Region,31/03/2024,2228,0,71,0,4,0
+Democratic Republic of the Congo,COD,African Region,07/04/2024,2314,0,86,0,5,1
+Democratic Republic of the Congo,COD,African Region,14/04/2024,2448,0,134,0,5,0
+Democratic Republic of the Congo,COD,African Region,21/04/2024,2596,0,148,0,6,1
+Democratic Republic of the Congo,COD,African Region,28/04/2024,2764,0,168,0,8,2
+Democratic Republic of the Congo,COD,African Region,05/05/2024,2967,0,203,0,9,1
+Democratic Republic of the Congo,COD,African Region,12/05/2024,3143,0,176,0,10,1
+Democratic Republic of the Congo,COD,African Region,19/05/2024,3345,0,202,0,12,2
+Democratic Republic of the Congo,COD,African Region,26/05/2024,3532,0,187,0,13,1
+Democratic Republic of the Congo,COD,African Region,02/06/2024,3725,0,193,0,15,2
+Democratic Republic of the Congo,COD,African Region,09/06/2024,3950,0,225,0,16,1
+Democratic Republic of the Congo,COD,African Region,16/06/2024,4200,0,250,0,18,2
+Democratic Republic of the Congo,COD,African Region,23/06/2024,4476,0,276,0,18,0
+Democratic Republic of the Congo,COD,African Region,30/06/2024,4719,0,243,0,22,4
+Democratic Republic of the Congo,COD,African Region,07/07/2024,4973,0,254,0,22,0
+Democratic Republic of the Congo,COD,African Region,14/07/2024,5305,0,332,0,22,0
+Democratic Republic of the Congo,COD,African Region,21/07/2024,5733,0,428,0,24,2
+Democratic Republic of the Congo,COD,African Region,28/07/2024,6110,0,377,0,27,3
+Democratic Republic of the Congo,COD,African Region,04/08/2024,6438,0,328,0,27,0
+Democratic Republic of the Congo,COD,African Region,11/08/2024,6762,0,324,0,27,0
+Democratic Republic of the Congo,COD,African Region,18/08/2024,7088,0,326,0,29,2
+Democratic Republic of the Congo,COD,African Region,25/08/2024,7415,0,327,0,29,0
+Democratic Republic of the Congo,COD,African Region,01/09/2024,7732,0,317,0,32,3
+Democratic Republic of the Congo,COD,African Region,08/09/2024,8055,0,323,0,32,0
+Democratic Republic of the Congo,COD,African Region,15/09/2024,8349,0,294,0,36,4
+Democratic Republic of the Congo,COD,African Region,22/09/2024,8675,0,326,0,36,0
+Democratic Republic of the Congo,COD,African Region,29/09/2024,9159,0,484,0,40,4
+Democratic Republic of the Congo,COD,African Region,06/10/2024,9509,0,350,0,40,0
+Democratic Republic of the Congo,COD,African Region,13/10/2024,9867,0,358,0,44,4
+Democratic Republic of the Congo,COD,African Region,20/10/2024,10193,0,326,0,45,1
+Democratic Republic of the Congo,COD,African Region,27/10/2024,10465,0,272,0,45,0
 Gabon,GAB,African Region,18/08/2024,0,0,0,0,0,0
 Gabon,GAB,African Region,25/08/2024,1,0,1,0,0,0
 Gabon,GAB,African Region,01/09/2024,2,0,1,0,0,0
@@ -746,6 +775,10 @@ Gabon,GAB,African Region,08/09/2024,2,0,0,0,0,0
 Gabon,GAB,African Region,15/09/2024,2,0,0,0,0,0
 Gabon,GAB,African Region,22/09/2024,2,0,0,0,0,0
 Gabon,GAB,African Region,29/09/2024,2,0,0,0,0,0
+Gabon,GAB,African Region,06/10/2024,2,0,0,0,0,0
+Gabon,GAB,African Region,13/10/2024,2,0,0,0,0,0
+Gabon,GAB,African Region,20/10/2024,2,0,0,0,0,0
+Gabon,GAB,African Region,27/10/2024,2,0,0,0,0,0
 Ghana,GHA,African Region,16/01/2022,0,0,0,0,0,0
 Ghana,GHA,African Region,23/01/2022,0,0,0,0,0,0
 Ghana,GHA,African Region,30/01/2022,0,0,0,0,0,0
@@ -888,12 +921,20 @@ Ghana,GHA,African Region,08/09/2024,128,0,0,0,4,0
 Ghana,GHA,African Region,15/09/2024,128,0,0,0,4,0
 Ghana,GHA,African Region,22/09/2024,128,0,0,0,4,0
 Ghana,GHA,African Region,29/09/2024,128,0,0,0,4,0
+Ghana,GHA,African Region,06/10/2024,129,0,1,0,4,0
+Ghana,GHA,African Region,12/10/2024,130,0,1,0,4,0
+Ghana,GHA,African Region,20/10/2024,130,0,0,0,4,0
+Ghana,GHA,African Region,27/10/2024,130,0,0,0,4,0
 Guinea,GIN,African Region,25/08/2024,0,0,0,0,0,0
 Guinea,GIN,African Region,01/09/2024,1,0,1,0,0,0
 Guinea,GIN,African Region,08/09/2024,1,0,0,0,0,0
 Guinea,GIN,African Region,15/09/2024,1,0,0,0,0,0
 Guinea,GIN,African Region,22/09/2024,1,0,0,0,0,0
 Guinea,GIN,African Region,29/09/2024,1,0,0,0,0,0
+Guinea,GIN,African Region,06/10/2024,1,0,0,0,0,0
+Guinea,GIN,African Region,13/10/2024,1,0,0,0,0,0
+Guinea,GIN,African Region,20/10/2024,1,0,0,0,0,0
+Guinea,GIN,African Region,27/10/2024,1,0,0,0,0,0
 Kenya,KEN,African Region,21/07/2024,0,0,0,0,0,0
 Kenya,KEN,African Region,28/07/2024,1,0,1,0,0,0
 Kenya,KEN,African Region,04/08/2024,1,0,0,0,0,0
@@ -906,6 +947,10 @@ Kenya,KEN,African Region,15/09/2024,5,0,0,0,0,0
 Kenya,KEN,African Region,22/09/2024,5,0,0,0,0,0
 Kenya,KEN,African Region,28/09/2024,8,0,3,0,0,0
 Kenya,KEN,African Region,29/09/2024,8,0,0,0,0,0
+Kenya,KEN,African Region,06/10/2024,12,0,4,0,0,0
+Kenya,KEN,African Region,13/10/2024,13,0,1,0,1,1
+Kenya,KEN,African Region,20/10/2024,14,0,1,0,1,0
+Kenya,KEN,African Region,27/10/2024,14,0,0,0,1,0
 Liberia,LBR,African Region,09/01/2022,0,0,0,0,0,0
 Liberia,LBR,African Region,16/01/2022,0,0,0,0,0,0
 Liberia,LBR,African Region,23/01/2022,0,0,0,0,0,0
@@ -1048,7 +1093,13 @@ Liberia,LBR,African Region,01/09/2024,24,0,1,0,0,0
 Liberia,LBR,African Region,08/09/2024,26,0,2,0,0,0
 Liberia,LBR,African Region,15/09/2024,29,0,3,0,0,0
 Liberia,LBR,African Region,22/09/2024,29,0,0,0,0,0
-Liberia,LBR,African Region,29/09/2024,30,0,1,0,0,0
+Liberia,LBR,African Region,29/09/2024,31,0,2,0,0,0
+Liberia,LBR,African Region,06/10/2024,31,0,0,0,0,0
+Liberia,LBR,African Region,13/10/2024,35,0,4,0,0,0
+Liberia,LBR,African Region,20/10/2024,36,0,1,0,0,0
+Liberia,LBR,African Region,27/10/2024,37,0,1,0,0,0
+Mauritius,MUS,African Region,20/10/2024,0,0,0,0,0,0
+Mauritius,MUS,African Region,27/10/2024,1,0,1,0,0,0
 Mozambique,MOZ,African Region,09/01/2022,0,0,0,0,0,0
 Mozambique,MOZ,African Region,16/01/2022,0,0,0,0,0,0
 Mozambique,MOZ,African Region,23/01/2022,0,0,0,0,0,0
@@ -1192,6 +1243,10 @@ Mozambique,MOZ,African Region,08/09/2024,1,0,0,0,1,0
 Mozambique,MOZ,African Region,15/09/2024,1,0,0,0,1,0
 Mozambique,MOZ,African Region,22/09/2024,1,0,0,0,1,0
 Mozambique,MOZ,African Region,29/09/2024,1,0,0,0,1,0
+Mozambique,MOZ,African Region,06/10/2024,1,0,0,0,1,0
+Mozambique,MOZ,African Region,13/10/2024,1,0,0,0,1,0
+Mozambique,MOZ,African Region,20/10/2024,1,0,0,0,1,0
+Mozambique,MOZ,African Region,27/10/2024,1,0,0,0,1,0
 Nigeria,NGA,African Region,09/01/2022,1,0,1,0,0,0
 Nigeria,NGA,African Region,16/01/2022,2,0,1,0,0,0
 Nigeria,NGA,African Region,23/01/2022,3,0,1,0,0,0
@@ -1335,6 +1390,10 @@ Nigeria,NGA,African Region,08/09/2024,928,0,9,0,9,0
 Nigeria,NGA,African Region,15/09/2024,934,0,6,0,9,0
 Nigeria,NGA,African Region,22/09/2024,939,0,5,0,9,0
 Nigeria,NGA,African Region,29/09/2024,949,0,10,0,9,0
+Nigeria,NGA,African Region,06/10/2024,955,0,6,0,9,0
+Nigeria,NGA,African Region,13/10/2024,963,0,8,0,9,0
+Nigeria,NGA,African Region,20/10/2024,969,0,6,0,9,0
+Nigeria,NGA,African Region,27/10/2024,979,0,10,0,9,0
 Rwanda,RWA,African Region,14/07/2024,0,0,0,0,0,0
 Rwanda,RWA,African Region,21/07/2024,0,0,0,0,0,0
 Rwanda,RWA,African Region,28/07/2024,4,0,4,0,0,0
@@ -1347,6 +1406,10 @@ Rwanda,RWA,African Region,08/09/2024,4,0,0,0,0,0
 Rwanda,RWA,African Region,15/09/2024,6,0,2,0,0,0
 Rwanda,RWA,African Region,22/09/2024,6,0,0,0,0,0
 Rwanda,RWA,African Region,29/09/2024,6,0,0,0,0,0
+Rwanda,RWA,African Region,06/10/2024,10,0,4,0,0,0
+Rwanda,RWA,African Region,13/10/2024,14,0,4,0,0,0
+Rwanda,RWA,African Region,20/10/2024,22,0,8,0,0,0
+Rwanda,RWA,African Region,27/10/2024,26,0,4,0,0,0
 South Africa,ZAF,African Region,09/01/2022,0,0,0,0,0,0
 South Africa,ZAF,African Region,16/01/2022,0,0,0,0,0,0
 South Africa,ZAF,African Region,23/01/2022,0,0,0,0,0,0
@@ -1490,6 +1553,10 @@ South Africa,ZAF,African Region,08/09/2024,30,0,1,0,3,0
 South Africa,ZAF,African Region,15/09/2024,30,0,0,0,3,0
 South Africa,ZAF,African Region,22/09/2024,30,0,0,0,3,0
 South Africa,ZAF,African Region,29/09/2024,30,0,0,0,3,0
+South Africa,ZAF,African Region,06/10/2024,30,0,0,0,3,0
+South Africa,ZAF,African Region,13/10/2024,30,0,0,0,3,0
+South Africa,ZAF,African Region,20/10/2024,30,0,0,0,3,0
+South Africa,ZAF,African Region,27/10/2024,30,0,0,0,3,0
 Uganda,UGA,African Region,30/06/2024,0,0,0,0,0,0
 Uganda,UGA,African Region,07/07/2024,1,0,1,0,0,0
 Uganda,UGA,African Region,14/07/2024,2,0,1,0,0,0
@@ -1504,6 +1571,18 @@ Uganda,UGA,African Region,08/09/2024,23,0,8,0,0,0
 Uganda,UGA,African Region,15/09/2024,29,0,6,0,0,0
 Uganda,UGA,African Region,22/09/2024,35,0,6,0,0,0
 Uganda,UGA,African Region,29/09/2024,49,0,14,0,0,0
+Uganda,UGA,African Region,06/10/2024,69,0,20,0,0,0
+Uganda,UGA,African Region,13/10/2024,106,0,37,0,0,0
+Uganda,UGA,African Region,20/10/2024,153,0,47,0,0,0
+Uganda,UGA,African Region,27/10/2024,290,0,137,0,1,1
+Zambia,ZMB,African Region,06/10/2024,0,0,0,0,0,0
+Zambia,ZMB,African Region,12/10/2024,1,0,1,0,0,0
+Zambia,ZMB,African Region,20/10/2024,1,0,0,0,0,0
+Zambia,ZMB,African Region,27/10/2024,1,0,0,0,0,0
+Zimbabwe,ZWE,African Region,06/10/2024,0,0,0,0,0,0
+Zimbabwe,ZWE,African Region,13/10/2024,2,0,2,0,0,0
+Zimbabwe,ZWE,African Region,20/10/2024,2,0,0,0,0,0
+Zimbabwe,ZWE,African Region,27/10/2024,2,0,0,0,0,0
 Bahrain,BHR,Eastern Mediterranean Region,16/09/2022,1,0,1,0,0,0
 Bahrain,BHR,Eastern Mediterranean Region,16/04/2023,2,0,1,0,0,0
 Egypt,EGY,Eastern Mediterranean Region,27/09/2022,1,0,1,0,0,0
@@ -1533,8 +1612,10 @@ Morocco,MAR,Eastern Mediterranean Region,29/08/2022,3,0,2,0,0,0
 Morocco,MAR,Eastern Mediterranean Region,06/10/2023,4,0,1,0,0,0
 Morocco,MAR,Eastern Mediterranean Region,15/03/2024,5,0,1,0,0,0
 Morocco,MAR,Eastern Mediterranean Region,12/09/2024,6,0,1,0,0,0
+Morocco,MAR,Eastern Mediterranean Region,03/10/2024,7,0,1,0,0,0
 Oman,OMN,Eastern Mediterranean Region,12/10/2023,2,0,2,0,0,0
 Oman,OMN,Eastern Mediterranean Region,30/10/2023,3,0,1,0,0,0
+Oman,OMN,Eastern Mediterranean Region,02/10/2024,4,0,1,0,0,0
 Pakistan,PAK,Eastern Mediterranean Region,19/04/2023,1,0,1,0,0,0
 Pakistan,PAK,Eastern Mediterranean Region,20/04/2023,2,0,1,0,0,0
 Pakistan,PAK,Eastern Mediterranean Region,03/05/2023,3,0,1,0,0,0
@@ -1609,6 +1690,8 @@ United Arab Emirates,ARE,Eastern Mediterranean Region,11/01/2024,26,0,1,0,0,0
 United Arab Emirates,ARE,Eastern Mediterranean Region,02/03/2024,27,0,1,0,0,0
 United Arab Emirates,ARE,Eastern Mediterranean Region,20/04/2024,28,0,1,0,0,0
 United Arab Emirates,ARE,Eastern Mediterranean Region,15/08/2024,28,0,0,0,0,0
+United Arab Emirates,ARE,Eastern Mediterranean Region,30/09/2024,29,0,1,0,1,1
+United Arab Emirates,ARE,Eastern Mediterranean Region,30/10/2024,30,0,1,0,1,0
 Andorra,AND,European Region,25/07/2022,2,0,2,0,0,0
 Andorra,AND,European Region,26/07/2022,3,0,1,0,0,0
 Andorra,AND,European Region,27/07/2022,3,0,0,0,0,0
@@ -1765,6 +1848,7 @@ Andorra,AND,European Region,09/07/2024,4,0,0,0,0,0
 Andorra,AND,European Region,31/07/2024,4,0,0,0,0,0
 Andorra,AND,European Region,31/08/2024,4,0,0,0,0,0
 Andorra,AND,European Region,30/09/2024,4,0,0,0,0,0
+Andorra,AND,European Region,31/10/2024,4,0,0,0,0,0
 Austria,AUT,European Region,23/05/2022,1,0,1,0,0,0
 Austria,AUT,European Region,30/05/2022,1,0,0,0,0,0
 Austria,AUT,European Region,31/05/2022,1,0,0,0,0,0
@@ -1946,6 +2030,7 @@ Austria,AUT,European Region,09/07/2024,348,0,0,0,1,0
 Austria,AUT,European Region,31/07/2024,348,0,0,0,1,0
 Austria,AUT,European Region,31/08/2024,350,0,2,0,1,0
 Austria,AUT,European Region,30/09/2024,353,0,3,0,1,0
+Austria,AUT,European Region,31/10/2024,356,0,3,0,1,0
 Belgium,BEL,European Region,19/05/2022,1,0,1,0,0,0
 Belgium,BEL,European Region,20/05/2022,3,0,2,0,0,0
 Belgium,BEL,European Region,23/05/2022,4,0,1,0,0,0
@@ -2131,6 +2216,7 @@ Belgium,BEL,European Region,09/07/2024,810,0,0,0,2,0
 Belgium,BEL,European Region,31/07/2024,811,0,1,0,2,0
 Belgium,BEL,European Region,31/08/2024,814,0,3,0,2,0
 Belgium,BEL,European Region,30/09/2024,822,0,8,0,2,0
+Belgium,BEL,European Region,31/10/2024,839,0,17,0,2,0
 Bosnia and Herzegovina,BIH,European Region,14/07/2022,0,0,0,0,0,0
 Bosnia and Herzegovina,BIH,European Region,15/07/2022,0,0,0,0,0,0
 Bosnia and Herzegovina,BIH,European Region,18/07/2022,0,0,0,0,0,0
@@ -2294,6 +2380,7 @@ Bosnia and Herzegovina,BIH,European Region,09/07/2024,9,0,0,0,0,0
 Bosnia and Herzegovina,BIH,European Region,31/07/2024,9,0,0,0,0,0
 Bosnia and Herzegovina,BIH,European Region,31/08/2024,9,0,0,0,0,0
 Bosnia and Herzegovina,BIH,European Region,30/09/2024,9,0,0,0,0,0
+Bosnia and Herzegovina,BIH,European Region,31/10/2024,9,0,0,0,0,0
 Bulgaria,BGR,European Region,23/06/2022,2,0,2,0,0,0
 Bulgaria,BGR,European Region,30/06/2022,3,0,1,0,0,0
 Bulgaria,BGR,European Region,11/07/2022,3,0,0,0,0,0
@@ -2462,6 +2549,7 @@ Bulgaria,BGR,European Region,09/07/2024,7,0,0,0,0,0
 Bulgaria,BGR,European Region,31/07/2024,7,0,0,0,0,0
 Bulgaria,BGR,European Region,31/08/2024,7,0,0,0,0,0
 Bulgaria,BGR,European Region,30/09/2024,7,0,0,0,0,0
+Bulgaria,BGR,European Region,31/10/2024,7,0,0,0,0,0
 Croatia,HRV,European Region,24/06/2022,1,0,1,0,0,0
 Croatia,HRV,European Region,11/07/2022,1,0,0,0,0,0
 Croatia,HRV,European Region,12/07/2022,3,0,2,0,0,0
@@ -2629,6 +2717,7 @@ Croatia,HRV,European Region,09/07/2024,34,0,0,0,0,0
 Croatia,HRV,European Region,31/07/2024,34,0,0,0,0,0
 Croatia,HRV,European Region,31/08/2024,34,0,0,0,0,0
 Croatia,HRV,European Region,30/09/2024,34,0,0,0,0,0
+Croatia,HRV,European Region,31/10/2024,34,0,0,0,0,0
 Cyprus,CYP,European Region,03/08/2022,1,0,1,0,0,0
 Cyprus,CYP,European Region,04/08/2022,1,0,0,0,0,0
 Cyprus,CYP,European Region,05/08/2022,1,0,0,0,0,0
@@ -2778,6 +2867,7 @@ Cyprus,CYP,European Region,09/07/2024,5,0,0,0,0,0
 Cyprus,CYP,European Region,31/07/2024,5,0,0,0,0,0
 Cyprus,CYP,European Region,31/08/2024,5,0,0,0,0,0
 Cyprus,CYP,European Region,30/09/2024,5,0,0,0,0,0
+Cyprus,CYP,European Region,31/10/2024,5,0,0,0,0,0
 Czechia,CZE,European Region,24/05/2022,1,0,1,0,0,0
 Czechia,CZE,European Region,26/05/2022,5,0,4,0,0,0
 Czechia,CZE,European Region,30/05/2022,5,0,0,0,0,0
@@ -2957,6 +3047,7 @@ Czechia,CZE,European Region,09/07/2024,82,0,0,0,1,0
 Czechia,CZE,European Region,31/07/2024,82,0,0,0,1,0
 Czechia,CZE,European Region,31/08/2024,85,0,3,0,1,0
 Czechia,CZE,European Region,30/09/2024,87,0,2,0,1,0
+Czechia,CZE,European Region,31/10/2024,90,0,3,0,1,0
 Denmark,DNK,European Region,23/05/2022,1,0,1,0,0,0
 Denmark,DNK,European Region,24/05/2022,2,0,1,0,0,0
 Denmark,DNK,European Region,31/05/2022,2,0,0,0,0,0
@@ -3145,6 +3236,7 @@ Denmark,DNK,European Region,09/07/2024,198,0,0,0,0,0
 Denmark,DNK,European Region,31/07/2024,203,0,5,0,0,0
 Denmark,DNK,European Region,31/08/2024,204,0,1,0,0,0
 Denmark,DNK,European Region,30/09/2024,209,0,5,0,0,0
+Denmark,DNK,European Region,31/10/2024,209,0,0,0,0,0
 Estonia,EST,European Region,28/06/2022,1,0,1,0,0,0
 Estonia,EST,European Region,05/07/2022,2,0,1,0,0,0
 Estonia,EST,European Region,11/07/2022,2,0,0,0,0,0
@@ -3313,6 +3405,7 @@ Estonia,EST,European Region,09/07/2024,11,0,0,0,0,0
 Estonia,EST,European Region,31/07/2024,11,0,0,0,0,0
 Estonia,EST,European Region,31/08/2024,11,0,0,0,0,0
 Estonia,EST,European Region,30/09/2024,11,0,0,0,0,0
+Estonia,EST,European Region,31/10/2024,11,0,0,0,0,0
 Finland,FIN,European Region,20/05/2022,1,0,1,0,0,0
 Finland,FIN,European Region,27/05/2022,1,0,0,0,0,0
 Finland,FIN,European Region,01/06/2022,1,0,0,0,0,0
@@ -3492,6 +3585,7 @@ Finland,FIN,European Region,09/07/2024,43,0,0,0,0,0
 Finland,FIN,European Region,31/07/2024,43,0,0,0,0,0
 Finland,FIN,European Region,31/08/2024,43,0,0,0,0,0
 Finland,FIN,European Region,30/09/2024,43,0,0,0,0,0
+Finland,FIN,European Region,31/10/2024,43,0,0,0,0,0
 France,FRA,European Region,19/05/2022,0,0,0,0,0,0
 France,FRA,European Region,20/05/2022,1,0,1,0,0,0
 France,FRA,European Region,24/05/2022,3,0,2,0,0,0
@@ -3680,6 +3774,7 @@ France,FRA,European Region,09/07/2024,4272,0,0,0,0,0
 France,FRA,European Region,31/07/2024,4283,0,11,0,0,0
 France,FRA,European Region,31/08/2024,4307,0,24,0,0,0
 France,FRA,European Region,30/09/2024,4334,0,27,0,0,0
+France,FRA,European Region,31/10/2024,4363,0,29,0,0,0
 Georgia,GEO,European Region,15/06/2022,1,0,1,0,0,0
 Georgia,GEO,European Region,11/07/2022,1,0,0,0,0,0
 Georgia,GEO,European Region,12/07/2022,1,0,0,0,0,0
@@ -3847,6 +3942,7 @@ Georgia,GEO,European Region,09/07/2024,2,0,0,0,0,0
 Georgia,GEO,European Region,31/07/2024,2,0,0,0,0,0
 Georgia,GEO,European Region,31/08/2024,2,0,0,0,0,0
 Georgia,GEO,European Region,30/09/2024,2,0,0,0,0,0
+Georgia,GEO,European Region,31/10/2024,2,0,0,0,0,0
 Germany,DEU,European Region,20/05/2022,1,0,1,0,0,0
 Germany,DEU,European Region,22/05/2022,3,0,2,0,0,0
 Germany,DEU,European Region,23/05/2022,4,0,1,0,0,0
@@ -4048,6 +4144,7 @@ Germany,DEU,European Region,09/07/2024,3857,0,0,0,0,0
 Germany,DEU,European Region,31/07/2024,3886,0,29,0,0,0
 Germany,DEU,European Region,31/08/2024,3909,0,23,0,0,0
 Germany,DEU,European Region,30/09/2024,3932,0,23,0,0,0
+Germany,DEU,European Region,31/10/2024,3980,0,48,0,0,0
 Gibraltar,GIB,European Region,02/06/2022,1,0,1,0,0,0
 Gibraltar,GIB,European Region,11/07/2022,1,0,0,0,0,0
 Gibraltar,GIB,European Region,12/07/2022,4,0,3,0,0,0
@@ -4215,6 +4312,7 @@ Gibraltar,GIB,European Region,09/07/2024,6,0,0,0,0,0
 Gibraltar,GIB,European Region,31/07/2024,6,0,0,0,0,0
 Gibraltar,GIB,European Region,31/08/2024,6,0,0,0,0,0
 Gibraltar,GIB,European Region,30/09/2024,6,0,0,0,0,0
+Gibraltar,GIB,European Region,31/10/2024,6,0,0,0,0,0
 Greece,GRC,European Region,09/06/2022,0,0,0,0,0,0
 Greece,GRC,European Region,10/06/2022,0,0,0,0,0,0
 Greece,GRC,European Region,13/06/2022,2,0,2,0,0,0
@@ -4390,6 +4488,7 @@ Greece,GRC,European Region,09/07/2024,99,0,0,0,0,0
 Greece,GRC,European Region,31/07/2024,99,0,0,0,0,0
 Greece,GRC,European Region,31/08/2024,99,0,0,0,0,0
 Greece,GRC,European Region,30/09/2024,102,0,3,0,0,0
+Greece,GRC,European Region,31/10/2024,102,0,0,0,0,0
 Greenland,GRL,European Region,10/08/2022,2,0,2,0,0,0
 Greenland,GRL,European Region,11/08/2022,2,0,0,0,0,0
 Greenland,GRL,European Region,12/08/2022,2,0,0,0,0,0
@@ -4534,6 +4633,7 @@ Greenland,GRL,European Region,09/07/2024,2,0,0,0,0,0
 Greenland,GRL,European Region,31/07/2024,2,0,0,0,0,0
 Greenland,GRL,European Region,31/08/2024,2,0,0,0,0,0
 Greenland,GRL,European Region,30/09/2024,2,0,0,0,0,0
+Greenland,GRL,European Region,31/10/2024,2,0,0,0,0,0
 Hungary,HUN,European Region,31/05/2022,1,0,1,0,0,0
 Hungary,HUN,European Region,07/06/2022,1,0,0,0,0,0
 Hungary,HUN,European Region,08/06/2022,1,0,0,0,0,0
@@ -4715,6 +4815,7 @@ Hungary,HUN,European Region,09/07/2024,85,0,0,0,0,0
 Hungary,HUN,European Region,31/07/2024,85,0,0,0,0,0
 Hungary,HUN,European Region,31/08/2024,85,0,0,0,0,0
 Hungary,HUN,European Region,30/09/2024,85,0,0,0,0,0
+Hungary,HUN,European Region,31/10/2024,85,0,0,0,0,0
 Iceland,ISL,European Region,09/06/2022,0,0,0,0,0,0
 Iceland,ISL,European Region,10/06/2022,0,0,0,0,0,0
 Iceland,ISL,European Region,13/06/2022,3,0,3,0,0,0
@@ -4887,6 +4988,7 @@ Iceland,ISL,European Region,09/07/2024,17,0,0,0,0,0
 Iceland,ISL,European Region,31/07/2024,17,0,0,0,0,0
 Iceland,ISL,European Region,31/08/2024,17,0,0,0,0,0
 Iceland,ISL,European Region,30/09/2024,17,0,0,0,0,0
+Iceland,ISL,European Region,31/10/2024,17,0,0,0,0,0
 Ireland,IRL,European Region,16/05/2022,1,0,1,0,0,0
 Ireland,IRL,European Region,21/05/2022,2,0,1,0,0,0
 Ireland,IRL,European Region,24/05/2022,3,0,1,0,0,0
@@ -5068,6 +5170,7 @@ Ireland,IRL,European Region,09/07/2024,249,0,0,0,0,0
 Ireland,IRL,European Region,31/07/2024,249,0,0,0,0,0
 Ireland,IRL,European Region,31/08/2024,250,0,1,0,0,0
 Ireland,IRL,European Region,30/09/2024,253,0,3,0,0,0
+Ireland,IRL,European Region,31/10/2024,261,0,8,0,0,0
 Israel,ISR,European Region,21/05/2022,1,0,1,0,0,0
 Israel,ISR,European Region,30/05/2022,2,0,1,0,0,0
 Israel,ISR,European Region,07/06/2022,2,0,0,0,0,0
@@ -5258,6 +5361,7 @@ Israel,ISR,European Region,09/07/2024,314,0,0,0,0,0
 Israel,ISR,European Region,31/07/2024,317,0,3,0,0,0
 Israel,ISR,European Region,31/08/2024,321,0,4,0,0,0
 Israel,ISR,European Region,30/09/2024,325,0,4,0,0,0
+Israel,ISR,European Region,31/10/2024,325,0,0,0,0,0
 Italy,ITA,European Region,19/05/2022,1,0,1,0,0,0
 Italy,ITA,European Region,20/05/2022,3,0,2,0,0,0
 Italy,ITA,European Region,23/05/2022,4,0,1,0,0,0
@@ -5444,6 +5548,7 @@ Italy,ITA,European Region,09/07/2024,1049,0,0,0,0,0
 Italy,ITA,European Region,31/07/2024,1056,0,7,0,0,0
 Italy,ITA,European Region,31/08/2024,1057,0,1,0,0,0
 Italy,ITA,European Region,30/09/2024,1062,0,5,0,0,0
+Italy,ITA,European Region,31/10/2024,1072,0,10,0,0,0
 Latvia,LVA,European Region,03/06/2022,1,0,1,0,0,0
 Latvia,LVA,European Region,07/06/2022,1,0,0,0,0,0
 Latvia,LVA,European Region,08/06/2022,1,0,0,0,0,0
@@ -5617,6 +5722,7 @@ Latvia,LVA,European Region,09/07/2024,6,0,0,0,0,0
 Latvia,LVA,European Region,31/07/2024,6,0,0,0,0,0
 Latvia,LVA,European Region,31/08/2024,6,0,0,0,0,0
 Latvia,LVA,European Region,30/09/2024,6,0,0,0,0,0
+Latvia,LVA,European Region,31/10/2024,6,0,0,0,0,0
 Lithuania,LTU,European Region,04/08/2022,1,0,1,0,0,0
 Lithuania,LTU,European Region,05/08/2022,3,0,2,0,0,0
 Lithuania,LTU,European Region,08/08/2022,3,0,0,0,0,0
@@ -5765,6 +5871,7 @@ Lithuania,LTU,European Region,09/07/2024,5,0,0,0,0,0
 Lithuania,LTU,European Region,31/07/2024,5,0,0,0,0,0
 Lithuania,LTU,European Region,31/08/2024,5,0,0,0,0,0
 Lithuania,LTU,European Region,30/09/2024,6,0,1,0,0,0
+Lithuania,LTU,European Region,31/10/2024,6,0,0,0,0,0
 Luxembourg,LUX,European Region,16/06/2022,1,0,1,0,0,0
 Luxembourg,LUX,European Region,25/06/2022,3,0,2,0,0,0
 Luxembourg,LUX,European Region,05/07/2022,7,0,4,0,0,0
@@ -5934,6 +6041,7 @@ Luxembourg,LUX,European Region,09/07/2024,61,0,0,0,0,0
 Luxembourg,LUX,European Region,31/07/2024,61,0,0,0,0,0
 Luxembourg,LUX,European Region,31/08/2024,61,0,0,0,0,0
 Luxembourg,LUX,European Region,30/09/2024,61,0,0,0,0,0
+Luxembourg,LUX,European Region,31/10/2024,62,0,1,0,0,0
 Malta,MLT,European Region,30/05/2022,1,0,1,0,0,0
 Malta,MLT,European Region,07/06/2022,1,0,0,0,0,0
 Malta,MLT,European Region,08/06/2022,1,0,0,0,0,0
@@ -6111,6 +6219,7 @@ Malta,MLT,European Region,09/07/2024,35,0,0,0,0,0
 Malta,MLT,European Region,31/07/2024,35,0,0,0,0,0
 Malta,MLT,European Region,31/08/2024,37,0,2,0,0,0
 Malta,MLT,European Region,30/09/2024,37,0,0,0,0,0
+Malta,MLT,European Region,31/10/2024,38,0,1,0,0,0
 Monaco,MCO,European Region,12/08/2022,3,0,3,0,0,0
 Monaco,MCO,European Region,14/08/2022,3,0,0,0,0,0
 Monaco,MCO,European Region,16/08/2022,3,0,0,0,0,0
@@ -6253,6 +6362,7 @@ Monaco,MCO,European Region,09/07/2024,3,0,0,0,0,0
 Monaco,MCO,European Region,31/07/2024,3,0,0,0,0,0
 Monaco,MCO,European Region,31/08/2024,3,0,0,0,0,0
 Monaco,MCO,European Region,30/09/2024,3,0,0,0,0,0
+Monaco,MCO,European Region,31/10/2024,3,0,0,0,0,0
 Montenegro,MNE,European Region,31/07/2022,1,0,1,0,0,0
 Montenegro,MNE,European Region,02/08/2022,1,0,0,0,0,0
 Montenegro,MNE,European Region,03/08/2022,1,0,0,0,0,0
@@ -6404,6 +6514,7 @@ Montenegro,MNE,European Region,09/07/2024,2,0,0,0,0,0
 Montenegro,MNE,European Region,31/07/2024,2,0,0,0,0,0
 Montenegro,MNE,European Region,31/08/2024,2,0,0,0,0,0
 Montenegro,MNE,European Region,30/09/2024,2,0,0,0,0,0
+Montenegro,MNE,European Region,31/10/2024,2,0,0,0,0,0
 Netherlands,NLD,European Region,22/05/2022,2,0,2,0,0,0
 Netherlands,NLD,European Region,23/05/2022,5,0,3,0,0,0
 Netherlands,NLD,European Region,24/05/2022,6,0,1,0,0,0
@@ -6590,6 +6701,7 @@ Netherlands,NLD,European Region,09/07/2024,1304,0,0,0,0,0
 Netherlands,NLD,European Region,31/07/2024,1308,0,4,0,0,0
 Netherlands,NLD,European Region,31/08/2024,1327,0,19,0,0,0
 Netherlands,NLD,European Region,30/09/2024,1349,0,22,0,0,0
+Netherlands,NLD,European Region,31/10/2024,1374,0,25,0,0,0
 Norway,NOR,European Region,31/05/2022,1,0,1,0,0,0
 Norway,NOR,European Region,01/06/2022,2,0,1,0,0,0
 Norway,NOR,European Region,07/06/2022,2,0,0,0,0,0
@@ -6767,6 +6879,7 @@ Norway,NOR,European Region,09/07/2024,106,0,0,0,0,0
 Norway,NOR,European Region,31/07/2024,107,0,1,0,0,0
 Norway,NOR,European Region,31/08/2024,109,0,2,0,0,0
 Norway,NOR,European Region,30/09/2024,109,0,0,0,0,0
+Norway,NOR,European Region,31/10/2024,116,0,7,0,0,0
 Poland,POL,European Region,13/06/2022,1,0,1,0,0,0
 Poland,POL,European Region,14/06/2022,1,0,0,0,0,0
 Poland,POL,European Region,22/06/2022,7,0,6,0,0,0
@@ -6939,6 +7052,7 @@ Poland,POL,European Region,09/07/2024,223,0,0,0,0,0
 Poland,POL,European Region,31/07/2024,223,0,0,0,0,0
 Poland,POL,European Region,31/08/2024,225,0,2,0,0,0
 Poland,POL,European Region,30/09/2024,225,0,0,0,0,0
+Poland,POL,European Region,31/10/2024,225,0,0,0,0,0
 Portugal,PRT,European Region,17/05/2022,3,0,3,0,0,0
 Portugal,PRT,European Region,18/05/2022,5,0,2,0,0,0
 Portugal,PRT,European Region,19/05/2022,14,0,9,0,0,0
@@ -7136,6 +7250,7 @@ Portugal,PRT,European Region,09/07/2024,1193,0,0,0,2,0
 Portugal,PRT,European Region,31/07/2024,1196,0,3,0,2,0
 Portugal,PRT,European Region,31/08/2024,1206,0,10,0,2,0
 Portugal,PRT,European Region,30/09/2024,1227,0,21,0,2,0
+Portugal,PRT,European Region,31/10/2024,1227,0,0,0,2,0
 Republic of Moldova,MDA,European Region,09/08/2022,1,0,1,0,0,0
 Republic of Moldova,MDA,European Region,10/08/2022,1,0,0,0,0,0
 Republic of Moldova,MDA,European Region,11/08/2022,1,0,0,0,0,0
@@ -7281,6 +7396,7 @@ Republic of Moldova,MDA,European Region,09/07/2024,2,0,0,0,0,0
 Republic of Moldova,MDA,European Region,31/07/2024,2,0,0,0,0,0
 Republic of Moldova,MDA,European Region,31/08/2024,2,0,0,0,0,0
 Republic of Moldova,MDA,European Region,30/09/2024,2,0,0,0,0,0
+Republic of Moldova,MDA,European Region,31/10/2024,2,0,0,0,0,0
 Romania,ROU,European Region,14/06/2022,2,0,2,0,0,0
 Romania,ROU,European Region,15/06/2022,3,0,1,0,0,0
 Romania,ROU,European Region,16/06/2022,4,0,1,0,0,0
@@ -7456,6 +7572,7 @@ Romania,ROU,European Region,09/07/2024,47,0,0,0,0,0
 Romania,ROU,European Region,31/07/2024,47,0,0,0,0,0
 Romania,ROU,European Region,31/08/2024,48,0,1,0,0,0
 Romania,ROU,European Region,30/09/2024,48,0,0,0,0,0
+Romania,ROU,European Region,31/10/2024,48,0,0,0,0,0
 Russian Federation,RUS,European Region,12/07/2022,1,0,1,0,0,0
 Russian Federation,RUS,European Region,13/07/2022,1,0,0,0,0,0
 Russian Federation,RUS,European Region,14/07/2022,1,0,0,0,0,0
@@ -7621,6 +7738,7 @@ Russian Federation,RUS,European Region,09/07/2024,4,0,0,0,0,0
 Russian Federation,RUS,European Region,31/07/2024,4,0,0,0,0,0
 Russian Federation,RUS,European Region,31/08/2024,4,0,0,0,0,0
 Russian Federation,RUS,European Region,30/09/2024,4,0,0,0,0,0
+Russian Federation,RUS,European Region,31/10/2024,4,0,0,0,0,0
 San Marino,SMR,European Region,29/09/2022,0,0,0,0,0,0
 San Marino,SMR,European Region,30/09/2022,0,0,0,0,0,0
 San Marino,SMR,European Region,03/10/2022,0,0,0,0,0,0
@@ -7731,6 +7849,7 @@ San Marino,SMR,European Region,09/07/2024,1,0,0,0,0,0
 San Marino,SMR,European Region,31/07/2024,1,0,0,0,0,0
 San Marino,SMR,European Region,31/08/2024,1,0,0,0,0,0
 San Marino,SMR,European Region,30/09/2024,1,0,0,0,0,0
+San Marino,SMR,European Region,31/10/2024,1,0,0,0,0,0
 Serbia,SRB,European Region,17/06/2022,1,0,1,0,0,0
 Serbia,SRB,European Region,11/07/2022,1,0,0,0,0,0
 Serbia,SRB,European Region,12/07/2022,1,0,0,0,0,0
@@ -7898,6 +8017,7 @@ Serbia,SRB,European Region,09/07/2024,40,0,0,0,0,0
 Serbia,SRB,European Region,31/07/2024,40,0,0,0,0,0
 Serbia,SRB,European Region,31/08/2024,40,0,0,0,0,0
 Serbia,SRB,European Region,30/09/2024,40,0,0,0,0,0
+Serbia,SRB,European Region,31/10/2024,40,0,0,0,0,0
 Slovakia,SVK,European Region,07/07/2022,1,0,1,0,0,0
 Slovakia,SVK,European Region,11/07/2022,1,0,0,0,0,0
 Slovakia,SVK,European Region,12/07/2022,1,0,0,0,0,0
@@ -8065,6 +8185,7 @@ Slovakia,SVK,European Region,09/07/2024,16,0,0,0,0,0
 Slovakia,SVK,European Region,31/07/2024,16,0,0,0,0,0
 Slovakia,SVK,European Region,31/08/2024,16,0,0,0,0,0
 Slovakia,SVK,European Region,30/09/2024,16,0,0,0,0,0
+Slovakia,SVK,European Region,31/10/2024,16,0,0,0,0,0
 Slovenia,SVN,European Region,24/05/2022,1,0,1,0,0,0
 Slovenia,SVN,European Region,25/05/2022,2,0,1,0,0,0
 Slovenia,SVN,European Region,02/06/2022,3,0,1,0,0,0
@@ -8246,6 +8367,7 @@ Slovenia,SVN,European Region,09/07/2024,47,0,0,0,0,0
 Slovenia,SVN,European Region,31/07/2024,47,0,0,0,0,0
 Slovenia,SVN,European Region,31/08/2024,47,0,0,0,0,0
 Slovenia,SVN,European Region,30/09/2024,47,0,0,0,0,0
+Slovenia,SVN,European Region,31/10/2024,47,0,0,0,0,0
 Spain,ESP,European Region,18/05/2022,0,0,0,0,0,0
 Spain,ESP,European Region,19/05/2022,7,0,7,0,0,0
 Spain,ESP,European Region,20/05/2022,23,0,16,0,0,0
@@ -8433,6 +8555,7 @@ Spain,ESP,European Region,09/07/2024,8084,0,0,0,3,0
 Spain,ESP,European Region,31/07/2024,8104,0,20,0,3,0
 Spain,ESP,European Region,31/08/2024,8240,0,136,0,3,0
 Spain,ESP,European Region,30/09/2024,8282,0,42,0,3,0
+Spain,ESP,European Region,31/10/2024,8346,0,64,0,3,0
 Sweden,SWE,European Region,18/05/2022,1,0,1,0,0,0
 Sweden,SWE,European Region,26/05/2022,2,0,1,0,0,0
 Sweden,SWE,European Region,31/05/2022,4,0,2,0,0,0
@@ -8614,6 +8737,7 @@ Sweden,SWE,European Region,09/07/2024,299,0,0,0,0,0
 Sweden,SWE,European Region,31/07/2024,300,0,1,0,0,0
 Sweden,SWE,European Region,31/08/2024,302,0,2,0,0,0
 Sweden,SWE,European Region,30/09/2024,302,0,0,0,0,0
+Sweden,SWE,European Region,31/10/2024,305,0,3,0,0,0
 Switzerland,CHE,European Region,21/05/2022,1,0,1,0,0,0
 Switzerland,CHE,European Region,25/05/2022,2,0,1,0,0,0
 Switzerland,CHE,European Region,27/05/2022,3,0,1,0,0,0
@@ -8809,6 +8933,7 @@ Switzerland,CHE,European Region,09/07/2024,579,0,0,0,0,0
 Switzerland,CHE,European Region,31/07/2024,579,0,0,0,0,0
 Switzerland,CHE,European Region,31/08/2024,588,0,9,0,0,0
 Switzerland,CHE,European Region,30/09/2024,588,0,0,0,0,0
+Switzerland,CHE,European Region,31/10/2024,588,0,0,0,0,0
 The United Kingdom,GBR,European Region,07/05/2022,1,0,1,0,0,0
 The United Kingdom,GBR,European Region,14/05/2022,3,0,2,0,0,0
 The United Kingdom,GBR,European Region,16/05/2022,7,0,4,0,0,0
@@ -9006,6 +9131,7 @@ The United Kingdom,GBR,European Region,09/07/2024,3952,0,0,0,0,0
 The United Kingdom,GBR,European Region,31/07/2024,4018,0,66,0,0,0
 The United Kingdom,GBR,European Region,31/08/2024,4058,0,40,0,0,0
 The United Kingdom,GBR,European Region,30/09/2024,4100,0,42,0,0,0
+The United Kingdom,GBR,European Region,31/10/2024,4110,0,10,0,0,0
 Türkiye,TUR,European Region,30/06/2022,1,0,1,0,0,0
 Türkiye,TUR,European Region,11/07/2022,1,0,0,0,0,0
 Türkiye,TUR,European Region,12/07/2022,1,0,0,0,0,0
@@ -9173,6 +9299,7 @@ Türkiye,TUR,European Region,09/07/2024,12,0,0,0,0,0
 Türkiye,TUR,European Region,31/07/2024,12,0,0,0,0,0
 Türkiye,TUR,European Region,31/08/2024,12,0,0,0,0,0
 Türkiye,TUR,European Region,30/09/2024,12,0,0,0,0,0
+Türkiye,TUR,European Region,31/10/2024,12,0,0,0,0,0
 Ukraine,UKR,European Region,15/09/2022,1,0,1,0,0,0
 Ukraine,UKR,European Region,16/09/2022,1,0,0,0,0,0
 Ukraine,UKR,European Region,19/09/2022,1,0,0,0,0,0
@@ -9293,6 +9420,7 @@ Ukraine,UKR,European Region,09/07/2024,5,0,0,0,0,0
 Ukraine,UKR,European Region,31/07/2024,5,0,0,0,0,0
 Ukraine,UKR,European Region,31/08/2024,5,0,0,0,0,0
 Ukraine,UKR,European Region,30/09/2024,5,0,0,0,0,0
+Ukraine,UKR,European Region,31/10/2024,5,0,0,0,0,0
 Argentina,ARG,Region of the Americas,24/05/2022,2,0,2,0,0,0
 Argentina,ARG,Region of the Americas,31/05/2022,2,0,0,0,0,0
 Argentina,ARG,Region of the Americas,07/06/2022,3,0,1,0,0,0
@@ -9415,7 +9543,12 @@ Argentina,ARG,Region of the Americas,27/08/2024,1181,0,7,0,2,0
 Argentina,ARG,Region of the Americas,03/09/2024,1194,0,13,0,2,0
 Argentina,ARG,Region of the Americas,10/09/2024,1203,0,9,0,2,0
 Argentina,ARG,Region of the Americas,17/09/2024,1216,0,13,0,2,0
-Argentina,ARG,Region of the Americas,24/09/2024,1219,0,3,0,2,0
+Argentina,ARG,Region of the Americas,24/09/2024,1221,0,5,0,2,0
+Argentina,ARG,Region of the Americas,01/10/2024,1228,0,7,0,2,0
+Argentina,ARG,Region of the Americas,08/10/2024,1231,0,3,0,2,0
+Argentina,ARG,Region of the Americas,15/10/2024,1233,0,2,0,2,0
+Argentina,ARG,Region of the Americas,22/10/2024,1234,0,1,0,2,0
+Argentina,ARG,Region of the Americas,29/10/2024,1236,0,2,0,2,0
 Aruba,ABW,Region of the Americas,23/08/2022,1,0,1,0,0,0
 Aruba,ABW,Region of the Americas,30/08/2022,2,0,1,0,0,0
 Aruba,ABW,Region of the Americas,06/09/2022,2,0,0,0,0,0
@@ -9526,6 +9659,11 @@ Aruba,ABW,Region of the Americas,03/09/2024,3,0,0,0,0,0
 Aruba,ABW,Region of the Americas,10/09/2024,3,0,0,0,0,0
 Aruba,ABW,Region of the Americas,17/09/2024,3,0,0,0,0,0
 Aruba,ABW,Region of the Americas,24/09/2024,3,0,0,0,0,0
+Aruba,ABW,Region of the Americas,01/10/2024,3,0,0,0,0,0
+Aruba,ABW,Region of the Americas,08/10/2024,3,0,0,0,0,0
+Aruba,ABW,Region of the Americas,15/10/2024,3,0,0,0,0,0
+Aruba,ABW,Region of the Americas,22/10/2024,3,0,0,0,0,0
+Aruba,ABW,Region of the Americas,29/10/2024,3,0,0,0,0,0
 Bahamas,BHS,Region of the Americas,07/06/2022,1,0,1,0,0,0
 Bahamas,BHS,Region of the Americas,14/06/2022,1,0,0,0,0,0
 Bahamas,BHS,Region of the Americas,21/06/2022,1,0,0,0,0,0
@@ -9647,6 +9785,11 @@ Bahamas,BHS,Region of the Americas,03/09/2024,4,0,0,0,0,0
 Bahamas,BHS,Region of the Americas,10/09/2024,4,0,0,0,0,0
 Bahamas,BHS,Region of the Americas,17/09/2024,4,0,0,0,0,0
 Bahamas,BHS,Region of the Americas,24/09/2024,4,0,0,0,0,0
+Bahamas,BHS,Region of the Americas,01/10/2024,4,0,0,0,0,0
+Bahamas,BHS,Region of the Americas,08/10/2024,4,0,0,0,0,0
+Bahamas,BHS,Region of the Americas,15/10/2024,4,0,0,0,0,0
+Bahamas,BHS,Region of the Americas,22/10/2024,4,0,0,0,0,0
+Bahamas,BHS,Region of the Americas,29/10/2024,4,0,0,0,0,0
 Barbados,BRB,Region of the Americas,19/07/2022,1,0,1,0,0,0
 Barbados,BRB,Region of the Americas,26/07/2022,1,0,0,0,0,0
 Barbados,BRB,Region of the Americas,02/08/2022,1,0,0,0,0,0
@@ -9762,6 +9905,11 @@ Barbados,BRB,Region of the Americas,03/09/2024,1,0,0,0,0,0
 Barbados,BRB,Region of the Americas,10/09/2024,1,0,0,0,0,0
 Barbados,BRB,Region of the Americas,17/09/2024,1,0,0,0,0,0
 Barbados,BRB,Region of the Americas,24/09/2024,1,0,0,0,0,0
+Barbados,BRB,Region of the Americas,01/10/2024,1,0,0,0,0,0
+Barbados,BRB,Region of the Americas,08/10/2024,1,0,0,0,0,0
+Barbados,BRB,Region of the Americas,15/10/2024,1,0,0,0,0,0
+Barbados,BRB,Region of the Americas,22/10/2024,1,0,0,0,0,0
+Barbados,BRB,Region of the Americas,29/10/2024,1,0,0,0,0,0
 Bermuda,BMU,Region of the Americas,19/07/2022,1,0,1,0,0,0
 Bermuda,BMU,Region of the Americas,26/07/2022,1,0,0,0,0,0
 Bermuda,BMU,Region of the Americas,02/08/2022,1,0,0,0,0,0
@@ -9877,6 +10025,11 @@ Bermuda,BMU,Region of the Americas,03/09/2024,1,0,0,0,0,0
 Bermuda,BMU,Region of the Americas,10/09/2024,1,0,0,0,0,0
 Bermuda,BMU,Region of the Americas,17/09/2024,1,0,0,0,0,0
 Bermuda,BMU,Region of the Americas,24/09/2024,1,0,0,0,0,0
+Bermuda,BMU,Region of the Americas,01/10/2024,1,0,0,0,0,0
+Bermuda,BMU,Region of the Americas,08/10/2024,1,0,0,0,0,0
+Bermuda,BMU,Region of the Americas,15/10/2024,1,0,0,0,0,0
+Bermuda,BMU,Region of the Americas,22/10/2024,1,0,0,0,0,0
+Bermuda,BMU,Region of the Americas,29/10/2024,1,0,0,0,0,0
 Bolivia (Plurinational State of),BOL,Region of the Americas,02/08/2022,5,0,5,0,0,0
 Bolivia (Plurinational State of),BOL,Region of the Americas,09/08/2022,15,0,10,0,0,0
 Bolivia (Plurinational State of),BOL,Region of the Americas,16/08/2022,42,0,27,0,0,0
@@ -9990,131 +10143,141 @@ Bolivia (Plurinational State of),BOL,Region of the Americas,03/09/2024,266,0,0,0
 Bolivia (Plurinational State of),BOL,Region of the Americas,10/09/2024,266,0,0,0,0,0
 Bolivia (Plurinational State of),BOL,Region of the Americas,17/09/2024,266,0,0,0,0,0
 Bolivia (Plurinational State of),BOL,Region of the Americas,24/09/2024,266,0,0,0,0,0
+Bolivia (Plurinational State of),BOL,Region of the Americas,01/10/2024,266,0,0,0,0,0
+Bolivia (Plurinational State of),BOL,Region of the Americas,08/10/2024,266,0,0,0,0,0
+Bolivia (Plurinational State of),BOL,Region of the Americas,15/10/2024,266,0,0,0,0,0
+Bolivia (Plurinational State of),BOL,Region of the Americas,22/10/2024,266,0,0,0,0,0
+Bolivia (Plurinational State of),BOL,Region of the Americas,29/10/2024,266,0,0,0,0,0
 Brazil,BRA,Region of the Americas,10/05/2022,1,0,1,0,0,0
 Brazil,BRA,Region of the Americas,17/05/2022,2,0,1,0,0,0
 Brazil,BRA,Region of the Americas,24/05/2022,3,0,1,0,0,0
 Brazil,BRA,Region of the Americas,31/05/2022,8,0,5,0,0,0
-Brazil,BRA,Region of the Americas,07/06/2022,18,0,10,0,0,0
-Brazil,BRA,Region of the Americas,14/06/2022,46,0,28,0,0,0
-Brazil,BRA,Region of the Americas,21/06/2022,141,0,95,0,0,0
-Brazil,BRA,Region of the Americas,28/06/2022,315,0,174,0,0,0
-Brazil,BRA,Region of the Americas,05/07/2022,610,0,295,0,0,0
-Brazil,BRA,Region of the Americas,12/07/2022,1118,0,508,0,0,0
-Brazil,BRA,Region of the Americas,19/07/2022,1876,0,758,0,0,0
-Brazil,BRA,Region of the Americas,26/07/2022,2781,0,905,0,1,1
-Brazil,BRA,Region of the Americas,02/08/2022,3734,0,953,0,1,0
-Brazil,BRA,Region of the Americas,09/08/2022,4633,0,899,0,1,0
-Brazil,BRA,Region of the Americas,16/08/2022,5494,0,861,0,1,0
-Brazil,BRA,Region of the Americas,23/08/2022,6212,0,718,0,1,0
-Brazil,BRA,Region of the Americas,30/08/2022,6862,0,650,0,2,1
-Brazil,BRA,Region of the Americas,06/09/2022,7474,0,612,0,2,0
-Brazil,BRA,Region of the Americas,13/09/2022,7979,0,505,0,2,0
-Brazil,BRA,Region of the Americas,20/09/2022,8433,0,454,0,2,0
-Brazil,BRA,Region of the Americas,27/09/2022,8798,0,365,0,3,1
-Brazil,BRA,Region of the Americas,04/10/2022,9092,0,294,0,3,0
-Brazil,BRA,Region of the Americas,11/10/2022,9353,0,261,0,7,4
-Brazil,BRA,Region of the Americas,18/10/2022,9566,0,213,0,8,1
-Brazil,BRA,Region of the Americas,25/10/2022,9758,0,192,0,9,1
-Brazil,BRA,Region of the Americas,01/11/2022,9915,0,157,0,11,2
-Brazil,BRA,Region of the Americas,08/11/2022,10045,0,130,0,12,1
-Brazil,BRA,Region of the Americas,15/11/2022,10180,0,135,0,12,0
-Brazil,BRA,Region of the Americas,22/11/2022,10307,0,127,0,13,1
-Brazil,BRA,Region of the Americas,29/11/2022,10390,0,83,0,14,1
-Brazil,BRA,Region of the Americas,06/12/2022,10499,0,109,0,14,0
-Brazil,BRA,Region of the Americas,13/12/2022,10564,0,65,0,14,0
-Brazil,BRA,Region of the Americas,20/12/2022,10619,0,55,0,14,0
-Brazil,BRA,Region of the Americas,27/12/2022,10659,0,40,0,14,0
-Brazil,BRA,Region of the Americas,03/01/2023,10728,0,69,0,15,1
-Brazil,BRA,Region of the Americas,10/01/2023,10764,0,36,0,15,0
-Brazil,BRA,Region of the Americas,17/01/2023,10801,0,37,0,15,0
-Brazil,BRA,Region of the Americas,24/01/2023,10827,0,26,0,15,0
-Brazil,BRA,Region of the Americas,31/01/2023,10846,0,19,0,15,0
-Brazil,BRA,Region of the Americas,07/02/2023,10859,0,13,0,15,0
-Brazil,BRA,Region of the Americas,14/02/2023,10868,0,9,0,15,0
-Brazil,BRA,Region of the Americas,21/02/2023,10881,0,13,0,15,0
-Brazil,BRA,Region of the Americas,28/02/2023,10893,0,12,0,15,0
-Brazil,BRA,Region of the Americas,07/03/2023,10907,0,14,0,15,0
-Brazil,BRA,Region of the Americas,14/03/2023,10919,0,12,0,15,0
-Brazil,BRA,Region of the Americas,21/03/2023,10929,0,10,0,15,0
-Brazil,BRA,Region of the Americas,28/03/2023,10933,0,4,0,15,0
-Brazil,BRA,Region of the Americas,04/04/2023,10934,0,1,0,15,0
-Brazil,BRA,Region of the Americas,11/04/2023,10937,0,3,0,15,0
-Brazil,BRA,Region of the Americas,18/04/2023,10951,0,14,0,16,1
-Brazil,BRA,Region of the Americas,25/04/2023,10958,0,7,0,16,0
-Brazil,BRA,Region of the Americas,02/05/2023,10965,0,7,0,16,0
-Brazil,BRA,Region of the Americas,09/05/2023,10970,0,5,0,16,0
-Brazil,BRA,Region of the Americas,16/05/2023,10974,0,4,0,16,0
-Brazil,BRA,Region of the Americas,23/05/2023,10978,0,4,0,16,0
-Brazil,BRA,Region of the Americas,30/05/2023,10984,0,6,0,16,0
-Brazil,BRA,Region of the Americas,06/06/2023,10990,0,6,0,16,0
-Brazil,BRA,Region of the Americas,13/06/2023,10996,0,6,0,16,0
-Brazil,BRA,Region of the Americas,20/06/2023,10999,0,3,0,16,0
-Brazil,BRA,Region of the Americas,27/06/2023,11005,0,6,0,16,0
-Brazil,BRA,Region of the Americas,04/07/2023,11010,0,5,0,16,0
-Brazil,BRA,Region of the Americas,11/07/2023,11024,0,14,0,16,0
-Brazil,BRA,Region of the Americas,18/07/2023,11034,0,10,0,16,0
-Brazil,BRA,Region of the Americas,25/07/2023,11044,0,10,0,16,0
-Brazil,BRA,Region of the Americas,01/08/2023,11057,0,13,0,16,0
-Brazil,BRA,Region of the Americas,08/08/2023,11063,0,6,0,16,0
-Brazil,BRA,Region of the Americas,15/08/2023,11071,0,8,0,16,0
-Brazil,BRA,Region of the Americas,22/08/2023,11082,0,11,0,16,0
-Brazil,BRA,Region of the Americas,29/08/2023,11095,0,13,0,16,0
-Brazil,BRA,Region of the Americas,05/09/2023,11107,0,12,0,16,0
-Brazil,BRA,Region of the Americas,12/09/2023,11122,0,15,0,16,0
-Brazil,BRA,Region of the Americas,19/09/2023,11138,0,16,0,16,0
-Brazil,BRA,Region of the Americas,26/09/2023,11150,0,12,0,16,0
-Brazil,BRA,Region of the Americas,03/10/2023,11166,0,16,0,16,0
-Brazil,BRA,Region of the Americas,10/10/2023,11199,0,33,0,16,0
-Brazil,BRA,Region of the Americas,17/10/2023,11232,0,33,0,16,0
-Brazil,BRA,Region of the Americas,24/10/2023,11260,0,28,0,16,0
-Brazil,BRA,Region of the Americas,31/10/2023,11293,0,33,0,16,0
-Brazil,BRA,Region of the Americas,07/11/2023,11313,0,20,0,16,0
-Brazil,BRA,Region of the Americas,14/11/2023,11345,0,32,0,16,0
-Brazil,BRA,Region of the Americas,21/11/2023,11370,0,25,0,16,0
-Brazil,BRA,Region of the Americas,28/11/2023,11390,0,20,0,16,0
-Brazil,BRA,Region of the Americas,05/12/2023,11421,0,31,0,16,0
-Brazil,BRA,Region of the Americas,12/12/2023,11445,0,24,0,16,0
-Brazil,BRA,Region of the Americas,19/12/2023,11469,0,24,0,16,0
-Brazil,BRA,Region of the Americas,26/12/2023,11499,0,30,0,16,0
-Brazil,BRA,Region of the Americas,02/01/2024,11545,0,46,0,16,0
-Brazil,BRA,Region of the Americas,09/01/2024,11586,0,41,0,16,0
-Brazil,BRA,Region of the Americas,16/01/2024,11627,0,41,0,16,0
-Brazil,BRA,Region of the Americas,23/01/2024,11659,0,32,0,16,0
-Brazil,BRA,Region of the Americas,30/01/2024,11693,0,34,0,16,0
-Brazil,BRA,Region of the Americas,06/02/2024,11725,0,32,0,16,0
-Brazil,BRA,Region of the Americas,13/02/2024,11758,0,33,0,16,0
-Brazil,BRA,Region of the Americas,20/02/2024,11794,0,36,0,16,0
-Brazil,BRA,Region of the Americas,27/02/2024,11821,0,27,0,16,0
-Brazil,BRA,Region of the Americas,05/03/2024,11842,0,21,0,16,0
-Brazil,BRA,Region of the Americas,12/03/2024,11864,0,22,0,16,0
-Brazil,BRA,Region of the Americas,19/03/2024,11886,0,22,0,16,0
-Brazil,BRA,Region of the Americas,26/03/2024,11907,0,21,0,16,0
-Brazil,BRA,Region of the Americas,02/04/2024,11931,0,24,0,16,0
-Brazil,BRA,Region of the Americas,09/04/2024,11949,0,18,0,16,0
-Brazil,BRA,Region of the Americas,16/04/2024,11960,0,11,0,16,0
-Brazil,BRA,Region of the Americas,23/04/2024,11979,0,19,0,16,0
-Brazil,BRA,Region of the Americas,30/04/2024,11998,0,19,0,16,0
-Brazil,BRA,Region of the Americas,07/05/2024,12015,0,17,0,16,0
-Brazil,BRA,Region of the Americas,14/05/2024,12033,0,18,0,16,0
-Brazil,BRA,Region of the Americas,21/05/2024,12040,0,7,0,16,0
-Brazil,BRA,Region of the Americas,28/05/2024,12055,0,15,0,16,0
-Brazil,BRA,Region of the Americas,04/06/2024,12068,0,13,0,16,0
-Brazil,BRA,Region of the Americas,11/06/2024,12076,0,8,0,16,0
-Brazil,BRA,Region of the Americas,18/06/2024,12083,0,7,0,16,0
-Brazil,BRA,Region of the Americas,25/06/2024,12097,0,14,0,16,0
-Brazil,BRA,Region of the Americas,02/07/2024,12112,0,15,0,16,0
-Brazil,BRA,Region of the Americas,09/07/2024,12134,0,22,0,16,0
-Brazil,BRA,Region of the Americas,16/07/2024,12159,0,25,0,16,0
-Brazil,BRA,Region of the Americas,23/07/2024,12190,0,31,0,16,0
-Brazil,BRA,Region of the Americas,30/07/2024,12224,0,34,0,16,0
-Brazil,BRA,Region of the Americas,06/08/2024,12282,0,58,0,16,0
-Brazil,BRA,Region of the Americas,13/08/2024,12346,0,64,0,16,0
-Brazil,BRA,Region of the Americas,20/08/2024,12427,0,81,0,16,0
-Brazil,BRA,Region of the Americas,27/08/2024,12504,0,77,0,16,0
-Brazil,BRA,Region of the Americas,03/09/2024,12589,0,85,0,16,0
-Brazil,BRA,Region of the Americas,10/09/2024,12643,0,54,0,16,0
-Brazil,BRA,Region of the Americas,17/09/2024,12689,0,46,0,16,0
-Brazil,BRA,Region of the Americas,24/09/2024,12722,0,33,0,16,0
+Brazil,BRA,Region of the Americas,07/06/2022,17,0,9,0,0,0
+Brazil,BRA,Region of the Americas,14/06/2022,45,0,28,0,0,0
+Brazil,BRA,Region of the Americas,21/06/2022,140,0,95,0,0,0
+Brazil,BRA,Region of the Americas,28/06/2022,314,0,174,0,0,0
+Brazil,BRA,Region of the Americas,05/07/2022,609,0,295,0,0,0
+Brazil,BRA,Region of the Americas,12/07/2022,1115,0,506,0,0,0
+Brazil,BRA,Region of the Americas,19/07/2022,1873,0,758,0,0,0
+Brazil,BRA,Region of the Americas,26/07/2022,2778,0,905,0,1,1
+Brazil,BRA,Region of the Americas,02/08/2022,3729,0,951,0,1,0
+Brazil,BRA,Region of the Americas,09/08/2022,4626,0,897,0,1,0
+Brazil,BRA,Region of the Americas,16/08/2022,5486,0,860,0,1,0
+Brazil,BRA,Region of the Americas,23/08/2022,6203,0,717,0,1,0
+Brazil,BRA,Region of the Americas,30/08/2022,6852,0,649,0,2,1
+Brazil,BRA,Region of the Americas,06/09/2022,7463,0,611,0,2,0
+Brazil,BRA,Region of the Americas,13/09/2022,7962,0,499,0,2,0
+Brazil,BRA,Region of the Americas,20/09/2022,8415,0,453,0,2,0
+Brazil,BRA,Region of the Americas,27/09/2022,8779,0,364,0,3,1
+Brazil,BRA,Region of the Americas,04/10/2022,9073,0,294,0,3,0
+Brazil,BRA,Region of the Americas,11/10/2022,9333,0,260,0,7,4
+Brazil,BRA,Region of the Americas,18/10/2022,9546,0,213,0,8,1
+Brazil,BRA,Region of the Americas,25/10/2022,9738,0,192,0,9,1
+Brazil,BRA,Region of the Americas,01/11/2022,9895,0,157,0,11,2
+Brazil,BRA,Region of the Americas,08/11/2022,10025,0,130,0,12,1
+Brazil,BRA,Region of the Americas,15/11/2022,10161,0,136,0,12,0
+Brazil,BRA,Region of the Americas,22/11/2022,10288,0,127,0,13,1
+Brazil,BRA,Region of the Americas,29/11/2022,10370,0,82,0,14,1
+Brazil,BRA,Region of the Americas,06/12/2022,10479,0,109,0,14,0
+Brazil,BRA,Region of the Americas,13/12/2022,10544,0,65,0,14,0
+Brazil,BRA,Region of the Americas,20/12/2022,10599,0,55,0,14,0
+Brazil,BRA,Region of the Americas,27/12/2022,10639,0,40,0,14,0
+Brazil,BRA,Region of the Americas,03/01/2023,10707,0,68,0,15,1
+Brazil,BRA,Region of the Americas,10/01/2023,10743,0,36,0,15,0
+Brazil,BRA,Region of the Americas,17/01/2023,10780,0,37,0,15,0
+Brazil,BRA,Region of the Americas,24/01/2023,10806,0,26,0,15,0
+Brazil,BRA,Region of the Americas,31/01/2023,10825,0,19,0,15,0
+Brazil,BRA,Region of the Americas,07/02/2023,10838,0,13,0,15,0
+Brazil,BRA,Region of the Americas,14/02/2023,10847,0,9,0,15,0
+Brazil,BRA,Region of the Americas,21/02/2023,10860,0,13,0,15,0
+Brazil,BRA,Region of the Americas,28/02/2023,10872,0,12,0,15,0
+Brazil,BRA,Region of the Americas,07/03/2023,10886,0,14,0,15,0
+Brazil,BRA,Region of the Americas,14/03/2023,10898,0,12,0,15,0
+Brazil,BRA,Region of the Americas,21/03/2023,10908,0,10,0,15,0
+Brazil,BRA,Region of the Americas,28/03/2023,10912,0,4,0,15,0
+Brazil,BRA,Region of the Americas,04/04/2023,10914,0,2,0,15,0
+Brazil,BRA,Region of the Americas,11/04/2023,10917,0,3,0,15,0
+Brazil,BRA,Region of the Americas,18/04/2023,10931,0,14,0,16,1
+Brazil,BRA,Region of the Americas,25/04/2023,10938,0,7,0,16,0
+Brazil,BRA,Region of the Americas,02/05/2023,10945,0,7,0,16,0
+Brazil,BRA,Region of the Americas,09/05/2023,10950,0,5,0,16,0
+Brazil,BRA,Region of the Americas,16/05/2023,10954,0,4,0,16,0
+Brazil,BRA,Region of the Americas,23/05/2023,10958,0,4,0,16,0
+Brazil,BRA,Region of the Americas,30/05/2023,10964,0,6,0,16,0
+Brazil,BRA,Region of the Americas,06/06/2023,10970,0,6,0,16,0
+Brazil,BRA,Region of the Americas,13/06/2023,10976,0,6,0,16,0
+Brazil,BRA,Region of the Americas,20/06/2023,10979,0,3,0,16,0
+Brazil,BRA,Region of the Americas,27/06/2023,10985,0,6,0,16,0
+Brazil,BRA,Region of the Americas,04/07/2023,10990,0,5,0,16,0
+Brazil,BRA,Region of the Americas,11/07/2023,11004,0,14,0,16,0
+Brazil,BRA,Region of the Americas,18/07/2023,11014,0,10,0,16,0
+Brazil,BRA,Region of the Americas,25/07/2023,11024,0,10,0,16,0
+Brazil,BRA,Region of the Americas,01/08/2023,11037,0,13,0,16,0
+Brazil,BRA,Region of the Americas,08/08/2023,11043,0,6,0,16,0
+Brazil,BRA,Region of the Americas,15/08/2023,11051,0,8,0,16,0
+Brazil,BRA,Region of the Americas,22/08/2023,11062,0,11,0,16,0
+Brazil,BRA,Region of the Americas,29/08/2023,11075,0,13,0,16,0
+Brazil,BRA,Region of the Americas,05/09/2023,11087,0,12,0,16,0
+Brazil,BRA,Region of the Americas,12/09/2023,11102,0,15,0,16,0
+Brazil,BRA,Region of the Americas,19/09/2023,11118,0,16,0,16,0
+Brazil,BRA,Region of the Americas,26/09/2023,11130,0,12,0,16,0
+Brazil,BRA,Region of the Americas,03/10/2023,11146,0,16,0,16,0
+Brazil,BRA,Region of the Americas,10/10/2023,11179,0,33,0,16,0
+Brazil,BRA,Region of the Americas,17/10/2023,11212,0,33,0,16,0
+Brazil,BRA,Region of the Americas,24/10/2023,11240,0,28,0,16,0
+Brazil,BRA,Region of the Americas,31/10/2023,11273,0,33,0,16,0
+Brazil,BRA,Region of the Americas,07/11/2023,11293,0,20,0,16,0
+Brazil,BRA,Region of the Americas,14/11/2023,11325,0,32,0,16,0
+Brazil,BRA,Region of the Americas,21/11/2023,11350,0,25,0,16,0
+Brazil,BRA,Region of the Americas,28/11/2023,11370,0,20,0,16,0
+Brazil,BRA,Region of the Americas,05/12/2023,11401,0,31,0,16,0
+Brazil,BRA,Region of the Americas,12/12/2023,11425,0,24,0,16,0
+Brazil,BRA,Region of the Americas,19/12/2023,11449,0,24,0,16,0
+Brazil,BRA,Region of the Americas,26/12/2023,11478,0,29,0,16,0
+Brazil,BRA,Region of the Americas,02/01/2024,11525,0,47,0,16,0
+Brazil,BRA,Region of the Americas,09/01/2024,11566,0,41,0,16,0
+Brazil,BRA,Region of the Americas,16/01/2024,11607,0,41,0,16,0
+Brazil,BRA,Region of the Americas,23/01/2024,11640,0,33,0,16,0
+Brazil,BRA,Region of the Americas,30/01/2024,11674,0,34,0,16,0
+Brazil,BRA,Region of the Americas,06/02/2024,11706,0,32,0,16,0
+Brazil,BRA,Region of the Americas,13/02/2024,11739,0,33,0,16,0
+Brazil,BRA,Region of the Americas,20/02/2024,11775,0,36,0,16,0
+Brazil,BRA,Region of the Americas,27/02/2024,11801,0,26,0,16,0
+Brazil,BRA,Region of the Americas,05/03/2024,11822,0,21,0,16,0
+Brazil,BRA,Region of the Americas,12/03/2024,11844,0,22,0,16,0
+Brazil,BRA,Region of the Americas,19/03/2024,11866,0,22,0,16,0
+Brazil,BRA,Region of the Americas,26/03/2024,11887,0,21,0,16,0
+Brazil,BRA,Region of the Americas,02/04/2024,11911,0,24,0,16,0
+Brazil,BRA,Region of the Americas,09/04/2024,11929,0,18,0,16,0
+Brazil,BRA,Region of the Americas,16/04/2024,11940,0,11,0,16,0
+Brazil,BRA,Region of the Americas,23/04/2024,11959,0,19,0,16,0
+Brazil,BRA,Region of the Americas,30/04/2024,11978,0,19,0,16,0
+Brazil,BRA,Region of the Americas,07/05/2024,11995,0,17,0,16,0
+Brazil,BRA,Region of the Americas,14/05/2024,12013,0,18,0,16,0
+Brazil,BRA,Region of the Americas,21/05/2024,12020,0,7,0,16,0
+Brazil,BRA,Region of the Americas,28/05/2024,12035,0,15,0,16,0
+Brazil,BRA,Region of the Americas,04/06/2024,12048,0,13,0,16,0
+Brazil,BRA,Region of the Americas,11/06/2024,12056,0,8,0,16,0
+Brazil,BRA,Region of the Americas,18/06/2024,12063,0,7,0,16,0
+Brazil,BRA,Region of the Americas,25/06/2024,12077,0,14,0,16,0
+Brazil,BRA,Region of the Americas,02/07/2024,12092,0,15,0,16,0
+Brazil,BRA,Region of the Americas,09/07/2024,12114,0,22,0,16,0
+Brazil,BRA,Region of the Americas,16/07/2024,12139,0,25,0,16,0
+Brazil,BRA,Region of the Americas,23/07/2024,12171,0,32,0,16,0
+Brazil,BRA,Region of the Americas,30/07/2024,12206,0,35,0,16,0
+Brazil,BRA,Region of the Americas,06/08/2024,12264,0,58,0,16,0
+Brazil,BRA,Region of the Americas,13/08/2024,12329,0,65,0,16,0
+Brazil,BRA,Region of the Americas,20/08/2024,12413,0,84,0,16,0
+Brazil,BRA,Region of the Americas,27/08/2024,12494,0,81,0,16,0
+Brazil,BRA,Region of the Americas,03/09/2024,12581,0,87,0,16,0
+Brazil,BRA,Region of the Americas,10/09/2024,12641,0,60,0,16,0
+Brazil,BRA,Region of the Americas,17/09/2024,12701,0,60,0,16,0
+Brazil,BRA,Region of the Americas,24/09/2024,12761,0,60,0,16,0
+Brazil,BRA,Region of the Americas,01/10/2024,12833,0,72,0,16,0
+Brazil,BRA,Region of the Americas,08/10/2024,12892,0,59,0,16,0
+Brazil,BRA,Region of the Americas,15/10/2024,12936,0,44,0,16,0
+Brazil,BRA,Region of the Americas,22/10/2024,12966,0,30,0,16,0
+Brazil,BRA,Region of the Americas,29/10/2024,12968,0,2,0,16,0
 Canada,CAN,Region of the Americas,26/04/2022,3,0,3,0,0,0
 Canada,CAN,Region of the Americas,03/05/2022,15,0,12,0,0,0
 Canada,CAN,Region of the Americas,10/05/2022,31,0,16,0,0,0
@@ -10242,6 +10405,11 @@ Canada,CAN,Region of the Americas,03/09/2024,1792,0,9,0,0,0
 Canada,CAN,Region of the Americas,10/09/2024,1800,0,8,0,0,0
 Canada,CAN,Region of the Americas,17/09/2024,1800,0,0,0,0,0
 Canada,CAN,Region of the Americas,24/09/2024,1800,0,0,0,0,0
+Canada,CAN,Region of the Americas,01/10/2024,1800,0,0,0,0,0
+Canada,CAN,Region of the Americas,08/10/2024,1800,0,0,0,0,0
+Canada,CAN,Region of the Americas,15/10/2024,1800,0,0,0,0,0
+Canada,CAN,Region of the Americas,22/10/2024,1800,0,0,0,0,0
+Canada,CAN,Region of the Americas,29/10/2024,1800,0,0,0,0,0
 Chile,CHL,Region of the Americas,31/05/2022,1,0,1,0,0,0
 Chile,CHL,Region of the Americas,07/06/2022,2,0,1,0,0,0
 Chile,CHL,Region of the Americas,14/06/2022,6,0,4,0,0,0
@@ -10364,6 +10532,11 @@ Chile,CHL,Region of the Americas,03/09/2024,1463,0,1,0,3,0
 Chile,CHL,Region of the Americas,10/09/2024,1463,0,0,0,3,0
 Chile,CHL,Region of the Americas,17/09/2024,1463,0,0,0,3,0
 Chile,CHL,Region of the Americas,24/09/2024,1464,0,1,0,3,0
+Chile,CHL,Region of the Americas,01/10/2024,1464,0,0,0,3,0
+Chile,CHL,Region of the Americas,08/10/2024,1464,0,0,0,3,0
+Chile,CHL,Region of the Americas,15/10/2024,1464,0,0,0,3,0
+Chile,CHL,Region of the Americas,22/10/2024,1464,0,0,0,3,0
+Chile,CHL,Region of the Americas,29/10/2024,1464,0,0,0,3,0
 Colombia,COL,Region of the Americas,31/05/2022,2,0,2,0,0,0
 Colombia,COL,Region of the Americas,07/06/2022,2,0,0,0,0,0
 Colombia,COL,Region of the Americas,14/06/2022,3,0,1,0,0,0
@@ -10479,129 +10652,139 @@ Colombia,COL,Region of the Americas,16/07/2024,4261,0,3,0,0,0
 Colombia,COL,Region of the Americas,23/07/2024,4261,0,0,0,0,0
 Colombia,COL,Region of the Americas,30/07/2024,4262,0,1,0,0,0
 Colombia,COL,Region of the Americas,06/08/2024,4264,0,2,0,0,0
-Colombia,COL,Region of the Americas,13/08/2024,4266,0,2,0,0,0
-Colombia,COL,Region of the Americas,20/08/2024,4269,0,3,0,0,0
-Colombia,COL,Region of the Americas,27/08/2024,4269,0,0,0,0,0
+Colombia,COL,Region of the Americas,13/08/2024,4264,0,0,0,0,0
+Colombia,COL,Region of the Americas,20/08/2024,4266,0,2,0,0,0
+Colombia,COL,Region of the Americas,27/08/2024,4269,0,3,0,0,0
 Colombia,COL,Region of the Americas,03/09/2024,4269,0,0,0,0,0
 Colombia,COL,Region of the Americas,10/09/2024,4269,0,0,0,0,0
-Colombia,COL,Region of the Americas,17/09/2024,4269,0,0,0,0,0
-Colombia,COL,Region of the Americas,24/09/2024,4269,0,0,0,0,0
+Colombia,COL,Region of the Americas,17/09/2024,4271,0,2,0,0,0
+Colombia,COL,Region of the Americas,24/09/2024,4272,0,1,0,0,0
+Colombia,COL,Region of the Americas,01/10/2024,4272,0,0,0,0,0
+Colombia,COL,Region of the Americas,08/10/2024,4275,0,3,0,0,0
+Colombia,COL,Region of the Americas,15/10/2024,4278,0,3,0,0,0
+Colombia,COL,Region of the Americas,22/10/2024,4279,0,1,0,0,0
+Colombia,COL,Region of the Americas,29/10/2024,4279,0,0,0,0,0
 Costa Rica,CRI,Region of the Americas,12/07/2022,1,0,1,0,0,0
-Costa Rica,CRI,Region of the Americas,19/07/2022,2,0,1,0,0,0
-Costa Rica,CRI,Region of the Americas,26/07/2022,2,0,0,0,0,0
-Costa Rica,CRI,Region of the Americas,02/08/2022,2,0,0,0,0,0
-Costa Rica,CRI,Region of the Americas,09/08/2022,2,0,0,0,0,0
-Costa Rica,CRI,Region of the Americas,16/08/2022,2,0,0,0,0,0
-Costa Rica,CRI,Region of the Americas,23/08/2022,2,0,0,0,0,0
-Costa Rica,CRI,Region of the Americas,30/08/2022,2,0,0,0,0,0
-Costa Rica,CRI,Region of the Americas,06/09/2022,3,0,1,0,0,0
-Costa Rica,CRI,Region of the Americas,13/09/2022,3,0,0,0,0,0
-Costa Rica,CRI,Region of the Americas,20/09/2022,3,0,0,0,0,0
-Costa Rica,CRI,Region of the Americas,27/09/2022,5,0,2,0,0,0
-Costa Rica,CRI,Region of the Americas,04/10/2022,7,0,2,0,0,0
-Costa Rica,CRI,Region of the Americas,11/10/2022,8,0,1,0,0,0
-Costa Rica,CRI,Region of the Americas,18/10/2022,10,0,2,0,0,0
-Costa Rica,CRI,Region of the Americas,25/10/2022,14,0,4,0,0,0
-Costa Rica,CRI,Region of the Americas,01/11/2022,22,0,8,0,0,0
-Costa Rica,CRI,Region of the Americas,08/11/2022,26,0,4,0,0,0
-Costa Rica,CRI,Region of the Americas,15/11/2022,34,0,8,0,0,0
-Costa Rica,CRI,Region of the Americas,22/11/2022,41,0,7,0,0,0
-Costa Rica,CRI,Region of the Americas,29/11/2022,49,0,8,0,0,0
-Costa Rica,CRI,Region of the Americas,06/12/2022,55,0,6,0,0,0
-Costa Rica,CRI,Region of the Americas,13/12/2022,65,0,10,0,0,0
-Costa Rica,CRI,Region of the Americas,20/12/2022,79,0,14,0,0,0
-Costa Rica,CRI,Region of the Americas,27/12/2022,102,0,23,0,0,0
-Costa Rica,CRI,Region of the Americas,03/01/2023,122,0,20,0,0,0
-Costa Rica,CRI,Region of the Americas,10/01/2023,139,0,17,0,0,0
-Costa Rica,CRI,Region of the Americas,17/01/2023,151,0,12,0,1,1
-Costa Rica,CRI,Region of the Americas,24/01/2023,164,0,13,0,1,0
-Costa Rica,CRI,Region of the Americas,31/01/2023,177,0,13,0,1,0
-Costa Rica,CRI,Region of the Americas,07/02/2023,190,0,13,0,1,0
-Costa Rica,CRI,Region of the Americas,14/02/2023,202,0,12,0,1,0
-Costa Rica,CRI,Region of the Americas,21/02/2023,207,0,5,0,1,0
-Costa Rica,CRI,Region of the Americas,28/02/2023,209,0,2,0,1,0
-Costa Rica,CRI,Region of the Americas,07/03/2023,211,0,2,0,1,0
-Costa Rica,CRI,Region of the Americas,14/03/2023,214,0,3,0,1,0
-Costa Rica,CRI,Region of the Americas,21/03/2023,217,0,3,0,1,0
-Costa Rica,CRI,Region of the Americas,28/03/2023,218,0,1,0,1,0
-Costa Rica,CRI,Region of the Americas,04/04/2023,220,0,2,0,1,0
-Costa Rica,CRI,Region of the Americas,11/04/2023,220,0,0,0,1,0
-Costa Rica,CRI,Region of the Americas,18/04/2023,222,0,2,0,1,0
-Costa Rica,CRI,Region of the Americas,25/04/2023,222,0,0,0,1,0
-Costa Rica,CRI,Region of the Americas,02/05/2023,222,0,0,0,1,0
-Costa Rica,CRI,Region of the Americas,09/05/2023,222,0,0,0,1,0
-Costa Rica,CRI,Region of the Americas,16/05/2023,222,0,0,0,1,0
-Costa Rica,CRI,Region of the Americas,23/05/2023,222,0,0,0,1,0
-Costa Rica,CRI,Region of the Americas,30/05/2023,222,0,0,0,1,0
-Costa Rica,CRI,Region of the Americas,06/06/2023,222,0,0,0,1,0
-Costa Rica,CRI,Region of the Americas,13/06/2023,222,0,0,0,1,0
-Costa Rica,CRI,Region of the Americas,20/06/2023,222,0,0,0,1,0
-Costa Rica,CRI,Region of the Americas,27/06/2023,222,0,0,0,1,0
-Costa Rica,CRI,Region of the Americas,04/07/2023,222,0,0,0,1,0
-Costa Rica,CRI,Region of the Americas,11/07/2023,222,0,0,0,1,0
-Costa Rica,CRI,Region of the Americas,18/07/2023,223,0,1,0,1,0
-Costa Rica,CRI,Region of the Americas,25/07/2023,223,0,0,0,1,0
-Costa Rica,CRI,Region of the Americas,01/08/2023,223,0,0,0,1,0
-Costa Rica,CRI,Region of the Americas,08/08/2023,223,0,0,0,1,0
-Costa Rica,CRI,Region of the Americas,15/08/2023,223,0,0,0,1,0
-Costa Rica,CRI,Region of the Americas,22/08/2023,223,0,0,0,1,0
-Costa Rica,CRI,Region of the Americas,29/08/2023,223,0,0,0,1,0
-Costa Rica,CRI,Region of the Americas,05/09/2023,223,0,0,0,1,0
-Costa Rica,CRI,Region of the Americas,12/09/2023,223,0,0,0,1,0
-Costa Rica,CRI,Region of the Americas,19/09/2023,223,0,0,0,1,0
-Costa Rica,CRI,Region of the Americas,26/09/2023,223,0,0,0,1,0
-Costa Rica,CRI,Region of the Americas,03/10/2023,223,0,0,0,1,0
-Costa Rica,CRI,Region of the Americas,10/10/2023,224,0,1,0,1,0
-Costa Rica,CRI,Region of the Americas,17/10/2023,224,0,0,0,1,0
-Costa Rica,CRI,Region of the Americas,24/10/2023,224,0,0,0,1,0
-Costa Rica,CRI,Region of the Americas,31/10/2023,224,0,0,0,1,0
-Costa Rica,CRI,Region of the Americas,07/11/2023,224,0,0,0,1,0
-Costa Rica,CRI,Region of the Americas,14/11/2023,224,0,0,0,1,0
-Costa Rica,CRI,Region of the Americas,21/11/2023,224,0,0,0,1,0
-Costa Rica,CRI,Region of the Americas,28/11/2023,224,0,0,0,1,0
-Costa Rica,CRI,Region of the Americas,05/12/2023,224,0,0,0,1,0
-Costa Rica,CRI,Region of the Americas,12/12/2023,224,0,0,0,1,0
-Costa Rica,CRI,Region of the Americas,19/12/2023,224,0,0,0,1,0
-Costa Rica,CRI,Region of the Americas,26/12/2023,224,0,0,0,1,0
-Costa Rica,CRI,Region of the Americas,02/01/2024,224,0,0,0,1,0
-Costa Rica,CRI,Region of the Americas,09/01/2024,224,0,0,0,1,0
-Costa Rica,CRI,Region of the Americas,16/01/2024,224,0,0,0,1,0
-Costa Rica,CRI,Region of the Americas,23/01/2024,224,0,0,0,1,0
-Costa Rica,CRI,Region of the Americas,30/01/2024,224,0,0,0,1,0
-Costa Rica,CRI,Region of the Americas,06/02/2024,224,0,0,0,1,0
-Costa Rica,CRI,Region of the Americas,13/02/2024,224,0,0,0,1,0
-Costa Rica,CRI,Region of the Americas,20/02/2024,224,0,0,0,1,0
-Costa Rica,CRI,Region of the Americas,27/02/2024,224,0,0,0,1,0
-Costa Rica,CRI,Region of the Americas,05/03/2024,225,0,1,0,1,0
-Costa Rica,CRI,Region of the Americas,12/03/2024,225,0,0,0,1,0
-Costa Rica,CRI,Region of the Americas,19/03/2024,225,0,0,0,1,0
-Costa Rica,CRI,Region of the Americas,26/03/2024,225,0,0,0,1,0
-Costa Rica,CRI,Region of the Americas,02/04/2024,225,0,0,0,1,0
-Costa Rica,CRI,Region of the Americas,09/04/2024,225,0,0,0,1,0
-Costa Rica,CRI,Region of the Americas,16/04/2024,225,0,0,0,1,0
-Costa Rica,CRI,Region of the Americas,23/04/2024,225,0,0,0,1,0
-Costa Rica,CRI,Region of the Americas,30/04/2024,225,0,0,0,1,0
-Costa Rica,CRI,Region of the Americas,07/05/2024,225,0,0,0,1,0
-Costa Rica,CRI,Region of the Americas,14/05/2024,225,0,0,0,1,0
-Costa Rica,CRI,Region of the Americas,21/05/2024,225,0,0,0,1,0
-Costa Rica,CRI,Region of the Americas,28/05/2024,225,0,0,0,1,0
-Costa Rica,CRI,Region of the Americas,04/06/2024,225,0,0,0,1,0
-Costa Rica,CRI,Region of the Americas,11/06/2024,225,0,0,0,1,0
-Costa Rica,CRI,Region of the Americas,18/06/2024,225,0,0,0,1,0
-Costa Rica,CRI,Region of the Americas,25/06/2024,225,0,0,0,1,0
-Costa Rica,CRI,Region of the Americas,02/07/2024,225,0,0,0,1,0
-Costa Rica,CRI,Region of the Americas,09/07/2024,225,0,0,0,1,0
-Costa Rica,CRI,Region of the Americas,16/07/2024,225,0,0,0,1,0
-Costa Rica,CRI,Region of the Americas,23/07/2024,225,0,0,0,1,0
-Costa Rica,CRI,Region of the Americas,30/07/2024,225,0,0,0,1,0
-Costa Rica,CRI,Region of the Americas,06/08/2024,225,0,0,0,1,0
-Costa Rica,CRI,Region of the Americas,13/08/2024,225,0,0,0,1,0
-Costa Rica,CRI,Region of the Americas,20/08/2024,225,0,0,0,1,0
-Costa Rica,CRI,Region of the Americas,27/08/2024,225,0,0,0,1,0
-Costa Rica,CRI,Region of the Americas,03/09/2024,225,0,0,0,1,0
-Costa Rica,CRI,Region of the Americas,10/09/2024,225,0,0,0,1,0
-Costa Rica,CRI,Region of the Americas,17/09/2024,225,0,0,0,1,0
-Costa Rica,CRI,Region of the Americas,24/09/2024,225,0,0,0,1,0
+Costa Rica,CRI,Region of the Americas,19/07/2022,3,0,2,0,0,0
+Costa Rica,CRI,Region of the Americas,26/07/2022,3,0,0,0,0,0
+Costa Rica,CRI,Region of the Americas,02/08/2022,3,0,0,0,0,0
+Costa Rica,CRI,Region of the Americas,09/08/2022,3,0,0,0,0,0
+Costa Rica,CRI,Region of the Americas,16/08/2022,3,0,0,0,0,0
+Costa Rica,CRI,Region of the Americas,23/08/2022,3,0,0,0,0,0
+Costa Rica,CRI,Region of the Americas,30/08/2022,3,0,0,0,0,0
+Costa Rica,CRI,Region of the Americas,06/09/2022,4,0,1,0,0,0
+Costa Rica,CRI,Region of the Americas,13/09/2022,4,0,0,0,0,0
+Costa Rica,CRI,Region of the Americas,20/09/2022,4,0,0,0,0,0
+Costa Rica,CRI,Region of the Americas,27/09/2022,6,0,2,0,0,0
+Costa Rica,CRI,Region of the Americas,04/10/2022,8,0,2,0,0,0
+Costa Rica,CRI,Region of the Americas,11/10/2022,9,0,1,0,0,0
+Costa Rica,CRI,Region of the Americas,18/10/2022,11,0,2,0,0,0
+Costa Rica,CRI,Region of the Americas,25/10/2022,15,0,4,0,0,0
+Costa Rica,CRI,Region of the Americas,01/11/2022,23,0,8,0,0,0
+Costa Rica,CRI,Region of the Americas,08/11/2022,27,0,4,0,0,0
+Costa Rica,CRI,Region of the Americas,15/11/2022,35,0,8,0,0,0
+Costa Rica,CRI,Region of the Americas,22/11/2022,42,0,7,0,0,0
+Costa Rica,CRI,Region of the Americas,29/11/2022,50,0,8,0,0,0
+Costa Rica,CRI,Region of the Americas,06/12/2022,56,0,6,0,0,0
+Costa Rica,CRI,Region of the Americas,13/12/2022,66,0,10,0,0,0
+Costa Rica,CRI,Region of the Americas,20/12/2022,80,0,14,0,0,0
+Costa Rica,CRI,Region of the Americas,27/12/2022,103,0,23,0,0,0
+Costa Rica,CRI,Region of the Americas,03/01/2023,124,0,21,0,0,0
+Costa Rica,CRI,Region of the Americas,10/01/2023,141,0,17,0,0,0
+Costa Rica,CRI,Region of the Americas,17/01/2023,153,0,12,0,0,0
+Costa Rica,CRI,Region of the Americas,24/01/2023,165,0,12,0,0,0
+Costa Rica,CRI,Region of the Americas,31/01/2023,178,0,13,0,0,0
+Costa Rica,CRI,Region of the Americas,07/02/2023,191,0,13,0,0,0
+Costa Rica,CRI,Region of the Americas,14/02/2023,203,0,12,0,0,0
+Costa Rica,CRI,Region of the Americas,21/02/2023,208,0,5,0,1,1
+Costa Rica,CRI,Region of the Americas,28/02/2023,210,0,2,0,1,0
+Costa Rica,CRI,Region of the Americas,07/03/2023,213,0,3,0,1,0
+Costa Rica,CRI,Region of the Americas,14/03/2023,216,0,3,0,1,0
+Costa Rica,CRI,Region of the Americas,21/03/2023,219,0,3,0,1,0
+Costa Rica,CRI,Region of the Americas,28/03/2023,220,0,1,0,1,0
+Costa Rica,CRI,Region of the Americas,04/04/2023,223,0,3,0,1,0
+Costa Rica,CRI,Region of the Americas,11/04/2023,223,0,0,0,1,0
+Costa Rica,CRI,Region of the Americas,18/04/2023,224,0,1,0,1,0
+Costa Rica,CRI,Region of the Americas,25/04/2023,224,0,0,0,1,0
+Costa Rica,CRI,Region of the Americas,02/05/2023,224,0,0,0,1,0
+Costa Rica,CRI,Region of the Americas,09/05/2023,224,0,0,0,1,0
+Costa Rica,CRI,Region of the Americas,16/05/2023,224,0,0,0,1,0
+Costa Rica,CRI,Region of the Americas,23/05/2023,224,0,0,0,1,0
+Costa Rica,CRI,Region of the Americas,30/05/2023,224,0,0,0,1,0
+Costa Rica,CRI,Region of the Americas,06/06/2023,224,0,0,0,1,0
+Costa Rica,CRI,Region of the Americas,13/06/2023,224,0,0,0,1,0
+Costa Rica,CRI,Region of the Americas,20/06/2023,224,0,0,0,1,0
+Costa Rica,CRI,Region of the Americas,27/06/2023,224,0,0,0,1,0
+Costa Rica,CRI,Region of the Americas,04/07/2023,224,0,0,0,1,0
+Costa Rica,CRI,Region of the Americas,11/07/2023,224,0,0,0,1,0
+Costa Rica,CRI,Region of the Americas,18/07/2023,224,0,0,0,1,0
+Costa Rica,CRI,Region of the Americas,25/07/2023,224,0,0,0,1,0
+Costa Rica,CRI,Region of the Americas,01/08/2023,224,0,0,0,1,0
+Costa Rica,CRI,Region of the Americas,08/08/2023,224,0,0,0,1,0
+Costa Rica,CRI,Region of the Americas,15/08/2023,224,0,0,0,1,0
+Costa Rica,CRI,Region of the Americas,22/08/2023,224,0,0,0,1,0
+Costa Rica,CRI,Region of the Americas,29/08/2023,224,0,0,0,1,0
+Costa Rica,CRI,Region of the Americas,05/09/2023,224,0,0,0,1,0
+Costa Rica,CRI,Region of the Americas,12/09/2023,224,0,0,0,1,0
+Costa Rica,CRI,Region of the Americas,19/09/2023,224,0,0,0,1,0
+Costa Rica,CRI,Region of the Americas,26/09/2023,224,0,0,0,1,0
+Costa Rica,CRI,Region of the Americas,03/10/2023,224,0,0,0,1,0
+Costa Rica,CRI,Region of the Americas,10/10/2023,225,0,1,0,1,0
+Costa Rica,CRI,Region of the Americas,17/10/2023,225,0,0,0,1,0
+Costa Rica,CRI,Region of the Americas,24/10/2023,225,0,0,0,1,0
+Costa Rica,CRI,Region of the Americas,31/10/2023,225,0,0,0,1,0
+Costa Rica,CRI,Region of the Americas,07/11/2023,225,0,0,0,1,0
+Costa Rica,CRI,Region of the Americas,14/11/2023,225,0,0,0,1,0
+Costa Rica,CRI,Region of the Americas,21/11/2023,225,0,0,0,1,0
+Costa Rica,CRI,Region of the Americas,28/11/2023,225,0,0,0,1,0
+Costa Rica,CRI,Region of the Americas,05/12/2023,225,0,0,0,1,0
+Costa Rica,CRI,Region of the Americas,12/12/2023,225,0,0,0,1,0
+Costa Rica,CRI,Region of the Americas,19/12/2023,225,0,0,0,1,0
+Costa Rica,CRI,Region of the Americas,26/12/2023,225,0,0,0,1,0
+Costa Rica,CRI,Region of the Americas,02/01/2024,225,0,0,0,1,0
+Costa Rica,CRI,Region of the Americas,09/01/2024,225,0,0,0,1,0
+Costa Rica,CRI,Region of the Americas,16/01/2024,225,0,0,0,1,0
+Costa Rica,CRI,Region of the Americas,23/01/2024,225,0,0,0,1,0
+Costa Rica,CRI,Region of the Americas,30/01/2024,225,0,0,0,1,0
+Costa Rica,CRI,Region of the Americas,06/02/2024,225,0,0,0,1,0
+Costa Rica,CRI,Region of the Americas,13/02/2024,225,0,0,0,1,0
+Costa Rica,CRI,Region of the Americas,20/02/2024,225,0,0,0,1,0
+Costa Rica,CRI,Region of the Americas,27/02/2024,225,0,0,0,1,0
+Costa Rica,CRI,Region of the Americas,05/03/2024,226,0,1,0,1,0
+Costa Rica,CRI,Region of the Americas,12/03/2024,226,0,0,0,1,0
+Costa Rica,CRI,Region of the Americas,19/03/2024,226,0,0,0,1,0
+Costa Rica,CRI,Region of the Americas,26/03/2024,226,0,0,0,1,0
+Costa Rica,CRI,Region of the Americas,02/04/2024,226,0,0,0,1,0
+Costa Rica,CRI,Region of the Americas,09/04/2024,226,0,0,0,1,0
+Costa Rica,CRI,Region of the Americas,16/04/2024,226,0,0,0,1,0
+Costa Rica,CRI,Region of the Americas,23/04/2024,226,0,0,0,1,0
+Costa Rica,CRI,Region of the Americas,30/04/2024,226,0,0,0,1,0
+Costa Rica,CRI,Region of the Americas,07/05/2024,226,0,0,0,1,0
+Costa Rica,CRI,Region of the Americas,14/05/2024,226,0,0,0,1,0
+Costa Rica,CRI,Region of the Americas,21/05/2024,226,0,0,0,1,0
+Costa Rica,CRI,Region of the Americas,28/05/2024,226,0,0,0,1,0
+Costa Rica,CRI,Region of the Americas,04/06/2024,226,0,0,0,1,0
+Costa Rica,CRI,Region of the Americas,11/06/2024,226,0,0,0,1,0
+Costa Rica,CRI,Region of the Americas,18/06/2024,226,0,0,0,1,0
+Costa Rica,CRI,Region of the Americas,25/06/2024,226,0,0,0,1,0
+Costa Rica,CRI,Region of the Americas,02/07/2024,226,0,0,0,1,0
+Costa Rica,CRI,Region of the Americas,09/07/2024,226,0,0,0,1,0
+Costa Rica,CRI,Region of the Americas,16/07/2024,226,0,0,0,1,0
+Costa Rica,CRI,Region of the Americas,23/07/2024,226,0,0,0,1,0
+Costa Rica,CRI,Region of the Americas,30/07/2024,226,0,0,0,1,0
+Costa Rica,CRI,Region of the Americas,06/08/2024,226,0,0,0,1,0
+Costa Rica,CRI,Region of the Americas,13/08/2024,226,0,0,0,1,0
+Costa Rica,CRI,Region of the Americas,20/08/2024,226,0,0,0,1,0
+Costa Rica,CRI,Region of the Americas,27/08/2024,226,0,0,0,1,0
+Costa Rica,CRI,Region of the Americas,03/09/2024,226,0,0,0,1,0
+Costa Rica,CRI,Region of the Americas,10/09/2024,226,0,0,0,1,0
+Costa Rica,CRI,Region of the Americas,17/09/2024,226,0,0,0,1,0
+Costa Rica,CRI,Region of the Americas,24/09/2024,226,0,0,0,1,0
+Costa Rica,CRI,Region of the Americas,01/10/2024,226,0,0,0,1,0
+Costa Rica,CRI,Region of the Americas,08/10/2024,226,0,0,0,1,0
+Costa Rica,CRI,Region of the Americas,15/10/2024,226,0,0,0,1,0
+Costa Rica,CRI,Region of the Americas,22/10/2024,226,0,0,0,1,0
+Costa Rica,CRI,Region of the Americas,29/10/2024,226,0,0,0,1,0
 Cuba,CUB,Region of the Americas,23/08/2022,1,0,1,0,0,0
 Cuba,CUB,Region of the Americas,30/08/2022,2,0,1,0,1,1
 Cuba,CUB,Region of the Americas,06/09/2022,2,0,0,0,1,0
@@ -10712,6 +10895,11 @@ Cuba,CUB,Region of the Americas,03/09/2024,8,0,0,0,1,0
 Cuba,CUB,Region of the Americas,10/09/2024,8,0,0,0,1,0
 Cuba,CUB,Region of the Americas,17/09/2024,8,0,0,0,1,0
 Cuba,CUB,Region of the Americas,24/09/2024,8,0,0,0,1,0
+Cuba,CUB,Region of the Americas,01/10/2024,8,0,0,0,1,0
+Cuba,CUB,Region of the Americas,08/10/2024,8,0,0,0,1,0
+Cuba,CUB,Region of the Americas,15/10/2024,8,0,0,0,1,0
+Cuba,CUB,Region of the Americas,22/10/2024,8,0,0,0,1,0
+Cuba,CUB,Region of the Americas,29/10/2024,8,0,0,0,1,0
 Curaçao,CUW,Region of the Americas,16/08/2022,1,0,1,0,0,0
 Curaçao,CUW,Region of the Americas,23/08/2022,1,0,0,0,0,0
 Curaçao,CUW,Region of the Americas,30/08/2022,1,0,0,0,0,0
@@ -10823,6 +11011,11 @@ Curaçao,CUW,Region of the Americas,03/09/2024,3,0,0,0,0,0
 Curaçao,CUW,Region of the Americas,10/09/2024,3,0,0,0,0,0
 Curaçao,CUW,Region of the Americas,17/09/2024,3,0,0,0,0,0
 Curaçao,CUW,Region of the Americas,24/09/2024,3,0,0,0,0,0
+Curaçao,CUW,Region of the Americas,01/10/2024,3,0,0,0,0,0
+Curaçao,CUW,Region of the Americas,08/10/2024,3,0,0,0,0,0
+Curaçao,CUW,Region of the Americas,15/10/2024,3,0,0,0,0,0
+Curaçao,CUW,Region of the Americas,22/10/2024,3,0,0,0,0,0
+Curaçao,CUW,Region of the Americas,29/10/2024,3,0,0,0,0,0
 Dominican Republic,DOM,Region of the Americas,28/06/2022,2,0,2,0,0,0
 Dominican Republic,DOM,Region of the Americas,05/07/2022,2,0,0,0,0,0
 Dominican Republic,DOM,Region of the Americas,12/07/2022,6,0,4,0,0,0
@@ -10941,127 +11134,137 @@ Dominican Republic,DOM,Region of the Americas,03/09/2024,110,0,0,0,1,0
 Dominican Republic,DOM,Region of the Americas,10/09/2024,110,0,0,0,1,0
 Dominican Republic,DOM,Region of the Americas,17/09/2024,110,0,0,0,1,0
 Dominican Republic,DOM,Region of the Americas,24/09/2024,110,0,0,0,1,0
+Dominican Republic,DOM,Region of the Americas,01/10/2024,110,0,0,0,1,0
+Dominican Republic,DOM,Region of the Americas,08/10/2024,110,0,0,0,1,0
+Dominican Republic,DOM,Region of the Americas,15/10/2024,110,0,0,0,1,0
+Dominican Republic,DOM,Region of the Americas,22/10/2024,110,0,0,0,1,0
+Dominican Republic,DOM,Region of the Americas,29/10/2024,110,0,0,0,1,0
 Ecuador,ECU,Region of the Americas,07/06/2022,1,0,1,0,0,0
 Ecuador,ECU,Region of the Americas,14/06/2022,1,0,0,0,0,0
 Ecuador,ECU,Region of the Americas,21/06/2022,1,0,0,0,0,0
 Ecuador,ECU,Region of the Americas,28/06/2022,1,0,0,0,0,0
 Ecuador,ECU,Region of the Americas,05/07/2022,3,0,2,0,0,0
 Ecuador,ECU,Region of the Americas,12/07/2022,5,0,2,0,0,0
-Ecuador,ECU,Region of the Americas,19/07/2022,7,0,2,0,1,1
-Ecuador,ECU,Region of the Americas,26/07/2022,14,0,7,0,1,0
-Ecuador,ECU,Region of the Americas,02/08/2022,22,0,8,0,1,0
-Ecuador,ECU,Region of the Americas,09/08/2022,35,0,13,0,1,0
-Ecuador,ECU,Region of the Americas,16/08/2022,52,0,17,0,1,0
-Ecuador,ECU,Region of the Americas,23/08/2022,63,0,11,0,1,0
-Ecuador,ECU,Region of the Americas,30/08/2022,78,0,15,0,1,0
-Ecuador,ECU,Region of the Americas,06/09/2022,100,0,22,0,1,0
-Ecuador,ECU,Region of the Americas,13/09/2022,124,0,24,0,1,0
-Ecuador,ECU,Region of the Americas,20/09/2022,157,0,33,0,2,1
-Ecuador,ECU,Region of the Americas,27/09/2022,187,0,30,0,2,0
-Ecuador,ECU,Region of the Americas,04/10/2022,225,0,38,0,2,0
-Ecuador,ECU,Region of the Americas,11/10/2022,258,0,33,0,2,0
-Ecuador,ECU,Region of the Americas,18/10/2022,292,0,34,0,2,0
-Ecuador,ECU,Region of the Americas,25/10/2022,323,0,31,0,2,0
-Ecuador,ECU,Region of the Americas,01/11/2022,351,0,28,0,2,0
-Ecuador,ECU,Region of the Americas,08/11/2022,383,0,32,0,2,0
-Ecuador,ECU,Region of the Americas,15/11/2022,394,0,11,0,2,0
-Ecuador,ECU,Region of the Americas,22/11/2022,412,0,18,0,2,0
-Ecuador,ECU,Region of the Americas,29/11/2022,426,0,14,0,2,0
-Ecuador,ECU,Region of the Americas,06/12/2022,443,0,17,0,2,0
-Ecuador,ECU,Region of the Americas,13/12/2022,451,0,8,0,2,0
-Ecuador,ECU,Region of the Americas,20/12/2022,463,0,12,0,2,0
-Ecuador,ECU,Region of the Americas,27/12/2022,466,0,3,0,2,0
-Ecuador,ECU,Region of the Americas,03/01/2023,473,0,7,0,2,0
-Ecuador,ECU,Region of the Americas,10/01/2023,489,0,16,0,2,0
-Ecuador,ECU,Region of the Americas,17/01/2023,510,0,21,0,2,0
-Ecuador,ECU,Region of the Americas,24/01/2023,519,0,9,0,2,0
-Ecuador,ECU,Region of the Americas,31/01/2023,525,0,6,0,2,0
-Ecuador,ECU,Region of the Americas,07/02/2023,527,0,2,0,2,0
-Ecuador,ECU,Region of the Americas,14/02/2023,536,0,9,0,2,0
-Ecuador,ECU,Region of the Americas,21/02/2023,542,0,6,0,2,0
-Ecuador,ECU,Region of the Americas,28/02/2023,548,0,6,0,2,0
-Ecuador,ECU,Region of the Americas,07/03/2023,549,0,1,0,2,0
-Ecuador,ECU,Region of the Americas,14/03/2023,549,0,0,0,2,0
-Ecuador,ECU,Region of the Americas,21/03/2023,554,0,5,0,2,0
-Ecuador,ECU,Region of the Americas,28/03/2023,554,0,0,0,2,0
-Ecuador,ECU,Region of the Americas,04/04/2023,557,0,3,0,2,0
-Ecuador,ECU,Region of the Americas,11/04/2023,558,0,1,0,2,0
-Ecuador,ECU,Region of the Americas,18/04/2023,559,0,1,0,2,0
-Ecuador,ECU,Region of the Americas,25/04/2023,559,0,0,0,2,0
-Ecuador,ECU,Region of the Americas,02/05/2023,561,0,2,0,2,0
-Ecuador,ECU,Region of the Americas,09/05/2023,563,0,2,0,2,0
-Ecuador,ECU,Region of the Americas,16/05/2023,564,0,1,0,2,0
-Ecuador,ECU,Region of the Americas,23/05/2023,565,0,1,0,2,0
-Ecuador,ECU,Region of the Americas,30/05/2023,565,0,0,0,2,0
-Ecuador,ECU,Region of the Americas,06/06/2023,569,0,4,0,2,0
-Ecuador,ECU,Region of the Americas,13/06/2023,573,0,4,0,2,0
-Ecuador,ECU,Region of the Americas,20/06/2023,576,0,3,0,2,0
-Ecuador,ECU,Region of the Americas,27/06/2023,581,0,5,0,3,1
-Ecuador,ECU,Region of the Americas,04/07/2023,583,0,2,0,3,0
-Ecuador,ECU,Region of the Americas,11/07/2023,583,0,0,0,3,0
-Ecuador,ECU,Region of the Americas,18/07/2023,583,0,0,0,3,0
-Ecuador,ECU,Region of the Americas,25/07/2023,584,0,1,0,3,0
-Ecuador,ECU,Region of the Americas,01/08/2023,584,0,0,0,3,0
-Ecuador,ECU,Region of the Americas,08/08/2023,584,0,0,0,3,0
-Ecuador,ECU,Region of the Americas,15/08/2023,584,0,0,0,3,0
-Ecuador,ECU,Region of the Americas,22/08/2023,584,0,0,0,3,0
-Ecuador,ECU,Region of the Americas,29/08/2023,584,0,0,0,3,0
-Ecuador,ECU,Region of the Americas,05/09/2023,584,0,0,0,3,0
-Ecuador,ECU,Region of the Americas,12/09/2023,584,0,0,0,3,0
-Ecuador,ECU,Region of the Americas,19/09/2023,584,0,0,0,3,0
-Ecuador,ECU,Region of the Americas,26/09/2023,584,0,0,0,3,0
-Ecuador,ECU,Region of the Americas,03/10/2023,584,0,0,0,3,0
-Ecuador,ECU,Region of the Americas,10/10/2023,585,0,1,0,3,0
-Ecuador,ECU,Region of the Americas,17/10/2023,585,0,0,0,3,0
-Ecuador,ECU,Region of the Americas,24/10/2023,586,0,1,0,3,0
-Ecuador,ECU,Region of the Americas,31/10/2023,586,0,0,0,3,0
-Ecuador,ECU,Region of the Americas,07/11/2023,586,0,0,0,3,0
-Ecuador,ECU,Region of the Americas,14/11/2023,586,0,0,0,3,0
-Ecuador,ECU,Region of the Americas,21/11/2023,586,0,0,0,3,0
-Ecuador,ECU,Region of the Americas,28/11/2023,587,0,1,0,3,0
-Ecuador,ECU,Region of the Americas,05/12/2023,588,0,1,0,3,0
-Ecuador,ECU,Region of the Americas,12/12/2023,588,0,0,0,3,0
-Ecuador,ECU,Region of the Americas,19/12/2023,590,0,2,0,3,0
-Ecuador,ECU,Region of the Americas,26/12/2023,598,0,8,0,3,0
-Ecuador,ECU,Region of the Americas,02/01/2024,598,0,0,0,3,0
-Ecuador,ECU,Region of the Americas,09/01/2024,598,0,0,0,3,0
-Ecuador,ECU,Region of the Americas,16/01/2024,598,0,0,0,3,0
-Ecuador,ECU,Region of the Americas,23/01/2024,598,0,0,0,3,0
-Ecuador,ECU,Region of the Americas,30/01/2024,598,0,0,0,3,0
-Ecuador,ECU,Region of the Americas,06/02/2024,599,0,1,0,3,0
-Ecuador,ECU,Region of the Americas,13/02/2024,599,0,0,0,3,0
-Ecuador,ECU,Region of the Americas,20/02/2024,599,0,0,0,3,0
-Ecuador,ECU,Region of the Americas,27/02/2024,599,0,0,0,3,0
-Ecuador,ECU,Region of the Americas,05/03/2024,599,0,0,0,3,0
-Ecuador,ECU,Region of the Americas,12/03/2024,600,0,1,0,3,0
-Ecuador,ECU,Region of the Americas,19/03/2024,600,0,0,0,3,0
-Ecuador,ECU,Region of the Americas,26/03/2024,600,0,0,0,3,0
-Ecuador,ECU,Region of the Americas,02/04/2024,600,0,0,0,3,0
-Ecuador,ECU,Region of the Americas,09/04/2024,600,0,0,0,3,0
-Ecuador,ECU,Region of the Americas,16/04/2024,600,0,0,0,3,0
-Ecuador,ECU,Region of the Americas,23/04/2024,601,0,1,0,3,0
-Ecuador,ECU,Region of the Americas,30/04/2024,601,0,0,0,3,0
-Ecuador,ECU,Region of the Americas,07/05/2024,602,0,1,0,3,0
-Ecuador,ECU,Region of the Americas,14/05/2024,602,0,0,0,3,0
-Ecuador,ECU,Region of the Americas,21/05/2024,602,0,0,0,3,0
-Ecuador,ECU,Region of the Americas,28/05/2024,602,0,0,0,3,0
-Ecuador,ECU,Region of the Americas,04/06/2024,602,0,0,0,3,0
-Ecuador,ECU,Region of the Americas,11/06/2024,602,0,0,0,3,0
-Ecuador,ECU,Region of the Americas,18/06/2024,602,0,0,0,3,0
-Ecuador,ECU,Region of the Americas,25/06/2024,602,0,0,0,3,0
-Ecuador,ECU,Region of the Americas,02/07/2024,602,0,0,0,3,0
-Ecuador,ECU,Region of the Americas,09/07/2024,602,0,0,0,3,0
-Ecuador,ECU,Region of the Americas,16/07/2024,602,0,0,0,3,0
-Ecuador,ECU,Region of the Americas,23/07/2024,602,0,0,0,3,0
-Ecuador,ECU,Region of the Americas,30/07/2024,603,0,1,0,3,0
-Ecuador,ECU,Region of the Americas,06/08/2024,603,0,0,0,3,0
-Ecuador,ECU,Region of the Americas,13/08/2024,605,0,2,0,3,0
-Ecuador,ECU,Region of the Americas,20/08/2024,605,0,0,0,3,0
-Ecuador,ECU,Region of the Americas,27/08/2024,605,0,0,0,3,0
-Ecuador,ECU,Region of the Americas,03/09/2024,605,0,0,0,3,0
-Ecuador,ECU,Region of the Americas,10/09/2024,605,0,0,0,3,0
-Ecuador,ECU,Region of the Americas,17/09/2024,605,0,0,0,3,0
-Ecuador,ECU,Region of the Americas,24/09/2024,605,0,0,0,3,0
+Ecuador,ECU,Region of the Americas,19/07/2022,7,0,2,0,0,0
+Ecuador,ECU,Region of the Americas,26/07/2022,14,0,7,0,0,0
+Ecuador,ECU,Region of the Americas,02/08/2022,22,0,8,0,0,0
+Ecuador,ECU,Region of the Americas,09/08/2022,34,0,12,0,0,0
+Ecuador,ECU,Region of the Americas,16/08/2022,50,0,16,0,0,0
+Ecuador,ECU,Region of the Americas,23/08/2022,61,0,11,0,0,0
+Ecuador,ECU,Region of the Americas,30/08/2022,76,0,15,0,0,0
+Ecuador,ECU,Region of the Americas,06/09/2022,98,0,22,0,0,0
+Ecuador,ECU,Region of the Americas,13/09/2022,122,0,24,0,0,0
+Ecuador,ECU,Region of the Americas,20/09/2022,155,0,33,0,0,0
+Ecuador,ECU,Region of the Americas,27/09/2022,185,0,30,0,0,0
+Ecuador,ECU,Region of the Americas,04/10/2022,223,0,38,0,0,0
+Ecuador,ECU,Region of the Americas,11/10/2022,256,0,33,0,0,0
+Ecuador,ECU,Region of the Americas,18/10/2022,290,0,34,0,0,0
+Ecuador,ECU,Region of the Americas,25/10/2022,321,0,31,0,0,0
+Ecuador,ECU,Region of the Americas,01/11/2022,349,0,28,0,0,0
+Ecuador,ECU,Region of the Americas,08/11/2022,382,0,33,0,0,0
+Ecuador,ECU,Region of the Americas,15/11/2022,393,0,11,0,0,0
+Ecuador,ECU,Region of the Americas,22/11/2022,411,0,18,0,0,0
+Ecuador,ECU,Region of the Americas,29/11/2022,425,0,14,0,0,0
+Ecuador,ECU,Region of the Americas,06/12/2022,442,0,17,0,0,0
+Ecuador,ECU,Region of the Americas,13/12/2022,450,0,8,0,0,0
+Ecuador,ECU,Region of the Americas,20/12/2022,462,0,12,0,0,0
+Ecuador,ECU,Region of the Americas,27/12/2022,465,0,3,0,0,0
+Ecuador,ECU,Region of the Americas,03/01/2023,472,0,7,0,0,0
+Ecuador,ECU,Region of the Americas,10/01/2023,488,0,16,0,0,0
+Ecuador,ECU,Region of the Americas,17/01/2023,509,0,21,0,0,0
+Ecuador,ECU,Region of the Americas,24/01/2023,518,0,9,0,0,0
+Ecuador,ECU,Region of the Americas,31/01/2023,524,0,6,0,0,0
+Ecuador,ECU,Region of the Americas,07/02/2023,526,0,2,0,0,0
+Ecuador,ECU,Region of the Americas,14/02/2023,535,0,9,0,0,0
+Ecuador,ECU,Region of the Americas,21/02/2023,541,0,6,0,0,0
+Ecuador,ECU,Region of the Americas,28/02/2023,547,0,6,0,0,0
+Ecuador,ECU,Region of the Americas,07/03/2023,548,0,1,0,0,0
+Ecuador,ECU,Region of the Americas,14/03/2023,548,0,0,0,0,0
+Ecuador,ECU,Region of the Americas,21/03/2023,553,0,5,0,0,0
+Ecuador,ECU,Region of the Americas,28/03/2023,553,0,0,0,0,0
+Ecuador,ECU,Region of the Americas,04/04/2023,556,0,3,0,0,0
+Ecuador,ECU,Region of the Americas,11/04/2023,557,0,1,0,0,0
+Ecuador,ECU,Region of the Americas,18/04/2023,558,0,1,0,0,0
+Ecuador,ECU,Region of the Americas,25/04/2023,558,0,0,0,0,0
+Ecuador,ECU,Region of the Americas,02/05/2023,560,0,2,0,0,0
+Ecuador,ECU,Region of the Americas,09/05/2023,562,0,2,0,0,0
+Ecuador,ECU,Region of the Americas,16/05/2023,563,0,1,0,0,0
+Ecuador,ECU,Region of the Americas,23/05/2023,564,0,1,0,0,0
+Ecuador,ECU,Region of the Americas,30/05/2023,564,0,0,0,0,0
+Ecuador,ECU,Region of the Americas,06/06/2023,568,0,4,0,0,0
+Ecuador,ECU,Region of the Americas,13/06/2023,572,0,4,0,0,0
+Ecuador,ECU,Region of the Americas,20/06/2023,575,0,3,0,0,0
+Ecuador,ECU,Region of the Americas,27/06/2023,580,0,5,0,0,0
+Ecuador,ECU,Region of the Americas,04/07/2023,582,0,2,0,0,0
+Ecuador,ECU,Region of the Americas,11/07/2023,582,0,0,0,0,0
+Ecuador,ECU,Region of the Americas,18/07/2023,582,0,0,0,0,0
+Ecuador,ECU,Region of the Americas,25/07/2023,583,0,1,0,0,0
+Ecuador,ECU,Region of the Americas,01/08/2023,583,0,0,0,0,0
+Ecuador,ECU,Region of the Americas,08/08/2023,583,0,0,0,0,0
+Ecuador,ECU,Region of the Americas,15/08/2023,583,0,0,0,0,0
+Ecuador,ECU,Region of the Americas,22/08/2023,583,0,0,0,0,0
+Ecuador,ECU,Region of the Americas,29/08/2023,583,0,0,0,0,0
+Ecuador,ECU,Region of the Americas,05/09/2023,583,0,0,0,0,0
+Ecuador,ECU,Region of the Americas,12/09/2023,583,0,0,0,0,0
+Ecuador,ECU,Region of the Americas,19/09/2023,583,0,0,0,0,0
+Ecuador,ECU,Region of the Americas,26/09/2023,583,0,0,0,0,0
+Ecuador,ECU,Region of the Americas,03/10/2023,583,0,0,0,0,0
+Ecuador,ECU,Region of the Americas,10/10/2023,584,0,1,0,0,0
+Ecuador,ECU,Region of the Americas,17/10/2023,584,0,0,0,0,0
+Ecuador,ECU,Region of the Americas,24/10/2023,585,0,1,0,0,0
+Ecuador,ECU,Region of the Americas,31/10/2023,585,0,0,0,0,0
+Ecuador,ECU,Region of the Americas,07/11/2023,585,0,0,0,0,0
+Ecuador,ECU,Region of the Americas,14/11/2023,585,0,0,0,0,0
+Ecuador,ECU,Region of the Americas,21/11/2023,585,0,0,0,0,0
+Ecuador,ECU,Region of the Americas,28/11/2023,586,0,1,0,0,0
+Ecuador,ECU,Region of the Americas,05/12/2023,587,0,1,0,0,0
+Ecuador,ECU,Region of the Americas,12/12/2023,587,0,0,0,0,0
+Ecuador,ECU,Region of the Americas,19/12/2023,589,0,2,0,0,0
+Ecuador,ECU,Region of the Americas,26/12/2023,597,0,8,0,0,0
+Ecuador,ECU,Region of the Americas,02/01/2024,598,0,1,0,0,0
+Ecuador,ECU,Region of the Americas,09/01/2024,598,0,0,0,0,0
+Ecuador,ECU,Region of the Americas,16/01/2024,598,0,0,0,0,0
+Ecuador,ECU,Region of the Americas,23/01/2024,598,0,0,0,0,0
+Ecuador,ECU,Region of the Americas,30/01/2024,598,0,0,0,0,0
+Ecuador,ECU,Region of the Americas,06/02/2024,598,0,0,0,0,0
+Ecuador,ECU,Region of the Americas,13/02/2024,598,0,0,0,0,0
+Ecuador,ECU,Region of the Americas,20/02/2024,598,0,0,0,0,0
+Ecuador,ECU,Region of the Americas,27/02/2024,598,0,0,0,0,0
+Ecuador,ECU,Region of the Americas,05/03/2024,598,0,0,0,0,0
+Ecuador,ECU,Region of the Americas,12/03/2024,599,0,1,0,0,0
+Ecuador,ECU,Region of the Americas,19/03/2024,599,0,0,0,0,0
+Ecuador,ECU,Region of the Americas,26/03/2024,599,0,0,0,0,0
+Ecuador,ECU,Region of the Americas,02/04/2024,599,0,0,0,0,0
+Ecuador,ECU,Region of the Americas,09/04/2024,599,0,0,0,0,0
+Ecuador,ECU,Region of the Americas,16/04/2024,599,0,0,0,0,0
+Ecuador,ECU,Region of the Americas,23/04/2024,600,0,1,0,0,0
+Ecuador,ECU,Region of the Americas,30/04/2024,600,0,0,0,0,0
+Ecuador,ECU,Region of the Americas,07/05/2024,601,0,1,0,0,0
+Ecuador,ECU,Region of the Americas,14/05/2024,601,0,0,0,0,0
+Ecuador,ECU,Region of the Americas,21/05/2024,601,0,0,0,0,0
+Ecuador,ECU,Region of the Americas,28/05/2024,601,0,0,0,0,0
+Ecuador,ECU,Region of the Americas,04/06/2024,601,0,0,0,0,0
+Ecuador,ECU,Region of the Americas,11/06/2024,601,0,0,0,0,0
+Ecuador,ECU,Region of the Americas,18/06/2024,601,0,0,0,0,0
+Ecuador,ECU,Region of the Americas,25/06/2024,601,0,0,0,0,0
+Ecuador,ECU,Region of the Americas,02/07/2024,601,0,0,0,0,0
+Ecuador,ECU,Region of the Americas,09/07/2024,601,0,0,0,0,0
+Ecuador,ECU,Region of the Americas,16/07/2024,601,0,0,0,0,0
+Ecuador,ECU,Region of the Americas,23/07/2024,601,0,0,0,0,0
+Ecuador,ECU,Region of the Americas,30/07/2024,602,0,1,0,0,0
+Ecuador,ECU,Region of the Americas,06/08/2024,603,0,1,0,0,0
+Ecuador,ECU,Region of the Americas,13/08/2024,604,0,1,0,0,0
+Ecuador,ECU,Region of the Americas,20/08/2024,605,0,1,0,0,0
+Ecuador,ECU,Region of the Americas,27/08/2024,610,0,5,0,0,0
+Ecuador,ECU,Region of the Americas,03/09/2024,610,0,0,0,0,0
+Ecuador,ECU,Region of the Americas,10/09/2024,613,0,3,0,0,0
+Ecuador,ECU,Region of the Americas,17/09/2024,617,0,4,0,0,0
+Ecuador,ECU,Region of the Americas,24/09/2024,620,0,3,0,0,0
+Ecuador,ECU,Region of the Americas,01/10/2024,621,0,1,0,0,0
+Ecuador,ECU,Region of the Americas,08/10/2024,621,0,0,0,0,0
+Ecuador,ECU,Region of the Americas,15/10/2024,621,0,0,0,0,0
+Ecuador,ECU,Region of the Americas,22/10/2024,621,0,0,0,0,0
+Ecuador,ECU,Region of the Americas,29/10/2024,621,0,0,0,0,0
 El Salvador,SLV,Region of the Americas,30/08/2022,1,0,1,0,0,0
 El Salvador,SLV,Region of the Americas,06/09/2022,1,0,0,0,0,0
 El Salvador,SLV,Region of the Americas,13/09/2022,2,0,1,0,0,0
@@ -11171,6 +11374,11 @@ El Salvador,SLV,Region of the Americas,03/09/2024,104,0,0,0,0,0
 El Salvador,SLV,Region of the Americas,10/09/2024,104,0,0,0,0,0
 El Salvador,SLV,Region of the Americas,17/09/2024,104,0,0,0,0,0
 El Salvador,SLV,Region of the Americas,24/09/2024,104,0,0,0,0,0
+El Salvador,SLV,Region of the Americas,01/10/2024,104,0,0,0,0,0
+El Salvador,SLV,Region of the Americas,08/10/2024,104,0,0,0,0,0
+El Salvador,SLV,Region of the Americas,15/10/2024,104,0,0,0,0,0
+El Salvador,SLV,Region of the Americas,22/10/2024,104,0,0,0,0,0
+El Salvador,SLV,Region of the Americas,29/10/2024,104,0,0,0,0,0
 Guadeloupe,GLP,Region of the Americas,02/08/2022,1,0,1,0,0,0
 Guadeloupe,GLP,Region of the Americas,09/08/2022,1,0,0,0,0,0
 Guadeloupe,GLP,Region of the Americas,16/08/2022,1,0,0,0,0,0
@@ -11284,6 +11492,11 @@ Guadeloupe,GLP,Region of the Americas,03/09/2024,1,0,0,0,0,0
 Guadeloupe,GLP,Region of the Americas,10/09/2024,1,0,0,0,0,0
 Guadeloupe,GLP,Region of the Americas,17/09/2024,1,0,0,0,0,0
 Guadeloupe,GLP,Region of the Americas,24/09/2024,1,0,0,0,0,0
+Guadeloupe,GLP,Region of the Americas,01/10/2024,1,0,0,0,0,0
+Guadeloupe,GLP,Region of the Americas,08/10/2024,1,0,0,0,0,0
+Guadeloupe,GLP,Region of the Americas,15/10/2024,1,0,0,0,0,0
+Guadeloupe,GLP,Region of the Americas,22/10/2024,1,0,0,0,0,0
+Guadeloupe,GLP,Region of the Americas,29/10/2024,1,0,0,0,0,0
 Guatemala,GTM,Region of the Americas,12/07/2022,1,0,1,0,0,0
 Guatemala,GTM,Region of the Americas,19/07/2022,2,0,1,0,0,0
 Guatemala,GTM,Region of the Americas,26/07/2022,3,0,1,0,0,0
@@ -11400,6 +11613,11 @@ Guatemala,GTM,Region of the Americas,03/09/2024,406,0,0,0,1,0
 Guatemala,GTM,Region of the Americas,10/09/2024,406,0,0,0,1,0
 Guatemala,GTM,Region of the Americas,17/09/2024,406,0,0,0,1,0
 Guatemala,GTM,Region of the Americas,24/09/2024,406,0,0,0,1,0
+Guatemala,GTM,Region of the Americas,01/10/2024,406,0,0,0,1,0
+Guatemala,GTM,Region of the Americas,08/10/2024,406,0,0,0,1,0
+Guatemala,GTM,Region of the Americas,15/10/2024,406,0,0,0,1,0
+Guatemala,GTM,Region of the Americas,22/10/2024,406,0,0,0,1,0
+Guatemala,GTM,Region of the Americas,29/10/2024,406,0,0,0,1,0
 Guyana,GUY,Region of the Americas,16/08/2022,1,0,1,0,0,0
 Guyana,GUY,Region of the Americas,23/08/2022,2,0,1,0,0,0
 Guyana,GUY,Region of the Americas,30/08/2022,2,0,0,0,0,0
@@ -11511,6 +11729,11 @@ Guyana,GUY,Region of the Americas,03/09/2024,2,0,0,0,0,0
 Guyana,GUY,Region of the Americas,10/09/2024,2,0,0,0,0,0
 Guyana,GUY,Region of the Americas,17/09/2024,2,0,0,0,0,0
 Guyana,GUY,Region of the Americas,24/09/2024,2,0,0,0,0,0
+Guyana,GUY,Region of the Americas,01/10/2024,2,0,0,0,0,0
+Guyana,GUY,Region of the Americas,08/10/2024,2,0,0,0,0,0
+Guyana,GUY,Region of the Americas,15/10/2024,2,0,0,0,0,0
+Guyana,GUY,Region of the Americas,22/10/2024,2,0,0,0,0,0
+Guyana,GUY,Region of the Americas,29/10/2024,2,0,0,0,0,0
 Honduras,HND,Region of the Americas,09/08/2022,2,0,2,0,0,0
 Honduras,HND,Region of the Americas,16/08/2022,3,0,1,0,0,0
 Honduras,HND,Region of the Americas,23/08/2022,4,0,1,0,0,0
@@ -11623,6 +11846,11 @@ Honduras,HND,Region of the Americas,03/09/2024,44,0,0,0,0,0
 Honduras,HND,Region of the Americas,10/09/2024,44,0,0,0,0,0
 Honduras,HND,Region of the Americas,17/09/2024,44,0,0,0,0,0
 Honduras,HND,Region of the Americas,24/09/2024,44,0,0,0,0,0
+Honduras,HND,Region of the Americas,01/10/2024,44,0,0,0,0,0
+Honduras,HND,Region of the Americas,08/10/2024,44,0,0,0,0,0
+Honduras,HND,Region of the Americas,15/10/2024,44,0,0,0,0,0
+Honduras,HND,Region of the Americas,22/10/2024,44,0,0,0,0,0
+Honduras,HND,Region of the Americas,29/10/2024,44,0,0,0,0,0
 Jamaica,JAM,Region of the Americas,05/07/2022,1,0,1,0,0,0
 Jamaica,JAM,Region of the Americas,12/07/2022,1,0,0,0,0,0
 Jamaica,JAM,Region of the Americas,19/07/2022,2,0,1,0,0,0
@@ -11740,6 +11968,11 @@ Jamaica,JAM,Region of the Americas,03/09/2024,21,0,0,0,0,0
 Jamaica,JAM,Region of the Americas,10/09/2024,21,0,0,0,0,0
 Jamaica,JAM,Region of the Americas,17/09/2024,21,0,0,0,0,0
 Jamaica,JAM,Region of the Americas,24/09/2024,21,0,0,0,0,0
+Jamaica,JAM,Region of the Americas,01/10/2024,21,0,0,0,0,0
+Jamaica,JAM,Region of the Americas,08/10/2024,21,0,0,0,0,0
+Jamaica,JAM,Region of the Americas,15/10/2024,21,0,0,0,0,0
+Jamaica,JAM,Region of the Americas,22/10/2024,21,0,0,0,0,0
+Jamaica,JAM,Region of the Americas,29/10/2024,21,0,0,0,0,0
 Martinique,MTQ,Region of the Americas,19/07/2022,1,0,1,0,0,0
 Martinique,MTQ,Region of the Americas,26/07/2022,1,0,0,0,0,0
 Martinique,MTQ,Region of the Americas,02/08/2022,1,0,0,0,0,0
@@ -11855,6 +12088,11 @@ Martinique,MTQ,Region of the Americas,03/09/2024,7,0,0,0,0,0
 Martinique,MTQ,Region of the Americas,10/09/2024,7,0,0,0,0,0
 Martinique,MTQ,Region of the Americas,17/09/2024,7,0,0,0,0,0
 Martinique,MTQ,Region of the Americas,24/09/2024,7,0,0,0,0,0
+Martinique,MTQ,Region of the Americas,01/10/2024,7,0,0,0,0,0
+Martinique,MTQ,Region of the Americas,08/10/2024,7,0,0,0,0,0
+Martinique,MTQ,Region of the Americas,15/10/2024,7,0,0,0,0,0
+Martinique,MTQ,Region of the Americas,22/10/2024,7,0,0,0,0,0
+Martinique,MTQ,Region of the Americas,29/10/2024,7,0,0,0,0,0
 Mexico,MEX,Region of the Americas,17/05/2022,1,0,1,0,0,0
 Mexico,MEX,Region of the Americas,24/05/2022,1,0,0,0,0,0
 Mexico,MEX,Region of the Americas,31/05/2022,4,0,3,0,0,0
@@ -11975,10 +12213,15 @@ Mexico,MEX,Region of the Americas,06/08/2024,4138,0,5,0,35,0
 Mexico,MEX,Region of the Americas,13/08/2024,4149,0,11,0,35,0
 Mexico,MEX,Region of the Americas,20/08/2024,4154,0,5,0,35,0
 Mexico,MEX,Region of the Americas,27/08/2024,4164,0,10,0,35,0
-Mexico,MEX,Region of the Americas,03/09/2024,4167,0,3,0,35,0
-Mexico,MEX,Region of the Americas,10/09/2024,4170,0,3,0,35,0
-Mexico,MEX,Region of the Americas,17/09/2024,4175,0,5,0,35,0
-Mexico,MEX,Region of the Americas,24/09/2024,4177,0,2,0,35,0
+Mexico,MEX,Region of the Americas,03/09/2024,4168,0,4,0,35,0
+Mexico,MEX,Region of the Americas,10/09/2024,4171,0,3,0,35,0
+Mexico,MEX,Region of the Americas,17/09/2024,4177,0,6,0,35,0
+Mexico,MEX,Region of the Americas,24/09/2024,4181,0,4,0,35,0
+Mexico,MEX,Region of the Americas,01/10/2024,4183,0,2,0,35,0
+Mexico,MEX,Region of the Americas,08/10/2024,4184,0,1,0,35,0
+Mexico,MEX,Region of the Americas,15/10/2024,4184,0,0,0,35,0
+Mexico,MEX,Region of the Americas,22/10/2024,4184,0,0,0,35,0
+Mexico,MEX,Region of the Americas,29/10/2024,4184,0,0,0,35,0
 Panama,PAN,Region of the Americas,28/06/2022,1,0,1,0,0,0
 Panama,PAN,Region of the Americas,05/07/2022,1,0,0,0,0,0
 Panama,PAN,Region of the Americas,12/07/2022,1,0,0,0,0,0
@@ -12097,6 +12340,11 @@ Panama,PAN,Region of the Americas,03/09/2024,241,0,0,0,1,0
 Panama,PAN,Region of the Americas,10/09/2024,241,0,0,0,1,0
 Panama,PAN,Region of the Americas,17/09/2024,242,0,1,0,1,0
 Panama,PAN,Region of the Americas,24/09/2024,242,0,0,0,1,0
+Panama,PAN,Region of the Americas,01/10/2024,242,0,0,0,1,0
+Panama,PAN,Region of the Americas,08/10/2024,242,0,0,0,1,0
+Panama,PAN,Region of the Americas,15/10/2024,242,0,0,0,1,0
+Panama,PAN,Region of the Americas,22/10/2024,242,0,0,0,1,0
+Panama,PAN,Region of the Americas,29/10/2024,242,0,0,0,1,0
 Paraguay,PRY,Region of the Americas,23/08/2022,1,0,1,0,0,0
 Paraguay,PRY,Region of the Americas,30/08/2022,1,0,0,0,0,0
 Paraguay,PRY,Region of the Americas,06/09/2022,1,0,0,0,0,0
@@ -12207,6 +12455,11 @@ Paraguay,PRY,Region of the Americas,03/09/2024,126,0,0,0,0,0
 Paraguay,PRY,Region of the Americas,10/09/2024,126,0,0,0,0,0
 Paraguay,PRY,Region of the Americas,17/09/2024,126,0,0,0,0,0
 Paraguay,PRY,Region of the Americas,24/09/2024,126,0,0,0,0,0
+Paraguay,PRY,Region of the Americas,01/10/2024,126,0,0,0,0,0
+Paraguay,PRY,Region of the Americas,08/10/2024,126,0,0,0,0,0
+Paraguay,PRY,Region of the Americas,15/10/2024,126,0,0,0,0,0
+Paraguay,PRY,Region of the Americas,22/10/2024,126,0,0,0,0,0
+Paraguay,PRY,Region of the Americas,29/10/2024,126,0,0,0,0,0
 Peru,PER,Region of the Americas,14/06/2022,4,0,4,0,0,0
 Peru,PER,Region of the Americas,21/06/2022,15,0,11,0,0,0
 Peru,PER,Region of the Americas,28/06/2022,40,0,25,0,0,0
@@ -12325,8 +12578,13 @@ Peru,PER,Region of the Americas,20/08/2024,3944,0,1,0,23,0
 Peru,PER,Region of the Americas,27/08/2024,3945,0,1,0,23,0
 Peru,PER,Region of the Americas,03/09/2024,3945,0,0,0,23,0
 Peru,PER,Region of the Americas,10/09/2024,3946,0,1,0,23,0
-Peru,PER,Region of the Americas,17/09/2024,3947,0,1,0,23,0
-Peru,PER,Region of the Americas,24/09/2024,3948,0,1,0,23,0
+Peru,PER,Region of the Americas,17/09/2024,3948,0,2,0,23,0
+Peru,PER,Region of the Americas,24/09/2024,3948,0,0,0,23,0
+Peru,PER,Region of the Americas,01/10/2024,3949,0,1,0,23,0
+Peru,PER,Region of the Americas,08/10/2024,3949,0,0,0,23,0
+Peru,PER,Region of the Americas,15/10/2024,3949,0,0,0,23,0
+Peru,PER,Region of the Americas,22/10/2024,3949,0,0,0,23,0
+Peru,PER,Region of the Americas,29/10/2024,3949,0,0,0,23,0
 Saint Martin,MAF,Region of the Americas,02/08/2022,1,0,1,0,0,0
 Saint Martin,MAF,Region of the Americas,09/08/2022,1,0,0,0,0,0
 Saint Martin,MAF,Region of the Americas,16/08/2022,1,0,0,0,0,0
@@ -12440,6 +12698,11 @@ Saint Martin,MAF,Region of the Americas,03/09/2024,1,0,0,0,0,0
 Saint Martin,MAF,Region of the Americas,10/09/2024,1,0,0,0,0,0
 Saint Martin,MAF,Region of the Americas,17/09/2024,1,0,0,0,0,0
 Saint Martin,MAF,Region of the Americas,24/09/2024,1,0,0,0,0,0
+Saint Martin,MAF,Region of the Americas,01/10/2024,1,0,0,0,0,0
+Saint Martin,MAF,Region of the Americas,08/10/2024,1,0,0,0,0,0
+Saint Martin,MAF,Region of the Americas,15/10/2024,1,0,0,0,0,0
+Saint Martin,MAF,Region of the Americas,22/10/2024,1,0,0,0,0,0
+Saint Martin,MAF,Region of the Americas,29/10/2024,1,0,0,0,0,0
 Trinidad and Tobago,TTO,Region of the Americas,18/07/2023,3,0,3,0,0,0
 Trinidad and Tobago,TTO,Region of the Americas,25/07/2023,4,0,1,0,0,0
 Trinidad and Tobago,TTO,Region of the Americas,01/08/2023,4,0,0,0,0,0
@@ -12503,6 +12766,11 @@ Trinidad and Tobago,TTO,Region of the Americas,03/09/2024,4,0,0,0,0,0
 Trinidad and Tobago,TTO,Region of the Americas,10/09/2024,4,0,0,0,0,0
 Trinidad and Tobago,TTO,Region of the Americas,17/09/2024,4,0,0,0,0,0
 Trinidad and Tobago,TTO,Region of the Americas,24/09/2024,4,0,0,0,0,0
+Trinidad and Tobago,TTO,Region of the Americas,01/10/2024,4,0,0,0,0,0
+Trinidad and Tobago,TTO,Region of the Americas,08/10/2024,4,0,0,0,0,0
+Trinidad and Tobago,TTO,Region of the Americas,15/10/2024,4,0,0,0,0,0
+Trinidad and Tobago,TTO,Region of the Americas,22/10/2024,4,0,0,0,0,0
+Trinidad and Tobago,TTO,Region of the Americas,29/10/2024,4,0,0,0,0,0
 United States of America,USA,Region of the Americas,10/05/2022,6,0,6,0,0,0
 United States of America,USA,Region of the Americas,17/05/2022,24,0,18,0,0,0
 United States of America,USA,Region of the Americas,24/05/2022,39,0,15,0,0,0
@@ -12537,119 +12805,125 @@ United States of America,USA,Region of the Americas,06/12/2022,29901,0,96,0,52,0
 United States of America,USA,Region of the Americas,13/12/2022,29989,0,88,0,53,1
 United States of America,USA,Region of the Americas,20/12/2022,30051,0,62,0,53,0
 United States of America,USA,Region of the Americas,27/12/2022,30088,0,37,0,53,0
-United States of America,USA,Region of the Americas,03/01/2023,30138,0,50,0,54,1
-United States of America,USA,Region of the Americas,10/01/2023,30185,0,47,0,55,1
-United States of America,USA,Region of the Americas,17/01/2023,30216,0,31,0,55,0
-United States of America,USA,Region of the Americas,24/01/2023,30243,0,27,0,55,0
-United States of America,USA,Region of the Americas,31/01/2023,30264,0,21,0,55,0
-United States of America,USA,Region of the Americas,07/02/2023,30276,0,12,0,55,0
-United States of America,USA,Region of the Americas,14/02/2023,30291,0,15,0,55,0
-United States of America,USA,Region of the Americas,21/02/2023,30302,0,11,0,55,0
-United States of America,USA,Region of the Americas,28/02/2023,30321,0,19,0,56,1
-United States of America,USA,Region of the Americas,07/03/2023,30332,0,11,0,56,0
-United States of America,USA,Region of the Americas,14/03/2023,30344,0,12,0,56,0
-United States of America,USA,Region of the Americas,21/03/2023,30353,0,9,0,56,0
-United States of America,USA,Region of the Americas,28/03/2023,30366,0,13,0,56,0
-United States of America,USA,Region of the Americas,04/04/2023,30373,0,7,0,56,0
-United States of America,USA,Region of the Americas,11/04/2023,30380,0,7,0,56,0
-United States of America,USA,Region of the Americas,18/04/2023,30394,0,14,0,56,0
-United States of America,USA,Region of the Americas,25/04/2023,30403,0,9,0,56,0
-United States of America,USA,Region of the Americas,02/05/2023,30426,0,23,0,56,0
-United States of America,USA,Region of the Americas,09/05/2023,30445,0,19,0,56,0
-United States of America,USA,Region of the Americas,16/05/2023,30465,0,20,0,56,0
-United States of America,USA,Region of the Americas,23/05/2023,30486,0,21,0,56,0
-United States of America,USA,Region of the Americas,30/05/2023,30506,0,20,0,56,0
-United States of America,USA,Region of the Americas,06/06/2023,30531,0,25,0,56,0
-United States of America,USA,Region of the Americas,13/06/2023,30560,0,29,0,56,0
-United States of America,USA,Region of the Americas,20/06/2023,30586,0,26,0,56,0
-United States of America,USA,Region of the Americas,27/06/2023,30613,0,27,0,56,0
-United States of America,USA,Region of the Americas,04/07/2023,30646,0,33,0,56,0
-United States of America,USA,Region of the Americas,11/07/2023,30680,0,34,0,56,0
-United States of America,USA,Region of the Americas,18/07/2023,30701,0,21,0,56,0
-United States of America,USA,Region of the Americas,25/07/2023,30724,0,23,0,56,0
-United States of America,USA,Region of the Americas,01/08/2023,30751,0,27,0,56,0
-United States of America,USA,Region of the Americas,08/08/2023,30775,0,24,0,56,0
-United States of America,USA,Region of the Americas,15/08/2023,30798,0,23,0,56,0
-United States of America,USA,Region of the Americas,22/08/2023,30819,0,21,0,56,0
-United States of America,USA,Region of the Americas,29/08/2023,30834,0,15,0,56,0
-United States of America,USA,Region of the Americas,05/09/2023,30859,0,25,0,56,0
-United States of America,USA,Region of the Americas,12/09/2023,30894,0,35,0,56,0
-United States of America,USA,Region of the Americas,19/09/2023,30930,0,36,0,56,0
-United States of America,USA,Region of the Americas,26/09/2023,30960,0,30,0,56,0
-United States of America,USA,Region of the Americas,03/10/2023,31010,0,50,0,56,0
-United States of America,USA,Region of the Americas,10/10/2023,31072,0,62,0,56,0
-United States of America,USA,Region of the Americas,17/10/2023,31132,0,60,0,56,0
-United States of America,USA,Region of the Americas,24/10/2023,31190,0,58,0,57,1
-United States of America,USA,Region of the Americas,31/10/2023,31245,0,55,0,57,0
-United States of America,USA,Region of the Americas,07/11/2023,31314,0,69,0,57,0
-United States of America,USA,Region of the Americas,14/11/2023,31383,0,69,0,57,0
-United States of America,USA,Region of the Americas,21/11/2023,31439,0,56,0,57,0
-United States of America,USA,Region of the Americas,28/11/2023,31501,0,62,0,59,2
-United States of America,USA,Region of the Americas,05/12/2023,31570,0,69,0,60,1
-United States of America,USA,Region of the Americas,12/12/2023,31623,0,53,0,60,0
-United States of America,USA,Region of the Americas,19/12/2023,31682,0,59,0,60,0
-United States of America,USA,Region of the Americas,26/12/2023,31738,0,56,0,60,0
-United States of America,USA,Region of the Americas,02/01/2024,31785,0,47,0,60,0
-United States of America,USA,Region of the Americas,09/01/2024,31844,0,59,0,60,0
-United States of America,USA,Region of the Americas,16/01/2024,31914,0,70,0,61,1
-United States of America,USA,Region of the Americas,23/01/2024,31965,0,51,0,61,0
-United States of America,USA,Region of the Americas,30/01/2024,32048,0,83,0,61,0
-United States of America,USA,Region of the Americas,06/02/2024,32112,0,64,0,61,0
-United States of America,USA,Region of the Americas,13/02/2024,32177,0,65,0,61,0
-United States of America,USA,Region of the Americas,20/02/2024,32238,0,61,0,61,0
-United States of America,USA,Region of the Americas,27/02/2024,32319,0,81,0,61,0
-United States of America,USA,Region of the Americas,05/03/2024,32400,0,81,0,61,0
-United States of America,USA,Region of the Americas,12/03/2024,32485,0,85,0,61,0
-United States of America,USA,Region of the Americas,19/03/2024,32549,0,64,0,61,0
-United States of America,USA,Region of the Americas,26/03/2024,32626,0,77,0,61,0
-United States of America,USA,Region of the Americas,02/04/2024,32679,0,53,0,61,0
-United States of America,USA,Region of the Americas,09/04/2024,32755,0,76,0,61,0
-United States of America,USA,Region of the Americas,16/04/2024,32841,0,86,0,61,0
-United States of America,USA,Region of the Americas,23/04/2024,32926,0,85,0,61,0
-United States of America,USA,Region of the Americas,30/04/2024,32982,0,56,0,61,0
-United States of America,USA,Region of the Americas,07/05/2024,33039,0,57,0,61,0
-United States of America,USA,Region of the Americas,14/05/2024,33091,0,52,0,61,0
-United States of America,USA,Region of the Americas,21/05/2024,33151,0,60,0,62,1
-United States of America,USA,Region of the Americas,28/05/2024,33212,0,61,0,62,0
-United States of America,USA,Region of the Americas,04/06/2024,33270,0,58,0,62,0
-United States of America,USA,Region of the Americas,11/06/2024,33344,0,74,0,62,0
-United States of America,USA,Region of the Americas,18/06/2024,33397,0,53,0,62,0
-United States of America,USA,Region of the Americas,25/06/2024,33443,0,46,0,62,0
-United States of America,USA,Region of the Americas,02/07/2024,33493,0,50,0,62,0
-United States of America,USA,Region of the Americas,09/07/2024,33549,0,56,0,63,1
-United States of America,USA,Region of the Americas,16/07/2024,33614,0,65,0,63,0
-United States of America,USA,Region of the Americas,23/07/2024,33658,0,44,0,63,0
-United States of America,USA,Region of the Americas,30/07/2024,33709,0,51,0,63,0
-United States of America,USA,Region of the Americas,06/08/2024,33758,0,49,0,63,0
-United States of America,USA,Region of the Americas,13/08/2024,33817,0,59,0,63,0
-United States of America,USA,Region of the Americas,20/08/2024,33874,0,57,0,63,0
-United States of America,USA,Region of the Americas,27/08/2024,33928,0,54,0,63,0
-United States of America,USA,Region of the Americas,03/09/2024,33979,0,51,0,63,0
-United States of America,USA,Region of the Americas,10/09/2024,34032,0,53,0,63,0
-United States of America,USA,Region of the Americas,17/09/2024,34051,0,19,0,63,0
-United States of America,USA,Region of the Americas,24/09/2024,34063,0,12,0,63,0
-Uruguay,URY,Region of the Americas,26/07/2022,1,0,1,0,0,0
-Uruguay,URY,Region of the Americas,02/08/2022,2,0,1,0,0,0
-Uruguay,URY,Region of the Americas,09/08/2022,2,0,0,0,0,0
-Uruguay,URY,Region of the Americas,16/08/2022,2,0,0,0,0,0
-Uruguay,URY,Region of the Americas,23/08/2022,3,0,1,0,0,0
-Uruguay,URY,Region of the Americas,30/08/2022,4,0,1,0,0,0
-Uruguay,URY,Region of the Americas,06/09/2022,5,0,1,0,0,0
-Uruguay,URY,Region of the Americas,13/09/2022,5,0,0,0,0,0
-Uruguay,URY,Region of the Americas,20/09/2022,6,0,1,0,0,0
-Uruguay,URY,Region of the Americas,27/09/2022,8,0,2,0,0,0
-Uruguay,URY,Region of the Americas,04/10/2022,9,0,1,0,0,0
-Uruguay,URY,Region of the Americas,11/10/2022,11,0,2,0,0,0
-Uruguay,URY,Region of the Americas,18/10/2022,11,0,0,0,0,0
-Uruguay,URY,Region of the Americas,25/10/2022,13,0,2,0,0,0
-Uruguay,URY,Region of the Americas,01/11/2022,14,0,1,0,0,0
+United States of America,USA,Region of the Americas,03/01/2023,30135,0,47,0,54,1
+United States of America,USA,Region of the Americas,10/01/2023,30184,0,49,0,55,1
+United States of America,USA,Region of the Americas,17/01/2023,30221,0,37,0,55,0
+United States of America,USA,Region of the Americas,24/01/2023,30252,0,31,0,55,0
+United States of America,USA,Region of the Americas,31/01/2023,30279,0,27,0,55,0
+United States of America,USA,Region of the Americas,07/02/2023,30293,0,14,0,55,0
+United States of America,USA,Region of the Americas,14/02/2023,30310,0,17,0,55,0
+United States of America,USA,Region of the Americas,21/02/2023,30322,0,12,0,55,0
+United States of America,USA,Region of the Americas,28/02/2023,30345,0,23,0,56,1
+United States of America,USA,Region of the Americas,07/03/2023,30358,0,13,0,56,0
+United States of America,USA,Region of the Americas,14/03/2023,30370,0,12,0,56,0
+United States of America,USA,Region of the Americas,21/03/2023,30380,0,10,0,56,0
+United States of America,USA,Region of the Americas,28/03/2023,30394,0,14,0,56,0
+United States of America,USA,Region of the Americas,04/04/2023,30401,0,7,0,56,0
+United States of America,USA,Region of the Americas,11/04/2023,30411,0,10,0,56,0
+United States of America,USA,Region of the Americas,18/04/2023,30428,0,17,0,56,0
+United States of America,USA,Region of the Americas,25/04/2023,30437,0,9,0,56,0
+United States of America,USA,Region of the Americas,02/05/2023,30461,0,24,0,56,0
+United States of America,USA,Region of the Americas,09/05/2023,30480,0,19,0,56,0
+United States of America,USA,Region of the Americas,16/05/2023,30500,0,20,0,56,0
+United States of America,USA,Region of the Americas,23/05/2023,30521,0,21,0,56,0
+United States of America,USA,Region of the Americas,30/05/2023,30541,0,20,0,56,0
+United States of America,USA,Region of the Americas,06/06/2023,30566,0,25,0,56,0
+United States of America,USA,Region of the Americas,13/06/2023,30595,0,29,0,56,0
+United States of America,USA,Region of the Americas,20/06/2023,30621,0,26,0,56,0
+United States of America,USA,Region of the Americas,27/06/2023,30650,0,29,0,56,0
+United States of America,USA,Region of the Americas,04/07/2023,30683,0,33,0,56,0
+United States of America,USA,Region of the Americas,11/07/2023,30718,0,35,0,56,0
+United States of America,USA,Region of the Americas,18/07/2023,30739,0,21,0,56,0
+United States of America,USA,Region of the Americas,25/07/2023,30762,0,23,0,56,0
+United States of America,USA,Region of the Americas,01/08/2023,30791,0,29,0,56,0
+United States of America,USA,Region of the Americas,08/08/2023,30815,0,24,0,56,0
+United States of America,USA,Region of the Americas,15/08/2023,30838,0,23,0,56,0
+United States of America,USA,Region of the Americas,22/08/2023,30859,0,21,0,56,0
+United States of America,USA,Region of the Americas,29/08/2023,30874,0,15,0,56,0
+United States of America,USA,Region of the Americas,05/09/2023,30899,0,25,0,56,0
+United States of America,USA,Region of the Americas,12/09/2023,30935,0,36,0,56,0
+United States of America,USA,Region of the Americas,19/09/2023,30973,0,38,0,56,0
+United States of America,USA,Region of the Americas,26/09/2023,31007,0,34,0,56,0
+United States of America,USA,Region of the Americas,03/10/2023,31060,0,53,0,56,0
+United States of America,USA,Region of the Americas,10/10/2023,31124,0,64,0,56,0
+United States of America,USA,Region of the Americas,17/10/2023,31189,0,65,0,56,0
+United States of America,USA,Region of the Americas,24/10/2023,31250,0,61,0,57,1
+United States of America,USA,Region of the Americas,31/10/2023,31308,0,58,0,57,0
+United States of America,USA,Region of the Americas,07/11/2023,31381,0,73,0,57,0
+United States of America,USA,Region of the Americas,14/11/2023,31453,0,72,0,57,0
+United States of America,USA,Region of the Americas,21/11/2023,31512,0,59,0,57,0
+United States of America,USA,Region of the Americas,28/11/2023,31576,0,64,0,59,2
+United States of America,USA,Region of the Americas,05/12/2023,31646,0,70,0,60,1
+United States of America,USA,Region of the Americas,12/12/2023,31700,0,54,0,60,0
+United States of America,USA,Region of the Americas,19/12/2023,31760,0,60,0,60,0
+United States of America,USA,Region of the Americas,26/12/2023,31816,0,56,0,60,0
+United States of America,USA,Region of the Americas,02/01/2024,31866,0,50,0,60,0
+United States of America,USA,Region of the Americas,09/01/2024,31922,0,56,0,60,0
+United States of America,USA,Region of the Americas,16/01/2024,31993,0,71,0,61,1
+United States of America,USA,Region of the Americas,23/01/2024,32042,0,49,0,61,0
+United States of America,USA,Region of the Americas,30/01/2024,32125,0,83,0,61,0
+United States of America,USA,Region of the Americas,06/02/2024,32185,0,60,0,61,0
+United States of America,USA,Region of the Americas,13/02/2024,32243,0,58,0,61,0
+United States of America,USA,Region of the Americas,20/02/2024,32300,0,57,0,61,0
+United States of America,USA,Region of the Americas,27/02/2024,32374,0,74,0,61,0
+United States of America,USA,Region of the Americas,05/03/2024,32443,0,69,0,61,0
+United States of America,USA,Region of the Americas,12/03/2024,32522,0,79,0,61,0
+United States of America,USA,Region of the Americas,19/03/2024,32577,0,55,0,61,0
+United States of America,USA,Region of the Americas,26/03/2024,32640,0,63,0,61,0
+United States of America,USA,Region of the Americas,02/04/2024,32687,0,47,0,61,0
+United States of America,USA,Region of the Americas,09/04/2024,32755,0,68,0,61,0
+United States of America,USA,Region of the Americas,16/04/2024,32832,0,77,0,61,0
+United States of America,USA,Region of the Americas,23/04/2024,32911,0,79,0,61,0
+United States of America,USA,Region of the Americas,30/04/2024,32963,0,52,0,61,0
+United States of America,USA,Region of the Americas,07/05/2024,33017,0,54,0,61,0
+United States of America,USA,Region of the Americas,14/05/2024,33066,0,49,0,61,0
+United States of America,USA,Region of the Americas,21/05/2024,33124,0,58,0,62,1
+United States of America,USA,Region of the Americas,28/05/2024,33182,0,58,0,62,0
+United States of America,USA,Region of the Americas,04/06/2024,33238,0,56,0,62,0
+United States of America,USA,Region of the Americas,11/06/2024,33310,0,72,0,62,0
+United States of America,USA,Region of the Americas,18/06/2024,33359,0,49,0,62,0
+United States of America,USA,Region of the Americas,25/06/2024,33403,0,44,0,62,0
+United States of America,USA,Region of the Americas,02/07/2024,33454,0,51,0,62,0
+United States of America,USA,Region of the Americas,09/07/2024,33506,0,52,0,63,1
+United States of America,USA,Region of the Americas,16/07/2024,33570,0,64,0,63,0
+United States of America,USA,Region of the Americas,23/07/2024,33609,0,39,0,63,0
+United States of America,USA,Region of the Americas,30/07/2024,33659,0,50,0,63,0
+United States of America,USA,Region of the Americas,06/08/2024,33709,0,50,0,63,0
+United States of America,USA,Region of the Americas,13/08/2024,33774,0,65,0,63,0
+United States of America,USA,Region of the Americas,20/08/2024,33836,0,62,0,63,0
+United States of America,USA,Region of the Americas,27/08/2024,33891,0,55,0,63,0
+United States of America,USA,Region of the Americas,03/09/2024,33953,0,62,0,63,0
+United States of America,USA,Region of the Americas,10/09/2024,34017,0,64,0,63,0
+United States of America,USA,Region of the Americas,17/09/2024,34058,0,41,0,63,0
+United States of America,USA,Region of the Americas,24/09/2024,34105,0,47,0,63,0
+United States of America,USA,Region of the Americas,01/10/2024,34142,0,37,0,63,0
+United States of America,USA,Region of the Americas,08/10/2024,34166,0,24,0,63,0
+United States of America,USA,Region of the Americas,15/10/2024,34174,0,8,0,63,0
+United States of America,USA,Region of the Americas,22/10/2024,34184,0,10,0,63,0
+United States of America,USA,Region of the Americas,29/10/2024,34187,0,3,0,63,0
+Uruguay,URY,Region of the Americas,19/07/2022,1,0,1,0,0,0
+Uruguay,URY,Region of the Americas,26/07/2022,2,0,1,0,0,0
+Uruguay,URY,Region of the Americas,02/08/2022,2,0,0,0,0,0
+Uruguay,URY,Region of the Americas,09/08/2022,3,0,1,0,0,0
+Uruguay,URY,Region of the Americas,16/08/2022,5,0,2,0,0,0
+Uruguay,URY,Region of the Americas,23/08/2022,5,0,0,0,0,0
+Uruguay,URY,Region of the Americas,30/08/2022,5,0,0,0,0,0
+Uruguay,URY,Region of the Americas,06/09/2022,5,0,0,0,0,0
+Uruguay,URY,Region of the Americas,13/09/2022,8,0,3,0,0,0
+Uruguay,URY,Region of the Americas,20/09/2022,9,0,1,0,0,0
+Uruguay,URY,Region of the Americas,27/09/2022,10,0,1,0,0,0
+Uruguay,URY,Region of the Americas,04/10/2022,11,0,1,0,0,0
+Uruguay,URY,Region of the Americas,11/10/2022,13,0,2,0,0,0
+Uruguay,URY,Region of the Americas,18/10/2022,14,0,1,0,0,0
+Uruguay,URY,Region of the Americas,25/10/2022,14,0,0,0,0,0
+Uruguay,URY,Region of the Americas,01/11/2022,14,0,0,0,0,0
 Uruguay,URY,Region of the Americas,08/11/2022,14,0,0,0,0,0
-Uruguay,URY,Region of the Americas,15/11/2022,14,0,0,0,0,0
-Uruguay,URY,Region of the Americas,22/11/2022,14,0,0,0,0,0
-Uruguay,URY,Region of the Americas,29/11/2022,14,0,0,0,0,0
-Uruguay,URY,Region of the Americas,06/12/2022,17,0,3,0,0,0
-Uruguay,URY,Region of the Americas,13/12/2022,17,0,0,0,0,0
-Uruguay,URY,Region of the Americas,20/12/2022,19,0,2,0,0,0
+Uruguay,URY,Region of the Americas,15/11/2022,15,0,1,0,0,0
+Uruguay,URY,Region of the Americas,22/11/2022,17,0,2,0,0,0
+Uruguay,URY,Region of the Americas,29/11/2022,18,0,1,0,0,0
+Uruguay,URY,Region of the Americas,06/12/2022,19,0,1,0,0,0
+Uruguay,URY,Region of the Americas,13/12/2022,19,0,0,0,0,0
+Uruguay,URY,Region of the Americas,20/12/2022,19,0,0,0,0,0
 Uruguay,URY,Region of the Americas,27/12/2022,19,0,0,0,0,0
 Uruguay,URY,Region of the Americas,03/01/2023,19,0,0,0,0,0
 Uruguay,URY,Region of the Americas,10/01/2023,19,0,0,0,0,0
@@ -12741,7 +13015,12 @@ Uruguay,URY,Region of the Americas,27/08/2024,19,0,0,0,0,0
 Uruguay,URY,Region of the Americas,03/09/2024,19,0,0,0,0,0
 Uruguay,URY,Region of the Americas,10/09/2024,19,0,0,0,0,0
 Uruguay,URY,Region of the Americas,17/09/2024,19,0,0,0,0,0
-Uruguay,URY,Region of the Americas,24/09/2024,19,0,0,0,0,0
+Uruguay,URY,Region of the Americas,24/09/2024,20,0,1,0,0,0
+Uruguay,URY,Region of the Americas,01/10/2024,20,0,0,0,0,0
+Uruguay,URY,Region of the Americas,08/10/2024,20,0,0,0,0,0
+Uruguay,URY,Region of the Americas,15/10/2024,20,0,0,0,0,0
+Uruguay,URY,Region of the Americas,22/10/2024,20,0,0,0,0,0
+Uruguay,URY,Region of the Americas,29/10/2024,20,0,0,0,0,0
 Venezuela (Bolivarian Republic of),VEN,Region of the Americas,14/06/2022,1,0,1,0,0,0
 Venezuela (Bolivarian Republic of),VEN,Region of the Americas,21/06/2022,1,0,0,0,0,0
 Venezuela (Bolivarian Republic of),VEN,Region of the Americas,28/06/2022,1,0,0,0,0,0
@@ -12862,6 +13141,11 @@ Venezuela (Bolivarian Republic of),VEN,Region of the Americas,03/09/2024,12,0,0,
 Venezuela (Bolivarian Republic of),VEN,Region of the Americas,10/09/2024,12,0,0,0,0,0
 Venezuela (Bolivarian Republic of),VEN,Region of the Americas,17/09/2024,12,0,0,0,0,0
 Venezuela (Bolivarian Republic of),VEN,Region of the Americas,24/09/2024,12,0,0,0,0,0
+Venezuela (Bolivarian Republic of),VEN,Region of the Americas,01/10/2024,12,0,0,0,0,0
+Venezuela (Bolivarian Republic of),VEN,Region of the Americas,08/10/2024,12,0,0,0,0,0
+Venezuela (Bolivarian Republic of),VEN,Region of the Americas,15/10/2024,12,0,0,0,0,0
+Venezuela (Bolivarian Republic of),VEN,Region of the Americas,22/10/2024,12,0,0,0,0,0
+Venezuela (Bolivarian Republic of),VEN,Region of the Americas,29/10/2024,12,0,0,0,0,0
 India,IND,South-East Asia Region,14/07/2022,1,0,1,0,0,0
 India,IND,South-East Asia Region,19/07/2022,2,0,1,0,0,0
 India,IND,South-East Asia Region,25/07/2022,4,0,2,0,0,0
@@ -12916,6 +13200,7 @@ India,IND,South-East Asia Region,30/06/2024,27,0,0,0,1,0
 India,IND,South-East Asia Region,31/07/2024,27,0,0,0,1,0
 India,IND,South-East Asia Region,31/08/2024,30,0,3,0,1,0
 India,IND,South-East Asia Region,30/09/2024,33,0,3,0,1,0
+India,IND,South-East Asia Region,31/10/2024,33,0,0,0,1,0
 Indonesia,IDN,South-East Asia Region,22/08/2022,1,0,1,0,0,0
 Indonesia,IDN,South-East Asia Region,15/09/2022,1,0,0,0,0,0
 Indonesia,IDN,South-East Asia Region,16/09/2022,1,0,0,0,0,0
@@ -12966,6 +13251,7 @@ Indonesia,IDN,South-East Asia Region,30/06/2024,88,0,1,0,0,0
 Indonesia,IDN,South-East Asia Region,31/07/2024,88,0,0,0,0,0
 Indonesia,IDN,South-East Asia Region,31/08/2024,88,0,0,0,0,0
 Indonesia,IDN,South-East Asia Region,30/09/2024,88,0,0,0,0,0
+Indonesia,IDN,South-East Asia Region,31/10/2024,88,0,0,0,0,0
 Nepal,NPL,South-East Asia Region,16/06/2023,1,0,1,0,0,0
 Nepal,NPL,South-East Asia Region,18/06/2023,1,0,0,0,0,0
 Nepal,NPL,South-East Asia Region,06/07/2023,1,0,0,0,0,0
@@ -12991,6 +13277,7 @@ Nepal,NPL,South-East Asia Region,30/06/2024,1,0,0,0,0,0
 Nepal,NPL,South-East Asia Region,31/07/2024,1,0,0,0,0,0
 Nepal,NPL,South-East Asia Region,31/08/2024,1,0,0,0,0,0
 Nepal,NPL,South-East Asia Region,30/09/2024,1,0,0,0,0,0
+Nepal,NPL,South-East Asia Region,31/10/2024,1,0,0,0,0,0
 Sri Lanka,LKA,South-East Asia Region,04/11/2022,1,0,1,0,0,0
 Sri Lanka,LKA,South-East Asia Region,15/11/2022,2,0,1,0,0,0
 Sri Lanka,LKA,South-East Asia Region,04/12/2022,2,0,0,0,0,0
@@ -13034,6 +13321,7 @@ Sri Lanka,LKA,South-East Asia Region,30/06/2024,4,0,0,0,0,0
 Sri Lanka,LKA,South-East Asia Region,31/07/2024,4,0,0,0,0,0
 Sri Lanka,LKA,South-East Asia Region,31/08/2024,4,0,0,0,0,0
 Sri Lanka,LKA,South-East Asia Region,30/09/2024,4,0,0,0,0,0
+Sri Lanka,LKA,South-East Asia Region,31/10/2024,4,0,0,0,0,0
 Thailand,THA,South-East Asia Region,21/07/2022,1,0,1,0,0,0
 Thailand,THA,South-East Asia Region,28/07/2022,2,0,1,0,0,0
 Thailand,THA,South-East Asia Region,02/08/2022,2,0,0,0,0,0
@@ -13090,6 +13378,7 @@ Thailand,THA,South-East Asia Region,30/06/2024,805,0,10,0,10,0
 Thailand,THA,South-East Asia Region,31/07/2024,820,0,15,0,10,0
 Thailand,THA,South-East Asia Region,31/08/2024,833,0,13,0,10,0
 Thailand,THA,South-East Asia Region,30/09/2024,845,0,12,0,10,0
+Thailand,THA,South-East Asia Region,31/10/2024,858,0,13,0,10,0
 Australia,AUS,Western Pacific Region,20/05/2022,2,0,2,0,0,0
 Australia,AUS,Western Pacific Region,02/06/2022,3,0,1,0,0,0
 Australia,AUS,Western Pacific Region,03/06/2022,5,0,2,0,0,0
@@ -13166,6 +13455,12 @@ Australia,AUS,Western Pacific Region,08/09/2024,659,0,35,0,0,0
 Australia,AUS,Western Pacific Region,15/09/2024,743,0,84,0,0,0
 Australia,AUS,Western Pacific Region,22/09/2024,835,0,92,0,0,0
 Australia,AUS,Western Pacific Region,29/09/2024,926,0,91,0,0,0
+Australia,AUS,Western Pacific Region,06/10/2024,998,0,72,0,0,0
+Australia,AUS,Western Pacific Region,07/10/2024,1021,0,23,0,0,0
+Australia,AUS,Western Pacific Region,13/10/2024,1075,0,54,0,0,0
+Australia,AUS,Western Pacific Region,14/10/2024,1075,0,0,0,0,0
+Australia,AUS,Western Pacific Region,20/10/2024,1154,0,79,0,0,0
+Australia,AUS,Western Pacific Region,27/10/2024,1222,0,68,0,0,0
 Cambodia,KHM,Western Pacific Region,13/12/2023,1,0,1,0,0,0
 Cambodia,KHM,Western Pacific Region,04/01/2024,3,0,2,0,0,0
 Cambodia,KHM,Western Pacific Region,02/02/2024,4,0,1,0,0,0
@@ -13289,7 +13584,12 @@ China,CHN,Western Pacific Region,31/08/2024,2630,0,49,0,1,0
 China,CHN,Western Pacific Region,15/09/2024,2640,0,10,0,1,0
 China,CHN,Western Pacific Region,23/09/2024,2643,0,3,0,1,0
 China,CHN,Western Pacific Region,29/09/2024,2649,0,6,0,1,0
-China,CHN,Western Pacific Region,30/09/2024,2658,0,9,0,1,0
+China,CHN,Western Pacific Region,01/10/2024,2655,0,6,0,1,0
+China,CHN,Western Pacific Region,03/10/2024,2656,0,1,0,1,0
+China,CHN,Western Pacific Region,10/10/2024,2658,0,2,0,1,0
+China,CHN,Western Pacific Region,21/10/2024,2704,0,46,0,1,0
+China,CHN,Western Pacific Region,23/10/2024,2706,0,2,0,1,0
+China,CHN,Western Pacific Region,29/10/2024,2710,0,4,0,1,0
 Guam,GUM,Western Pacific Region,12/09/2022,1,0,1,0,0,0
 Japan,JPN,Western Pacific Region,19/01/2022,0,0,0,0,0,0
 Japan,JPN,Western Pacific Region,25/07/2022,1,0,1,0,0,0
@@ -13361,6 +13661,8 @@ Japan,JPN,Western Pacific Region,19/04/2024,245,0,1,0,1,0
 Japan,JPN,Western Pacific Region,10/05/2024,246,0,1,0,1,0
 Japan,JPN,Western Pacific Region,24/05/2024,247,0,1,0,1,0
 Japan,JPN,Western Pacific Region,05/08/2024,248,0,1,0,1,0
+Japan,JPN,Western Pacific Region,04/10/2024,249,0,1,0,1,0
+Japan,JPN,Western Pacific Region,18/10/2024,251,0,2,0,1,0
 Lao People's Democratic Republic,LAO,Western Pacific Region,11/09/2023,1,0,1,0,0,0
 Malaysia,MYS,Western Pacific Region,17/08/2023,2,0,2,0,0,0
 Malaysia,MYS,Western Pacific Region,30/10/2023,4,0,2,0,0,0
@@ -13390,6 +13692,7 @@ New Zealand,NZL,Western Pacific Region,02/02/2023,42,0,1,0,0,0
 New Zealand,NZL,Western Pacific Region,16/01/2024,50,1,8,1,0,0
 New Zealand,NZL,Western Pacific Region,09/05/2024,51,1,1,0,0,0
 New Zealand,NZL,Western Pacific Region,01/07/2024,53,0,2,-1,0,0
+New Zealand,NZL,Western Pacific Region,15/10/2024,65,2,12,2,0,0
 Philippines,PHL,Western Pacific Region,29/07/2022,1,0,1,0,0,0
 Philippines,PHL,Western Pacific Region,18/08/2022,3,0,2,0,0,0
 Philippines,PHL,Western Pacific Region,22/08/2022,4,0,1,0,0,0
@@ -13453,6 +13756,7 @@ Republic of Korea,KOR,Western Pacific Region,12/07/2024,161,0,2,0,0,0
 Republic of Korea,KOR,Western Pacific Region,02/08/2024,165,0,4,0,0,0
 Republic of Korea,KOR,Western Pacific Region,22/08/2024,166,0,1,0,0,0
 Republic of Korea,KOR,Western Pacific Region,15/09/2024,168,0,2,0,0,0
+Republic of Korea,KOR,Western Pacific Region,31/10/2024,169,0,1,0,0,0
 Singapore,SGP,Western Pacific Region,21/06/2022,1,0,1,0,0,0
 Singapore,SGP,Western Pacific Region,07/07/2022,2,0,1,0,0,0
 Singapore,SGP,Western Pacific Region,11/07/2022,4,0,2,0,0,0
@@ -13498,6 +13802,7 @@ Singapore,SGP,Western Pacific Region,23/08/2024,64,0,1,0,0,0
 Singapore,SGP,Western Pacific Region,08/09/2024,65,0,1,0,0,0
 Singapore,SGP,Western Pacific Region,15/09/2024,66,0,1,0,0,0
 Singapore,SGP,Western Pacific Region,16/09/2024,65,0,-1,0,0,0
+Singapore,SGP,Western Pacific Region,11/10/2024,67,0,2,0,0,0
 Viet Nam,VNM,Western Pacific Region,03/10/2022,1,0,1,0,0,0
 Viet Nam,VNM,Western Pacific Region,19/10/2022,2,0,1,0,0,0
 Viet Nam,VNM,Western Pacific Region,11/07/2023,3,0,1,0,0,0
