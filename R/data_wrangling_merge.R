@@ -178,3 +178,46 @@ data <- data %>%
   relocate(set, name, country, continent, who_region, income, pop, pop_100k, time, everything())
 #Save data
 write_excel_csv(data, "data/reported/mpox_data.csv")
+
+
+
+#Save max dates
+who_data_max <- read.csv("data/output/who_data.csv")
+who_data_max <- who_data_max %>% 
+  mutate(date = as.Date(format(as.Date(date, format = "%d/%m/%Y"), "%Y/%m/%d")))
+
+acdc_data_max <- read.csv("data/output/acdc_data.csv")
+acdc_data_max <- acdc_data_max %>% 
+  mutate(Issue.Date = ifelse(Issue.Date=="", NA, Issue.Date)) %>%
+  fill(Issue.Date, .direction = "down") %>% 
+  #Pivot data on selected columns
+  pivot_longer(cols = -c(Issue.Date, X),
+               names_to = "date",
+               values_to = "value") %>% 
+  filter(X=="Cumulative Cases" | X=="Cumulative Confirmed Cases" | X== "Cumulative Suspected Cases" | X=="New Cases" | X=="New Confirmed Cases" ) %>% 
+  #Clean dates
+  mutate(date = gsub("X", "", date),
+         date = gsub("(\\.23\\.|\\.24\\.).*$", "\\1", date),
+         date = sub("\\.$", "", date)) %>% 
+  distinct(Issue.Date, date, X, .keep_all = TRUE) %>% 
+  pivot_wider(names_from = X,
+              values_from = value) %>% 
+  mutate(date = gsub("\\.", "-", date),
+         date = format(as.Date(date, format = "%d-%b-%y"), "%Y-%m-%d"))
+
+gh_data_max <- read.csv("https://mpox-2024.s3.eu-central-1.amazonaws.com/latest.csv")
+gh_data_max  <- gh_data_max  %>% 
+  count(Case_status, Location_Admin0, Date_report_source_I) %>% 
+  filter(Case_status != "omit_error") %>%
+  pivot_wider(names_from = Case_status, values_from = n) %>% 
+  rename(date = Date_report_source_I)
+
+owd_data_max <- read.csv("https://catalog.ourworldindata.org/explorers/who/latest/monkeypox/monkeypox.csv")
+owd_data_max <- owd_data_max %>% 
+  mutate(date = as.Date(date))
+
+data_max <- data.frame(data_source=c("WHO", "Africa CDC", "Global Health", "Our World in Data"), 
+                       time=c(max(who_data_max$date), max(acdc_data_max$date), max(gh_data_max$date), max(owd_data_max$date)))
+
+#Save data
+write_excel_csv(data_max, "data/reported/mpox_data_max_dates.csv")
