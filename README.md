@@ -13,7 +13,7 @@ Data is manually downloaded every Monday from https://worldhealthorg.shinyapps.i
 
 Data is manually extracted every Monday from the PDF report found in https://africacdc.org/resources/?wpv_aux_current_post_id=217&wpv_view_count=549&wpv-resource-type=ebs-weekly-reports
 
-### Global Health CDC
+### Global Health
 
 Data is automatically extracted every Monday from https://mpox-2024.s3.eu-central-1.amazonaws.com/latest.csv
 
