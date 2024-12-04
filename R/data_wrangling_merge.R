@@ -86,11 +86,17 @@ data <- data %>%
   mutate(pop = pop / 1000) %>% 
   #Calculate DXGap based on smooth vars
   mutate(
-    dxgap_who = if_else(all_cum_suspected_cases_who > all_cum_confirmed_cases_who, dxGap(all_cum_suspected_cases_who, all_cum_confirmed_cases_who), NA),
-    dxgap_acdc = if_else(all_cum_suspected_cases_acdc > all_cum_confirmed_cases_acdc, dxGap(all_cum_suspected_cases_acdc, all_cum_confirmed_cases_acdc), NA),
-    dxgap_gh = if_else(all_cum_suspected_cases_gh > all_cum_confirmed_cases_gh, dxGap(all_cum_suspected_cases_gh, all_cum_confirmed_cases_gh), NA),
-    dxgap_owd = if_else(all_cum_suspected_cases_owd > all_cum_confirmed_cases_owd, dxGap(all_cum_suspected_cases_owd, all_cum_confirmed_cases_owd), NA)
+    cum_dxgap_who = if_else(all_cum_suspected_cases_who >= all_cum_confirmed_cases_who, dxGap(all_cum_suspected_cases_who, all_cum_confirmed_cases_who), NA),
+    cum_dxgap_acdc = if_else(all_cum_suspected_cases_acdc >= all_cum_confirmed_cases_acdc, dxGap(all_cum_suspected_cases_acdc, all_cum_confirmed_cases_acdc), NA),
+    cum_dxgap_gh = if_else(all_cum_suspected_cases_gh >= all_cum_confirmed_cases_gh, dxGap(all_cum_suspected_cases_gh, all_cum_confirmed_cases_gh), NA),
+    cum_dxgap_owd = if_else(all_cum_suspected_cases_owd >= all_cum_confirmed_cases_owd, dxGap(all_cum_suspected_cases_owd, all_cum_confirmed_cases_owd), NA)
     ) %>%
+  mutate(
+    new_dxgap_who = if_else(all_new_suspected_cases_who >= all_new_confirmed_cases_who, dxGap(all_new_suspected_cases_who, all_new_confirmed_cases_who), NA),
+    new_dxgap_acdc = if_else(all_new_suspected_cases_acdc >= all_new_confirmed_cases_acdc, dxGap(all_new_suspected_cases_acdc, all_new_confirmed_cases_acdc), NA),
+    new_dxgap_gh = if_else(all_new_suspected_cases_gh >= all_new_confirmed_cases_gh, dxGap(all_new_suspected_cases_gh, all_new_confirmed_cases_gh), NA),
+    new_dxgap_owd = if_else(all_new_suspected_cases_owd >= all_new_confirmed_cases_owd, dxGap(all_new_suspected_cases_owd, all_new_confirmed_cases_owd), NA)
+  ) %>%
   mutate(across(where(is.numeric), ~ ifelse(. %in% c(-Inf, Inf, NaN), NA, .))) %>%
   #Calculate Per capita based on smooth vars
   mutate(
