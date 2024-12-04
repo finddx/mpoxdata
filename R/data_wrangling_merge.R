@@ -84,20 +84,6 @@ data <- data %>%
 data <- data %>%
   mutate(pop_100k = pop / 100000) %>% 
   mutate(pop = pop / 1000) %>% 
-  #Calculate DXGap based on smooth vars
-  mutate(
-    cum_dxgap_who = if_else(all_cum_suspected_cases_who >= all_cum_confirmed_cases_who, dxGap(all_cum_suspected_cases_who, all_cum_confirmed_cases_who), NA),
-    cum_dxgap_acdc = if_else(all_cum_suspected_cases_acdc >= all_cum_confirmed_cases_acdc, dxGap(all_cum_suspected_cases_acdc, all_cum_confirmed_cases_acdc), NA),
-    cum_dxgap_gh = if_else(all_cum_suspected_cases_gh >= all_cum_confirmed_cases_gh, dxGap(all_cum_suspected_cases_gh, all_cum_confirmed_cases_gh), NA),
-    cum_dxgap_owd = if_else(all_cum_suspected_cases_owd >= all_cum_confirmed_cases_owd, dxGap(all_cum_suspected_cases_owd, all_cum_confirmed_cases_owd), NA)
-    ) %>%
-  mutate(
-    new_dxgap_who = if_else(all_new_suspected_cases_who >= all_new_confirmed_cases_who, dxGap(all_new_suspected_cases_who, all_new_confirmed_cases_who), NA),
-    new_dxgap_acdc = if_else(all_new_suspected_cases_acdc >= all_new_confirmed_cases_acdc, dxGap(all_new_suspected_cases_acdc, all_new_confirmed_cases_acdc), NA),
-    new_dxgap_gh = if_else(all_new_suspected_cases_gh >= all_new_confirmed_cases_gh, dxGap(all_new_suspected_cases_gh, all_new_confirmed_cases_gh), NA),
-    new_dxgap_owd = if_else(all_new_suspected_cases_owd >= all_new_confirmed_cases_owd, dxGap(all_new_suspected_cases_owd, all_new_confirmed_cases_owd), NA)
-  ) %>%
-  mutate(across(where(is.numeric), ~ ifelse(. %in% c(-Inf, Inf, NaN), NA, .))) %>%
   #Calculate Per capita based on smooth vars
   mutate(
     across(
@@ -116,10 +102,66 @@ data <- data %>%
         all_cum_suspected_cases_who, all_cum_suspected_cases_acdc, all_cum_suspected_cases_gh, all_cum_suspected_cases_owd),
       ~ .x / pop_100k,
       .names = "cap100k_{col}"
-    ))
+    )) %>% 
+  rename(time=date)
 
+
+#Get smooth data by week
+data_grouped <- group_by_period(data, period = "weekly")
+
+data_summarized_over_time <-  data_grouped %>% 
+  arrange(country, time) %>%
+  group_by(country, period) %>%
+  summarize(
+    across(
+      starts_with("all_new_confirmed_cases"),
+      sum_discarding_incomplete,
+      .names = "{.col}"
+    ),
+    across(
+      starts_with("all_new_suspected_cases"),
+      sum_discarding_incomplete,
+      .names = "{.col}"
+    ),
+    across(
+      starts_with("all_cum_confirmed_cases"),
+      ~ last(.x),
+      .names = "{.col}"
+    ),
+    across(
+      starts_with("all_cum_suspected_cases"),
+      ~ last(.x),
+      .names = "{.col}"
+    ),
+    .groups = "drop"
+  ) %>% 
+  #Calculate weekly DXGap based on smooth vars
+  mutate(
+    cum_dxgap_who = if_else(all_cum_suspected_cases_who >= all_cum_confirmed_cases_who, dxGap(all_cum_suspected_cases_who, all_cum_confirmed_cases_who), NA),
+    cum_dxgap_acdc = if_else(all_cum_suspected_cases_acdc >= all_cum_confirmed_cases_acdc, dxGap(all_cum_suspected_cases_acdc, all_cum_confirmed_cases_acdc), NA),
+    cum_dxgap_gh = if_else(all_cum_suspected_cases_gh >= all_cum_confirmed_cases_gh, dxGap(all_cum_suspected_cases_gh, all_cum_confirmed_cases_gh), NA),
+    cum_dxgap_owd = if_else(all_cum_suspected_cases_owd >= all_cum_confirmed_cases_owd, dxGap(all_cum_suspected_cases_owd, all_cum_confirmed_cases_owd), NA)
+  ) %>%
+  mutate(
+    new_dxgap_who = if_else(all_new_suspected_cases_who >= all_new_confirmed_cases_who, dxGap(all_new_suspected_cases_who, all_new_confirmed_cases_who), NA),
+    new_dxgap_acdc = if_else(all_new_suspected_cases_acdc >= all_new_confirmed_cases_acdc, dxGap(all_new_suspected_cases_acdc, all_new_confirmed_cases_acdc), NA),
+    new_dxgap_gh = if_else(all_new_suspected_cases_gh >= all_new_confirmed_cases_gh, dxGap(all_new_suspected_cases_gh, all_new_confirmed_cases_gh), NA),
+    new_dxgap_owd = if_else(all_new_suspected_cases_owd >= all_new_confirmed_cases_owd, dxGap(all_new_suspected_cases_owd, all_new_confirmed_cases_owd), NA)
+  ) 
+
+#Join weekly data
+data_grouped <- data_grouped %>% 
+  select(country, time, period)
+data_summarized_over_time <- data_summarized_over_time %>% 
+  left_join(data_grouped, by=c("country", "period")) %>% 
+  select(country, time, period, contains("dxgap"))
+data <- data %>% 
+  left_join(data_summarized_over_time, by=c("country", "time")) %>% 
+  mutate(across(where(is.numeric), ~ ifelse(. %in% c(-Inf, Inf, NaN), NA, .)))
+  
 #Calculate values by groups
-remove_vars <- c("set","unit", "country", "continent", "who_region", "income")
+remove_vars <- c("set","unit", "country", "continent", "who_region", "income", "cum_dxgap_who", "cum_dxgap_acdc", "cum_dxgap_gh", "cum_dxgap_owd", "new_dxgap_who", "new_dxgap_acdc", "new_dxgap_gh", "new_dxgap_owd", "period")
+
 data_un_region <- summariseSet(dataset=data, group_var="continent", remove_vars=remove_vars, operation=sum)
 data_un_region <- data_un_region %>% 
   mutate(set="continent")
@@ -171,7 +213,6 @@ data <- data %>%
     country = ifelse(country=="Viet Nam", "Vietnam", country),
     country = ifelse(country=="State of Palestine", "West Bank", country)
   ) %>%
-  rename(time=date) %>%
   mutate(name = case_when(
     set=="country" ~ country,
     set=="income" ~ income,

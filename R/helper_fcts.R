@@ -82,6 +82,70 @@ summariseSet <- function(dataset, group_var, remove_vars=NULL, operation){
 
 }
 
+group_by_period <- function(data, period = "quarterly") {
+  
+  data <- 
+    data |>
+    filter(set == 'country')
+  
+  if (period == "quarterly") {
+    data_grouped <- 
+      data |>
+      mutate(period = quarter(time, with_year = TRUE)) |>
+      mutate(period = str_replace(period, "\\.", ".Q"))
+  }
+  
+  if (period == "monthly") {
+    data_grouped <- 
+      data |>
+      mutate(period = format_ISO8601(time, precision = "ym"))
+  }
+  
+  if (period == "weekly") {
+    data_grouped <-
+      data |> 
+      mutate(
+        period = paste(year(time), week(time)-1)
+      ) |>
+      mutate(period = as.Date(paste(period, "2"), "%Y %U %u")) |>
+      filter(!period == "2020-01-14") # remove only first week with NaN which causes trouble in the plot
+  }
+  
+  if (period == "yearly") {
+    data_grouped <- 
+      data |>
+      mutate(period = year(time))
+  }
+  
+  if (period == "daily") {
+    data_grouped <- 
+      data |>
+      mutate(period = time)
+  }
+  
+  data_grouped
+}
 
+aggregation_discarding_incomplete <- function(x, threshold = 0.75, fun) {
+  
+  pos_of_last_value <- tail(which(!is.na(x)), 1)
+  if (length(pos_of_last_value) == 0) return(NA_real_)
+  
+  ans <-
+    if (pos_of_last_value / length(x) < threshold) {
+      NA
+    } else {
+      fun(x, na.rm = TRUE)
+    }
+  
+  ans
+  
+}
 
+mean_discarding_incomplete <- function(x, threshold = 0.20, fun)  {
+  aggregation_discarding_incomplete(x, threshold = threshold, fun = mean)
+}
 
+sum_discarding_incomplete <- function(x, threshold = 0.20, fun)  {
+  aggregation_discarding_incomplete(x, threshold = threshold, fun = sum)
+}
