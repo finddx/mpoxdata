@@ -162,13 +162,13 @@ data <- data %>%
 #Calculate values by groups
 remove_vars <- c("set","unit", "country", "continent", "who_region", "income", "cum_dxgap_who", "cum_dxgap_acdc", "cum_dxgap_gh", "cum_dxgap_owd", "new_dxgap_who", "new_dxgap_acdc", "new_dxgap_gh", "new_dxgap_owd", "period")
 
-data_un_region <- summariseSet(dataset=data, group_var="continent", remove_vars=remove_vars, operation=sum)
+data_un_region <- summariseSet(dataset=data, group_var="continent", remove_vars=remove_vars)
 data_un_region <- data_un_region %>% 
   mutate(set="continent")
-data_who_region <- summariseSet(dataset=data, group_var="who_region", remove_vars=remove_vars, operation=sum)
+data_who_region <- summariseSet(dataset=data, group_var="who_region", remove_vars=remove_vars)
 data_who_region <- data_who_region %>% 
   mutate(set="who_region")
-data_income_region <- summariseSet(dataset=data, group_var="income", remove_vars=remove_vars, operation=sum)
+data_income_region <- summariseSet(dataset=data, group_var="income", remove_vars=remove_vars)
 data_income_region <- data_income_region %>% 
   mutate(set="income")
 

@@ -70,17 +70,7 @@ dxGap <- function(suspected_cases, confirmed_cases){
   round(((suspected_cases - confirmed_cases) / suspected_cases) * 100,2)
 }
 
-summariseSet <- function(dataset, group_var, remove_vars=NULL, operation){
-  
-  remove_vars <- setdiff(remove_vars, group_var)
-  
-  dataset_summary <- dataset %>% 
-    group_by_at(vars({{group_var}}, time)) %>% 
-    summarise(across(-all_of(remove_vars), ~ operation(.x, na.rm = TRUE))) %>% 
-    filter(!is.na({{group_var}}))
 
-
-}
 
 group_by_period <- function(data, period = "quarterly") {
   
@@ -142,10 +132,24 @@ aggregation_discarding_incomplete <- function(x, threshold = 0.75, fun) {
   
 }
 
-mean_discarding_incomplete <- function(x, threshold = 0.20, fun)  {
+mean_discarding_incomplete <- function(x, threshold = 0.75, fun)  {
   aggregation_discarding_incomplete(x, threshold = threshold, fun = mean)
 }
 
-sum_discarding_incomplete <- function(x, threshold = 0.20, fun)  {
+sum_discarding_incomplete <- function(x, threshold = 0.75, fun)  {
   aggregation_discarding_incomplete(x, threshold = threshold, fun = sum)
 }
+
+summariseSet <- function(dataset, group_var, remove_vars=NULL){
+  
+  remove_vars <- setdiff(remove_vars, group_var)
+  
+  dataset_summary <- dataset %>% 
+    group_by_at(vars({{group_var}}, time)) %>% 
+    summarise(across(-all_of(remove_vars), ~ sum_discarding_incomplete(.x))) %>% 
+    # summarise(across(-all_of(remove_vars), ~ sum(.x, na.rm = TRUE))) %>% 
+    filter(!is.na({{group_var}}))
+  
+  
+}
+
