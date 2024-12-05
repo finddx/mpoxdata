@@ -146,8 +146,8 @@ summariseSet <- function(dataset, group_var, remove_vars=NULL){
   
   dataset_summary <- dataset %>% 
     group_by_at(vars({{group_var}}, time)) %>% 
-    summarise(across(-all_of(remove_vars), ~ sum_discarding_incomplete(.x))) %>% 
-    # summarise(across(-all_of(remove_vars), ~ sum(.x, na.rm = TRUE))) %>% 
+    # summarise(across(-all_of(remove_vars), ~ sum_discarding_incomplete(.x))) %>% 
+    summarise(across(-all_of(remove_vars), ~ sum(.x, na.rm = TRUE))) %>%
     filter(!is.na({{group_var}}))
   
   
