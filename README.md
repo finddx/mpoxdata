@@ -24,7 +24,7 @@ Data is automatically extracted every Monday from https://catalog.ourworldindata
 
 ## Measurements
 
-We report the following measurements for all data sources:
+We report the following measurements for all data sources (WHO: variables ending with "_who", Africa CDC: variables ending with "_acdc", Global Health: variables ending with "_gh", Our World in Data: variables ending with "_owd")
 
 ### Confirmed cases
 
@@ -64,7 +64,12 @@ Per capita measurements of all smooth variables are calculated as:
 
 **pop_100k:** smooth_variable / pop_100k
 
-### DX Gap
+### DX gap
+DX gap is calculated on a weekly basis (period column), when grouping by income or continent dxgap is calculated as the mean of means (e.g, mean of countries for that continent).
+
+Dx gap is only calculated when suspected cases are higher or equal (>=) than confirmed cases.
+
+WHO does not report suspected cases.
 
 **dxgap (new cases):** ((all_new_suspected_cases - all_new_confirmed_cases) / all_new_suspected_cases) * 100
 
