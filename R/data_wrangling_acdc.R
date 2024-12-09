@@ -28,7 +28,7 @@ acdc_data <- acdc_data %>%
   mutate(across(everything(), ~ na_if(., "")),
          across(everything(), ~ if_else(str_detect(., "No info"), NA, .))) %>% 
   #THERE ARE STILL SOME DISTINCT VALUES, BUT DUPLICATES IN OTHER COLS, TO CLARIFY WITH CONSULTANT
-  distinct(Issue.Date, date, X, .keep_all = TRUE) %>% #value,
+  # distinct(Issue.Date, date, X, .keep_all = TRUE) %>% #value,
   pivot_wider(names_from = X,
               values_from = value) 
 
