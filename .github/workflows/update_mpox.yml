@@ -38,14 +38,15 @@ jobs:
           
       - name: Running update scripts
         run: |
-         Rscript -e "source('R/data_wrangling.R')"
+         Rscript -e "source('R/data_wrangling_gh.R')"
+         Rscript -e "source('R/data_wrangling_owd.R')"
       - name: Commit files
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
           git pull origin main
-          git add data/reported/mpox_data.csv
-          git commit -m "update mpox data" || echo "Nothing to update"
+          git add data/reported/mpox_data_gh.csv data/reported/mpox_data_owd.csv
+          git commit -m "update mpox data (gh and owd)" || echo "Nothing to update"
       - name: Reset preview branch
         run: |
           git checkout main
