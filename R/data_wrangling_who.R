@@ -14,12 +14,12 @@ who_data <- read.csv("data/output/who_data.csv")
 who_data <- who_data  %>% 
   rename(location = country,
          cum_confirmed_cases_orig = total_confirmed_cases,
-         cum_suspected_cases_orig = total_probable_cases,
-         new_suspected_cases_orig = new_probable_cases,
+         cum_suspected_cases_orig = total_susp,
+         new_suspected_cases_orig = new_susp,
          new_confirmed_cases_orig = new_confirmed_cases
   ) %>% 
   mutate(date = as.Date(format(as.Date(date, format = "%d/%m/%Y"), "%Y/%m/%d"))) %>% 
-  select(-c(iso3, who_region, total_deaths, new_deaths))
+  select(location, date, cum_confirmed_cases_orig, cum_suspected_cases_orig, new_confirmed_cases_orig, new_suspected_cases_orig)
 
 #SUBTRACT <2024 CONFIRMED CASES FOR CUM-NEW COMPARISONS
 #Get the max date with CUM confirmed cases (up to end 2023)
